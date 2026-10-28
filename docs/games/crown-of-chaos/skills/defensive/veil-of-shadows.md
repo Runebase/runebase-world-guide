@@ -23,6 +23,11 @@ Gives you its % chance to dodge an attack as the Crown (11.5% at rank 20); a dod
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- Rank 1 dodges a roll under 2% (0.0199 was dodged, 0.02 hit); rank 20 under 11.5% (0.1149 dodged, 0.115 hit). A dodge deals nothing but costs the attacker the relic.
+- A dodged attack still costs its skill's mana and the buff charges and moves the Crown's rune on, but applies no bleed, seed, silence, steal or Mana Drain.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

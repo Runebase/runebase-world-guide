@@ -23,6 +23,10 @@ Your Mana Drain lasts 300 seconds plus 15 a rank.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- Mana Drain lasts 315 s at rank 1 and 600 s at rank 20 (300 without): a hit 2 s before its end is drained, one 1 s after it isn't.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

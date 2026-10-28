@@ -23,6 +23,11 @@ You get 10 mana back each round, plus 1 a rank, up to 1,000.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- Two rounds give 11 mana each at rank 1 (500 → 522) and 30 at rank 20 (500 → 560), against 10 without it; never above 1,000. The attack screen shows "Mana Regen (Flat) +11" (+30).
+- Against the Crown's Mana Drain at rank 20: a hit takes the skill's mana, then 100; the next round gives 30 back (<span class="gi-m">![](../../../../assets/icons/crown-skill/silence.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silence](silence.md)</span> 20 then can't be paid and isn't used).
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

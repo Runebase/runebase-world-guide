@@ -23,6 +23,10 @@ Lowers the chance that a round drops a tax pile from the pool (10% without it, 1
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- A round drops a tax pile (3% of the pool) on a roll up to 9.56% at rank 1 and up to 1.2% at rank 20, not above.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

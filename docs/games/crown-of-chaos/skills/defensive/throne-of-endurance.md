@@ -23,6 +23,11 @@ A new Crown starts with 1,000 × (1 + 10% a rank) health and heals up to it.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- A new Crown with rank 1 starts with 1,100 health, with rank 20 with 3,000, and regenerates to that, never beyond.
+- The Crown's Resurgence heals 3% of it: 33 a round at rank 1, 90 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

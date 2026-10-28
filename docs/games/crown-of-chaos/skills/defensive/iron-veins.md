@@ -23,6 +23,12 @@ Takes its % off the damage of every bleed on you as the Crown.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- A bleed tick of 100 deals 97 at rank 1 (96.5, rounded half up) and 30 at rank 20; a seed's detonation keeps its full damage.
+- At rank 20 a tick of 1 deals 0 (no points for the bleeder) and a 3 deals 1; with <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](hemostasis.md)</span> 20 too, a rank-1 bleed never ticks.
+- It counts once, before the handicap: 41 → 27 at rank 10, × 1.1 → 29.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

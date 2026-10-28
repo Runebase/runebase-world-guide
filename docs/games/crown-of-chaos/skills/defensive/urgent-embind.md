@@ -23,6 +23,10 @@ Blood Purge waits 1,200 seconds minus 45 a rank before you can use it again.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- Blood Purge waits 1,155 s at rank 1 and 300 s at rank 20 (1,200 without): a second before, it's refused and nothing changes; a second after, it works. Its answer says when it's ready again.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

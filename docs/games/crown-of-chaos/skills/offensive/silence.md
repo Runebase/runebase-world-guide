@@ -23,6 +23,12 @@ On a hit, the Crown can't use Resurgence, Blood Purge, Defuse or Mana Drain for 
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- Rank 1 silences the Crown for 35 s, for 25 mana; rank 20 for 415 s, for 500 mana: Resurgence, Blood Purge, Defuse and Mana Drain are off for exactly that long, the Bubble stays. A miss spends the mana and silences nothing; only a Silence that lands scores 10 on the weekly ladder.
+- Silenced, the Crown's four skills are refused even from an old button and stay ready; a Resurgence or a Mana Drain already running goes on.
+- A dodged Silence spends its mana and silences nothing.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

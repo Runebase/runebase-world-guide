@@ -23,6 +23,12 @@ On a hit it plants a seed that detonates after 15 rounds, fewer with Premature B
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- Rank 1 plants a seed that detonates after 15 rounds for 5-25, for 10 mana; rank 20 for 100-215, for 95 mana. It deals nothing while it counts down. Planting again starts your seed over; another attacker's seed keeps counting.
+- A seed that detonates under the Crown's Bubble deals nothing and is spent.
+- Two attackers' seeds: the first to bring the Crown to 0 lands the final blow (+200 points), and the other doesn't go off.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

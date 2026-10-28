@@ -23,6 +23,11 @@ Adds its seconds to every attacker's cooldown after an attack on you.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- Attackers wait 17 s after an attack at rank 1 and 36 s at rank 20.
+- Against <span class="gi-m">![](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blood Rush](../offensive/blood-rush.md)</span>: see its page (3 s at least, whatever the ranks).
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

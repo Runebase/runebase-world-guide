@@ -23,6 +23,11 @@ Takes its seconds off your cooldown after an attack (the Crown's 15 s plus its F
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- After an attack you wait 14 s at rank 1; at rank 20 (-20 s) you wait 3 s, the least anyone waits, and a click within them spends nothing.
+- Against the Crown's <span class="gi-m">![](../../../../assets/icons/crown-skill/fractured-time.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fractured Time](../defensive/fractured-time.md)</span>: 16 s with both at rank 1, 3 s with <span class="gi-m">![](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blood Rush](blood-rush.md)</span> 20 against Fractured Time 1, 35 s with Blood Rush 1 against Fractured Time 20, 16 s with both at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

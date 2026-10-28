@@ -23,6 +23,11 @@ On a damaging hit it steals its share of the pool for you alone; it steals exact
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- On a damaging hit rank 1 takes 0.0035% of the pool and rank 20 0.07%, for you alone, for 5 and 24 mana. A miss or an empty pool steals nothing (the mana is spent). On a final blow your share leaves the pool first and the old Crown is paid the rest.
+- A dodged attack steals nothing.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

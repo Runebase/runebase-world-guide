@@ -23,6 +23,11 @@ Takes its rounds off every bleed on you as the Crown (a bleed of 5 rounds keeps 
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
+## Checked in play
+
+- <span class="gi-m">![](../../../../assets/icons/crown-skill/bleed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bleed](../offensive/bleed.md)</span> 20's 12 rounds become 11 at rank 1 and 2 at rank 20, and the bleed ticks only those.
+- At rank 20 a rank-1 bleed (3 rounds) lands with 0 rounds and never ticks (the attack still says "Bleed Effect Applied", with 0 rounds).
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

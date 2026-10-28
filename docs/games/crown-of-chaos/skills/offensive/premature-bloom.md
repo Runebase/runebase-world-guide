@@ -23,6 +23,10 @@ Takes its rounds off the 15 rounds your seeds wait before they detonate.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
+## Checked in play
+
+- Your seeds detonate after 14 rounds at rank 1 and 4 at rank 20, never sooner, with the seed's own damage: <span class="gi-m">![](../../../../assets/icons/crown-skill/doomseed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Doomseed](doomseed.md)</span> 20's highest roll is still 215. Learned alone it plants nothing.
+
 ## Rank by rank
 
 What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).

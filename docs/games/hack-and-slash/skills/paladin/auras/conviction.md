@@ -15,7 +15,7 @@ title: "Conviction"
 - **Opens:** no other skill
 - **Weapon:** any
 
-> In the game: Lower all enemy resistances
+> In the game: Lower all magical resistances of enemies
 
 ## How it works
 
@@ -23,7 +23,7 @@ title: "Conviction"
 
 ## Checked in play
 
-- In the Arena it lowers only your opponent's resistances (53% at rank 20), on your move and theirs.
+- It lowers your enemies' five magical resistances (fire, cold, lightning, poison, magic), never physical: 53% at rank 20. In the Arena it lowers only your opponent's, on your move and theirs.
 
 ## Rank by rank
 

@@ -1,0 +1,52 @@
+---
+title: "Blade Fury"
+---
+
+# Blade Fury
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Assassin](../../../classes/assassin.md)
+- **Tree:** [Traps](index.md)
+- **Kind:** an area attack, a spell
+- **Learn it from:** level 18 (your rank)
+- **Needs first:** [Blade Sentinel](blade-sentinel.md), [Wake of Fire](wake-of-fire.md)
+- **Opens:** [Blade Shield](blade-shield.md)
+- **Weapon:** any
+- **Mana:** 2 at rank 1, 2 at rank 20
+
+> In the game: Fires a blade swiftly at all enemies.
+
+## How it works
+
+- It hits every monster.
+- Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
+- It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Rank by rank
+
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | physicalDamage | mana |
+|---|---|---|
+| 1 | 11-15 | 2 |
+| 2 | 17-22 | 2 |
+| 3 | 23-29 | 2 |
+| 4 | 29-36 | 2 |
+| 5 | 35-43 | 2 |
+| 6 | 41-50 | 2 |
+| 7 | 47-57 | 2 |
+| 8 | 53-64 | 2 |
+| 9 | 59-71 | 2 |
+| 10 | 65-78 | 2 |
+| 11 | 71-85 | 2 |
+| 12 | 77-92 | 2 |
+| 13 | 83-99 | 2 |
+| 14 | 89-106 | 2 |
+| 15 | 95-113 | 2 |
+| 16 | 101-120 | 2 |
+| 17 | 107-127 | 2 |
+| 18 | 113-134 | 2 |
+| 19 | 119-141 | 2 |
+| 20 | 125-148 | 2 |

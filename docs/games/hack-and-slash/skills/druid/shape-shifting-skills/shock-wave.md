@@ -1,0 +1,54 @@
+---
+title: "Shock Wave"
+---
+
+# Shock Wave
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Druid](../../../classes/druid.md)
+- **Tree:** [Shape Shifting Skills](index.md)
+- **Kind:** an area attack, a spell
+- **Learn it from:** level 24 (your rank)
+- **Needs first:** [Maul](maul.md)
+- **Opens:** no other skill
+- **Weapon:** any
+- **Mana:** 2 at rank 1, 40 at rank 20
+
+> In the game: A Shock Wave that has a chance to stun the enemy
+
+## How it works
+
+- It hits every monster.
+- A monster it stuns skips its attack that round.
+- It needs the Werewolf or Werebear shape: without it, the button makes the regular attack.
+- Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
+- It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Rank by rank
+
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | physicalDamage | stun % | mana |
+|---|---|---|---|
+| 1 | 25-33 | 30 | 2 |
+| 2 | 43-56 | 31 | 4 |
+| 3 | 61-79 | 32 | 6 |
+| 4 | 79-102 | 33 | 8 |
+| 5 | 97-125 | 34 | 10 |
+| 6 | 115-148 | 35 | 12 |
+| 7 | 133-171 | 36 | 14 |
+| 8 | 151-194 | 37 | 16 |
+| 9 | 169-217 | 38 | 18 |
+| 10 | 187-240 | 39 | 20 |
+| 11 | 205-263 | 40 | 22 |
+| 12 | 223-286 | 41 | 24 |
+| 13 | 241-309 | 42 | 26 |
+| 14 | 259-332 | 43 | 28 |
+| 15 | 277-355 | 44 | 30 |
+| 16 | 295-378 | 45 | 32 |
+| 17 | 313-401 | 46 | 34 |
+| 18 | 331-424 | 47 | 36 |
+| 19 | 349-447 | 48 | 38 |
+| 20 | 367-470 | 49 | 40 |

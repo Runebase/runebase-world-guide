@@ -1,0 +1,50 @@
+---
+title: "Psychic Hammer"
+---
+
+# Psychic Hammer
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Assassin](../../../classes/assassin.md)
+- **Tree:** [Shadow Disciplines](index.md)
+- **Kind:** a debuff
+- **Learn it from:** level 1 (your rank)
+- **Needs first:** no other skill
+- **Opens:** [Cloak of Shadows](cloak-of-shadows.md)
+- **Weapon:** any
+
+> In the game: Stuns the enemy and lowers their armor
+
+## How it works
+
+- It stays on the monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
+- A monster it stuns skips its attack that round.
+
+## Rank by rank
+
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | reducedArmor % | stun % | rounds |
+|---|---|---|---|
+| 1 | 20 | 100 | 2 |
+| 2 | 23 | 100 | 2 |
+| 3 | 26 | 100 | 2 |
+| 4 | 29 | 100 | 2 |
+| 5 | 32 | 100 | 2 |
+| 6 | 35 | 100 | 3 |
+| 7 | 38 | 100 | 3 |
+| 8 | 41 | 100 | 3 |
+| 9 | 44 | 100 | 3 |
+| 10 | 47 | 100 | 3 |
+| 11 | 50 | 100 | 3 |
+| 12 | 53 | 100 | 3 |
+| 13 | 56 | 100 | 3 |
+| 14 | 59 | 100 | 3 |
+| 15 | 62 | 100 | 3 |
+| 16 | 65 | 100 | 4 |
+| 17 | 68 | 100 | 4 |
+| 18 | 71 | 100 | 4 |
+| 19 | 74 | 100 | 4 |
+| 20 | 77 | 100 | 4 |

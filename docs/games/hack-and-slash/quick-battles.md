@@ -1,0 +1,71 @@
+---
+title: "Quick battles"
+---
+
+# Quick battles
+
+**Where to play:** Discord
+{ .where-to-play }
+
+`/hackslash` → **Quick Battle**: pick the zone (Shadowed Caverns, Twilight Forest, Frozen Tundra), the monster level and the difficulty, then **Start QuickBattle**.
+
+- **Monster level:** 1 to 100, 25 levels a page; the menu opens on your own level. Levels more than 5 below yours say **(No Experience)**: those monsters pay no experience.
+- **Difficulty:** ×1 to ×6.75, in steps of 0.25. It multiplies the monsters' health, armor, damage and attack rating, adds the multiplier minus 1 (rounded) to their block, and makes items a little likelier (below).
+- **The monsters:** a battle has **2 to 5** of them, of the zone and level you picked. Each is the zone's usual monster unless it rolls one of the others, at the chances the setup screen shows. The rare ones (Werewolf, Werebear, Yeti) come 2% of the time each and are worth 5 experience.
+- **A quick battle costs 20 stamina** (less with the Wizard's [Teleport](skills/wizard/lightning-spells/teleport.md)). Pressed twice with stamina for one battle, it starts one battle and takes the stamina once.
+- **Out of stamina:** **Restore Stamina now** spends one **[Pheasant with Blackberry Balsamic Glaze](../../items/dishes.md#pheasant-with-blackberry-balsamic-glaze)** and fills your stamina to its maximum.
+- Each click of a skill button is one round: you attack, then the monsters attack you (a stunned monster skips its attack).
+- **Dying:** a dead character can't start a new battle (nothing is charged). Heal with one **[Anchovy with Anchovy Powder](../../items/dishes.md#anchovy-with-anchovy-powder)** (health and mana back to full), then **Return to QuickBattle** (5 stamina) to finish the same battle.
+- **Before a battle**, or on the results screen for the next one, you can pick **[Elk with Huckleberry Sauce](../../items/dishes.md#elk-with-huckleberry-sauce)** (double damage) and **[Baked Cod with Old Bay Butter](../../items/dishes.md#baked-cod-with-old-bay-butter)** (+25% experience); each is spent once.
+
+**A won battle pays once:**
+
+- **Experience:** 2 per monster, 5 for a rare one, +25% with Baked Cod. A monster more than 5 levels below you gives nothing.
+- The quick battle leaderboards count the win.
+- A roll on the battle prize table (credits go to your wallet).
+- Items the monsters drop: each monster rolls once for an item, at the quality chances its setup screen shows (table below); loot each one once into your inventory. The [Arcane Reliquary](../../account/buildings.md#what-each-building-does) raises the Magic and Rare chances.
+- Dying pays nothing; a battle left unfinished pays nothing, and starting another doesn't pay for it. Clicking the last attack twice, showing the results again or reopening an old battle pays nothing more.
+
+| Prize | Chance per won battle |
+|---|---|
+| 0.1 to 10 credits | 6.5% |
+| 1 [Runes Pattern Card](../../items/keys-and-cards.md#runes-pattern-card) | 0.3% |
+| 1 [Chaos Relic](../../items/keys-and-cards.md#chaos-relic) | 0.3% |
+| 1 [Leather Scrap](../../items/materials.md#leather-scrap) | 0.5% |
+| 1 [Metal Scrap](../../items/materials.md#metal-scrap) | 0.5% |
+| 1 [Wood Scrap](../../items/materials.md#wood-scrap) | 0.5% |
+| 1 [Nail](../../items/materials.md#nail) | 3% |
+| 1 [Rope](../../items/materials.md#rope) | 0.5% |
+| 1 [Engraving Tool](../../items/materials.md#engraving-tool) | 8% |
+| nothing | 79.9% |
+
+Which monsters spawn, at level 1 (the same at every level):
+
+| Zone | Monster | Spawns | Experience |
+|---|---|---|---|
+| Shadowed Caverns | Zombie | the rest (40%) | 2 |
+| Shadowed Caverns | Stormclaw | 30% | 2 |
+| Shadowed Caverns | Flamecaster | 30% | 2 |
+| Twilight Forest | Wolf | the rest (36%) | 2 |
+| Twilight Forest | Bear | 30% | 2 |
+| Twilight Forest | Snake | 30% | 2 |
+| Twilight Forest | Werewolf | 2% | 5 |
+| Twilight Forest | Werebear | 2% | 5 |
+| Frozen Tundra | Frozen Wolf | the rest (38%) | 2 |
+| Frozen Tundra | Yeti | 2% | 5 |
+| Frozen Tundra | Ice Elemental | 15% | 2 |
+| Frozen Tundra | Frost Wraith | 15% | 2 |
+| Frozen Tundra | Frost Troll | 15% | 2 |
+| Frozen Tundra | Artic Fox | 15% | 2 |
+
+The item each monster rolls for:
+
+| Item quality | A monster at ×1 | A monster at ×6.75 | A rare monster at ×1 |
+|---|---|---|---|
+| Low Quality | 0.5% | 0.443% | 0.35% |
+| Superior | 0.5% | 0.787% | 1.5% |
+| Rare | 0.5% | 1.08% | 33% |
+| Magic | 8% | 11.45% | 20% |
+| Normal | 25% | 29.03% | 10% |
+| no item | 65.5% | 57.22% | 35.15% |
+

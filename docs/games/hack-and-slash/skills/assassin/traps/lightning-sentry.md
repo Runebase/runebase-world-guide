@@ -1,0 +1,51 @@
+---
+title: "Lightning Sentry"
+---
+
+# Lightning Sentry
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Assassin](../../../classes/assassin.md)
+- **Tree:** [Traps](index.md)
+- **Kind:** a summon, a spell
+- **Learn it from:** level 24 (your rank)
+- **Needs first:** [Charged Bolt Sentry](charged-bolt-sentry.md)
+- **Opens:** [Death Sentry](death-sentry.md)
+- **Weapon:** any
+- **Mana:** 2 at rank 1, 2 at rank 20
+
+> In the game: Drops a trap that shoots lightning at nearby foes.
+
+## How it works
+
+- A minion fights at your side for its rounds.
+- It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Rank by rank
+
+What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | lightningDamage | rounds | mana |
+|---|---|---|---|
+| 1 | 1-24 | 4 | 2 |
+| 2 | 1-39 | 6 | 2 |
+| 3 | 1-54 | 8 | 2 |
+| 4 | 1-69 | 10 | 2 |
+| 5 | 1-84 | 12 | 2 |
+| 6 | 1-99 | 14 | 2 |
+| 7 | 1-114 | 16 | 2 |
+| 8 | 1-129 | 18 | 2 |
+| 9 | 1-144 | 20 | 2 |
+| 10 | 1-159 | 22 | 2 |
+| 11 | 1-174 | 24 | 2 |
+| 12 | 1-189 | 26 | 2 |
+| 13 | 1-204 | 28 | 2 |
+| 14 | 1-219 | 30 | 2 |
+| 15 | 1-234 | 32 | 2 |
+| 16 | 1-249 | 34 | 2 |
+| 17 | 1-264 | 36 | 2 |
+| 18 | 1-279 | 38 | 2 |
+| 19 | 1-294 | 40 | 2 |
+| 20 | 1-309 | 42 | 2 |

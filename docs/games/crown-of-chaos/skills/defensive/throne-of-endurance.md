@@ -1,0 +1,49 @@
+---
+title: "Throne of Endurance"
+---
+
+# Throne of Endurance
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Tree:** [Defensive skills](index.md) (for the Crown: they work while you hold it)
+- **Kind:** passive: always on
+- **Learn it from:** your rank 1
+- **Needs first:** no other skill
+- **Opens:** [Iron Veins](iron-veins.md)
+
+> In the game: Increases the health.
+
+## What it does
+
+A new Crown starts with 1,000 × (1 + 10% a rank) health and heals up to it.
+
+The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+
+## Rank by rank
+
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+
+| Rank | health |
+|---|---|
+| 1 | +10% |
+| 2 | +20% |
+| 3 | +30% |
+| 4 | +40% |
+| 5 | +50% |
+| 6 | +60% |
+| 7 | +70% |
+| 8 | +80% |
+| 9 | +90% |
+| 10 | +100% |
+| 11 | +110% |
+| 12 | +120% |
+| 13 | +130% |
+| 14 | +140% |
+| 15 | +150% |
+| 16 | +160% |
+| 17 | +170% |
+| 18 | +180% |
+| 19 | +190% |
+| 20 | +200% |

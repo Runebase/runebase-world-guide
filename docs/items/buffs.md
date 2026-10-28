@@ -1,0 +1,76 @@
+---
+title: "Buffs by game"
+---
+
+# Buffs by game
+
+Every dish and store consumable, grouped by the game it helps. Each name leads to its entry (where you get it), each game to its page.
+
+## Fishing
+
+On the [Fishing page](../games/fishing.md#buffs).
+
+| Buff | What it does |
+|---|---|
+| [Pan-Fried Trout with Lemon and Dill](dishes.md#pan-fried-trout-with-lemon-and-dill) | one more energy of fishing when the day's energy is gone |
+| [Fishing Beer](store-consumables.md#fishing-beer) | +2 seconds of fishing per energy, one Fishing Beer per energy |
+
+## Hunting
+
+On the [Hunting page](../games/hunting.md#buffs).
+
+| Buff | What it does |
+|---|---|
+| [Wild Boar with Cherry Sauce](dishes.md#wild-boar-with-cherry-sauce) | one more energy of hunting when the day's energy is gone |
+| [Hunting Weed](store-consumables.md#hunting-weed) | +2 seconds of hunting per energy, one Hunting Weed per energy |
+
+## Expeditions
+
+On the [Expeditions page](../games/expeditions.md#buffs).
+
+| Buff | What it does |
+|---|---|
+| [Braised Rabbit with Mustard Cream Sauce](dishes.md#braised-rabbit-with-mustard-cream-sauce) | +2 seconds per energy on an expedition, one charge per energy |
+
+## Heists
+
+On the [Heists page](../games/heists-and-clans/buffs/index.md).
+
+| Buff | What it does |
+|---|---|
+| [Mackerel and Smoked Paprika](dishes.md#mackerel-and-smoked-paprika) | 1 less experience lost when you're hit, and when you're counter-attacked as the attacker |
+| [Seared Tuna with Wasabi Butter](dishes.md#seared-tuna-with-wasabi-butter) | 3% chance to counter-attack when you're hit |
+| [Grilled Eel with Sichuan Peppercorns](dishes.md#grilled-eel-with-sichuan-peppercorns) | 5% chance to keep your energy when you attack |
+| [Fried Squirrel with Sawmill Gravy](dishes.md#fried-squirrel-with-sawmill-gravy) | the defender loses 1 more experience when you attack (and in your counter-attack) |
+| [Wild Turkey with Cranberry Glaze](dishes.md#wild-turkey-with-cranberry-glaze) | +2 experience when you attack (and in your counter-attack) |
+| [Moose with Blueberry Sauce](dishes.md#moose-with-blueberry-sauce) | 10% chance to block when you're hit; as the attacker, it blocks a counter-attack |
+| [Einherjar's Barrier Draught](store-consumables.md#einherjars-barrier-draught) | a super buff: blocks the next hit on you (as the attacker, a counter-attack) |
+| [Skadi's Retribution Brew](store-consumables.md#skadis-retribution-brew) | a super buff: counter-attacks the next hit on you |
+| [Frigg's Resurgence Elixir](store-consumables.md#friggs-resurgence-elixir) | a super buff: your next attack keeps its energy |
+| [Assault Fortification](../games/heists-and-clans/buffs/assault-fortification.md) | earned in a heist, not eaten (see its page) |
+| [Retribution Fury](../games/heists-and-clans/buffs/retribution-fury.md) | earned in a heist, not eaten (see its page) |
+
+## Crown of Chaos
+
+On the [Crown of Chaos page](../games/crown-of-chaos/buffs.md).
+
+| Buff | What it does |
+|---|---|
+| [Blackened Tilapia with Cumin Slaw](dishes.md#blackened-tilapia-with-cumin-slaw) | 15 less damage from each attack on you as the Crown, one charge per attack |
+| [White-tailed Deer with Juniper Berry Demi-Glace](dishes.md#white-tailed-deer-with-juniper-berry-demi-glace) | +15 damage on your attack on the Crown, one charge per attack |
+| [Forgotten Throne Elixir](store-consumables.md#forgotten-throne-elixir) | resets every Crown of Chaos skill of both trees, once |
+| [Chaos Relic](keys-and-cards.md#chaos-relic) | pays one attack on the Crown, hit or miss |
+
+## Hack & Slash
+
+On the [Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battles).
+
+| Buff | What it does |
+|---|---|
+| [Anchovy with Anchovy Powder](dishes.md#anchovy-with-anchovy-powder) | heals a character back to full health and mana (a dead one can then return to its battle) |
+| [Grilled Sardines with Sumac Yogurt Sauce](dishes.md#grilled-sardines-with-sumac-yogurt-sauce) | pays a skill reset (5 in total, whatever the points) |
+| [Baked Cod with Old Bay Butter](dishes.md#baked-cod-with-old-bay-butter) | +25% experience on a quick battle, picked before it or on the results screen and spent once |
+| [Grilled Coyote Steak With Lingonberry Sauce](dishes.md#grilled-coyote-steak-with-lingonberry-sauce) | pays a stats reset (half a steak per point spent, rounded up) |
+| [Pheasant with Blackberry Balsamic Glaze](dishes.md#pheasant-with-blackberry-balsamic-glaze) | fills your stamina to its maximum (Restore Stamina now) |
+| [Elk with Huckleberry Sauce](dishes.md#elk-with-huckleberry-sauce) | double damage on a quick battle, picked before it or on the results screen and spent once |
+| [Engraving Tool](materials.md#engraving-tool) | pays an inscription: 1 for a Magic one, 3 for a Rare one |

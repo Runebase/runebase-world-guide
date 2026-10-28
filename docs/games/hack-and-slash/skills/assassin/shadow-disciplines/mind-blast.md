@@ -1,0 +1,51 @@
+---
+title: "Mind Blast"
+---
+
+# Mind Blast
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Assassin](../../../classes/assassin.md)
+- **Tree:** [Shadow Disciplines](index.md)
+- **Kind:** a debuff on every monster, a spell
+- **Learn it from:** level 24 (your rank)
+- **Needs first:** [Cloak of Shadows](cloak-of-shadows.md)
+- **Opens:** no other skill
+- **Weapon:** any
+- **Mana:** 2 at rank 1, 40 at rank 20
+
+> In the game: Confuses the foes, giving them a chance to hit eachother
+
+## How it works
+
+- It stays on every monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
+- It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Rank by rank
+
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | confusion % | rounds | mana |
+|---|---|---|---|
+| 1 | 5 | 6 | 2 |
+| 2 | 6 | 8 | 4 |
+| 3 | 7 | 10 | 6 |
+| 4 | 8 | 12 | 8 |
+| 5 | 9 | 14 | 10 |
+| 6 | 10 | 16 | 12 |
+| 7 | 11 | 18 | 14 |
+| 8 | 12 | 20 | 16 |
+| 9 | 13 | 22 | 18 |
+| 10 | 14 | 24 | 20 |
+| 11 | 15 | 26 | 22 |
+| 12 | 16 | 28 | 24 |
+| 13 | 17 | 30 | 26 |
+| 14 | 18 | 32 | 28 |
+| 15 | 19 | 34 | 30 |
+| 16 | 20 | 36 | 32 |
+| 17 | 21 | 38 | 34 |
+| 18 | 22 | 40 | 36 |
+| 19 | 23 | 42 | 38 |
+| 20 | 24 | 44 | 40 |

@@ -1,0 +1,51 @@
+---
+title: "Werebear"
+---
+
+# Werebear
+
+**Where to play:** Discord
+{ .where-to-play }
+
+- **Class:** [Druid](../../../classes/druid.md)
+- **Tree:** [Shape Shifting Skills](index.md)
+- **Kind:** a shapeshift, a spell
+- **Learn it from:** level 6 (your rank)
+- **Needs first:** no other skill
+- **Opens:** [Maul](maul.md)
+- **Weapon:** any
+- **Mana:** 2 at rank 1, 2 at rank 20
+
+> In the game: Transforms the Druid into a Werebear.
+
+## How it works
+
+- It turns you into its shape for its rounds; the Druid skills that need the shape work only then.
+- It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Rank by rank
+
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+
+| Rank | defenseBonus % | damageBonus % | healthBonus % | rounds | mana |
+|---|---|---|---|---|---|
+| 1 | 20 | 3 | 10 | 10 | 2 |
+| 2 | 30 | 6 | 15 | 15 | 2 |
+| 3 | 40 | 9 | 20 | 20 | 2 |
+| 4 | 50 | 12 | 25 | 25 | 2 |
+| 5 | 60 | 15 | 30 | 30 | 2 |
+| 6 | 70 | 18 | 35 | 35 | 2 |
+| 7 | 80 | 21 | 40 | 40 | 2 |
+| 8 | 90 | 24 | 45 | 45 | 2 |
+| 9 | 100 | 27 | 50 | 50 | 2 |
+| 10 | 110 | 30 | 55 | 55 | 2 |
+| 11 | 120 | 33 | 60 | 60 | 2 |
+| 12 | 130 | 36 | 65 | 65 | 2 |
+| 13 | 140 | 39 | 70 | 70 | 2 |
+| 14 | 150 | 42 | 75 | 75 | 2 |
+| 15 | 160 | 45 | 80 | 80 | 2 |
+| 16 | 170 | 48 | 85 | 85 | 2 |
+| 17 | 180 | 51 | 90 | 90 | 2 |
+| 18 | 190 | 54 | 95 | 95 | 2 |
+| 19 | 200 | 57 | 100 | 100 | 2 |
+| 20 | 210 | 60 | 105 | 105 | 2 |

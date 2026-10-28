@@ -1,5 +1,7 @@
 ---
 title: "Prayer"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/prayer.webp"
 ---
 
 # ![Prayer](../../../../../assets/icons/skill/paladin/prayer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Prayer
@@ -7,12 +9,12 @@ title: "Prayer"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Heal](heal.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heal](heal.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

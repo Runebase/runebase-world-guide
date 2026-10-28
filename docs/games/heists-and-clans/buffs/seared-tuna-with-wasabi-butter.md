@@ -1,5 +1,7 @@
 ---
 title: "Seared Tuna with Wasabi Butter"
+icon: guide/nav
+nav_icon: "assets/icons/item/seared-tuna-with-wasabi-butter.webp"
 ---
 
 # ![Seared Tuna with Wasabi Butter](../../../assets/icons/item/seared-tuna-with-wasabi-butter.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Seared Tuna with Wasabi Butter
@@ -13,7 +15,7 @@ title: "Seared Tuna with Wasabi Butter"
 
 ## Where you get it
 
-Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 [Tuna](../../../items/ingredients.md#tuna) + 6 [Wasabi](../../../items/ingredients.md#wasabi); swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Seared Tuna with Wasabi Butter](../../../items/dishes.md#seared-tuna-with-wasabi-butter).
+Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <span class="gi-m">![](../../../assets/icons/item/tuna.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Tuna](../../../items/ingredients.md#tuna)</span> + 6 <span class="gi-m">![](../../../assets/icons/item/wasabi.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wasabi](../../../items/ingredients.md#wasabi)</span>; swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/seared-tuna-with-wasabi-butter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Seared Tuna with Wasabi Butter](../../../items/dishes.md#seared-tuna-with-wasabi-butter)</span>.
 
 ## Checked in play
 

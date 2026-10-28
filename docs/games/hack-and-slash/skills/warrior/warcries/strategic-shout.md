@@ -1,5 +1,7 @@
 ---
 title: "Strategic Shout"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/strategic-shout.webp"
 ---
 
 # ![Strategic Shout](../../../../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Strategic Shout
@@ -7,12 +9,12 @@ title: "Strategic Shout"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a buff
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Howl](howl.md)
-- **Opens:** [Battle Cry](battle-cry.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/howl.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Howl](howl.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/battle-cry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Cry](battle-cry.md)</span>
 - **Weapon:** any
 
 > In the game: Increases attack rating next rounds

@@ -1,5 +1,7 @@
 ---
 title: "Screech"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/screech.webp"
 ---
 
 # ![Screech](../../../../../assets/icons/skill/warrior/screech.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Screech
@@ -7,12 +9,12 @@ title: "Screech"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a debuff on every monster
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Howl](howl.md)
-- **Opens:** [Battle Orders](battle-orders.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/howl.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Howl](howl.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/battle-orders.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Orders](battle-orders.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

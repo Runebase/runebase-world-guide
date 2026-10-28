@@ -1,5 +1,7 @@
 ---
 title: "Sanctified Divine Ward"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/sanctified-divine-ward.webp"
 ---
 
 # ![Sanctified Divine Ward](../../../../../assets/icons/skill/paladin/sanctified-divine-ward.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sanctified Divine Ward
@@ -7,11 +9,11 @@ title: "Sanctified Divine Ward"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Summon Divine Protector](summon-divine-protector.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/summon-divine-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Divine Protector](summon-divine-protector.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

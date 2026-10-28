@@ -1,5 +1,7 @@
 ---
 title: "Concentrated Strike"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/concentrated-strike.webp"
 ---
 
 # ![Concentrated Strike](../../../../../assets/icons/skill/warrior/concentrated-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Concentrated Strike
@@ -7,11 +9,11 @@ title: "Concentrated Strike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Wound](wound.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/wound.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wound](wound.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 50 at rank 20

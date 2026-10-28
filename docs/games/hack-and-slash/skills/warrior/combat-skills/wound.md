@@ -1,5 +1,7 @@
 ---
 title: "Wound"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/wound.webp"
 ---
 
 # ![Wound](../../../../../assets/icons/skill/warrior/wound.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wound
@@ -7,12 +9,12 @@ title: "Wound"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** a debuff
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Stun](stun.md)
-- **Opens:** [Cleave](cleave.md), [Concentrated Strike](concentrated-strike.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/stun.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Stun](stun.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/cleave.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cleave](cleave.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/warrior/concentrated-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Concentrated Strike](concentrated-strike.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

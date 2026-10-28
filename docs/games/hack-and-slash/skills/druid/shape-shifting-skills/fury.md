@@ -1,5 +1,7 @@
 ---
 title: "Fury"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/fury.webp"
 ---
 
 # ![Fury](../../../../../assets/icons/skill/druid/fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fury
@@ -7,11 +9,11 @@ title: "Fury"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** a chain attack
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Rabies](rabies.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/rabies.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rabies](rabies.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 9 at rank 20

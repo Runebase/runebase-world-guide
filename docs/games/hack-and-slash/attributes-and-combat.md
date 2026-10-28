@@ -13,18 +13,18 @@ You get **5 attribute points per level** to spend on the stats screen (never mor
 
 - **Strength:** its whole value as % extra physical (and throw) damage.
 - **Dexterity:** +5 attack rating a point, multiplied by your level's multiplier ([below](#hitting-and-missing)); dexterity from your gear and its inscriptions counts the same as the points you spend.
-- **Vitality:** health (× your class's health per vitality) and stamina (+1 a point, Assassin 1.25).
+- **Vitality:** health (× your class's health per vitality) and stamina (+1 a point, <span class="gi-m">![](../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](classes/assassin.md)</span> 1.25).
 - **Energy:** mana (× your class's mana per energy).
 - Each level lowers your fire, cold, lightning, poison and magic resistance by 1.
 
-**Reset:** a stats reset gives every point back, for 0.5 [Grilled Coyote Steak With Lingonberry Sauce](../../items/dishes.md#grilled-coyote-steak-with-lingonberry-sauce) per point spent, rounded up.
+**Reset:** a stats reset gives every point back, for 0.5 <span class="gi-m">![](../../assets/icons/item/grilled-coyote-steak-with-lingonberry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grilled Coyote Steak With Lingonberry Sauce](../../items/dishes.md#grilled-coyote-steak-with-lingonberry-sauce)</span> per point spent, rounded up.
 
 ## Hitting and missing
 
-Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ (your attack rating + the monster's armor) × your level ÷ (your level + the monster's level), kept between 5% and 95%. A level-1 Warrior (attack rating 91) hits a level-1 Flamecaster (armor 55) 62.3% of the time.
+Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ (your attack rating + the monster's armor) × your level ÷ (your level + the monster's level), kept between 5% and 95%. A level-1 <span class="gi-m">![](../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](classes/warrior.md)</span> (attack rating 91) hits a level-1 Flamecaster (armor 55) 62.3% of the time.
 
 - **Your attack rating grows with your level:** your class's 50 plus 5 per dexterity point (spent or from gear), times your level's multiplier; attack rating from gear is added on top.
-- Skills and buffs with attack rating % raise it ([Strategic Shout](skills/warrior/warcries/strategic-shout.md)'s +40% takes that 62.3% to 69.8%).
+- Skills and buffs with attack rating % raise it (<span class="gi-m">![](../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Strategic Shout](skills/warrior/warcries/strategic-shout.md)</span>'s +40% takes that 62.3% to 69.8%).
 - **Monsters block** your physical attacks as often as their screen shows (a Zombie 10%).
 - **Spells never miss:** only physical attacks roll to hit. Magic, Fire, Cold, Lightning and Poison attacks always land, yours and the monsters'.
 - A single-target attack can only miss its own target. Monsters miss you too.
@@ -37,6 +37,6 @@ Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ 
 
 - **Critical hits** deal 75% more damage.
 - **Armor** takes armor ÷ (armor + damage) × 95% off physical damage, at most 85%: even a weak hit on heavy armor keeps 15% of its damage.
-- **Resistances** (fire, cold, lightning, poison, magic) lower the damage of their kind by their %. They stop at 70%, counted after everything that changes them: gear, passive skills, and buffs such as [Fade](skills/assassin/shadow-disciplines/fade.md) (which raises all five, as its screen says, not physical damage). At 70% a fire hit still deals 30% of its damage; it never heals you.
-- **Curses** on you (in the Arena, a Necromancer's [Lower Resist](skills/necromancer/curses/lower-resist.md)) lower your whole total before the 70% limit, so resistance above 70% on your gear still protects you from them. Nothing stops a curse from taking a resistance below 0. In the Arena the 70% limit counts after each move's buffs and curses too.
+- **Resistances** (fire, cold, lightning, poison, magic) lower the damage of their kind by their %. They stop at 70%, counted after everything that changes them: gear, passive skills, and buffs such as <span class="gi-m">![](../../assets/icons/skill/assassin/fade.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fade](skills/assassin/shadow-disciplines/fade.md)</span> (which raises all five, as its screen says, not physical damage). At 70% a fire hit still deals 30% of its damage; it never heals you.
+- **Curses** on you (in the Arena, a <span class="gi-m">![](../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](classes/necromancer.md)</span>'s <span class="gi-m">![](../../assets/icons/skill/necromancer/lower-resist.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lower Resist](skills/necromancer/curses/lower-resist.md)</span>) lower your whole total before the 70% limit, so resistance above 70% on your gear still protects you from them. Nothing stops a curse from taking a resistance below 0. In the Arena the 70% limit counts after each move's buffs and curses too.
 - **Blocking with a shield:** your chance is the shield's block × (your dexterity − 15) ÷ (2 × your level), at most 50%. It blocks monsters' physical attacks.

@@ -1,5 +1,7 @@
 ---
 title: "Bleed"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/bleed.webp"
 ---
 
 # ![Bleed](../../../../assets/icons/crown-skill/bleed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bleed
@@ -7,11 +9,11 @@ title: "Bleed"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Offensive skills](index.md) (for attackers: they work when you attack the Crown)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/offensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Offensive skills](index.md)</span> (for attackers: they work when you attack the Crown)
 - **Kind:** an attack skill: you pick it for an attack ([mana and attack skills](../../attacking.md#mana-and-attack-skills))
 - **Learn it from:** your rank 12
-- **Needs first:** [Blood Rush](blood-rush.md)
-- **Opens:** [Thornburst](thornburst.md)
+- **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blood Rush](blood-rush.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/thornburst.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Thornburst](thornburst.md)</span>
 
 > In the game: Bleeding damage to the crown
 
@@ -19,11 +21,11 @@ title: "Bleed"
 
 On a hit the Crown bleeds its shown damage each round for its shown rounds, less the Crown's Iron Veins and Hemostasis; each round's bleed counts as your damage and points. A new bleed of yours replaces your old one.
 
-Every attack costs one [Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic) and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | bleed damage a round | bleed rounds | mana |
 |---|---|---|---|

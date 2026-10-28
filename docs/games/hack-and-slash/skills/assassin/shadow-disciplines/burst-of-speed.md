@@ -1,5 +1,7 @@
 ---
 title: "Burst of Speed"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/burst-of-speed.webp"
 ---
 
 # ![Burst of Speed](../../../../../assets/icons/skill/assassin/burst-of-speed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Burst of Speed
@@ -7,12 +9,12 @@ title: "Burst of Speed"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** an area attack
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Claw Mastery](claw-mastery.md)
-- **Opens:** [Fade](fade.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/claw-mastery.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Claw Mastery](claw-mastery.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/fade.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fade](fade.md)</span>
 - **Weapon:** any
 
 > In the game: Attack all foes, in a burst of speed

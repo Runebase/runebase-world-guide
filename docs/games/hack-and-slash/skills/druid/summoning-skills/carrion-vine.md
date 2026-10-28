@@ -1,5 +1,7 @@
 ---
 title: "Carrion Vine"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/carrion-vine.webp"
 ---
 
 # ![Carrion Vine](../../../../../assets/icons/skill/druid/carrion-vine.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Carrion Vine
@@ -7,12 +9,12 @@ title: "Carrion Vine"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Poison Creeper](poison-creeper.md)
-- **Opens:** [Solar Creeper](solar-creeper.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/poison-creeper.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison Creeper](poison-creeper.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/solar-creeper.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Solar Creeper](solar-creeper.md)</span>
 - **Weapon:** any
 
 > In the game: Adds Direct Poison Damage to Poison Creeper

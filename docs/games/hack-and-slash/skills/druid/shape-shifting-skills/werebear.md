@@ -1,5 +1,7 @@
 ---
 title: "Werebear"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/werebear.webp"
 ---
 
 # ![Werebear](../../../../../assets/icons/skill/druid/werebear.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Werebear
@@ -7,12 +9,12 @@ title: "Werebear"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** a shapeshift, a spell
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Maul](maul.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Maul](maul.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

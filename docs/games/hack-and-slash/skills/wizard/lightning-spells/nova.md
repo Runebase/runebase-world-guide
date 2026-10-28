@@ -1,5 +1,7 @@
 ---
 title: "Nova"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/nova.webp"
 ---
 
 # ![Nova](../../../../../assets/icons/skill/wizard/nova.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Nova
@@ -7,12 +9,12 @@ title: "Nova"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Static Field](static-field.md)
-- **Opens:** [Thunder Storm](thunder-storm.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/static-field.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Static Field](static-field.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/thunder-storm.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Thunder Storm](thunder-storm.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

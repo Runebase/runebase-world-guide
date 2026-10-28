@@ -1,5 +1,7 @@
 ---
 title: "Mind Blast"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/mind-blast.webp"
 ---
 
 # ![Mind Blast](../../../../../assets/icons/skill/assassin/mind-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mind Blast
@@ -7,11 +9,11 @@ title: "Mind Blast"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a debuff on every monster, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Cloak of Shadows](cloak-of-shadows.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/cloak-of-shadows.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cloak of Shadows](cloak-of-shadows.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20

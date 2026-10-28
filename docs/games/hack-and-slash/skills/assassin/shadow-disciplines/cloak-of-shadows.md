@@ -1,5 +1,7 @@
 ---
 title: "Cloak of Shadows"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/cloak-of-shadows.webp"
 ---
 
 # ![Cloak of Shadows](../../../../../assets/icons/skill/assassin/cloak-of-shadows.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cloak of Shadows
@@ -7,12 +9,12 @@ title: "Cloak of Shadows"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a buff
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Psychic Hammer](psychic-hammer.md)
-- **Opens:** [Shadow Warrior](shadow-warrior.md), [Mind Blast](mind-blast.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/psychic-hammer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Psychic Hammer](psychic-hammer.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/shadow-warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Warrior](shadow-warrior.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/assassin/mind-blast.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mind Blast](mind-blast.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

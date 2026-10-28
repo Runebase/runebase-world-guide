@@ -1,5 +1,7 @@
 ---
 title: "Bonk"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/bonk.webp"
 ---
 
 # ![Bonk](../../../../../assets/icons/skill/warrior/bonk.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bonk
@@ -7,12 +9,12 @@ title: "Bonk"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Double Swing](double-swing.md), [Stun](stun.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/double-swing.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Double Swing](double-swing.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/warrior/stun.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Stun](stun.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

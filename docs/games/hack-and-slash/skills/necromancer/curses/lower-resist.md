@@ -1,5 +1,7 @@
 ---
 title: "Lower Resist"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/lower-resist.webp"
 ---
 
 # ![Lower Resist](../../../../../assets/icons/skill/necromancer/lower-resist.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lower Resist
@@ -7,11 +9,11 @@ title: "Lower Resist"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Curses](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/curses.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Curses](index.md)</span>
 - **Kind:** a debuff on every monster, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Life Tap](life-tap.md), [Decrepify](decrepify.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/life-tap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Life Tap](life-tap.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/decrepify.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Decrepify](decrepify.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

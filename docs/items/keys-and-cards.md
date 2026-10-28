@@ -10,19 +10,19 @@ Treasure keys open chests, Mystery Cards scratch cards, Runes Pattern Cards play
 
 ### ![Bronze Key](../assets/icons/item/bronze-key.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Bronze Key
 
-- **Where you get it:** made by the [Treasure Forge](../account/buildings.md#what-each-building-does); collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
+- **Where you get it:** made by the <span class="gi-m">![](../assets/icons/building/treasure-forge.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Treasure Forge](../account/buildings.md#what-each-building-does)</span>; collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
 - **Treasure chests:** opens a treasure chest ([more](../games/treasure-chests.md)).
 - **Key hunt:** each one found scores 1 on the monthly key hunt ladder ([more](../games/piles-and-key-hunt.md#key-hunt)).
 
 ### ![Silver Key](../assets/icons/item/silver-key.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Silver Key
 
-- **Where you get it:** made by the [Treasure Forge](../account/buildings.md#what-each-building-does); collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
+- **Where you get it:** made by the <span class="gi-m">![](../assets/icons/building/treasure-forge.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Treasure Forge](../account/buildings.md#what-each-building-does)</span>; collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
 - **Treasure chests:** opens a treasure chest ([more](../games/treasure-chests.md)).
 - **Key hunt:** each one found scores 2 on the monthly key hunt ladder ([more](../games/piles-and-key-hunt.md#key-hunt)).
 
 ### ![Gold Key](../assets/icons/item/gold-key.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Gold Key
 
-- **Where you get it:** made by the [Treasure Forge](../account/buildings.md#what-each-building-does); collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
+- **Where you get it:** made by the <span class="gi-m">![](../assets/icons/building/treasure-forge.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Treasure Forge](../account/buildings.md#what-each-building-does)</span>; collected from [piles](../games/piles-and-key-hunt.md#piles) in the channels; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
 - **Treasure chests:** opens a treasure chest ([more](../games/treasure-chests.md)).
 - **Key hunt:** each one found scores 3 on the monthly key hunt ladder ([more](../games/piles-and-key-hunt.md#key-hunt)).
 
@@ -30,7 +30,7 @@ Treasure keys open chests, Mystery Cards scratch cards, Runes Pattern Cards play
 
 ### ![Mystery Card](../assets/icons/item/mystery-card.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Mystery Card
 
-- **Where you get it:** made by the [Party Store](../account/buildings.md#what-each-building-does); a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [treasure chests](../games/treasure-chests.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
+- **Where you get it:** made by the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>; a prize of [heists](../games/heists-and-clans/attacks-and-defence/index.md#the-heists-prize), [Loot Reels](../games/loot-reels.md), [treasure chests](../games/treasure-chests.md), [scratch cards](../games/scratch-cards.md), [quest rewards](../account/quests.md#every-quest).
 - **Scratch cards:** scratches one scratch card ([more](../games/scratch-cards.md)).
 
 ### ![Runes Pattern Card](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Runes Pattern Card

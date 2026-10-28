@@ -1,5 +1,7 @@
 ---
 title: "Conviction"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/conviction.webp"
 ---
 
 # ![Conviction](../../../../../assets/icons/skill/paladin/conviction.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Conviction
@@ -7,11 +9,11 @@ title: "Conviction"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Sanctuary](sanctuary.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/sanctuary.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctuary](sanctuary.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

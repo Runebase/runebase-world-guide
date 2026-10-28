@@ -1,5 +1,7 @@
 ---
 title: "Impale"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/impale.webp"
 ---
 
 # ![Impale](../../../../../assets/icons/skill/hunter/impale.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Impale
@@ -7,12 +9,12 @@ title: "Impale"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Javelin and Spear Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/javelin-and-spear-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Javelin and Spear Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Jab](jab.md)
-- **Opens:** [Fend](fend.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/jab.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Jab](jab.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/fend.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fend](fend.md)</span>
 - **Weapon:** [a javelin and a spear or javelin](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 40 at rank 20
 

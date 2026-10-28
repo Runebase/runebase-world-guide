@@ -1,5 +1,7 @@
 ---
 title: "Bone Spirit"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/bone-spirit.webp"
 ---
 
 # ![Bone Spirit](../../../../../assets/icons/skill/necromancer/bone-spirit.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Spirit
@@ -7,11 +9,11 @@ title: "Bone Spirit"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Poison and Bone Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/poison-and-bone-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison and Bone Spells](index.md)</span>
 - **Kind:** a chain attack, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Bone Spear](bone-spear.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/bone-spear.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bone Spear](bone-spear.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

@@ -17,7 +17,7 @@ Your first chat message in a realm creates your account there: wallet, pouch, qu
 - **40 chat points in the last 30 days** make you an active chatter (a role); it goes again when old points drop out of the 30 days.
 - Chat points count on the chatter leaderboards.
 
-Prize tables on this page are without utilities (a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows; see [utilities](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)).
+Prize tables on this page are without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows).
 
 | Prize | Chance per payout |
 |---|---|

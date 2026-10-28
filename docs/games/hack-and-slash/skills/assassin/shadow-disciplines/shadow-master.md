@@ -1,5 +1,7 @@
 ---
 title: "Shadow Master"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/shadow-master.webp"
 ---
 
 # ![Shadow Master](../../../../../assets/icons/skill/assassin/shadow-master.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shadow Master
@@ -7,11 +9,11 @@ title: "Shadow Master"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Shadow Warrior](shadow-warrior.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/shadow-warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Warrior](shadow-warrior.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

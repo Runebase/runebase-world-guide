@@ -1,5 +1,7 @@
 ---
 title: "Blaze"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/blaze.webp"
 ---
 
 # ![Blaze](../../../../../assets/icons/skill/wizard/blaze.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blaze
@@ -7,12 +9,12 @@ title: "Blaze"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Fire Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/fire-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Spells](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Inferno](inferno.md)
-- **Opens:** [Fire Wall](fire-wall.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/inferno.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Inferno](inferno.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/fire-wall.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Wall](fire-wall.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

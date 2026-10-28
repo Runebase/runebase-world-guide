@@ -4,17 +4,17 @@ title: "Credits and RUNES"
 
 # Credits and RUNES
 
-**Credits** are the bot's money. You earn them in the games, spend them in the store and elsewhere, and you can take them out of the game as Credits tokens on the Runebase blockchain, or bring RUNES in. Some prizes are paid in **RUNES** directly, from the realm's RUNES wallet.
+**<span class="gi-m">![](../assets/icons/currency/credits.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits](#getting-credits)</span>** are the bot's money. You earn them in the games, spend them in the store and elsewhere, and you can take them out of the game as Credits tokens on the Runebase blockchain, or bring RUNES in. Some prizes are paid in **<span class="gi-m">![](../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](#runes-prizes)</span>** directly, from the realm's RUNES wallet.
 
 **Where:** `/pouch` shows your balance, with **Withdraw** and **Buy Credits**. `/withdraw` withdraws directly.
 
-`/pouch` shows the pouch's level, your credits, and the Bronze, Silver and [Gold Keys](../items/keys-and-cards.md#gold-key), [Mystery Cards](../items/keys-and-cards.md#mystery-card) and Wood, Leather and [Metal Scrap](../items/materials.md#metal-scrap) it holds, each next to the room it has: per pouch level 40 Bronze, 20 Silver and 10 Gold Keys, 50 Mystery Cards and 100 of each scrap (level 2 holds twice that). Its buttons: **Upgrade Pouch**, **Buy Credits**, **Withdraw**, **Withdrawal History** and **Credits Change History**.
+`/pouch` shows the pouch's level, your credits, and the <span class="gi-m">![](../assets/icons/item/bronze-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bronze](../items/keys-and-cards.md#bronze-key)</span>, <span class="gi-m">![](../assets/icons/item/silver-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silver](../items/keys-and-cards.md#silver-key)</span> and <span class="gi-m">![](../assets/icons/item/gold-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gold Keys](../items/keys-and-cards.md#gold-key)</span>, <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards.md#mystery-card)</span> and <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood](../items/materials.md#wood-scrap)</span>, <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather](../items/materials.md#leather-scrap)</span> and <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials.md#metal-scrap)</span> it holds, each next to the room it has: per pouch level 40 Bronze, 20 Silver and 10 Gold Keys, 50 Mystery Cards and 100 of each scrap (level 2 holds twice that). Its buttons: **Upgrade Pouch**, **Buy Credits**, **Withdraw**, **Withdrawal History** and **Credits Change History**.
 
 ## Getting credits
 
 - **From the games:** expeditions, piles, chests, chess and Hnefatafl wins, quests, WordWeaver, Loot Reels, dice, heists and more (each game's page has its prize table). A single credit prize above **25,000 credits** is withheld instead of paid, and announced in the payout channel. The Crown of Chaos pool is the one exception: it's paid in full.
 - **Gifts** from other players (`/gift`, see [Gifts and the convert market](gifts-and-convert-market.md)).
-- **The Iron Bank** pays interest on credits you store in it ([Buildings](buildings.md)).
+- **The <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>** pays interest on credits you store in it ([Buildings](buildings.md)).
 - **Deposits** and **buying credits with Hermes** (below).
 
 ## Deposits

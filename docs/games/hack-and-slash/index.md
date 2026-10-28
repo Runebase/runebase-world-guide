@@ -29,4 +29,4 @@ The bot's role-playing game: pick a [class](classes/index.md), fight [**quick ba
 - Dexterity and attack-rating gear make you hit more often; a pure strength build misses more.
 - Pick monsters near your level: those more than 5 levels below you give no experience.
 - Use your free resets after the release to rebuild your characters for the new hit chance.
-- Keep an [Anchovy with Anchovy Powder](../../items/dishes.md#anchovy-with-anchovy-powder) for when a battle goes wrong.
+- Keep an <span class="gi-m">![](../../assets/icons/item/anchovy-with-anchovy-powder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Anchovy with Anchovy Powder](../../items/dishes.md#anchovy-with-anchovy-powder)</span> for when a battle goes wrong.

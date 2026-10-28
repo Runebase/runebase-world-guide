@@ -1,5 +1,7 @@
 ---
 title: "Wake of Inferno"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/wake-of-inferno.webp"
 ---
 
 # ![Wake of Inferno](../../../../../assets/icons/skill/assassin/wake-of-inferno.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wake of Inferno
@@ -7,11 +9,11 @@ title: "Wake of Inferno"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Wake of Fire](wake-of-fire.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/wake-of-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wake of Fire](wake-of-fire.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

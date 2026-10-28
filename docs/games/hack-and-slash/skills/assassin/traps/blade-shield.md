@@ -1,5 +1,7 @@
 ---
 title: "Blade Shield"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/blade-shield.webp"
 ---
 
 # ![Blade Shield](../../../../../assets/icons/skill/assassin/blade-shield.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Shield
@@ -7,11 +9,11 @@ title: "Blade Shield"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Blade Fury](blade-fury.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/blade-fury.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blade Fury](blade-fury.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

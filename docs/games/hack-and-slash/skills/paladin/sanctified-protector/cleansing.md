@@ -1,5 +1,7 @@
 ---
 title: "Cleansing"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/cleansing.webp"
 ---
 
 # ![Cleansing](../../../../../assets/icons/skill/paladin/cleansing.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cleansing
@@ -7,11 +9,11 @@ title: "Cleansing"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a heal, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Heal](heal.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heal](heal.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 22 at rank 20

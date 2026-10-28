@@ -1,5 +1,7 @@
 ---
 title: "Glacial Spike"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/glacial-spike.webp"
 ---
 
 # ![Glacial Spike](../../../../../assets/icons/skill/wizard/glacial-spike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Glacial Spike
@@ -7,12 +9,12 @@ title: "Glacial Spike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Cold Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/cold-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cold Spells](index.md)</span>
 - **Kind:** an exploding attack, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Ice Blast](ice-blast.md)
-- **Opens:** [Blizzard](blizzard.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/ice-blast.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ice Blast](ice-blast.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/blizzard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blizzard](blizzard.md)</span>
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 22 at rank 20
 

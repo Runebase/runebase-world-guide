@@ -1,5 +1,7 @@
 ---
 title: "Teleport"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/teleport.webp"
 ---
 
 # ![Teleport](../../../../../assets/icons/skill/wizard/teleport.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Teleport
@@ -7,12 +9,12 @@ title: "Teleport"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Telekinesis](telekinesis.md)
-- **Opens:** [Energy Shield](energy-shield.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/telekinesis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Telekinesis](telekinesis.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/energy-shield.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Energy Shield](energy-shield.md)</span>
 - **Weapon:** any
 
 > In the game: Decrease Stamina used for going to a Quickbattle

@@ -1,5 +1,7 @@
 ---
 title: "Dim Vision"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/dim-vision.webp"
 ---
 
 # ![Dim Vision](../../../../../assets/icons/skill/necromancer/dim-vision.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dim Vision
@@ -7,12 +9,12 @@ title: "Dim Vision"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Curses](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/curses.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Curses](index.md)</span>
 - **Kind:** a debuff on every monster, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Confuse](confuse.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/confuse.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Confuse](confuse.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

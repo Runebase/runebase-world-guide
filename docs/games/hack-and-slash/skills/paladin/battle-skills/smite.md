@@ -1,5 +1,7 @@
 ---
 title: "Smite"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/smite.webp"
 ---
 
 # ![Smite](../../../../../assets/icons/skill/paladin/smite.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Smite
@@ -7,12 +9,12 @@ title: "Smite"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Charge](charge.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/charge.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Charge](charge.md)</span>
 - **Weapon:** [a shield](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 21 at rank 20
 

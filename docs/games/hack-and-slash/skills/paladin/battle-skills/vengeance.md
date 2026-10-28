@@ -1,5 +1,7 @@
 ---
 title: "Vengeance"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/vengeance.webp"
 ---
 
 # ![Vengeance](../../../../../assets/icons/skill/paladin/vengeance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Vengeance
@@ -7,12 +9,12 @@ title: "Vengeance"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** an exploding attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Zeal](zeal.md)
-- **Opens:** [Conversion](conversion.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/zeal.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Zeal](zeal.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/conversion.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Conversion](conversion.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

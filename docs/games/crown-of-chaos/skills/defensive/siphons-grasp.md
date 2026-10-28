@@ -1,5 +1,7 @@
 ---
 title: "Siphon's Grasp"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/siphons-grasp.webp"
 ---
 
 # ![Siphon's Grasp](../../../../assets/icons/crown-skill/siphons-grasp.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Siphon's Grasp
@@ -7,7 +9,7 @@ title: "Siphon's Grasp"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Defensive skills](index.md) (for the Crown: they work while you hold it)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/defensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Defensive skills](index.md)</span> (for the Crown: they work while you hold it)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 24
 - **Needs first:** no other skill
@@ -23,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | Mana Drain duration |
 |---|---|

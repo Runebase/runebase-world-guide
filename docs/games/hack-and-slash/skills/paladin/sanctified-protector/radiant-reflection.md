@@ -1,5 +1,7 @@
 ---
 title: "Radiant Reflection"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/radiant-reflection.webp"
 ---
 
 # ![Radiant Reflection](../../../../../assets/icons/skill/paladin/radiant-reflection.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Radiant Reflection
@@ -7,12 +9,12 @@ title: "Radiant Reflection"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Radiant Counter](radiant-counter.md)
-- **Opens:** [Radiant Explosion](radiant-explosion.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/radiant-counter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Radiant Counter](radiant-counter.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/radiant-explosion.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Radiant Explosion](radiant-explosion.md)</span>
 - **Weapon:** [a shield](../../../gear-and-crafting.md#weapons-that-skills-need)
 
 > In the game: Enhances Retaliation Effect of Radiant Counter with Magic Damage

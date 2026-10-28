@@ -7,7 +7,7 @@ title: "Dice"
 **Where to play:** Discord
 { .where-to-play }
 
-A quick game of luck: roll two dice for experience, a RUNES prize and a prize draw.
+A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../account/credits-and-runes.md#runes-prizes)</span> prize and a prize draw.
 
 `/roll` in the dice channel. A roll pays **experience by the sum you roll** (the rarer the sum, the more), a **RUNES prize** tipped to you (also by the sum), and **one** prize draw from the dice prize table (below). Then the dice wait **2 hours** (the bot tells you when you can roll again); after that you roll again and are paid again. <!-- The cooldown is production's; the tests run with 5 seconds. -->
 
@@ -32,7 +32,7 @@ A quick game of luck: roll two dice for experience, a RUNES prize and a prize dr
 | 11 | 5.56% | 14 | 0.00048% | 5 |
 | 12 | 2.78% | 27 | 0.00096% | 6 |
 
-Prize tables are without utilities: a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows ([utilities](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)).
+Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows.
 
 | Prize | Chance per roll |
 |---|---|

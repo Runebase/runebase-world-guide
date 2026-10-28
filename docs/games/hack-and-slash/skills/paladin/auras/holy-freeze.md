@@ -1,5 +1,7 @@
 ---
 title: "Holy Freeze"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/holy-freeze.webp"
 ---
 
 # ![Holy Freeze](../../../../../assets/icons/skill/paladin/holy-freeze.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Freeze
@@ -7,12 +9,12 @@ title: "Holy Freeze"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Holy Fire](holy-fire.md)
-- **Opens:** [Holy Shock](holy-shock.md), [Sanctuary](sanctuary.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Fire](holy-fire.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-shock.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Shock](holy-shock.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/sanctuary.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctuary](sanctuary.md)</span>
 - **Weapon:** any
 
 > In the game: Chance to freeze enemy after round

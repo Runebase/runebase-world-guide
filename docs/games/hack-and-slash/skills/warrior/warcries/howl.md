@@ -1,5 +1,7 @@
 ---
 title: "Howl"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/howl.webp"
 ---
 
 # ![Howl](../../../../../assets/icons/skill/warrior/howl.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Howl
@@ -7,12 +9,12 @@ title: "Howl"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a debuff on every monster
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Strategic Shout](strategic-shout.md), [Screech](screech.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Strategic Shout](strategic-shout.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/warrior/screech.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Screech](screech.md)</span>
 - **Weapon:** any
 
 > In the game: Reduce all enemies armor by %

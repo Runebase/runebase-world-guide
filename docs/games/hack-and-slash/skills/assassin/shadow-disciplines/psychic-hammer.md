@@ -1,5 +1,7 @@
 ---
 title: "Psychic Hammer"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/psychic-hammer.webp"
 ---
 
 # ![Psychic Hammer](../../../../../assets/icons/skill/assassin/psychic-hammer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Psychic Hammer
@@ -7,12 +9,12 @@ title: "Psychic Hammer"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a debuff
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Cloak of Shadows](cloak-of-shadows.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/cloak-of-shadows.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cloak of Shadows](cloak-of-shadows.md)</span>
 - **Weapon:** any
 
 > In the game: Stuns the enemy and lowers their armor

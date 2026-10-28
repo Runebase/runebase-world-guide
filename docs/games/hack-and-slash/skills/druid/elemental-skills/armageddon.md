@@ -1,5 +1,7 @@
 ---
 title: "Armageddon"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/armageddon.webp"
 ---
 
 # ![Armageddon](../../../../../assets/icons/skill/druid/armageddon.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Armageddon
@@ -7,11 +9,11 @@ title: "Armageddon"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Elemental Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/elemental-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elemental Skills](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Volcano](volcano.md), [Hurricane](hurricane.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/volcano.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Volcano](volcano.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/druid/hurricane.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hurricane](hurricane.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20

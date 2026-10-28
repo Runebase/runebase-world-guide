@@ -1,5 +1,7 @@
 ---
 title: "Dragon Talon"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/dragon-talon.webp"
 ---
 
 # ![Dragon Talon](../../../../../assets/icons/skill/assassin/dragon-talon.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Talon
@@ -7,12 +9,12 @@ title: "Dragon Talon"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Martial Arts](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/martial-arts.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Martial Arts](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Dragon Claw](dragon-claw.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/dragon-claw.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Dragon Claw](dragon-claw.md)</span>
 - **Weapon:** any
 
 > In the game: Increase attack rating and strike multiple times

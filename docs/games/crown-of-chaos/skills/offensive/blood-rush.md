@@ -1,5 +1,7 @@
 ---
 title: "Blood Rush"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/blood-rush.webp"
 ---
 
 # ![Blood Rush](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blood Rush
@@ -7,11 +9,11 @@ title: "Blood Rush"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Offensive skills](index.md) (for attackers: they work when you attack the Crown)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/offensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Offensive skills](index.md)</span> (for attackers: they work when you attack the Crown)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 6
-- **Needs first:** [Brutal Strike](brutal-strike.md)
-- **Opens:** [Bleed](bleed.md)
+- **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/brutal-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Brutal Strike](brutal-strike.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/bleed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bleed](bleed.md)</span>
 
 > In the game: Reduces Cooldown Time
 
@@ -19,11 +21,11 @@ title: "Blood Rush"
 
 Takes its seconds off your cooldown after an attack (the Crown's 15 s plus its Fractured Time and Temporal Nexus), never below 3 seconds.
 
-Every attack costs one [Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic) and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | attack cooldown |
 |---|---|

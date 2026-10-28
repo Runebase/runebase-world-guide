@@ -1,5 +1,7 @@
 ---
 title: "Fist of the Heavens"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/fist-of-the-heavens.webp"
 ---
 
 # ![Fist of the Heavens](../../../../../assets/icons/skill/paladin/fist-of-the-heavens.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fist of the Heavens
@@ -7,11 +9,11 @@ title: "Fist of the Heavens"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** a chain attack, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Conversion](conversion.md), [Blessed Hammer](blessed-hammer.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/conversion.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Conversion](conversion.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/blessed-hammer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blessed Hammer](blessed-hammer.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20

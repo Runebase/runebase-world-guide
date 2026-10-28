@@ -1,5 +1,7 @@
 ---
 title: "Heal"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/heal.webp"
 ---
 
 # ![Heal](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Heal
@@ -7,12 +9,12 @@ title: "Heal"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a heal, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Prayer](prayer.md)
-- **Opens:** [Summon Divine Protector](summon-divine-protector.md), [Cleansing](cleansing.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/prayer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Prayer](prayer.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/summon-divine-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Divine Protector](summon-divine-protector.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/cleansing.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cleansing](cleansing.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

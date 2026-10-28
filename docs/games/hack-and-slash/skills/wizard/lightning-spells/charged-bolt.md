@@ -1,5 +1,7 @@
 ---
 title: "Charged Bolt"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/charged-bolt.webp"
 ---
 
 # ![Charged Bolt](../../../../../assets/icons/skill/wizard/charged-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Charged Bolt
@@ -7,12 +9,12 @@ title: "Charged Bolt"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Lightning](lightning.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/lightning.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning](lightning.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

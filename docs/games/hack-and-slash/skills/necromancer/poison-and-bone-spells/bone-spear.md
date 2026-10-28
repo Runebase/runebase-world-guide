@@ -1,5 +1,7 @@
 ---
 title: "Bone Spear"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/bone-spear.webp"
 ---
 
 # ![Bone Spear](../../../../../assets/icons/skill/necromancer/bone-spear.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Spear
@@ -7,12 +9,12 @@ title: "Bone Spear"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Poison and Bone Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/poison-and-bone-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison and Bone Spells](index.md)</span>
 - **Kind:** an attack, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Corpse Explosion](corpse-explosion.md)
-- **Opens:** [Bone Prison](bone-prison.md), [Bone Spirit](bone-spirit.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/corpse-explosion.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Corpse Explosion](corpse-explosion.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/bone-prison.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bone Prison](bone-prison.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/bone-spirit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bone Spirit](bone-spirit.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

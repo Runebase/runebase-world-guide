@@ -1,5 +1,7 @@
 ---
 title: "Relieve"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/relieve.webp"
 ---
 
 # ![Relieve](../../../../../assets/icons/skill/warrior/relieve.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Relieve
@@ -7,12 +9,12 @@ title: "Relieve"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Critical Hit](critical-hit.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/critical-hit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Critical Hit](critical-hit.md)</span>
 - **Weapon:** any
 
 > In the game: Heal after Winning a battle

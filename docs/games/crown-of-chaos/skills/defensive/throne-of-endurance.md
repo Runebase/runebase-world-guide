@@ -1,5 +1,7 @@
 ---
 title: "Throne of Endurance"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/throne-of-endurance.webp"
 ---
 
 # ![Throne of Endurance](../../../../assets/icons/crown-skill/throne-of-endurance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Throne of Endurance
@@ -7,11 +9,11 @@ title: "Throne of Endurance"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Defensive skills](index.md) (for the Crown: they work while you hold it)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/defensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Defensive skills](index.md)</span> (for the Crown: they work while you hold it)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 1
 - **Needs first:** no other skill
-- **Opens:** [Iron Veins](iron-veins.md)
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/iron-veins.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Veins](iron-veins.md)</span>
 
 > In the game: Increases the health.
 
@@ -23,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | health |
 |---|---|

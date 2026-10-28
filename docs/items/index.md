@@ -4,7 +4,7 @@ title: "Items and buffs"
 
 # Items and buffs
 
-Everything you can hold, eat or spend across the games: what it is, where you get it, and what it does in each game that uses it. Fish, meat, spices, sauces and dishes wait in your **basket** (`/basket`); scrap, keys and [Mystery Cards](keys-and-cards.md#mystery-card) sit in your **pouch** (`/pouch`).
+Everything you can hold, eat or spend across the games: what it is, where you get it, and what it does in each game that uses it. Fish, meat, spices, sauces and dishes wait in your **basket** (`/basket`); scrap, keys and <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](keys-and-cards.md#mystery-card)</span> sit in your **pouch** (`/pouch`).
 
 Every entry links the games it comes from and the games it's used in, and every game page links back to the entries of the items it names.
 

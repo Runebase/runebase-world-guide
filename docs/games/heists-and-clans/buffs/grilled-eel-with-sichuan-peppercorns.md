@@ -1,5 +1,7 @@
 ---
 title: "Grilled Eel with Sichuan Peppercorns"
+icon: guide/nav
+nav_icon: "assets/icons/item/grilled-eel-with-sichuan-peppercorns.webp"
 ---
 
 # ![Grilled Eel with Sichuan Peppercorns](../../../assets/icons/item/grilled-eel-with-sichuan-peppercorns.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Grilled Eel with Sichuan Peppercorns
@@ -13,7 +15,7 @@ title: "Grilled Eel with Sichuan Peppercorns"
 
 ## Where you get it
 
-Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 [Eel](../../../items/ingredients.md#eel) + 4 [Sichuan Peppercorns](../../../items/ingredients.md#sichuan-peppercorns); swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Grilled Eel with Sichuan Peppercorns](../../../items/dishes.md#grilled-eel-with-sichuan-peppercorns).
+Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <span class="gi-m">![](../../../assets/icons/item/eel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Eel](../../../items/ingredients.md#eel)</span> + 4 <span class="gi-m">![](../../../assets/icons/item/sichuan-peppercorns.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sichuan Peppercorns](../../../items/ingredients.md#sichuan-peppercorns)</span>; swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/grilled-eel-with-sichuan-peppercorns.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grilled Eel with Sichuan Peppercorns](../../../items/dishes.md#grilled-eel-with-sichuan-peppercorns)</span>.
 
 ## Checked in play
 

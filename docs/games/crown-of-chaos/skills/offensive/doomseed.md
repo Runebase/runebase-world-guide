@@ -1,5 +1,7 @@
 ---
 title: "Doomseed"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/doomseed.webp"
 ---
 
 # ![Doomseed](../../../../assets/icons/crown-skill/doomseed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Doomseed
@@ -7,11 +9,11 @@ title: "Doomseed"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Offensive skills](index.md) (for attackers: they work when you attack the Crown)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/offensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Offensive skills](index.md)</span> (for attackers: they work when you attack the Crown)
 - **Kind:** an attack skill: you pick it for an attack ([mana and attack skills](../../attacking.md#mana-and-attack-skills))
 - **Learn it from:** your rank 12
 - **Needs first:** no other skill
-- **Opens:** [Premature Bloom](premature-bloom.md), [Thornburst](thornburst.md)
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/premature-bloom.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Premature Bloom](premature-bloom.md)</span>, <span class="gi-m">![](../../../../assets/icons/crown-skill/thornburst.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Thornburst](thornburst.md)</span>
 
 > In the game: Plant a deadly seed that detonates in 15 rounds, dealing massive physical damage to all enemies in range.
 
@@ -19,11 +21,11 @@ title: "Doomseed"
 
 On a hit it plants a seed that detonates after 15 rounds, fewer with Premature Bloom, for its shown damage. A new seed of yours replaces your old one, and its rounds start again; another attacker's seed stays. A seed that detonates under the Crown's Bubble deals nothing.
 
-Every attack costs one [Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic) and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | detonation damage | rounds to detonation | mana |
 |---|---|---|---|

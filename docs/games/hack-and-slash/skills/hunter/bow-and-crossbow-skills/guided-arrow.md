@@ -1,5 +1,7 @@
 ---
 title: "Guided Arrow"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/guided-arrow.webp"
 ---
 
 # ![Guided Arrow](../../../../../assets/icons/skill/hunter/guided-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Guided Arrow
@@ -7,12 +9,12 @@ title: "Guided Arrow"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Bow and Crossbow Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/bow-and-crossbow-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bow and Crossbow Skills](index.md)</span>
 - **Kind:** a chain attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Cold Arrow](cold-arrow.md), [Multiple Shot](multiple-shot.md)
-- **Opens:** [Strafe](strafe.md), [Freezing Arrow](freezing-arrow.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/cold-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cold Arrow](cold-arrow.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/multiple-shot.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Multiple Shot](multiple-shot.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/strafe.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Strafe](strafe.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/freezing-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Freezing Arrow](freezing-arrow.md)</span>
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 3 at rank 1, 9 at rank 20
 

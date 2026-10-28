@@ -13,7 +13,7 @@ title: "Retribution Fury"
 
 ## Where you get it
 
-The [Gain Retribution Fury (100% Counter-Attack Buff) attack](../attacks-and-defence/gain-retribution-fury.md) and the gear [Skadi's Rejuvenating Shroud](../gear/skadis-rejuvenating-shroud.md), [Skadi's Frostbite Ward](../gear/skadis-frostbite-ward.md) give a chance to earn one charge each heist; pets can too.
+The [Gain Retribution Fury (100% Counter-Attack Buff) attack](../attacks-and-defence/gain-retribution-fury.md) and the gear <span class="gi-m">![](../../../assets/icons/heist-gear/skadis-rejuvenating-shroud.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skadi's Rejuvenating Shroud](../gear/skadis-rejuvenating-shroud.md)</span>, <span class="gi-m">![](../../../assets/icons/heist-gear/skadis-frostbite-ward.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skadi's Frostbite Ward](../gear/skadis-frostbite-ward.md)</span> give a chance to earn one charge each heist; pets can too.
 
 ## Checked in play
 

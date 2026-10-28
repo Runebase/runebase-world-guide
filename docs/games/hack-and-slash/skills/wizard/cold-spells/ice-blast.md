@@ -1,5 +1,7 @@
 ---
 title: "Ice Blast"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/ice-blast.webp"
 ---
 
 # ![Ice Blast](../../../../../assets/icons/skill/wizard/ice-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Ice Blast
@@ -7,12 +9,12 @@ title: "Ice Blast"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Cold Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/cold-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cold Spells](index.md)</span>
 - **Kind:** an attack, a spell
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Ice Bolt](ice-bolt.md)
-- **Opens:** [Shiver Armor](shiver-armor.md), [Glacial Spike](glacial-spike.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/ice-bolt.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ice Bolt](ice-bolt.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/shiver-armor.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shiver Armor](shiver-armor.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/glacial-spike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Glacial Spike](glacial-spike.md)</span>
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 22 at rank 20
 

@@ -1,5 +1,7 @@
 ---
 title: "Combat Masteries"
+icon: guide/nav
+nav_icon: "assets/icons/skill-tree/combat-masteries.webp"
 ---
 
 # ![Combat Masteries](../../../../../assets/icons/skill-tree/combat-masteries.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Combat Masteries
@@ -7,7 +9,7 @@ title: "Combat Masteries"
 **Where to play:** Discord
 { .where-to-play }
 
-A [Warrior](../../../classes/warrior.md) skill tree ([all Warrior skills](../index.md)): every skill at rank 1 and rank 20.
+A <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span> skill tree (<span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[all Warrior skills](../index.md)</span>): every skill at rank 1 and rank 20.
 
 | Skill | Level | Kind | Rank 1 | Rank 20 | Needs |
 |---|---|---|---|---|---|
@@ -19,5 +21,5 @@ A [Warrior](../../../classes/warrior.md) skill tree ([all Warrior skills](../ind
 | ![Spearman](../../../../../assets/icons/skill/warrior/spearman.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Spearman](spearman.md) | 6 | passive | damage bonus 28%, attack rating bonus 40%, critical strike 5% | damage bonus 123%, attack rating bonus 192%, critical strike 81% | a spear or javelin |
 | ![Retaliate](../../../../../assets/icons/skill/warrior/retaliate.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Retaliate](retaliate.md) | 12 | passive | retaliation chance 10% | retaliation chance 67% |  |
 | ![Though Skin](../../../../../assets/icons/skill/warrior/though-skin.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Though Skin](though-skin.md) | 18 | passive | armor bonus 50% | armor bonus 145% |  |
-| ![Critical Kick](../../../../../assets/icons/skill/warrior/critical-kick.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Critical Kick](critical-kick.md) | 24 | passive | critical strike 5% | critical strike 24% | [Retaliate](retaliate.md) |
-| ![Resistance](../../../../../assets/icons/skill/warrior/resistance.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Resistance](resistance.md) | 30 | passive | resistances 2% | resistances 40% | [Though Skin](though-skin.md) |
+| ![Critical Kick](../../../../../assets/icons/skill/warrior/critical-kick.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Critical Kick](critical-kick.md) | 24 | passive | critical strike 5% | critical strike 24% | <span class="gi-m">![](../../../../../assets/icons/skill/warrior/retaliate.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Retaliate](retaliate.md)</span> |
+| ![Resistance](../../../../../assets/icons/skill/warrior/resistance.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Resistance](resistance.md) | 30 | passive | resistances 2% | resistances 40% | <span class="gi-m">![](../../../../../assets/icons/skill/warrior/though-skin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Though Skin](though-skin.md)</span> |

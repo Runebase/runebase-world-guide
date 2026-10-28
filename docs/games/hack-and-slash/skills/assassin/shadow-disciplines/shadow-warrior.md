@@ -1,5 +1,7 @@
 ---
 title: "Shadow Warrior"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/shadow-warrior.webp"
 ---
 
 # ![Shadow Warrior](../../../../../assets/icons/skill/assassin/shadow-warrior.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shadow Warrior
@@ -7,12 +9,12 @@ title: "Shadow Warrior"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a summon
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Weapon Block](weapon-block.md), [Cloak of Shadows](cloak-of-shadows.md)
-- **Opens:** [Shadow Master](shadow-master.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/weapon-block.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Weapon Block](weapon-block.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/assassin/cloak-of-shadows.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cloak of Shadows](cloak-of-shadows.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/shadow-master.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Master](shadow-master.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

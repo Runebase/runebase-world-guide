@@ -1,5 +1,7 @@
 ---
 title: "Chain Lightning"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/chain-lightning.webp"
 ---
 
 # ![Chain Lightning](../../../../../assets/icons/skill/wizard/chain-lightning.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Chain Lightning
@@ -7,12 +9,12 @@ title: "Chain Lightning"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** a chain attack, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Lightning](lightning.md)
-- **Opens:** [Thunder Storm](thunder-storm.md), [Energy Shield](energy-shield.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/lightning.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning](lightning.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/thunder-storm.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Thunder Storm](thunder-storm.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/energy-shield.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Energy Shield](energy-shield.md)</span>
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 22 at rank 20
 

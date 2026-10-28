@@ -1,5 +1,7 @@
 ---
 title: "Battle Cry"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/battle-cry.webp"
 ---
 
 # ![Battle Cry](../../../../../assets/icons/skill/warrior/battle-cry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Battle Cry
@@ -7,12 +9,12 @@ title: "Battle Cry"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a buff
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Strategic Shout](strategic-shout.md)
-- **Opens:** [War Cry](war-cry.md), [Battle Command](battle-command.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Strategic Shout](strategic-shout.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/war-cry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[War Cry](war-cry.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/warrior/battle-command.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Command](battle-command.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

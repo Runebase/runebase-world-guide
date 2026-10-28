@@ -1,5 +1,7 @@
 ---
 title: "Blade Sentinel"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/blade-sentinel.webp"
 ---
 
 # ![Blade Sentinel](../../../../../assets/icons/skill/assassin/blade-sentinel.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Sentinel
@@ -7,12 +9,12 @@ title: "Blade Sentinel"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** an attack, a spell
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Blade Fury](blade-fury.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/blade-fury.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blade Fury](blade-fury.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

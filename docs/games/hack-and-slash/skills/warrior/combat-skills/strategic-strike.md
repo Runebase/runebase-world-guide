@@ -1,5 +1,7 @@
 ---
 title: "Strategic Strike"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/strategic-strike.webp"
 ---
 
 # ![Strategic Strike](../../../../../assets/icons/skill/warrior/strategic-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Strategic Strike
@@ -7,12 +9,12 @@ title: "Strategic Strike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Parry](parry.md)
-- **Opens:** [Cleave](cleave.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/parry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Parry](parry.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/cleave.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cleave](cleave.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

@@ -1,5 +1,7 @@
 ---
 title: "Heart of Wolverine"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/heart-of-wolverine.webp"
 ---
 
 # ![Heart of Wolverine](../../../../../assets/icons/skill/druid/heart-of-wolverine.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Heart of Wolverine
@@ -7,12 +9,12 @@ title: "Heart of Wolverine"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Oak Sage](oak-sage.md)
-- **Opens:** [Spirit of Barbs](spirit-of-barbs.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/oak-sage.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Oak Sage](oak-sage.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/spirit-of-barbs.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Spirit of Barbs](spirit-of-barbs.md)</span>
 - **Weapon:** any
 
 > In the game: Adds lifesteal aura to your Oak Sage

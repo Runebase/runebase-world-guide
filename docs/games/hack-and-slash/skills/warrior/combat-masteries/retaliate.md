@@ -1,5 +1,7 @@
 ---
 title: "Retaliate"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/retaliate.webp"
 ---
 
 # ![Retaliate](../../../../../assets/icons/skill/warrior/retaliate.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Retaliate
@@ -7,12 +9,12 @@ title: "Retaliate"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Masteries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-masteries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Masteries](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 12 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Critical Kick](critical-kick.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/critical-kick.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Critical Kick](critical-kick.md)</span>
 - **Weapon:** any
 
 > In the game: Chance to Kick enemy when receiving non-ranged damage

@@ -1,5 +1,7 @@
 ---
 title: "Premature Bloom"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/premature-bloom.webp"
 ---
 
 # ![Premature Bloom](../../../../assets/icons/crown-skill/premature-bloom.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Premature Bloom
@@ -7,10 +9,10 @@ title: "Premature Bloom"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Offensive skills](index.md) (for attackers: they work when you attack the Crown)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/offensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Offensive skills](index.md)</span> (for attackers: they work when you attack the Crown)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 18
-- **Needs first:** [Doomseed](doomseed.md)
+- **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/doomseed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Doomseed](doomseed.md)</span>
 - **Opens:** no other skill
 
 > In the game: Manipulate the unstable energy of Doomseed, reducing its detonation timer. The bloom comes sooner… and deadlier.
@@ -19,11 +21,11 @@ title: "Premature Bloom"
 
 Takes its rounds off the 15 rounds your seeds wait before they detonate.
 
-Every attack costs one [Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic) and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | rounds to detonation |
 |---|---|

@@ -1,5 +1,7 @@
 ---
 title: "Sacrifice"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/sacrifice.webp"
 ---
 
 # ![Sacrifice](../../../../../assets/icons/skill/paladin/sacrifice.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sacrifice
@@ -7,12 +9,12 @@ title: "Sacrifice"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Zeal](zeal.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/zeal.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Zeal](zeal.md)</span>
 - **Weapon:** any
 
 > In the game: Increased damage at the cost of health, paid when the hit lands.

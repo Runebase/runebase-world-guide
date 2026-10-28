@@ -1,5 +1,7 @@
 ---
 title: "Thorns"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/thorns.webp"
 ---
 
 # ![Thorns](../../../../../assets/icons/skill/paladin/thorns.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Thorns
@@ -7,8 +9,8 @@ title: "Thorns"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill

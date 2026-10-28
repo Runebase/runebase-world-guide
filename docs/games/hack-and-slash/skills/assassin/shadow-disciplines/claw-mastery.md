@@ -1,5 +1,7 @@
 ---
 title: "Claw Mastery"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/claw-mastery.webp"
 ---
 
 # ![Claw Mastery](../../../../../assets/icons/skill/assassin/claw-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Claw Mastery
@@ -7,12 +9,12 @@ title: "Claw Mastery"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Burst of Speed](burst-of-speed.md), [Weapon Block](weapon-block.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/burst-of-speed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Burst of Speed](burst-of-speed.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/assassin/weapon-block.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Weapon Block](weapon-block.md)</span>
 - **Weapon:** [a claw](../../../gear-and-crafting.md#weapons-that-skills-need)
 
 > In the game: Increase combat efficiency with claw-type weapons.

@@ -1,5 +1,7 @@
 ---
 title: "Evade"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/evade.webp"
 ---
 
 # ![Evade](../../../../../assets/icons/skill/hunter/evade.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Evade
@@ -7,12 +9,12 @@ title: "Evade"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Passive and Magic Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/passive-and-magic-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Passive and Magic Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Avoid](avoid.md)
-- **Opens:** [Valkyrie](valkyrie.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/avoid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Avoid](avoid.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/valkyrie.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Valkyrie](valkyrie.md)</span>
 - **Weapon:** any
 
 > In the game: Adds a chance to dodge melee attacks and to avoid missiles.

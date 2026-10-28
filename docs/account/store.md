@@ -8,13 +8,13 @@ The store sells you items for credits and buys them back; the basket holds what 
 
 ## The store
 
-**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the [Crown of Chaos](../games/crown-of-chaos/attacking.md) menu's **Buy [Chaos Relic](../items/keys-and-cards.md#chaos-relic)**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
+**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the [Crown of Chaos](../games/crown-of-chaos/attacking.md) menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
 
 **What the screen shows:** your credits, how many of the item you have, the price to **Buy** one and what **Sell** pays for one (with its percent), the store's own balance and the Crown of Chaos pool.
 
 - **The price on the screen is what you pay**, to the last fraction of a credit: one costs exactly the price shown, several of a fixed-price item exactly the price × the amount (crafting materials: below), and you get exactly the amount. On top of that the game adds **5% of what you pay to the Crown of Chaos pool**; you don't pay it.
-- **Selling pays exactly the amount the screen shows** × how many you sell, and takes exactly that many. Most items sell back for 75% of their price (the [Forgotten Throne Elixir](../items/store-consumables.md#forgotten-throne-elixir) for 2.5%). The **[Trade Post](buildings.md#what-each-building-does)** building adds 0.15% of the price per level (75% becomes 90% at level 100; the elixir's 2.5% becomes 17.5%), and the screen shows it.
-- **The store pays from its own balance**, which grows with every purchase in your server. When it doesn't have enough for your sale, the sale is refused and you keep your items. The [Party Store](buildings.md#what-each-building-does) building gives no store discount.
+- **Selling pays exactly the amount the screen shows** × how many you sell, and takes exactly that many. Most items sell back for 75% of their price (the <span class="gi-m">![](../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../items/store-consumables.md#forgotten-throne-elixir)</span> for 2.5%). The **<span class="gi-m">![](../assets/icons/building/trade-post.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Trade Post](buildings.md#what-each-building-does)</span>** building adds 0.15% of the price per level (75% becomes 90% at level 100; the elixir's 2.5% becomes 17.5%), and the screen shows it.
+- **The store pays from its own balance**, which grows with every purchase in your server. When it doesn't have enough for your sale, the sale is refused and you keep your items. The <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](buildings.md#what-each-building-does)</span> building gives no store discount.
 - **Every purchase and sale is one line** in your credits history, and one in the store's **Purchase History** button: newest first, 25 a page, with how many, the total and the price of one.
 - **When the store says no, only you see why**, and nothing changes: an amount that isn't a whole number above 0, more than your wallet holds, selling more than you have, more than the store has in stock, a full pouch.
 - **At the same moment:** a double click, two devices, or two players after the last one never pay twice, sell twice or get more than the store has: one goes through, the other is told why. A buy or sell box you closed never takes over your next purchase.
@@ -109,10 +109,10 @@ The store sells you items for credits and buys them back; the basket holds what 
 
 ## The basket
 
-`/basket` shows what you gathered and cooked. **[Swordfish Kebabs with Lemon and Rosemary](../items/dishes.md#swordfish-kebabs-with-lemon-and-rosemary)** can be eaten from the basket: each one gives **15 experience**. More than you have, or an amount that isn't a whole number, eats nothing.
+`/basket` shows what you gathered and cooked. **<span class="gi-m">![](../assets/icons/item/swordfish-kebabs-with-lemon-and-rosemary.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Swordfish Kebabs with Lemon and Rosemary](../items/dishes.md#swordfish-kebabs-with-lemon-and-rosemary)</span>** can be eaten from the basket: each one gives **15 experience**. More than you have, or an amount that isn't a whole number, eats nothing.
 
 ## Tips
 
-- Sell what you don't need: most items sell for 75% of their price, more with a Trade Post.
+- Sell what you don't need: most items sell for 75% of their price, more with a <span class="gi-m">![](../assets/icons/building/trade-post.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Trade Post](buildings.md#what-each-building-does)</span>.
 - Buy up to 5 scrap a day: those cost a quarter of the price.
 - Crafting materials are cheapest when the store has many: after a delivery, or after other players sold theirs. Buying the last few is expensive.

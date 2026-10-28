@@ -1,5 +1,7 @@
 ---
 title: "Penetrate"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/penetrate.webp"
 ---
 
 # ![Penetrate](../../../../../assets/icons/skill/hunter/penetrate.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Penetrate
@@ -7,12 +9,12 @@ title: "Penetrate"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Passive and Magic Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/passive-and-magic-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Passive and Magic Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Critical Strike](critical-strike.md)
-- **Opens:** [Pierce](pierce.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/critical-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Critical Strike](critical-strike.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/pierce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pierce](pierce.md)</span>
 - **Weapon:** any
 
 > In the game: Improves attack, increasing your chance to hit.

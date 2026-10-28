@@ -1,5 +1,7 @@
 ---
 title: "Attract"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/attract.webp"
 ---
 
 # ![Attract](../../../../../assets/icons/skill/necromancer/attract.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Attract
@@ -7,11 +9,11 @@ title: "Attract"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Curses](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/curses.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Curses](index.md)</span>
 - **Kind:** a debuff on every monster, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Confuse](confuse.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/confuse.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Confuse](confuse.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

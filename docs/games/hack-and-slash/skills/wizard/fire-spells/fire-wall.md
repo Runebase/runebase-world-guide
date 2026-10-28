@@ -1,5 +1,7 @@
 ---
 title: "Fire Wall"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/fire-wall.webp"
 ---
 
 # ![Fire Wall](../../../../../assets/icons/skill/wizard/fire-wall.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Wall
@@ -7,12 +9,12 @@ title: "Fire Wall"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Fire Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/fire-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Spells](index.md)</span>
 - **Kind:** a debuff on every monster, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Blaze](blaze.md)
-- **Opens:** [Meteor](meteor.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/blaze.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blaze](blaze.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/meteor.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Meteor](meteor.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

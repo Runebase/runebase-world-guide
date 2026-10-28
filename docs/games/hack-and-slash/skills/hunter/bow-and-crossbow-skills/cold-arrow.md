@@ -1,5 +1,7 @@
 ---
 title: "Cold Arrow"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/cold-arrow.webp"
 ---
 
 # ![Cold Arrow](../../../../../assets/icons/skill/hunter/cold-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cold Arrow
@@ -7,12 +9,12 @@ title: "Cold Arrow"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Bow and Crossbow Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/bow-and-crossbow-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bow and Crossbow Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Ice Arrow](ice-arrow.md), [Guided Arrow](guided-arrow.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/ice-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ice Arrow](ice-arrow.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/guided-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Guided Arrow](guided-arrow.md)</span>
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 3 at rank 1, 3 at rank 20
 

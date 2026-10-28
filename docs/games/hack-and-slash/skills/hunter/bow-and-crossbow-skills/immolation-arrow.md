@@ -1,5 +1,7 @@
 ---
 title: "Immolation Arrow"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/immolation-arrow.webp"
 ---
 
 # ![Immolation Arrow](../../../../../assets/icons/skill/hunter/immolation-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Immolation Arrow
@@ -7,11 +9,11 @@ title: "Immolation Arrow"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Bow and Crossbow Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/bow-and-crossbow-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bow and Crossbow Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Exploding Arrow](exploding-arrow.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/exploding-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Exploding Arrow](exploding-arrow.md)</span>
 - **Opens:** no other skill
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 2 at rank 20

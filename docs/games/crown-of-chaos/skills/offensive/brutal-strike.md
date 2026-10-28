@@ -1,5 +1,7 @@
 ---
 title: "Brutal Strike"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/brutal-strike.webp"
 ---
 
 # ![Brutal Strike](../../../../assets/icons/crown-skill/brutal-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Brutal Strike
@@ -7,11 +9,11 @@ title: "Brutal Strike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Offensive skills](index.md) (for attackers: they work when you attack the Crown)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/offensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Offensive skills](index.md)</span> (for attackers: they work when you attack the Crown)
 - **Kind:** an attack skill: you pick it for an attack ([mana and attack skills](../../attacking.md#mana-and-attack-skills))
 - **Learn it from:** your rank 1
 - **Needs first:** no other skill
-- **Opens:** [Blood Rush](blood-rush.md)
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blood Rush](blood-rush.md)</span>
 
 > In the game: Increases Physical Damage
 
@@ -19,11 +21,11 @@ title: "Brutal Strike"
 
 Adds its shown range to your hit (1-4 at rank 1, 20-23 at rank 20) and costs its shown mana once. Without enough mana the attack lands without it and costs no mana.
 
-Every attack costs one [Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic) and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | extra damage | mana |
 |---|---|---|

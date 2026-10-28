@@ -1,5 +1,7 @@
 ---
 title: "Frost Nova"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/frost-nova.webp"
 ---
 
 # ![Frost Nova](../../../../../assets/icons/skill/wizard/frost-nova.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Frost Nova
@@ -7,12 +9,12 @@ title: "Frost Nova"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Cold Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/cold-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cold Spells](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Blizzard](blizzard.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/blizzard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blizzard](blizzard.md)</span>
 - **Weapon:** any
 - **Mana:** 3 at rank 1, 22 at rank 20
 

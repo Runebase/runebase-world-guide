@@ -1,5 +1,7 @@
 ---
 title: "Fried Squirrel with Sawmill Gravy"
+icon: guide/nav
+nav_icon: "assets/icons/item/fried-squirrel-with-sawmill-gravy.webp"
 ---
 
 # ![Fried Squirrel with Sawmill Gravy](../../../assets/icons/item/fried-squirrel-with-sawmill-gravy.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fried Squirrel with Sawmill Gravy
@@ -13,7 +15,7 @@ title: "Fried Squirrel with Sawmill Gravy"
 
 ## Where you get it
 
-Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 [Squirrel](../../../items/ingredients.md#squirrel) + 1 [Sawmill Gravy](../../../items/ingredients.md#sawmill-gravy); swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Fried Squirrel with Sawmill Gravy](../../../items/dishes.md#fried-squirrel-with-sawmill-gravy).
+Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <span class="gi-m">![](../../../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../../../items/ingredients.md#squirrel)</span> + 1 <span class="gi-m">![](../../../assets/icons/item/sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sawmill Gravy](../../../items/ingredients.md#sawmill-gravy)</span>; swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/fried-squirrel-with-sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fried Squirrel with Sawmill Gravy](../../../items/dishes.md#fried-squirrel-with-sawmill-gravy)</span>.
 
 ## Checked in play
 

@@ -1,5 +1,7 @@
 ---
 title: "Charged Strike"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/charged-strike.webp"
 ---
 
 # ![Charged Strike](../../../../../assets/icons/skill/hunter/charged-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Charged Strike
@@ -7,12 +9,12 @@ title: "Charged Strike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Javelin and Spear Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/javelin-and-spear-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Javelin and Spear Skills](index.md)</span>
 - **Kind:** an exploding attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Lightning Bolt](lightning-bolt.md), [Power Strike](power-strike.md)
-- **Opens:** [Lightning Strike](lightning-strike.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/lightning-bolt.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Bolt](lightning-bolt.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/power-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Power Strike](power-strike.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/lightning-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Strike](lightning-strike.md)</span>
 - **Weapon:** [a javelin and a spear or javelin](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 40 at rank 20
 

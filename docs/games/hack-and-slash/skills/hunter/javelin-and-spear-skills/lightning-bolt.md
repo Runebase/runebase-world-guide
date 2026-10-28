@@ -1,5 +1,7 @@
 ---
 title: "Lightning Bolt"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/lightning-bolt.webp"
 ---
 
 # ![Lightning Bolt](../../../../../assets/icons/skill/hunter/lightning-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Bolt
@@ -7,12 +9,12 @@ title: "Lightning Bolt"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Javelin and Spear Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/javelin-and-spear-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Javelin and Spear Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Poison Javelin](poison-javelin.md)
-- **Opens:** [Charged Strike](charged-strike.md), [Plague Javelin](plague-javelin.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/poison-javelin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison Javelin](poison-javelin.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/charged-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Charged Strike](charged-strike.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/plague-javelin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Plague Javelin](plague-javelin.md)</span>
 - **Weapon:** [a javelin and a throwing weapon](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 40 at rank 20
 

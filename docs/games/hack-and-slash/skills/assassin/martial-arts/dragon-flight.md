@@ -1,5 +1,7 @@
 ---
 title: "Dragon Flight"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/dragon-flight.webp"
 ---
 
 # ![Dragon Flight](../../../../../assets/icons/skill/assassin/dragon-flight.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Flight
@@ -7,11 +9,11 @@ title: "Dragon Flight"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Martial Arts](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/martial-arts.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Martial Arts](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Dragon Tail](dragon-tail.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/dragon-tail.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Dragon Tail](dragon-tail.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

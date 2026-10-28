@@ -1,5 +1,7 @@
 ---
 title: "Spirit of Barbs"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/spirit-of-barbs.webp"
 ---
 
 # ![Spirit of Barbs](../../../../../assets/icons/skill/druid/spirit-of-barbs.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Spirit of Barbs
@@ -7,11 +9,11 @@ title: "Spirit of Barbs"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Heart of Wolverine](heart-of-wolverine.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/heart-of-wolverine.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heart of Wolverine](heart-of-wolverine.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

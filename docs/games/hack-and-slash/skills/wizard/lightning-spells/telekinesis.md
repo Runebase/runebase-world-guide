@@ -1,5 +1,7 @@
 ---
 title: "Telekinesis"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/telekinesis.webp"
 ---
 
 # ![Telekinesis](../../../../../assets/icons/skill/wizard/telekinesis.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Telekinesis
@@ -7,12 +9,12 @@ title: "Telekinesis"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Teleport](teleport.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/teleport.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Teleport](teleport.md)</span>
 - **Weapon:** any
 
 > In the game: Increase Mana %

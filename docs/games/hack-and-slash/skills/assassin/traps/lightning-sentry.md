@@ -1,5 +1,7 @@
 ---
 title: "Lightning Sentry"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/lightning-sentry.webp"
 ---
 
 # ![Lightning Sentry](../../../../../assets/icons/skill/assassin/lightning-sentry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Sentry
@@ -7,12 +9,12 @@ title: "Lightning Sentry"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Charged Bolt Sentry](charged-bolt-sentry.md)
-- **Opens:** [Death Sentry](death-sentry.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/charged-bolt-sentry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Charged Bolt Sentry](charged-bolt-sentry.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/death-sentry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Death Sentry](death-sentry.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

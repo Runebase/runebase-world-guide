@@ -1,5 +1,7 @@
 ---
 title: "Shock Web"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/shock-web.webp"
 ---
 
 # ![Shock Web](../../../../../assets/icons/skill/assassin/shock-web.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shock Web
@@ -7,12 +9,12 @@ title: "Shock Web"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Fire Blast](fire-blast.md)
-- **Opens:** [Charged Bolt Sentry](charged-bolt-sentry.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/fire-blast.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Blast](fire-blast.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/charged-bolt-sentry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Charged Bolt Sentry](charged-bolt-sentry.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

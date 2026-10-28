@@ -1,5 +1,7 @@
 ---
 title: "Fend"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/fend.webp"
 ---
 
 # ![Fend](../../../../../assets/icons/skill/hunter/fend.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fend
@@ -7,11 +9,11 @@ title: "Fend"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Javelin and Spear Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/javelin-and-spear-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Javelin and Spear Skills](index.md)</span>
 - **Kind:** an area attack
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Impale](impale.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/impale.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Impale](impale.md)</span>
 - **Opens:** no other skill
 - **Weapon:** [a javelin and a spear or javelin](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 40 at rank 20

@@ -119,7 +119,7 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 ## The kennel
 
-The **Pet Kennel** building holds as many pets as its level ([Buildings](buildings.md)). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.
+The **<span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span>** building holds as many pets as its level ([Buildings](buildings.md)). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.
 
 ## Tips
 

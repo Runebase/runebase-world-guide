@@ -1,5 +1,7 @@
 ---
 title: "Summon Grizzly"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/summon-grizzly.webp"
 ---
 
 # ![Summon Grizzly](../../../../../assets/icons/skill/druid/summon-grizzly.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Grizzly
@@ -7,11 +9,11 @@ title: "Summon Grizzly"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Summon Dire Wolf](summon-dire-wolf.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/summon-dire-wolf.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Dire Wolf](summon-dire-wolf.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

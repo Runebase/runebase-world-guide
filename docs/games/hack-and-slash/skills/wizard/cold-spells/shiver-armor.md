@@ -1,5 +1,7 @@
 ---
 title: "Shiver Armor"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/shiver-armor.webp"
 ---
 
 # ![Shiver Armor](../../../../../assets/icons/skill/wizard/shiver-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shiver Armor
@@ -7,12 +9,12 @@ title: "Shiver Armor"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Cold Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/cold-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cold Spells](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Frozen Armor](frozen-armor.md), [Ice Blast](ice-blast.md)
-- **Opens:** [Chilling Armor](chilling-armor.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/frozen-armor.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Frozen Armor](frozen-armor.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/ice-blast.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ice Blast](ice-blast.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/chilling-armor.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chilling Armor](chilling-armor.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

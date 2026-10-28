@@ -1,5 +1,7 @@
 ---
 title: "Radiant Counter"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/radiant-counter.webp"
 ---
 
 # ![Radiant Counter](../../../../../assets/icons/skill/paladin/radiant-counter.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Radiant Counter
@@ -7,12 +9,12 @@ title: "Radiant Counter"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Radiant Reflection](radiant-reflection.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/radiant-reflection.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Radiant Reflection](radiant-reflection.md)</span>
 - **Weapon:** [a shield](../../../gear-and-crafting.md#weapons-that-skills-need)
 
 > In the game: Chance % to retaliate with Smite Damage (Shield)

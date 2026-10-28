@@ -1,5 +1,7 @@
 ---
 title: "Blessed Hammer"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/blessed-hammer.webp"
 ---
 
 # ![Blessed Hammer](../../../../../assets/icons/skill/paladin/blessed-hammer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blessed Hammer
@@ -7,12 +9,12 @@ title: "Blessed Hammer"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** a chain attack, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Holy Bolt](holy-bolt.md)
-- **Opens:** [Holy Shield](holy-shield.md), [Fist of the Heavens](fist-of-the-heavens.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-bolt.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Bolt](holy-bolt.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-shield.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Shield](holy-shield.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/fist-of-the-heavens.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fist of the Heavens](fist-of-the-heavens.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

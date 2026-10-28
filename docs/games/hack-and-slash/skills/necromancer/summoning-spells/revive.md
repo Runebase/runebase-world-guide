@@ -1,5 +1,7 @@
 ---
 title: "Revive"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/revive.webp"
 ---
 
 # ![Revive](../../../../../assets/icons/skill/necromancer/revive.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Revive
@@ -7,11 +9,11 @@ title: "Revive"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Summoning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Spells](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Iron Golem](iron-golem.md), [Raise Skeletal Mage](raise-skeletal-mage.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/iron-golem.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Golem](iron-golem.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/raise-skeletal-mage.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Raise Skeletal Mage](raise-skeletal-mage.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20

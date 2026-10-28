@@ -1,5 +1,7 @@
 ---
 title: "Critical Throw"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/critical-throw.webp"
 ---
 
 # ![Critical Throw](../../../../../assets/icons/skill/warrior/critical-throw.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Critical Throw
@@ -7,11 +9,11 @@ title: "Critical Throw"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Double Throw](double-throw.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/double-throw.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Double Throw](double-throw.md)</span>
 - **Opens:** no other skill
 - **Weapon:** [a throwing weapon](../../../gear-and-crafting.md#weapons-that-skills-need)
 

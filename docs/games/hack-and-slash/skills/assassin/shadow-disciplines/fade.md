@@ -1,5 +1,7 @@
 ---
 title: "Fade"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/fade.webp"
 ---
 
 # ![Fade](../../../../../assets/icons/skill/assassin/fade.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fade
@@ -7,12 +9,12 @@ title: "Fade"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Shadow Disciplines](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shadow-disciplines.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shadow Disciplines](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Burst of Speed](burst-of-speed.md)
-- **Opens:** [Venom](venom.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/burst-of-speed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Burst of Speed](burst-of-speed.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/venom.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Venom](venom.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

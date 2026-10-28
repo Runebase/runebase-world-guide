@@ -44,17 +44,17 @@ Each looks for one kind of scrap:
 
 | Expedition | Finds, chance each second | Longer with | Better odds with |
 |---|---|---|---|
-| Deep Excavation | 1 [Metal Scrap](../items/materials.md#metal-scrap) 8% | [Iron Mine](../account/buildings.md#what-each-building-does) (+1 second per energy per level) | Mining Pick |
-| Woodland Logging Expedition | 1 [Wood Scrap](../items/materials.md#wood-scrap) 8% | [Lumber Yard](../account/buildings.md#what-each-building-does) (+1 second per energy per level) | Wood Axe |
-| Nature Expedition | 1 [Leather Scrap](../items/materials.md#leather-scrap) 8% | [Tannery](../account/buildings.md#what-each-building-does) (+1 second per energy per level) | Skinning Knife |
+| Deep Excavation | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) 8% | <span class="gi-m">![](../assets/icons/building/iron-mine.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Mine](../account/buildings.md#what-each-building-does)</span> (+1 second per energy per level) | Mining Pick |
+| Woodland Logging Expedition | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) 8% | <span class="gi-m">![](../assets/icons/building/lumber-yard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lumber Yard](../account/buildings.md#what-each-building-does)</span> (+1 second per energy per level) | Wood Axe |
+| Nature Expedition | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) 8% | <span class="gi-m">![](../assets/icons/building/tannery.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Tannery](../account/buildings.md#what-each-building-does)</span> (+1 second per energy per level) | Skinning Knife |
 
-- Each energy of an expedition lasts **10 seconds plus the level of its resource building** (Iron Mine for Deep Excavation, Lumber Yard for Woodland Logging, Tannery for Nature Expedition): with Iron Mine level 2, one energy of Deep Excavation is 12 seconds, 12 rolls.
+- Each energy of an expedition lasts **10 seconds plus the level of its resource building** (<span class="gi-m">![](../assets/icons/building/iron-mine.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Mine](../account/buildings.md#what-each-building-does)</span> for Deep Excavation, <span class="gi-m">![](../assets/icons/building/lumber-yard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lumber Yard](../account/buildings.md#what-each-building-does)</span> for Woodland Logging, <span class="gi-m">![](../assets/icons/building/tannery.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Tannery](../account/buildings.md#what-each-building-does)</span> for Nature Expedition): with Iron Mine level 2, one energy of Deep Excavation is 12 seconds, 12 rolls.
 - The expedition menu shows each expedition's time for the energy you pick and its scrap chance (with your utility and pet), the way the trip then uses them. **Expedition Secondary Loot Info** lists the extra prizes.
 - Credits from an expedition go straight into your wallet.
 
 ## Utilities: Wood Axe, Skinning Knife, Mining Pick
 
-Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding its scrap: on its expedition (Mining Pick on Deep Excavation, Wood Axe on Woodland Logging, Skinning Knife on Nature Expedition), in fishing's extra prizes (Mining Pick for [Metal Scrap](../items/materials.md#metal-scrap), Wood Axe for [Wood Scrap](../items/materials.md#wood-scrap)), in hunting's (Skinning Knife for [Leather Scrap](../items/materials.md#leather-scrap)), and in the other prize tables that have that scrap (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need.
+Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding its scrap: on its expedition (<span class="gi-m">⛏️&nbsp;[Mining Pick](#utilities-wood-axe-skinning-knife-mining-pick)</span> on Deep Excavation, <span class="gi-m">🪓&nbsp;[Wood Axe](#utilities-wood-axe-skinning-knife-mining-pick)</span> on Woodland Logging, <span class="gi-m">🔪&nbsp;[Skinning Knife](#utilities-wood-axe-skinning-knife-mining-pick)</span> on Nature Expedition), in fishing's extra prizes (Mining Pick for <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials.md#metal-scrap)</span>, Wood Axe for <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../items/materials.md#wood-scrap)</span>), in hunting's (Skinning Knife for <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials.md#leather-scrap)</span>), and in the other prize tables that have that scrap (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need.
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -66,9 +66,9 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 | Buff | Where it comes from | Used by |
 |---|---|---|
-| ![Braised Rabbit with Mustard Cream Sauce](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce) | cooked: 2 [Rabbit](../items/ingredients.md#rabbit) + 2 [Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce) | expeditions |
+| ![Braised Rabbit with Mustard Cream Sauce](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce) | cooked: 2 <span class="gi-m">![](../assets/icons/item/rabbit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rabbit](../items/ingredients.md#rabbit)</span> + 2 <span class="gi-m">![](../assets/icons/item/mustard-cream-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce)</span> | expeditions |
 
-- **[Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce):** eat it in **Expeditions** → **Expedition Buffs**. Each one is a charge that adds **2 seconds** to one energy of an expedition: an expedition uses **one charge per energy**. Fishing and hunting never use them.
+- **<span class="gi-m">![](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce)</span>:** eat it in **Expeditions** → **Expedition Buffs**. Each one is a charge that adds **2 seconds** to one energy of an expedition: an expedition uses **one charge per energy**. Fishing and hunting never use them.
 - The expedition menu shows the buffs you have and the trip time they give.
 
 ## Pets
@@ -79,11 +79,11 @@ Your active pet helps while it's **awake** and cared for (see [Pets](../account/
 
 All in [Buildings](../account/buildings.md):
 
-- **[Expedition Command Center](../account/buildings.md#what-each-building-does)**: +1 expedition energy a day per level.
+- **<span class="gi-m">![](../assets/icons/building/expedition-command-center.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Expedition Command Center](../account/buildings.md#what-each-building-does)</span>**: +1 expedition energy a day per level.
 - **[Lumber Yard, Iron Mine, Tannery](../account/buildings.md#resource-buildings)**: +1 second per energy on their expedition, per level.
-- **[Arcane Reliquary](../account/buildings.md#what-each-building-does)**: the expeditions' crafting materials are 0.25% (of their own chance) likelier per level.
+- **<span class="gi-m">![](../assets/icons/building/arcane-reliquary.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Arcane Reliquary](../account/buildings.md#what-each-building-does)</span>**: the expeditions' crafting materials are 0.25% (of their own chance) likelier per level.
 
-Everything adds up once: a utility, a pet perk, the resource building, the Command Center and Braised Rabbit on one expedition each count exactly once.
+Everything adds up once: a utility, a pet perk, the resource building, the Command Center and <span class="gi-m">![](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Braised Rabbit](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce)</span> on one expedition each count exactly once.
 
 ## Extra prizes, every second
 
@@ -113,4 +113,4 @@ Without utilities, pets or buildings. Each second rolls once on this table, whic
 ## Tips
 
 - Spend the day's energy before 00:00 UTC: the refill doesn't carry leftovers over.
-- Braised Rabbit is used one per energy: a 10-energy expedition uses 10.
+- <span class="gi-m">![](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Braised Rabbit](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce)</span> is used one per energy: a 10-energy expedition uses 10.

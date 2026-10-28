@@ -1,5 +1,7 @@
 ---
 title: "Mackerel and Smoked Paprika"
+icon: guide/nav
+nav_icon: "assets/icons/item/mackerel-and-smoked-paprika.webp"
 ---
 
 # ![Mackerel and Smoked Paprika](../../../assets/icons/item/mackerel-and-smoked-paprika.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mackerel and Smoked Paprika
@@ -13,7 +15,7 @@ title: "Mackerel and Smoked Paprika"
 
 ## Where you get it
 
-Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 [Mackerel](../../../items/ingredients.md#mackerel) + 4 [Smoked Paprika](../../../items/ingredients.md#smoked-paprika); swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Mackerel and Smoked Paprika](../../../items/dishes.md#mackerel-and-smoked-paprika).
+Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <span class="gi-m">![](../../../assets/icons/item/mackerel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mackerel](../../../items/ingredients.md#mackerel)</span> + 4 <span class="gi-m">![](../../../assets/icons/item/smoked-paprika.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Smoked Paprika](../../../items/ingredients.md#smoked-paprika)</span>; swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/mackerel-and-smoked-paprika.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mackerel and Smoked Paprika](../../../items/dishes.md#mackerel-and-smoked-paprika)</span>.
 
 ## Checked in play
 

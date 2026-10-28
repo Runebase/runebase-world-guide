@@ -1,5 +1,7 @@
 ---
 title: "Stun"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/stun.webp"
 ---
 
 # ![Stun](../../../../../assets/icons/skill/warrior/stun.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Stun
@@ -7,12 +9,12 @@ title: "Stun"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Bonk](bonk.md)
-- **Opens:** [Wound](wound.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/bonk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bonk](bonk.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/wound.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wound](wound.md)</span>
 - **Weapon:** any
 
 > In the game: Chance to Stun enemies & increased attack damage

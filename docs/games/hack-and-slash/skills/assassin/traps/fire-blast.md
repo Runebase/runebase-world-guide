@@ -1,5 +1,7 @@
 ---
 title: "Fire Blast"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/fire-blast.webp"
 ---
 
 # ![Fire Blast](../../../../../assets/icons/skill/assassin/fire-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Blast
@@ -7,12 +9,12 @@ title: "Fire Blast"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** an exploding attack, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Shock Web](shock-web.md), [Wake of Fire](wake-of-fire.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/shock-web.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shock Web](shock-web.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/assassin/wake-of-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wake of Fire](wake-of-fire.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

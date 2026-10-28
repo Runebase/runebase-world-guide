@@ -7,8 +7,8 @@ title: "Tempest Bind"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Elemental Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/elemental-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elemental Skills](index.md)</span>
 - **Kind:** a debuff, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill

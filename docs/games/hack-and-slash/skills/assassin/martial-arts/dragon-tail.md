@@ -1,5 +1,7 @@
 ---
 title: "Dragon Tail"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/dragon-tail.webp"
 ---
 
 # ![Dragon Tail](../../../../../assets/icons/skill/assassin/dragon-tail.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Tail
@@ -7,12 +9,12 @@ title: "Dragon Tail"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Martial Arts](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/martial-arts.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Martial Arts](index.md)</span>
 - **Kind:** a chain attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Dragon Claw](dragon-claw.md)
-- **Opens:** [Dragon Flight](dragon-flight.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/dragon-claw.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Dragon Claw](dragon-claw.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/dragon-flight.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Dragon Flight](dragon-flight.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

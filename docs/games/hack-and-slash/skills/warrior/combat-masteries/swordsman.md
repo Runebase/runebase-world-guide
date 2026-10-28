@@ -1,5 +1,7 @@
 ---
 title: "Swordsman"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/swordsman.webp"
 ---
 
 # ![Swordsman](../../../../../assets/icons/skill/warrior/swordsman.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Swordsman
@@ -7,8 +9,8 @@ title: "Swordsman"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Masteries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-masteries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Masteries](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill

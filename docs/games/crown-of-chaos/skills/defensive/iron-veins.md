@@ -1,5 +1,7 @@
 ---
 title: "Iron Veins"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/iron-veins.webp"
 ---
 
 # ![Iron Veins](../../../../assets/icons/crown-skill/iron-veins.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Iron Veins
@@ -7,11 +9,11 @@ title: "Iron Veins"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Defensive skills](index.md) (for the Crown: they work while you hold it)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/defensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Defensive skills](index.md)</span> (for the Crown: they work while you hold it)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 6
-- **Needs first:** [Throne of Endurance](throne-of-endurance.md)
-- **Opens:** [Hemostasis](hemostasis.md)
+- **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/throne-of-endurance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Throne of Endurance](throne-of-endurance.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](hemostasis.md)</span>
 
 > In the game: Damage reduction for bleeding effects
 
@@ -23,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | bleed damage |
 |---|---|

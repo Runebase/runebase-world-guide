@@ -1,5 +1,7 @@
 ---
 title: "Claws of Thunder"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/claws-of-thunder.webp"
 ---
 
 # ![Claws of Thunder](../../../../../assets/icons/skill/assassin/claws-of-thunder.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Claws of Thunder
@@ -7,12 +9,12 @@ title: "Claws of Thunder"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Martial Arts](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/martial-arts.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Martial Arts](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Fists of Fire](fists-of-fire.md)
-- **Opens:** [Blades of Ice](blades-of-ice.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/fists-of-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fists of Fire](fists-of-fire.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/blades-of-ice.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blades of Ice](blades-of-ice.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

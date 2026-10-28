@@ -1,5 +1,7 @@
 ---
 title: "Iron Golem"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/iron-golem.webp"
 ---
 
 # ![Iron Golem](../../../../../assets/icons/skill/necromancer/iron-golem.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Iron Golem
@@ -7,12 +9,12 @@ title: "Iron Golem"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Summoning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Spells](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Blood Golem](blood-golem.md)
-- **Opens:** [Fire Golem](fire-golem.md), [Revive](revive.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/blood-golem.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blood Golem](blood-golem.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/fire-golem.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Golem](fire-golem.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/revive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Revive](revive.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

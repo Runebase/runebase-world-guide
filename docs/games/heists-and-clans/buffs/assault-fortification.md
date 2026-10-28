@@ -13,7 +13,7 @@ title: "Assault Fortification"
 
 ## Where you get it
 
-The [Gain Assault Fortification (100% Block Buff) attack](../attacks-and-defence/gain-assault-fortification.md) and the gear [Einherjar's Rejuvenating Cuirass](../gear/einherjars-rejuvenating-cuirass.md), [Einherjar's Wrathful Loop](../gear/einherjars-wrathful-loop.md) give a chance to earn one charge each heist; pets can too.
+The [Gain Assault Fortification (100% Block Buff) attack](../attacks-and-defence/gain-assault-fortification.md) and the gear <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-rejuvenating-cuirass.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Rejuvenating Cuirass](../gear/einherjars-rejuvenating-cuirass.md)</span>, <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-wrathful-loop.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Wrathful Loop](../gear/einherjars-wrathful-loop.md)</span> give a chance to earn one charge each heist; pets can too.
 
 ## Checked in play
 

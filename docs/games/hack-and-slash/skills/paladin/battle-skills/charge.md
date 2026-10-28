@@ -1,5 +1,7 @@
 ---
 title: "Charge"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/charge.webp"
 ---
 
 # ![Charge](../../../../../assets/icons/skill/paladin/charge.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Charge
@@ -7,12 +9,12 @@ title: "Charge"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** an exploding attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Smite](smite.md)
-- **Opens:** [Holy Shield](holy-shield.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/smite.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Smite](smite.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-shield.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Shield](holy-shield.md)</span>
 - **Weapon:** [a shield](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 40 at rank 20
 

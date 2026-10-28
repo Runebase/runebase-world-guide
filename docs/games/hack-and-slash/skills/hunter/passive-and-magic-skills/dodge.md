@@ -1,5 +1,7 @@
 ---
 title: "Dodge"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/dodge.webp"
 ---
 
 # ![Dodge](../../../../../assets/icons/skill/hunter/dodge.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dodge
@@ -7,12 +9,12 @@ title: "Dodge"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Passive and Magic Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/passive-and-magic-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Passive and Magic Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Avoid](avoid.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/avoid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Avoid](avoid.md)</span>
 - **Weapon:** any
 
 > In the game: Grants a chance to dodge melee attacks.

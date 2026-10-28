@@ -1,5 +1,7 @@
 ---
 title: "Raise Skeletal Mage"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/raise-skeletal-mage.webp"
 ---
 
 # ![Raise Skeletal Mage](../../../../../assets/icons/skill/necromancer/raise-skeletal-mage.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Raise Skeletal Mage
@@ -7,12 +9,12 @@ title: "Raise Skeletal Mage"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Summoning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Spells](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Raise Skeleton](raise-skeleton.md)
-- **Opens:** [Revive](revive.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/raise-skeleton.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Raise Skeleton](raise-skeleton.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/revive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Revive](revive.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

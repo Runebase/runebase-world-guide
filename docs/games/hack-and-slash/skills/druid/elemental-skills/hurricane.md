@@ -1,5 +1,7 @@
 ---
 title: "Hurricane"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/hurricane.webp"
 ---
 
 # ![Hurricane](../../../../../assets/icons/skill/druid/hurricane.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Hurricane
@@ -7,12 +9,12 @@ title: "Hurricane"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Elemental Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/elemental-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elemental Skills](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Tornado](tornado.md)
-- **Opens:** [Armageddon](armageddon.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/tornado.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Tornado](tornado.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/armageddon.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Armageddon](armageddon.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

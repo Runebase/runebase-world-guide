@@ -1,5 +1,7 @@
 ---
 title: "Healing Hit"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/healing-hit.webp"
 ---
 
 # ![Healing Hit](../../../../../assets/icons/skill/warrior/healing-hit.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Healing Hit
@@ -7,11 +9,11 @@ title: "Healing Hit"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Critical Hit](critical-hit.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/critical-hit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Critical Hit](critical-hit.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

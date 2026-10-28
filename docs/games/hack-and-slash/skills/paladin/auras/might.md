@@ -1,5 +1,7 @@
 ---
 title: "Might"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/might.webp"
 ---
 
 # ![Might](../../../../../assets/icons/skill/paladin/might.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Might
@@ -7,12 +9,12 @@ title: "Might"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Holy Fire](holy-fire.md), [Blessed Aim](blessed-aim.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Fire](holy-fire.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/blessed-aim.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blessed Aim](blessed-aim.md)</span>
 - **Weapon:** any
 
 > In the game: Increase physical damage dealt by the Paladin and his allies.

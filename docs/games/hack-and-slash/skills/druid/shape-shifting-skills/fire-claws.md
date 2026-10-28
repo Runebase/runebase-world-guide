@@ -1,5 +1,7 @@
 ---
 title: "Fire Claws"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/fire-claws.webp"
 ---
 
 # ![Fire Claws](../../../../../assets/icons/skill/druid/fire-claws.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Claws
@@ -7,12 +9,12 @@ title: "Fire Claws"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** an exploding attack
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Feral Rage](feral-rage.md), [Maul](maul.md)
-- **Opens:** [Hunger](hunger.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/feral-rage.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Feral Rage](feral-rage.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Maul](maul.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/hunger.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunger](hunger.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

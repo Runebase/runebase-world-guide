@@ -1,5 +1,7 @@
 ---
 title: "Fire Ball"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/fire-ball.webp"
 ---
 
 # ![Fire Ball](../../../../../assets/icons/skill/wizard/fire-ball.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Ball
@@ -7,12 +9,12 @@ title: "Fire Ball"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Fire Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/fire-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Spells](index.md)</span>
 - **Kind:** an exploding attack, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Fire Bolt](fire-bolt.md)
-- **Opens:** [Enchant](enchant.md), [Meteor](meteor.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/fire-bolt.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Bolt](fire-bolt.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/enchant.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Enchant](enchant.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/meteor.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Meteor](meteor.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

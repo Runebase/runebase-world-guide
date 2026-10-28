@@ -1,5 +1,7 @@
 ---
 title: "Freezing Arrow"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/freezing-arrow.webp"
 ---
 
 # ![Freezing Arrow](../../../../../assets/icons/skill/hunter/freezing-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Freezing Arrow
@@ -7,11 +9,11 @@ title: "Freezing Arrow"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Bow and Crossbow Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/bow-and-crossbow-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bow and Crossbow Skills](index.md)</span>
 - **Kind:** an exploding attack
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Guided Arrow](guided-arrow.md), [Ice Arrow](ice-arrow.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/guided-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Guided Arrow](guided-arrow.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/hunter/ice-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ice Arrow](ice-arrow.md)</span>
 - **Opens:** no other skill
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 3 at rank 1, 3 at rank 20

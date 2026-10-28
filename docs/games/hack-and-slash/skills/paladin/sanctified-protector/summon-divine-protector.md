@@ -1,5 +1,7 @@
 ---
 title: "Summon Divine Protector"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/summon-divine-protector.webp"
 ---
 
 # ![Summon Divine Protector](../../../../../assets/icons/skill/paladin/summon-divine-protector.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Divine Protector
@@ -7,12 +9,12 @@ title: "Summon Divine Protector"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Sanctified Protector](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Protector](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Defiance](defiance.md), [Heal](heal.md)
-- **Opens:** [Sanctified Divine Ward](sanctified-divine-ward.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/defiance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Defiance](defiance.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heal](heal.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/sanctified-divine-ward.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sanctified Divine Ward](sanctified-divine-ward.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

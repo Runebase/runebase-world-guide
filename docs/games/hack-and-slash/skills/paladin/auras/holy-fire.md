@@ -1,5 +1,7 @@
 ---
 title: "Holy Fire"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/holy-fire.webp"
 ---
 
 # ![Holy Fire](../../../../../assets/icons/skill/paladin/holy-fire.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Fire
@@ -7,12 +9,12 @@ title: "Holy Fire"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura, a spell
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Might](might.md)
-- **Opens:** [Holy Freeze](holy-freeze.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/might.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Might](might.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-freeze.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Freeze](holy-freeze.md)</span>
 - **Weapon:** any
 
 > In the game: Deal Fire Damage to all units after round

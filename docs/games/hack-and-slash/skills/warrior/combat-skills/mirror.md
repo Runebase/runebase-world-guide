@@ -1,5 +1,7 @@
 ---
 title: "Mirror"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/mirror.webp"
 ---
 
 # ![Mirror](../../../../../assets/icons/skill/warrior/mirror.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mirror
@@ -7,8 +9,8 @@ title: "Mirror"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Skills](index.md)</span>
 - **Kind:** a summon
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill

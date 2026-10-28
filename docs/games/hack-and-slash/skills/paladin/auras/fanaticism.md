@@ -1,5 +1,7 @@
 ---
 title: "Fanaticism"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/fanaticism.webp"
 ---
 
 # ![Fanaticism](../../../../../assets/icons/skill/paladin/fanaticism.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fanaticism
@@ -7,11 +9,11 @@ title: "Fanaticism"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Concentration](concentration.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/concentration.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Concentration](concentration.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

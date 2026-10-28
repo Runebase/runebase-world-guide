@@ -1,5 +1,7 @@
 ---
 title: "Raise Skeleton"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/raise-skeleton.webp"
 ---
 
 # ![Raise Skeleton](../../../../../assets/icons/skill/necromancer/raise-skeleton.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Raise Skeleton
@@ -7,12 +9,12 @@ title: "Raise Skeleton"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Summoning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Spells](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Skeleton Mastery](skeleton-mastery.md), [Raise Skeletal Mage](raise-skeletal-mage.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/skeleton-mastery.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skeleton Mastery](skeleton-mastery.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/raise-skeletal-mage.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Raise Skeletal Mage](raise-skeletal-mage.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

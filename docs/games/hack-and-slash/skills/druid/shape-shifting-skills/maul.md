@@ -1,5 +1,7 @@
 ---
 title: "Maul"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/maul.webp"
 ---
 
 # ![Maul](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Maul
@@ -7,12 +9,12 @@ title: "Maul"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** an area attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Werebear](werebear.md)
-- **Opens:** [Fire Claws](fire-claws.md), [Shock Wave](shock-wave.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/werebear.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Werebear](werebear.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/fire-claws.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Claws](fire-claws.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/druid/shock-wave.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shock Wave](shock-wave.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

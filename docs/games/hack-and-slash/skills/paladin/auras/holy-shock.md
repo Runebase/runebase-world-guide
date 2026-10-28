@@ -1,5 +1,7 @@
 ---
 title: "Holy Shock"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/holy-shock.webp"
 ---
 
 # ![Holy Shock](../../../../../assets/icons/skill/paladin/holy-shock.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Shock
@@ -7,11 +9,11 @@ title: "Holy Shock"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Auras](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/auras.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Auras](index.md)</span>
 - **Kind:** an aura, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Holy Freeze](holy-freeze.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/holy-freeze.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Holy Freeze](holy-freeze.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 

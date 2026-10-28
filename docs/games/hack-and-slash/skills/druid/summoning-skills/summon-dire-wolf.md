@@ -1,5 +1,7 @@
 ---
 title: "Summon Dire Wolf"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/summon-dire-wolf.webp"
 ---
 
 # ![Summon Dire Wolf](../../../../../assets/icons/skill/druid/summon-dire-wolf.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Dire Wolf
@@ -7,12 +9,12 @@ title: "Summon Dire Wolf"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Oak Sage](oak-sage.md), [Summon Spirit Wolf](summon-spirit-wolf.md)
-- **Opens:** [Summon Grizzly](summon-grizzly.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/oak-sage.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Oak Sage](oak-sage.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/druid/summon-spirit-wolf.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Spirit Wolf](summon-spirit-wolf.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/summon-grizzly.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Grizzly](summon-grizzly.md)</span>
 - **Weapon:** any
 
 > In the game: Increases life, rounds, pierce and physical damage of spirit wolf

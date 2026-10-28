@@ -1,5 +1,7 @@
 ---
 title: "Bone Armor"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/bone-armor.webp"
 ---
 
 # ![Bone Armor](../../../../../assets/icons/skill/necromancer/bone-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Armor
@@ -7,12 +9,12 @@ title: "Bone Armor"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Poison and Bone Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/poison-and-bone-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison and Bone Spells](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 1 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Bone Wall](bone-wall.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/bone-wall.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bone Wall](bone-wall.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

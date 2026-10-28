@@ -1,5 +1,7 @@
 ---
 title: "Grip of Stability"
+icon: guide/nav
+nav_icon: "assets/icons/crown-skill/grip-of-stability.webp"
 ---
 
 # ![Grip of Stability](../../../../assets/icons/crown-skill/grip-of-stability.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Grip of Stability
@@ -7,11 +9,11 @@ title: "Grip of Stability"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Tree:** [Defensive skills](index.md) (for the Crown: they work while you hold it)
+- **Tree:** <span class="gi-m">![](../../../../assets/icons/crown-tree/defensive.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Defensive skills](index.md)</span> (for the Crown: they work while you hold it)
 - **Kind:** passive: always on
 - **Learn it from:** your rank 6
-- **Needs first:** [Veil of Shadows](veil-of-shadows.md)
-- **Opens:** [Grip of Greed](grip-of-greed.md)
+- **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/veil-of-shadows.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Veil of Shadows](veil-of-shadows.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../assets/icons/crown-skill/grip-of-greed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grip of Greed](grip-of-greed.md)</span>
 
 > In the game: Decrease chance to dropping tax CreditPiles each round
 
@@ -23,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a [Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir) resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | tax pile chance on a round |
 |---|---|

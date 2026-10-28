@@ -16,25 +16,25 @@ Piles of credits, treasure keys, scrap and building supplies appear in the serve
 - **Credit piles** are shared: each collector gets their share. Answering the captcha wrong, or collecting twice, pays nothing.
 - A pile has a limited number of slots: when more players answer than there are slots, only the first ones are paid, and the others are told.
 - When a credit pile expires, its unclaimed share goes to the **Crown of Chaos** pool.
-- **Nail piles** come every hour: each of their players gets the same number of Nails (3 to 9, set when the pile appears) and 2 experience.
+- **Nail piles** come every hour: each of their players gets the same number of <span class="gi-m">![](../assets/icons/item/nail.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Nails](../items/materials.md#nail)</span> (3 to 9, set when the pile appears) and 2 experience.
 
 When they come, how long they stay and what they hold:
 
 | Pile | Scheduled | Appears | Open for | Players | Each player gets |
 |---|---|---|---|---|---|
-| Bronze Key | every 15 minutes | a random moment up to 15 minutes later | 3 minutes | 2 | 1 [Bronze Key](../items/keys-and-cards.md#bronze-key) |
-| Silver Key | every 30 minutes | a random moment up to 30 minutes later | 3 minutes | 2 | 1 [Silver Key](../items/keys-and-cards.md#silver-key) |
-| Gold Key | every hour | a random moment up to 1 hour later | 3 minutes | 2 | 1 [Gold Key](../items/keys-and-cards.md#gold-key) |
+| Bronze Key | every 15 minutes | a random moment up to 15 minutes later | 3 minutes | 2 | 1 <span class="gi-m">![](../assets/icons/item/bronze-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bronze Key](../items/keys-and-cards.md#bronze-key)</span> |
+| Silver Key | every 30 minutes | a random moment up to 30 minutes later | 3 minutes | 2 | 1 <span class="gi-m">![](../assets/icons/item/silver-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silver Key](../items/keys-and-cards.md#silver-key)</span> |
+| Gold Key | every hour | a random moment up to 1 hour later | 3 minutes | 2 | 1 <span class="gi-m">![](../assets/icons/item/gold-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gold Key](../items/keys-and-cards.md#gold-key)</span> |
 | Scrap (wood, metal or leather) | every hour | a random moment up to 1 hour later | 10 minutes | 4 to 8 | 1 scrap of the pile's kind |
-| Rope | at 00:00, 08:00 and 16:00 UTC | a random moment up to 8 hours later | 25 minutes | 4 to 10 | 1 to 3 [Ropes](../items/materials.md#rope) (the same for every player of the pile) |
-| Nail | every hour | a random moment up to 2 hours later | 25 minutes | 4 to 10 | 3 to 9 [Nails](../items/materials.md#nail) (the same for every player of the pile) |
+| Rope | at 00:00, 08:00 and 16:00 UTC | a random moment up to 8 hours later | 25 minutes | 4 to 10 | 1 to 3 <span class="gi-m">![](../assets/icons/item/rope.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Ropes](../items/materials.md#rope)</span> (the same for every player of the pile) |
+| Nail | every hour | a random moment up to 2 hours later | 25 minutes | 4 to 10 | 3 to 9 <span class="gi-m">![](../assets/icons/item/nail.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Nails](../items/materials.md#nail)</span> (the same for every player of the pile) |
 | Credits | every hour, in every server | a random moment up to 1 hour later | 25 minutes | 3 to 6 | an equal share of 100 to 200 credits |
 
 **Pile boards** (`/leaderboard`): the Scrap, Credits Pile and BuildingSupply Pile Collector boards, all-time and monthly, count **1 for each pile you collect**, whatever it held. The TreasureKey Finder board counts 1 for each key.
 
 ## Key hunt
 
-The **Monthly TreasureKey Hunt Ladder** (`/leaderboard`, monthly boards) ranks the treasure key hunters of the calendar month: each key you find scores **1 point for a [Bronze Key](../items/keys-and-cards.md#bronze-key), 2 for a [Silver Key](../items/keys-and-cards.md#silver-key), 3 for a [Gold Key](../items/keys-and-cards.md#gold-key)**. When the staff pay the monthly prizes (on the Runebase server), last month's best hunters share **0.75% of the realm's RUNES wallet** by rank:
+The **Monthly TreasureKey Hunt Ladder** (`/leaderboard`, monthly boards) ranks the treasure key hunters of the calendar month: each key you find scores **1 point for a <span class="gi-m">![](../assets/icons/item/bronze-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bronze Key](../items/keys-and-cards.md#bronze-key)</span>, 2 for a <span class="gi-m">![](../assets/icons/item/silver-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silver Key](../items/keys-and-cards.md#silver-key)</span>, 3 for a <span class="gi-m">![](../assets/icons/item/gold-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gold Key](../items/keys-and-cards.md#gold-key)</span>**. When the staff pay the monthly prizes (on the Runebase server), last month's best hunters share **0.75% of the realm's RUNES wallet** by rank:
 
 | Rank | Shares of the pool, each |
 |---|---|

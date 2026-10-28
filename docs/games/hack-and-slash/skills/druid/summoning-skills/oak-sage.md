@@ -1,5 +1,7 @@
 ---
 title: "Oak Sage"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/oak-sage.webp"
 ---
 
 # ![Oak Sage](../../../../../assets/icons/skill/druid/oak-sage.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Oak Sage
@@ -7,12 +9,12 @@ title: "Oak Sage"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Summoning Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Skills](index.md)</span>
 - **Kind:** a summon, a spell
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Heart of Wolverine](heart-of-wolverine.md), [Summon Dire Wolf](summon-dire-wolf.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/heart-of-wolverine.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heart of Wolverine](heart-of-wolverine.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/druid/summon-dire-wolf.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Dire Wolf](summon-dire-wolf.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

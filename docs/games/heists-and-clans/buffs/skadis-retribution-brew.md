@@ -1,5 +1,7 @@
 ---
 title: "Skadi's Retribution Brew"
+icon: guide/nav
+nav_icon: "assets/icons/item/skadis-retribution-brew.webp"
 ---
 
 # ![Skadi's Retribution Brew](../../../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Skadi's Retribution Brew
@@ -13,7 +15,7 @@ title: "Skadi's Retribution Brew"
 
 ## Where you get it
 
-Bought in the [store](../../../account/store.md#the-store); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Skadi's Retribution Brew](../../../items/store-consumables.md#skadis-retribution-brew).
+Bought in the [store](../../../account/store.md#the-store); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skadi's Retribution Brew](../../../items/store-consumables.md#skadis-retribution-brew)</span>.
 
 ## Checked in play
 

@@ -1,5 +1,7 @@
 ---
 title: "Blade Fury"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/blade-fury.webp"
 ---
 
 # ![Blade Fury](../../../../../assets/icons/skill/assassin/blade-fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Fury
@@ -7,12 +9,12 @@ title: "Blade Fury"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Traps](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/traps.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Traps](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Blade Sentinel](blade-sentinel.md), [Wake of Fire](wake-of-fire.md)
-- **Opens:** [Blade Shield](blade-shield.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/blade-sentinel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blade Sentinel](blade-sentinel.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/assassin/wake-of-fire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wake of Fire](wake-of-fire.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/blade-shield.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Blade Shield](blade-shield.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

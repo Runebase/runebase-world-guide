@@ -1,5 +1,7 @@
 ---
 title: "Fissure"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/fissure.webp"
 ---
 
 # ![Fissure](../../../../../assets/icons/skill/druid/fissure.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fissure
@@ -7,12 +9,12 @@ title: "Fissure"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Elemental Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/elemental-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elemental Skills](index.md)</span>
 - **Kind:** an attack, a spell
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Molten Boulder](molten-boulder.md)
-- **Opens:** [Volcano](volcano.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/molten-boulder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Molten Boulder](molten-boulder.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/volcano.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Volcano](volcano.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20
 

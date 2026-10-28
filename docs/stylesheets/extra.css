@@ -15,6 +15,41 @@
 .md-typeset img.gi-inline {
   margin-right: 0.15rem;
 }
+/* Before a mention in the text (mentions.mjs): the height of the text's
+   capitals and a little more, whatever its size (a table's is smaller),
+   kept on the line of the name's first word. */
+.md-typeset img.gi-mention {
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: -0.3em;
+}
+.md-typeset .gi-m {
+  white-space: nowrap;
+}
+.md-typeset .gi-m > a {
+  white-space: normal;
+}
+/* In the menu (publish.mjs NAV_ICON): about 20 pixels, beside the title. */
+.md-nav__link img.gi-nav {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin: -0.05rem 0;
+  object-fit: contain;
+}
+.md-tabs__link img.gi-nav {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+/* On the dark scheme a faint light edge keeps dark art (a class's figure)
+   readable at this size. */
+[data-md-color-scheme="slate"] .md-typeset img.gi-mention,
+[data-md-color-scheme="slate"] .md-typeset img.gi-inline,
+[data-md-color-scheme="slate"] img.gi-nav {
+  filter: drop-shadow(0 0 0.05rem rgb(255 255 255 / 55%));
+}
 .md-typeset h1 img.gi,
 .md-typeset h3 img.gi {
   margin-right: 0.4rem;

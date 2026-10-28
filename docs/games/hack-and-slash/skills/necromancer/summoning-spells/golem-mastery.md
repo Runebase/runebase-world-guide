@@ -1,5 +1,7 @@
 ---
 title: "Golem Mastery"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/golem-mastery.webp"
 ---
 
 # ![Golem Mastery](../../../../../assets/icons/skill/necromancer/golem-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Golem Mastery
@@ -7,12 +9,12 @@ title: "Golem Mastery"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Summoning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/summoning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summoning Spells](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Clay Golem](clay-golem.md)
-- **Opens:** [Summon Resist](summon-resist.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/clay-golem.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Clay Golem](clay-golem.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/summon-resist.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Summon Resist](summon-resist.md)</span>
 - **Weapon:** any
 
 > In the game: Enhances rounds and life of Golems.

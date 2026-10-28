@@ -1,5 +1,7 @@
 ---
 title: "Though Skin"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/though-skin.webp"
 ---
 
 # ![Though Skin](../../../../../assets/icons/skill/warrior/though-skin.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Though Skin
@@ -7,12 +9,12 @@ title: "Though Skin"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Combat Masteries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/combat-masteries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Combat Masteries](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 18 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Resistance](resistance.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/resistance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Resistance](resistance.md)</span>
 - **Weapon:** any
 
 > In the game: Increase overall armor value %

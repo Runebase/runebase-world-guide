@@ -1,5 +1,7 @@
 ---
 title: "Battle Command"
+icon: guide/nav
+nav_icon: "assets/icons/skill/warrior/battle-command.webp"
 ---
 
 # ![Battle Command](../../../../../assets/icons/skill/warrior/battle-command.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Battle Command
@@ -7,11 +9,11 @@ title: "Battle Command"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Warrior](../../../classes/warrior.md)
-- **Tree:** [Warcries](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](../../../classes/warrior.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/warcries.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warcries](index.md)</span>
 - **Kind:** a debuff on every monster
 - **Learn it from:** level 30 (your rank)
-- **Needs first:** [Battle Cry](battle-cry.md), [Battle Orders](battle-orders.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/warrior/battle-cry.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Cry](battle-cry.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/warrior/battle-orders.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Orders](battle-orders.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

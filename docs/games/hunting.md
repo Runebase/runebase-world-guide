@@ -28,26 +28,26 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 - Energy refills at **00:00 UTC** every day. The refill sets your energy to the day's full amount; it doesn't add to what you had left.
 - A trip that runs over midnight still pays once.
-- **Out of hunting energy?** A **[Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce)** pays for one more energy of hunting. It's only used for the energy your daily energy doesn't cover, never while you still have energy. Without one, the trip doesn't start and nothing is spent: `/hunt` tells you so privately, with your hunting menu (your energy, when it refills), and a **Go Hunting** button on a menu from earlier tells you privately and leaves the menu as it was.
+- **Out of hunting energy?** A **<span class="gi-m">![](../assets/icons/item/wild-boar-with-cherry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce)</span>** pays for one more energy of hunting. It's only used for the energy your daily energy doesn't cover, never while you still have energy. Without one, the trip doesn't start and nothing is spent: `/hunt` tells you so privately, with your hunting menu (your energy, when it refills), and a **Go Hunting** button on a menu from earlier tells you privately and leaves the menu as it was.
 
 ## Experience, quests and leaderboards
 
 A hunt pays **1 experience per energy**.
 
-Trips also move your [quests](../account/quests.md#every-quest): the Hunting quest counts the energy you spend, and the quest for each animal counts what you catch of it (Hunting - Elk counts your elk). A quest that reaches its goal completes on its own and pays its reward once.
+Trips also move your [quests](../account/quests.md#every-quest): the Hunting quest counts the energy you spend, and the quest for each animal counts what you catch of it (Hunting - Elk counts your <span class="gi-m">![](../assets/icons/item/elk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[elk](../items/ingredients.md#elk)</span>). A quest that reaches its goal completes on its own and pays its reward once.
 
 The hunting leaderboards count the seconds of your trips (weed seconds included).
 
 ## Rifles
 
-You craft them in the **Hunt** menu (**Craft Hunting Rifle**) for scrap from your pouch. You can own one of each. Without one, you only catch Squirrel.
+You craft them in the **Hunt** menu (**Craft Hunting Rifle**) for scrap from your pouch. You can own one of each. Without one, you only catch <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients.md#squirrel)</span>.
 
 | Item | Crafting cost (wood / metal / leather scrap) | Catches, chance each second |
 |---|---|---|
-| ![no rifle](../assets/icons/activity-gear/no-rifle.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } no rifle | – | [Squirrel](../items/ingredients.md#squirrel) 5% |
-| ![Savage Model 11](../assets/icons/activity-gear/savage-model-11.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Savage Model 11 | 1 / 6 / 2 | [Squirrel](../items/ingredients.md#squirrel) 5%, [Rabbit](../items/ingredients.md#rabbit) 5%, [Coyote](../items/ingredients.md#coyote) 5% |
-| ![Winchester Model 70](../assets/icons/activity-gear/winchester-model-70.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Winchester Model 70 | 16 / 41 / 20 | [Wild Turkey](../items/ingredients.md#wild-turkey) 5%, [Pheasant](../items/ingredients.md#pheasant) 5%, [White-tailed Deer](../items/ingredients.md#white-tailed-deer) 5% |
-| ![Weatherby Mark V](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Weatherby Mark V | 50 / 200 / 60 | [Elk](../items/ingredients.md#elk) 5%, [Moose](../items/ingredients.md#moose) 5%, [Wild Boar](../items/ingredients.md#wild-boar) 5% |
+| ![no rifle](../assets/icons/activity-gear/no-rifle.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } no rifle | – | <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients.md#squirrel)</span> 5% |
+| ![Savage Model 11](../assets/icons/activity-gear/savage-model-11.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Savage Model 11 | 1 / 6 / 2 | <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients.md#squirrel)</span> 5%, <span class="gi-m">![](../assets/icons/item/rabbit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rabbit](../items/ingredients.md#rabbit)</span> 5%, <span class="gi-m">![](../assets/icons/item/coyote.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Coyote](../items/ingredients.md#coyote)</span> 5% |
+| ![Winchester Model 70](../assets/icons/activity-gear/winchester-model-70.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Winchester Model 70 | 16 / 41 / 20 | <span class="gi-m">![](../assets/icons/item/wild-turkey.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wild Turkey](../items/ingredients.md#wild-turkey)</span> 5%, <span class="gi-m">![](../assets/icons/item/pheasant.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pheasant](../items/ingredients.md#pheasant)</span> 5%, <span class="gi-m">![](../assets/icons/item/white-tailed-deer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[White-tailed Deer](../items/ingredients.md#white-tailed-deer)</span> 5% |
+| ![Weatherby Mark V](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Weatherby Mark V | 50 / 200 / 60 | <span class="gi-m">![](../assets/icons/item/elk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elk](../items/ingredients.md#elk)</span> 5%, <span class="gi-m">![](../assets/icons/item/moose.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Moose](../items/ingredients.md#moose)</span> 5%, <span class="gi-m">![](../assets/icons/item/wild-boar.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wild Boar](../items/ingredients.md#wild-boar)</span> 5% |
 
 - Equip a rifle in the Hunt menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
 - With more than one rifle you can turn on **rotative** hunting: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
@@ -65,7 +65,7 @@ Each rifle has its own enhancement, upgraded from the crafting screen for scrap.
 
 ## Utilities: Skinning Knife
 
-Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding [Leather Scrap](../items/materials.md#leather-scrap): in hunting's extra prizes, on the Nature Expedition ([expeditions](expeditions.md)), and in the other prize tables that have [Leather Scrap](../items/materials.md#leather-scrap) (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need. The other two utilities, the Wood Axe and the Mining Pick, raise Wood and [Metal Scrap](../items/materials.md#metal-scrap) ([fishing](fishing.md)).
+Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials.md#leather-scrap)</span>: in hunting's extra prizes, on the Nature Expedition ([expeditions](expeditions.md)), and in the other prize tables that have <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials.md#leather-scrap)</span> (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need. The other two utilities, the <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> and the <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, raise Wood and <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials.md#metal-scrap)</span> ([fishing](fishing.md)).
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -76,9 +76,9 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 | Buff | Where it comes from | Used by |
 |---|---|---|
 | ![Hunting Weed](../assets/icons/item/hunting-weed.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Hunting Weed](../items/store-consumables.md#hunting-weed) | 3 credits in the store; the Party Store | hunting |
-| ![Wild Boar with Cherry Sauce](../assets/icons/item/wild-boar-with-cherry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce) | cooked: 2 [Wild Boar](../items/ingredients.md#wild-boar) + 6 [Cherry Sauce](../items/ingredients.md#cherry-sauce) | hunting, when the energy is gone |
+| ![Wild Boar with Cherry Sauce](../assets/icons/item/wild-boar-with-cherry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce) | cooked: 2 <span class="gi-m">![](../assets/icons/item/wild-boar.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wild Boar](../items/ingredients.md#wild-boar)</span> + 6 <span class="gi-m">![](../assets/icons/item/cherry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Cherry Sauce](../items/ingredients.md#cherry-sauce)</span> | hunting, when the energy is gone |
 
-- **[Hunting Weed](../items/store-consumables.md#hunting-weed)** (bought from the store, or collected at the Party Store): each one adds **2 seconds** to one energy of a trip, so a trip uses **one per energy**, at most. A 3-energy trip with 2 weeds lasts 34 seconds. The extra seconds roll for catches and extra prizes like any other second, and count on the leaderboard. Experience and the Hunting quest count energy, so the extra seconds add none.
+- **<span class="gi-m">![](../assets/icons/item/hunting-weed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Weed](../items/store-consumables.md#hunting-weed)</span>** (bought from the store, or collected at the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>): each one adds **2 seconds** to one energy of a trip, so a trip uses **one per energy**, at most. A 3-energy trip with 2 weeds lasts 34 seconds. The extra seconds roll for catches and extra prizes like any other second, and count on the leaderboard. Experience and the Hunting quest count energy, so the extra seconds add none.
 - The hunting menu shows the buffs you have and the trip time they give.
 
 ## Pets
@@ -87,9 +87,9 @@ Your active pet helps while it's **awake** and cared for (see [Pets](../account/
 
 ## Buildings that help
 
-In [Buildings](../account/buildings.md): the **[Hunting Cabin](../account/buildings.md#what-each-building-does)** gives +1 hunting energy a day per level.
+In [Buildings](../account/buildings.md): the **<span class="gi-m">![](../assets/icons/building/hunting-cabin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Cabin](../account/buildings.md#what-each-building-does)</span>** gives +1 hunting energy a day per level.
 
-Everything adds up once: a rifle enhancement, a pet perk, weed and the Hunting Cabin on one trip each count exactly once.
+Everything adds up once: a rifle enhancement, a pet perk, weed and the <span class="gi-m">![](../assets/icons/building/hunting-cabin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Cabin](../account/buildings.md#what-each-building-does)</span> on one trip each count exactly once.
 
 ## Extra prizes, every second
 

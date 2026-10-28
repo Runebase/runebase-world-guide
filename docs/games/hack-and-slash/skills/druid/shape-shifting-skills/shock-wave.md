@@ -1,5 +1,7 @@
 ---
 title: "Shock Wave"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/shock-wave.webp"
 ---
 
 # ![Shock Wave](../../../../../assets/icons/skill/druid/shock-wave.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shock Wave
@@ -7,11 +9,11 @@ title: "Shock Wave"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** an area attack, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Maul](maul.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Maul](maul.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 40 at rank 20

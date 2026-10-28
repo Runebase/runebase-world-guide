@@ -1,5 +1,7 @@
 ---
 title: "Poison Dagger"
+icon: guide/nav
+nav_icon: "assets/icons/skill/necromancer/poison-dagger.webp"
 ---
 
 # ![Poison Dagger](../../../../../assets/icons/skill/necromancer/poison-dagger.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Poison Dagger
@@ -7,12 +9,12 @@ title: "Poison Dagger"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Necromancer](../../../classes/necromancer.md)
-- **Tree:** [Poison and Bone Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](../../../classes/necromancer.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/poison-and-bone-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison and Bone Spells](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 6 (your rank)
 - **Needs first:** no other skill
-- **Opens:** [Poison Explosion](poison-explosion.md)
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/necromancer/poison-explosion.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Poison Explosion](poison-explosion.md)</span>
 - **Weapon:** any
 
 > In the game: Coats your weapon with a layer of poison.

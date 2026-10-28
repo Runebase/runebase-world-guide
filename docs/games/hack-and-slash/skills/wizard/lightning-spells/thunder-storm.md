@@ -1,5 +1,7 @@
 ---
 title: "Thunder Storm"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/thunder-storm.webp"
 ---
 
 # ![Thunder Storm](../../../../../assets/icons/skill/wizard/thunder-storm.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Thunder Storm
@@ -7,11 +9,11 @@ title: "Thunder Storm"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Lightning Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/lightning-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Lightning Spells](index.md)</span>
 - **Kind:** a buff, a spell
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Nova](nova.md), [Chain Lightning](chain-lightning.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/nova.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Nova](nova.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/chain-lightning.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chain Lightning](chain-lightning.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20

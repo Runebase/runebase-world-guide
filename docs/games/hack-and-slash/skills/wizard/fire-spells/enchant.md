@@ -1,5 +1,7 @@
 ---
 title: "Enchant"
+icon: guide/nav
+nav_icon: "assets/icons/skill/wizard/enchant.webp"
 ---
 
 # ![Enchant](../../../../../assets/icons/skill/wizard/enchant.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Enchant
@@ -7,12 +9,12 @@ title: "Enchant"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Wizard](../../../classes/wizard.md)
-- **Tree:** [Fire Spells](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/wizard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wizard](../../../classes/wizard.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/fire-spells.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Spells](index.md)</span>
 - **Kind:** a buff
 - **Learn it from:** level 18 (your rank)
-- **Needs first:** [Warmth](warmth.md), [Fire Ball](fire-ball.md)
-- **Opens:** [Hydra](hydra.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/warmth.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warmth](warmth.md)</span>, <span class="gi-m">![](../../../../../assets/icons/skill/wizard/fire-ball.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fire Ball](fire-ball.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/wizard/hydra.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hydra](hydra.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 21 at rank 20
 

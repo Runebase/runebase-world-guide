@@ -1,5 +1,7 @@
 ---
 title: "Cobra Strike"
+icon: guide/nav
+nav_icon: "assets/icons/skill/assassin/cobra-strike.webp"
 ---
 
 # ![Cobra Strike](../../../../../assets/icons/skill/assassin/cobra-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cobra Strike
@@ -7,12 +9,12 @@ title: "Cobra Strike"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Assassin](../../../classes/assassin.md)
-- **Tree:** [Martial Arts](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/assassin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assassin](../../../classes/assassin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/martial-arts.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Martial Arts](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 12 (your rank)
-- **Needs first:** [Tiger Strike](tiger-strike.md)
-- **Opens:** [Phoenix Strike](phoenix-strike.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/tiger-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Tiger Strike](tiger-strike.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/assassin/phoenix-strike.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Phoenix Strike](phoenix-strike.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

@@ -1,5 +1,7 @@
 ---
 title: "Conversion"
+icon: guide/nav
+nav_icon: "assets/icons/skill/paladin/conversion.webp"
 ---
 
 # ![Conversion](../../../../../assets/icons/skill/paladin/conversion.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Conversion
@@ -7,12 +9,12 @@ title: "Conversion"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Paladin](../../../classes/paladin.md)
-- **Tree:** [Battle Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/paladin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Paladin](../../../classes/paladin.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/battle-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Battle Skills](index.md)</span>
 - **Kind:** an attack
 - **Learn it from:** level 24 (your rank)
-- **Needs first:** [Vengeance](vengeance.md)
-- **Opens:** [Fist of the Heavens](fist-of-the-heavens.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/vengeance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Vengeance](vengeance.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/paladin/fist-of-the-heavens.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fist of the Heavens](fist-of-the-heavens.md)</span>
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 

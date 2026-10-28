@@ -1,5 +1,7 @@
 ---
 title: "Lycanthropy"
+icon: guide/nav
+nav_icon: "assets/icons/skill/druid/lycanthropy.webp"
 ---
 
 # ![Lycanthropy](../../../../../assets/icons/skill/druid/lycanthropy.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lycanthropy
@@ -7,11 +9,11 @@ title: "Lycanthropy"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Druid](../../../classes/druid.md)
-- **Tree:** [Shape Shifting Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/druid.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Druid](../../../classes/druid.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Shape Shifting Skills](index.md)</span>
 - **Kind:** a passive skill
 - **Learn it from:** level 1 (your rank)
-- **Needs first:** [Werewolf](werewolf.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/druid/werewolf.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Werewolf](werewolf.md)</span>
 - **Opens:** no other skill
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20

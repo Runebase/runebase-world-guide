@@ -1,5 +1,7 @@
 ---
 title: "Multiple Shot"
+icon: guide/nav
+nav_icon: "assets/icons/skill/hunter/multiple-shot.webp"
 ---
 
 # ![Multiple Shot](../../../../../assets/icons/skill/hunter/multiple-shot.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Multiple Shot
@@ -7,12 +9,12 @@ title: "Multiple Shot"
 **Where to play:** Discord
 { .where-to-play }
 
-- **Class:** [Hunter](../../../classes/hunter.md)
-- **Tree:** [Bow and Crossbow Skills](index.md)
+- **Class:** <span class="gi-m">![](../../../../../assets/icons/class/hunter.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunter](../../../classes/hunter.md)</span>
+- **Tree:** <span class="gi-m">![](../../../../../assets/icons/skill-tree/bow-and-crossbow-skills.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bow and Crossbow Skills](index.md)</span>
 - **Kind:** an area attack
 - **Learn it from:** level 6 (your rank)
-- **Needs first:** [Magic Arrow](magic-arrow.md)
-- **Opens:** [Guided Arrow](guided-arrow.md)
+- **Needs first:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/magic-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Magic Arrow](magic-arrow.md)</span>
+- **Opens:** <span class="gi-m">![](../../../../../assets/icons/skill/hunter/guided-arrow.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Guided Arrow](guided-arrow.md)</span>
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 2 at rank 1, 2 at rank 20
 

@@ -266,7 +266,9 @@ The Iron Bank keeps credits for you and pays interest on them.
 
 Every credit the Iron Bank moves is in your wallet's history. A double click on Collect or Withdraw pays once, and a double click on Start Unbounding starts it once.
 
-**When the bank says no, only you see why**, and nothing moves: a deposit that isn't a positive amount (the smallest is 0.00000001 credits), more than your wallet holds or more than the bank can still store; and anything an older screen still offers that no longer fits: a deposit while your credits unbound, unbounding when nothing is stored, a withdrawal before the unbounding period ends or when nothing unbounds.
+**When the bank says no, only you see why**, and nothing moves: a deposit that isn't a positive amount (the smallest is 0.00000001 credits; [typed as a plain number](credits-and-runes.md#typing-an-amount), rounded down to 8 decimals: `1.000000009` deposits 1, and `0x10` or `1e3` is refused), more than your wallet holds or more than the bank can still store; and anything an older screen still offers that no longer fits: a deposit while your credits unbound, unbounding when nothing is stored, a withdrawal before the unbounding period ends or when nothing unbounds. A second **Withdraw** (a double click, another device) is told there's nothing left to withdraw.
+
+**If something goes wrong** while you deposit, start unbounding or withdraw, only you are told ("Something went wrong, nothing was withdrawn."), nothing of it happened, and you can try again.
 
 | Level | Rank needed | Credits it stores | Interest a day when full | Pool (collect at least this often) | Unbounding | Metal Scrap to collect |
 |---|---|---|---|---|---|---|

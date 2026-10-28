@@ -13,6 +13,7 @@ List an item from your inventory: the listing fee shown on the duration menu is 
 - The seller can cancel: the bidder gets the bid back and the seller claims the item back.
 - When an auction runs out, the seller is paid the highest bid; with no bids, the item goes back to the seller.
 - Claiming with a full inventory says so, and the item stays claimable. The same item can't be listed and equipped at once, and two players can't buy out the same auction.
+- Prices and bids are [typed as plain numbers](../../account/credits-and-runes.md#typing-an-amount), rounded down to 8 decimals (a bid of `3.000000009` bids 3, and the confirmation says so). A price or bid in any other form (`0x10`, `1e3`, `+5`, `1,5`), or a bid below the starting or current bid, is refused on your own answer: only you see it, and nothing moves.
 
 | Quality | × the fee |
 |---|---|

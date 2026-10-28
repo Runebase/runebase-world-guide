@@ -51,7 +51,7 @@ You craft them in the **Fish** menu (**Craft Fishing Pole**) for scrap from your
 
 - Equip a rod in the Fish menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
 - With more than one rod you can turn on **rotative** fishing: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
-- Crafting costs exactly the scrap shown. With a scrap short, or a rod you already own, the Craft button is off. A double click crafts one rod, and an older screen whose Craft button is still on crafts nothing once the scrap is gone; only you are told why. The same for an enhancement upgrade, and for a utility's credits.
+- Crafting costs exactly the scrap shown. With a scrap short, or a rod you already own, the Craft button is off. A double click crafts one rod, and an older screen whose Craft button is still on crafts nothing once the scrap is gone; only you are told why. The same for an enhancement upgrade, and for a utility's credits. If something goes wrong while crafting, the crafting screen comes back, only you are told, and nothing is spent or made.
 
 ### Enhancements
 

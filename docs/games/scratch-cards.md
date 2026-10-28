@@ -13,6 +13,8 @@ title: "Scratch cards"
 - No card is dealt without a Mystery Card, outside the scratch card channel, or when you already have 100 cards open.
 - If the tipbot is offline, your Mystery Card is kept. If it goes offline before you press **Collect**, only you are told, the card waits, and it pays once when the tipbot is back.
 - A card pays once, also when it's shown twice (in the channel and in **Activities → Scratch Card**) or a field is clicked twice: a field scratches once, and a collected card pays nothing more.
+- **Collect** before all three fields are scratched tells you, privately, to scratch them first.
+- If something goes wrong while you collect, scratch or get a card, only you are told, nothing is spent or paid, and the card waits for you: collect or scratch again.
 
 <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards.md#mystery-card)</span> come from the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>, <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[heists](heists-and-clans/index.md)</span>, [chests](treasure-chests.md), [Loot Reels](loot-reels.md) and other prize tables. The HUG combination also gives 1 experience.
 

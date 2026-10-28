@@ -17,6 +17,15 @@ title: "Credits and RUNES"
 - **The <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>** pays interest on credits you store in it ([Buildings](buildings.md)).
 - **Deposits** and **buying credits with Hermes** (below).
 
+## Typing an amount
+
+Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span> deposit, a withdrawal, buying credits with Hermes, an auction's prices and bids) it's read the same way:
+
+- **A plain number:** `5`, `2.5`, `0.00000001`. Spaces around it don't matter.
+- **8 decimals at most, rounded down:** `1.000000009` is 1 credit, never more than you typed.
+- **Anything else is refused, only you see it, and nothing moves:** `0x10`, `1e3`, `+5`, `1,5` (use a point), `1 000`, `Infinity`.
+- Store quantities are whole numbers written the same way (`5`, not `5e0`).
+
 ## Deposits
 
 **Pouch → Buy Credits** shows your deposit address (it's made for you the first time; if the Runebase node is down, the menu says so and the address comes once it's back).
@@ -30,9 +39,9 @@ title: "Credits and RUNES"
 
 ## Buying credits with Hermes
 
-**Pouch → Buy Credits → Buy Credits With Hermes**, type the amount, **Accept Purchase**. Hermes charges your RUNES and the bot credits **exactly the amount you asked for (1 RUNES = 1 credit)**, once. Fractions are fine (2.5 credits).
+**Pouch → Buy Credits → Buy Credits With Hermes**, type the amount, **Accept Purchase**. Hermes charges your RUNES and the bot credits **exactly the amount you asked for (1 RUNES = 1 credit)**, once. Fractions are fine (2.5 credits); an amount that isn't [a plain number](#typing-an-amount) is refused, only you see it, and Hermes isn't asked.
 
-- If Hermes refuses, nothing is credited and you see why.
+- If Hermes refuses, nothing is credited and you see why, in plain words.
 - The bot only credits an answer from Hermes that is about your purchase, for exactly that amount. If Hermes' answer gets lost, the screen says Hermes may have charged you and doesn't offer the purchase again (so you can't pay twice); the purchase isn't credited automatically, it's logged for the staff to sort out, so ask them. The same when Hermes' answer doesn't say what it charged, or your purchase was changed or settled by the staff while Hermes was answering: never credited twice.
 
 ## Withdrawals
@@ -40,7 +49,7 @@ title: "Credits and RUNES"
 `/withdraw` (address and amount), or **Pouch → Withdraw**. Only you see the result.
 
 - **The address must be a Runebase address starting with R**, and not your own deposit address.
-- **At least 1 credit**, at most your balance. **No fee:** exactly the amount you withdraw is sent.
+- **At least 1 credit**, at most your balance, [typed as a plain number](#typing-an-amount) (`2.000000009` withdraws 2). **No fee:** exactly the amount you withdraw is sent.
 - Your credits leave your wallet at once and the withdrawal is **queued**. The bot then sends it as Credits tokens and you get a DM ("Your withdrawal has been accepted", with the transaction), and another when it's **confirmed** at 6 confirmations. Your pouch history shows each withdrawal with its transaction.
 - If the Runebase node is down, `/withdraw` says so and nothing moves. If the node goes down after you queued, or the bot's wallet is short, the withdrawal stays queued and goes out later, once.
 - Withdrawals can be paused by the staff; a queued withdrawal then waits and goes out once they resume.

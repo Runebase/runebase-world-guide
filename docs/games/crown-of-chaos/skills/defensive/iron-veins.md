@@ -26,7 +26,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 ## Checked in play
 
 - A bleed tick of 100 deals 97 at rank 1 (96.5, rounded half up) and 30 at rank 20; a seed's detonation keeps its full damage.
-- At rank 20 a tick of 1 deals 0 (no points for the bleeder) and a 3 deals 1; with <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](hemostasis.md)</span> 20 too, a rank-1 bleed never ticks.
+- At rank 20 a tick of 1 deals 0 (no points for the bleeder) and a 3 deals 1; with <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](hemostasis.md)</span> 20 too, a rank-1 bleed isn't put on at all.
 - It counts once, before the handicap: 41 → 27 at rank 10, × 1.1 → 29.
 
 ## Rank by rank

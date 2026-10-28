@@ -19,14 +19,14 @@ nav_icon: "assets/icons/crown-skill/bleed.webp"
 
 ## What it does
 
-On a hit the Crown bleeds its shown damage each round for its shown rounds, less the Crown's Iron Veins and Hemostasis; each round's bleed counts as your damage and points. A new bleed of yours replaces your old one.
+On a hit the Crown bleeds its shown damage each round for its shown rounds, less the Crown's Iron Veins and Hemostasis; each round's bleed counts as your damage and points, and it's gone with its last tick. A new bleed of yours replaces your old one; one that Hemostasis leaves with no rounds isn't put on.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
-- Rank 1 bleeds the Crown 1-3 a round for 3 rounds, for 10 mana; rank 20 20-41 for 12 rounds, for 48 mana. It first ticks the round after your hit, ticks exactly its rounds, and every tick counts as your damage and points. A new bleed of yours starts over at its full rounds: you never have two.
-- Two attackers' bleeds tick side by side, each for its own caster; the Crown's Blood Purge removes both. Against <span class="gi-m">![](../../../../assets/icons/crown-skill/iron-veins.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Veins](../defensive/iron-veins.md)</span> and <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](../defensive/hemostasis.md)</span> at rank 20, Bleed 20 keeps 2 rounds of 12 and 6, and a rank-1 bleed lands with 0 rounds and never ticks.
+- Rank 1 bleeds the Crown 1-3 a round for 3 rounds, for 10 mana; rank 20 20-41 for 12 rounds, for 48 mana. It first ticks the round after your hit, ticks exactly its rounds and is gone with its last tick, and every tick counts as your damage and points. A new bleed of yours starts over at its full rounds: you never have two.
+- Two attackers' bleeds tick side by side, each for its own caster; the Crown's Blood Purge removes both. Against <span class="gi-m">![](../../../../assets/icons/crown-skill/iron-veins.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Veins](../defensive/iron-veins.md)</span> and <span class="gi-m">![](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hemostasis](../defensive/hemostasis.md)</span> at rank 20, Bleed 20 keeps 2 rounds of 12 and 6, and a rank-1 bleed (3 rounds) isn't put on at all: your mana is spent, and a bleed of yours already running stays.
 
 ## Rank by rank
 

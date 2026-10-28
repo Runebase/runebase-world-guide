@@ -15,7 +15,7 @@ nav_icon: "assets/icons/crown-skill/black-hood.webp"
 - **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/robin-hood.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Robin Hood](robin-hood.md)</span>
 - **Opens:** no other skill
 
-> In the game: Always steal from accumulated crown taxes and keeps them for yourself.
+> In the game: Steals from the Crown pool on every damaging hit and keeps it for yourself.
 
 ## What it does
 

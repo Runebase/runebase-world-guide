@@ -15,7 +15,7 @@ nav_icon: "assets/icons/crown-skill/premature-bloom.webp"
 - **Needs first:** <span class="gi-m">![](../../../../assets/icons/crown-skill/doomseed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Doomseed](doomseed.md)</span>
 - **Opens:** no other skill
 
-> In the game: Manipulate the unstable energy of Doomseed, reducing its detonation timer. The bloom comes sooner… and deadlier.
+> In the game: Manipulate the unstable energy of Doomseed, reducing its detonation timer. The bloom comes sooner.
 
 ## What it does
 

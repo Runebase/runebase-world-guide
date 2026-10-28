@@ -25,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Checked in play
 
-- Defuse waits 870 s at rank 1 and 300 s at rank 20 (900 without): a second before, it's refused and nothing changes; a second after, it works. Its answer says when it's ready again.
+- Defuse waits 870 s at rank 1 and 300 s at rank 20 (900 without): 10 s before, it's refused (to you alone) and nothing changes; 10 s after, it works. Its answer says when it's ready again.
 
 ## Rank by rank
 

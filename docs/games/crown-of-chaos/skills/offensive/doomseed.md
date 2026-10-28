@@ -19,13 +19,13 @@ nav_icon: "assets/icons/crown-skill/doomseed.webp"
 
 ## What it does
 
-On a hit it plants a seed that detonates after 15 rounds, fewer with Premature Bloom, for its shown damage. A new seed of yours replaces your old one, and its rounds start again; another attacker's seed stays. A seed that detonates under the Crown's Bubble deals nothing.
+On a hit it plants a seed that detonates after 15 rounds, fewer with Premature Bloom, for its shown damage. A new seed of yours replaces your old one, and its rounds start again; another attacker's seed stays. It's gone once it detonates. A seed that detonates under the Crown's Bubble deals nothing.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
-- Rank 1 plants a seed that detonates after 15 rounds for 5-25, for 10 mana; rank 20 for 100-215, for 95 mana. It deals nothing while it counts down. Planting again starts your seed over; another attacker's seed keeps counting.
+- Rank 1 plants a seed that detonates after 15 rounds for 5-25, for 10 mana; rank 20 for 100-215, for 95 mana. It deals nothing while it counts down and is gone once it detonates. Planting again starts your seed over; another attacker's seed keeps counting.
 - A seed that detonates under the Crown's Bubble deals nothing and is spent.
 - Two attackers' seeds: the first to bring the Crown to 0 lands the final blow (+200 points), and the other doesn't go off.
 

@@ -19,14 +19,14 @@ nav_icon: "assets/icons/crown-skill/hemostasis.webp"
 
 ## What it does
 
-Takes its rounds off every bleed on you as the Crown (a bleed of 5 rounds keeps 4 against rank 1).
+Takes its rounds off every bleed put on you as the Crown (a bleed of 5 rounds keeps 4 against rank 1); a bleed it leaves with no rounds isn't put on.
 
 The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
 
 ## Checked in play
 
 - <span class="gi-m">![](../../../../assets/icons/crown-skill/bleed.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bleed](../offensive/bleed.md)</span> 20's 12 rounds become 11 at rank 1 and 2 at rank 20, and the bleed ticks only those.
-- At rank 20 a rank-1 bleed (3 rounds) lands with 0 rounds and never ticks (the attack still says "Bleed Effect Applied", with 0 rounds).
+- At rank 20 a rank-1 bleed (3 rounds) isn't put on at all (no "Bleed Effect Applied"); a bleed of that attacker's already running stays as it is.
 
 ## Rank by rank
 

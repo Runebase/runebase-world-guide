@@ -19,13 +19,13 @@ nav_icon: "assets/icons/crown-skill/robin-hood.webp"
 
 ## What it does
 
-On a damaging hit it steals its share of the pool and splits it evenly among the reign's attackers; it steals exactly its share, the rounding remainder stays in the pool.
+On a damaging hit it steals its share of the pool and splits it evenly among the reign's attackers still in the server, one who attacked and missed too; it steals exactly their shares, the rounding remainder stays in the pool.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
-- On a damaging hit rank 1 takes 0.025% of the pool and rank 20 0.5%, for 5 and 24 mana, split evenly among every attacker of the reign, you included (one who only missed too); the rounding remainder stays in the pool. With an empty pool, or one too small for a share each, nobody gets anything and the mana is spent. On a final blow the shares leave the pool first and the old Crown is paid the rest.
+- On a damaging hit rank 1 takes 0.025% of the pool and rank 20 0.5%, for 5 and 24 mana, split evenly among the reign's attackers still in the server, you included (one who only missed too; not one who left the server); the rounding remainder stays in the pool. With an empty pool, or one too small for a share each, nobody gets anything and the mana is spent. On a final blow the shares leave the pool first and the old Crown is paid the rest.
 - A dodged attack steals nothing.
 
 ## Rank by rank

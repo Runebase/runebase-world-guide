@@ -25,7 +25,7 @@ The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md
 
 ## Checked in play
 
-- Mana Drain lasts 315 s at rank 1 and 600 s at rank 20 (300 without): a hit 2 s before its end is drained, one 1 s after it isn't.
+- Mana Drain lasts 315 s at rank 1 and 600 s at rank 20 (300 without): a hit 10 s before its end is drained, one 10 s after it isn't.
 
 ## Rank by rank
 

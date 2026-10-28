@@ -17,6 +17,8 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 - **The attackers** (24 pieces) move first and win by **surrounding the King on all four sides**. A King on the edge of the board can't be captured.
 - **The defenders** (12 pieces and the King, who starts on the throne in the middle) win when **the King reaches a corner**.
+- **Encirclement:** the attackers also win when their move closes a ring around the King and **every** remaining defender, so that none of them can reach the edge of the board. Pieces move in straight lines, so attackers touching corner to corner close the ring. A ring with a gap, a defender left outside it, or a ring that leaves the King room to reach the edge is no encirclement.
+- **Exit fort:** the defenders also win when, after their move, the King stands on the edge of the board, can still move, and is walled in by defenders the attackers can never capture: only defenders and the edge around the King's free squares, and every one of those defenders backed (on each line, across and along, at least one neighbour the attackers can never take: the edge, the King's free squares, or another such defender). A wall piece with open squares on both sides of a line, an attacker touching the King's squares, or a King with no free square is no fort. The King inside his fort but off the edge isn't a win yet; back on the edge it is.
 - Pieces move in straight lines, any number of free squares, and can't jump. Only the King may stop on the throne or the corners.
 - A piece is captured when it's **sandwiched** between two enemies (a corner and the empty throne count as enemies). Moving into a sandwich yourself is safe. A row of defenders along the edge can be captured by a shieldwall.
 - A side with no legal move loses.
@@ -33,9 +35,9 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 | medium | 2 moves ahead |
 | hard | 3 moves ahead |
 
-**Forfeit** ends the game at once (it doesn't ask) as a loss. A new game can start right away: unlike chess, there's no wait between games.
+**Forfeit** asks first (**Cancel** keeps playing); **Yes, forfeit** ends that game as a loss, once (clicked again, it says privately that the game is already over, and it never ends a newer game). A new game can start right away: unlike chess, there's no wait between games.
 
-A win pays credits and maybe scrap, by difficulty (table below). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
+A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
 
 | Difficulty | Credits (always) | Also, each on its own chance |
 |---|---|---|
@@ -47,13 +49,19 @@ A win pays credits and maybe scrap, by difficulty (table below). A loss and a fo
 
 ### The challenge
 
-**Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. They get a DM and find your challenge in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
+**Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. They get a DM and find your challenge in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. When they accept or decline (or the challenge expires), your lobby says so at once. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
 
 You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused (a late Accept, a button that isn't yours, a move from an old screen) is answered privately.
 
 ### How a game ends
 
-The King escapes to a corner, the King is captured, the side to move has no legal move, the same position comes a third time (a draw), a player resigns (**Resign**), or the player to move doesn't move within **15 minutes** (they lose). The player whose move or click ended the game sees the result on their screen; the game then leaves both lobbies (Discord doesn't tell the other player otherwise, nor whose turn it is: **Refresh** your lobby to see).
+The King escapes to a corner, the King is captured, the attackers ring in the King and every defender (encirclement), the King holds an exit fort, the side to move has no legal move, the same position comes a third time (a draw), a player resigns (**Resign**), or the player to move doesn't move within **15 minutes** (they lose). The game then leaves both lobbies.
+
+### Your screen follows the game
+
+Moves and endings come without a DM (a challenge and the notice after a restart still do). Instead, your Hnefatafl message follows the game: the board you last looked at, or your lobby if you haven't opened the game. When your opponent moves, it shows their move and, on your turn, your **Make Move**; when the game ends (a move, a resignation, a timeout), both players' messages show the result, with a note when the game scored no ranked points. Leave Multiplayer for the Hnefatafl menu or Singleplayer and that message is left alone; your lobby shows your games when you come back.
+
+Discord lets the bot update a message through your last click for 15 minutes. After that, a message in the channel is still updated; a private one can't be (open your lobby to see the game).
 
 ### Ranked points
 

@@ -24,6 +24,7 @@ title: "Credits and RUNES"
 - **RUNES or Credits tokens sent to your deposit address become credits 1:1.**
 - The bot sees the payment (you get a DM), then credits your wallet at **6 confirmations** (another DM).
 - Each deposit is credited exactly once, however often the bot hears about it. A deposit made while the bot was offline is found and credited when it's back.
+- If the Runebase node or the bot's database has a hiccup while your deposit comes in, the bot tries again with the next block: a deposit is never skipped, and still credited only once.
 - One payment to several deposit addresses gives each player the sum sent to their own address.
 - A staking reward paid to a deposit address is not a deposit.
 
@@ -43,7 +44,8 @@ title: "Credits and RUNES"
 - Your credits leave your wallet at once and the withdrawal is **queued**. The bot then sends it as Credits tokens and you get a DM ("Your withdrawal has been accepted", with the transaction), and another when it's **confirmed** at 6 confirmations. Your pouch history shows each withdrawal with its transaction.
 - If the Runebase node is down, `/withdraw` says so and nothing moves. If the node goes down after you queued, or the bot's wallet is short, the withdrawal stays queued and goes out later, once.
 - Withdrawals can be paused by the staff; a queued withdrawal then waits and goes out once they resume.
-- If the network refuses a withdrawal before it is sent, your credits are refunded, once.
+- If the network refuses a withdrawal before it is sent, your credits are refunded, once, and you get a DM saying so.
+- **A withdrawal is never sent twice.** If the bot can't tell whether it went out (the node didn't answer clearly, or the bot stopped in the middle), it stays **pending** in your withdrawal history: the bot doesn't send it again or refund it on its own, and the staff check it and settle it.
 - Two withdrawals of your whole balance at the same moment: one is queued, the other is refused. Credits you spend after queuing can't touch the queued amount.
 
 ## RUNES prizes

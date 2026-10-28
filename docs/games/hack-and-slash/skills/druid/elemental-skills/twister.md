@@ -25,6 +25,10 @@ title: "Twister"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- It hits 2 monsters (5 at rank 20), hopping to a monster next to the last, with 25-30 physical (253-391); each monster hit may be stunned, at its own roll (35%, 54%). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

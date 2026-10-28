@@ -23,6 +23,10 @@ title: "Summon Spirit Wolf"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Up to 2 wolves (6 at rank 20), each with 150 health (1,100) and 25 armor a level, biting a monster each round for 5-10 physical (62-162), with your strength bonus, for 15 rounds (72); a cast past the limit replaces the wolf with the fewest rounds left. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

@@ -26,6 +26,7 @@ title: "Werewolf"
 ## Checked in play
 
 - Cast first, it lets the shape skills (Feral Rage, Hunger, …) work.
+- In the shape your attacks have its pierce chance to go on to one more monster: 6% at rank 1, 25% at rank 20.
 
 ## Rank by rank
 

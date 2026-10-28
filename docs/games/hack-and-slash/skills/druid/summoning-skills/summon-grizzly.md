@@ -24,6 +24,10 @@ title: "Summon Grizzly"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A grizzly with 1,500 health (4,350 at rank 20) whose blows of 25-40 physical (215-458), with your strength bonus, stun at 5% (24%), for 15 rounds (72). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

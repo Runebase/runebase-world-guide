@@ -26,6 +26,10 @@ title: "Meteor"
 - Its fire damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster it hits takes its fire damage twice (the hit and the explosion), the monsters next to it once; all three burn for its rounds from that round (2 at rank 1, 6 at rank 20), and each has its 10% chance to be stunned and skip its attack.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

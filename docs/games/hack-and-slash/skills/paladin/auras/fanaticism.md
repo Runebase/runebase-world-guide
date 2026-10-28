@@ -21,6 +21,10 @@ title: "Fanaticism"
 
 - It works while it's your main or secondary skill, and counts once a round (in the Arena, once a move).
 
+## Checked in play
+
+- Your attacks that aren't spells have its pierce chance to hit the next monster too: 3% at rank 1, 41% at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

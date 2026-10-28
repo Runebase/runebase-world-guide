@@ -24,6 +24,10 @@ title: "Charge"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster it hits takes your shield's blow and the explosion, each through its armor; its neighbours take the explosion (+100% damage at rank 1, +860% at rank 20). Without a shield its button makes the regular attack, for free.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

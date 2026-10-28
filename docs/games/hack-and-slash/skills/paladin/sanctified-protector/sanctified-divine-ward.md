@@ -22,6 +22,10 @@ title: "Sanctified Divine Ward"
 - A monster it stuns skips its attack that round.
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Your Divine Protectors get its health (+150 at rank 1, +3,000 at rank 20), its rounds (+4, +10) and its stun chance on their hits (3%, 7%).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

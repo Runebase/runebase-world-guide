@@ -24,6 +24,10 @@ title: "Frost Nova"
 - Its cold damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Every monster takes its cold damage (1-2 at rank 1, 39-59 at rank 20) and has its freeze chance (20%, 77%): a frozen monster misses its attacks for 2 rounds, this one included.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

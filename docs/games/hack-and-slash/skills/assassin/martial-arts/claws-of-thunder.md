@@ -16,7 +16,7 @@ title: "Claws of Thunder"
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 
-> In the game: An attack that deals lightning damage and stores a charge. release chain lightning on 3rd charge
+> In the game: An attack that stores a charge; the third strike deals its lightning damage and releases chain lightning.
 
 ## How it works
 
@@ -24,6 +24,10 @@ title: "Claws of Thunder"
 - Every third use releases its charged effect, then it starts over.
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Checked in play
+
+- A charged strike, 2 mana each: the first two are your plain hit; the third adds its lightning (1-80 at rank 1, 1-460 at rank 20) and chains to 3 monsters (9), every hop after the first the lightning only. The lightning comes only with the third strike, as its screen says.
 
 ## Rank by rank
 

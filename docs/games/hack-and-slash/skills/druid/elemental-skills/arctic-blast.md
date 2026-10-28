@@ -24,6 +24,10 @@ title: "Arctic Blast"
 - Its cold damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster you selected takes its cold twice (the blast and its explosion), each monster next to it once: 5-10 at rank 1, 119-162 at rank 20. Each of them may be frozen, at its own roll (15%, 63%), for 2 rounds (4), the round it lands included. 3 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

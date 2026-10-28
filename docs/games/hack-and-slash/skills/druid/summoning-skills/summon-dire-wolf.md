@@ -21,6 +21,10 @@ title: "Summon Dire Wolf"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Your spirit wolves get +25% damage (+310% at rank 20), a 1% chance (20%) for a bite to go on to one more monster, +75 health (+1,500) and +3 rounds (+60).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

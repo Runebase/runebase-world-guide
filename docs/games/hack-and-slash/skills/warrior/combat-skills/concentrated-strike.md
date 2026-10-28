@@ -23,6 +23,10 @@ title: "Concentrated Strike"
 - It hits the monster you selected.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- It never misses and can't be blocked. Rank 1: +35% damage and a 2% critical chance, for 2 mana; rank 20: +415% and 21%, for 50 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

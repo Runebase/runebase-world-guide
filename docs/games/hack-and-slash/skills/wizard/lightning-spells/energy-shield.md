@@ -23,6 +23,10 @@ title: "Energy Shield"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For its rounds, its share of every monster hit on you comes off your mana instead of your health: 20% for 10 rounds at rank 1, 100% for 48 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

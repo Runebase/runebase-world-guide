@@ -23,6 +23,10 @@ title: "Stun"
 - A monster it stuns skips its attack that round.
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 
+## Checked in play
+
+- Rank 1: +5% damage and a 15% chance to stun the monster (it skips its attack that round); rank 20: +100% and 63%. It costs no mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

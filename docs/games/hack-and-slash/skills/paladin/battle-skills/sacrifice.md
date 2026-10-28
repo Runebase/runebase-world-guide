@@ -15,12 +15,16 @@ title: "Sacrifice"
 - **Opens:** [Zeal](zeal.md)
 - **Weapon:** any
 
-> In the game: Increased damage at the cost of health.
+> In the game: Increased damage at the cost of health, paid when the hit lands.
 
 ## How it works
 
 - It hits the monster you selected.
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
+
+## Checked in play
+
+- Its hit gets +180% damage and +20% attack rating at rank 1 (+560% and +400% at rank 20), and a hit that lands costs its % of your maximum health (7%, 1.02%); a miss costs nothing; no mana.
 
 ## Rank by rank
 

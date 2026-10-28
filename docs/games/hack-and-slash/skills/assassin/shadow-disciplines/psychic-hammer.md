@@ -22,6 +22,10 @@ title: "Psychic Hammer"
 - It stays on the monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
 - A monster it stuns skips its attack that round.
 
+## Checked in play
+
+- No damage: the monster you selected is stunned at once and for its rounds (2 at rank 1, the round it's cast included; 4 at rank 20) and meanwhile loses 20% of its armor (77%). It costs no mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

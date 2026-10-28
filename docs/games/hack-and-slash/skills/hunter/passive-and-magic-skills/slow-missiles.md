@@ -23,6 +23,10 @@ title: "Slow Missiles"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For 6 rounds (44 at rank 20) missiles (a ranged attack, like a Flamecaster's Fire Bolt) hit you 5% less (43%); melee hits are unchanged. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

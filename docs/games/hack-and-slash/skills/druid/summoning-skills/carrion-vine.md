@@ -21,6 +21,10 @@ title: "Carrion Vine"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Your Poison Creeper's attack also deals 6-10 poison at once (101-162 at rank 20).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

@@ -21,6 +21,10 @@ title: "Skeleton Mastery"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Every skeleton and skeletal mage you raise gets its health and rounds: +2.5% health and +2 rounds at rank 1, +50% and +21 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

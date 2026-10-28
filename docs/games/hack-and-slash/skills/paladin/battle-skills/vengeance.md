@@ -24,6 +24,10 @@ title: "Vengeance"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster it hits takes your weapon's hit and its fire, lightning and cold; its neighbours the fire, lightning and cold (6-12, 1-15 and 6-12 at rank 1; 82-183, 1-148 and 82-183 at rank 20).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

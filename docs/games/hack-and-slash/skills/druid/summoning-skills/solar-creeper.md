@@ -21,6 +21,10 @@ title: "Solar Creeper"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Your Poison Creeper gets +100 health (+2,000 at rank 20), +5 rounds (+100), and each round a 15% chance (43.5%) of an explosive attack: its Carrion Vine poison on the monster and on those next to it.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

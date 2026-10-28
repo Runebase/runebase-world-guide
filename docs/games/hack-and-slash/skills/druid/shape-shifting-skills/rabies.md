@@ -26,6 +26,10 @@ title: "Rabies"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- In Werewolf shape: your hit, and a poison that ticks the round it lands and once a round after: 15-23 for 3 rounds at rank 1, 148-346 for 7 rounds at rank 20. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

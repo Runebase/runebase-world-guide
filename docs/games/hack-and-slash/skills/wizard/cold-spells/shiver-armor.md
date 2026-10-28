@@ -23,6 +23,10 @@ title: "Shiver Armor"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For its rounds: +15% armor (+129% at rank 20), and a monster that attacks you in melee takes its cold damage (4-10, 80-200) with its freeze chance (5%, 9%): frozen, it misses its next attack at rank 1 (its next 5 at rank 20). A critical counter deals +75%.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

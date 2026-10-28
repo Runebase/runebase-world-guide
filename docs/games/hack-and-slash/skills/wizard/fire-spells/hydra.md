@@ -23,6 +23,10 @@ title: "Hydra"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A Hydra no monster can attack casts its fire bolt at a monster every round of its rounds, from the round you summon it: 14-19 fire for 10 rounds at rank 1, 128-171 for 29 at rank 20 (with the fire tree's bonus).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

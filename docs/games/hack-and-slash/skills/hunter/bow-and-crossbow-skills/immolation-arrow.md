@@ -25,6 +25,10 @@ title: "Immolation Arrow"
 - Its fire damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Your arrow plus its fire (20, 115 at rank 20), and a burn that ticks the round it lands and then once a round: 13-25 for 2 rounds at rank 1, 260-272 for 8 rounds at rank 20. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

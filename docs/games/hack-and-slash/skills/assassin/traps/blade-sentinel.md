@@ -24,6 +24,10 @@ title: "Blade Sentinel"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- 3 blades of 6-10 physical (9 of 82-86 at rank 20), with your strength bonus but not your weapon's damage; the first on the monster you selected, the others on random living monsters, each rolling to hit. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

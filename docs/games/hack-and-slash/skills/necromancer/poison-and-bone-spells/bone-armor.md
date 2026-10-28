@@ -23,6 +23,10 @@ title: "Bone Armor"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For its rounds (5 at rank 1, 43 at rank 20) a shield takes the physical damage of monster hits before your health, up to 30 points (315 at rank 20); used up, it's gone.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

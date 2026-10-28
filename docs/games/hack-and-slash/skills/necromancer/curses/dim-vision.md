@@ -23,6 +23,10 @@ title: "Dim Vision"
 - It stays on every monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Every monster's magic resistance drops by its % for its rounds: 15% for 10 rounds at rank 1 (your magic hits deal 15% more), 110% for 105 at rank 20. A new curse replaces the old one.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

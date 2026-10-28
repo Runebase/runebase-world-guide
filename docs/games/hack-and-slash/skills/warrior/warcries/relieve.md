@@ -21,6 +21,10 @@ title: "Relieve"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- When you win a battle you heal 10% of your maximum health (29% at rank 20); nothing while the battle goes on.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

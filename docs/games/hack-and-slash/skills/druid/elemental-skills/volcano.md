@@ -25,6 +25,10 @@ title: "Volcano"
 - Its fire damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster you selected takes its fire twice (the hit and the explosion), each monster next to it once: 25-35 (329-434 at rank 20); each of them may be stunned, at its own roll (10%, 67%). 2 mana, 40 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

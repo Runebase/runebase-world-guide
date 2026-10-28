@@ -23,6 +23,10 @@ title: "Raven"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Ravens peck a monster each round with 2-3 physical (40-60 at rank 20), with your strength bonus, for 15 rounds (72); each cast adds one, up to 1 raven (3). A raven has 1 health and the monsters can't attack it. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

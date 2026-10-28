@@ -26,6 +26,10 @@ title: "Shock Wave"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- In Werebear shape: every monster takes 25-33 physical (367-470 at rank 20); each may be stunned, at its own roll (30%, 49%). 2 mana, 40 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

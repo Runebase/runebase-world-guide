@@ -21,6 +21,10 @@ title: "Blessed Aim"
 
 - It works while it's your main or secondary skill, and counts once a round (in the Arena, once a move).
 
+## Checked in play
+
+- Your attacks get its attack rating bonus, in the menus and in battle: +25% at rank 1 (+215% at rank 20); a hit that would have missed lands.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

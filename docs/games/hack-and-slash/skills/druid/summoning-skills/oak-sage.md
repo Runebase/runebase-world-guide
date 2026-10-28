@@ -23,6 +23,10 @@ title: "Oak Sage"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A sage with 75 health (1,500 at rank 20) for 15 rounds (72) that never attacks; while it stands you have +10% health (+200%). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

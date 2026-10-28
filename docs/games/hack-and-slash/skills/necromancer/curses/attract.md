@@ -23,6 +23,10 @@ title: "Attract"
 - It stays on every monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Monsters attack one of your minions 40% of the time; cursed, 40% plus its %: 41% at rank 1, 60% at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

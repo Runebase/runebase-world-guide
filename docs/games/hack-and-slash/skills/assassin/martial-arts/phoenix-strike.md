@@ -25,6 +25,10 @@ title: "Phoenix Strike"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A charged strike, 2 mana each: the third adds its fire, cold and lightning at once (22-44, 17-35 and 1-45 at rank 1; 231-253, 169-187 and 1-330 at rank 20).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

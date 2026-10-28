@@ -22,6 +22,10 @@ title: "Heart of Wolverine"
 - Life and mana steal give you their % of the damage dealt.
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- While your Oak Sage stands your hits steal 5% of their damage as life (62% at rank 20).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

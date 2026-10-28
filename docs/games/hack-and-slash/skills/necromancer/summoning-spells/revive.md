@@ -24,6 +24,10 @@ title: "Revive"
 - It needs a corpse: a monster that fell in the battle.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A corpse fights for you with its own health and attacks, +15% damage at rank 1 (+300% at rank 20, plus your damage bonus), for 10 rounds (48). At most 4 at once (6 at rank 20): one more replaces the oldest. Without a corpse its button makes the regular attack, for free.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

@@ -23,6 +23,10 @@ title: "Wake of Fire"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A trap that throws a fire bomb of 5-10 (81-105 at rank 20) at a monster each round, exploding on the monsters next to it, for 4 rounds (42), the round it's set included. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

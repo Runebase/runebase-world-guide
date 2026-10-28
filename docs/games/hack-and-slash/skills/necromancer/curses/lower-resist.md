@@ -26,6 +26,7 @@ title: "Lower Resist"
 ## Checked in play
 
 - It lowers the five magical resistances (fire, cold, lightning, poison, magic), never physical. On you (in the Arena) it lowers your whole resistance before the 70% limit, and nothing stops it below 0.
+- In a quick battle, at rank 20, your magic hits deal 48% more and your weapon hits as hard as without it.
 
 ## Rank by rank
 

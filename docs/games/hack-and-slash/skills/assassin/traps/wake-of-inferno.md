@@ -24,6 +24,10 @@ title: "Wake of Inferno"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A trap that sets a monster on fire each round for 4 rounds (42), the round it's set included: a burn of 12-30 (221-239 at rank 20) for 3 rounds. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

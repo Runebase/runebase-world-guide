@@ -23,6 +23,10 @@ title: "Summon Divine Protector"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- 2 protectors fight for you for its rounds: 750 health and 3-5 damage for 15 rounds at rank 1, 10,250 and 22-195 for 72 at rank 20 (plus your damage bonus).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

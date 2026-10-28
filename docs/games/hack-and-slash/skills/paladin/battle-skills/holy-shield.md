@@ -23,6 +23,10 @@ title: "Holy Shield"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For its rounds (10 at rank 1, 105 at rank 20): +25% armor (+500%), +15% block (+34%) and its smite damage on Smite (+3-6, +41-101). Without a shield it falls away.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

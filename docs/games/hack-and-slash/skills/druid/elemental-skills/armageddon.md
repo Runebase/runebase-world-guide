@@ -26,6 +26,10 @@ title: "Armageddon"
 - Its fire damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Every monster takes 88-110 fire (563-623 at rank 20) and burns 25-48 a round (310-333) for 2 rounds (6), the round it lands included; each may be stunned, at its own roll (10%, 48%). 2 mana, 40 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

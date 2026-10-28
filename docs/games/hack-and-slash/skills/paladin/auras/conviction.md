@@ -23,7 +23,7 @@ title: "Conviction"
 
 ## Checked in play
 
-- It lowers your enemies' five magical resistances (fire, cold, lightning, poison, magic), never physical: 53% at rank 20. In the Arena it lowers only your opponent's, on your move and theirs.
+- It lowers your enemies' five magical resistances (fire, cold, lightning, poison, magic), never physical: 53% at rank 20, so your magic hits deal 53% more and your weapon hits as hard as without it. In the Arena it lowers only your opponent's, on your move and theirs.
 
 ## Rank by rank
 

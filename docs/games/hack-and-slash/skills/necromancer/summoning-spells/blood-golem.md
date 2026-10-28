@@ -24,6 +24,10 @@ title: "Blood Golem"
 - A minion fights at your side for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A golem of 637 health for 6 rounds (3,240 for 44 at rank 20) hits with its physical damage (12-33, 145-318, plus your damage bonus) and its life steal (25%, 44%): half of what it steals heals the golem, half heals you.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

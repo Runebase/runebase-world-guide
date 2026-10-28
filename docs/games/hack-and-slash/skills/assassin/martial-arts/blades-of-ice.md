@@ -16,7 +16,7 @@ title: "Blades of Ice"
 - **Weapon:** any
 - **Mana:** 2 at rank 1, 2 at rank 20
 
-> In the game: A cold attack with a chance to freeze the enemy. explodes on 3rd charge
+> In the game: An attack with a chance to freeze the enemy that stores a charge; the third strike deals its cold damage and explodes.
 
 ## How it works
 
@@ -24,6 +24,10 @@ title: "Blades of Ice"
 - Every third use releases its charged effect, then it starts over.
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Checked in play
+
+- A charged strike, 2 mana each, that can freeze on every strike (20% for 2 rounds at rank 1, 58% for 6 at rank 20); the third adds its cold (15-35, 205-225) and explodes it on the monsters next to the one you hit; the cold comes only with the third strike, as its screen says.
 
 ## Rank by rank
 

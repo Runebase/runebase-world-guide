@@ -21,6 +21,10 @@ title: "Spirit of Barbs"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- While your Oak Sage stands your physical damage is +5% (+100% at rank 20), counted once.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

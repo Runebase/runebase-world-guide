@@ -23,6 +23,10 @@ title: "Blade Shield"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For 15 rounds (72 at rank 20) every melee attack on you, landed or not, is struck back with 1-30 physical (58-315), and your defense is 1% higher (20%); missiles aren't struck back. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

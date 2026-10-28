@@ -23,6 +23,10 @@ title: "Werebear"
 - It turns you into its shape for its rounds; the Druid skills that need the shape work only then.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The Werebear shape for 10 rounds (105 at rank 20): +20% defense (210%), +3% damage (60%) and +10% health (105%: a hit takes that much less of your health). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

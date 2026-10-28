@@ -16,13 +16,17 @@ title: "Cold Arrow"
 - **Weapon:** [a bow](../../../gear-and-crafting.md#weapons-that-skills-need)
 - **Mana:** 3 at rank 1, 3 at rank 20
 
-> In the game: Enchants an arrow, converts damage to cold and adds chance to freeze your enemy.
+> In the game: Enchants an arrow: converts half of the arrow's physical damage to cold, adds cold damage and a chance to freeze your enemy.
 
 ## How it works
 
 - It hits the monster you selected.
 - Its cold damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
+
+## Checked in play
+
+- Half of your arrow's physical damage (with its bonuses) turns to cold: that half passes armor and meets cold resistance, the other half stays physical; plus its own cold (1 at rank 1, 20 at rank 20). A freezing hit freezes the monster for its rounds, the round it lands included: 15% for 2 rounds at rank 1, 72% for 12 rounds at rank 20. 3 mana.
 
 ## Rank by rank
 

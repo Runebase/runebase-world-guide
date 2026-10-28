@@ -21,6 +21,10 @@ title: "Holy Shock"
 
 - It works while it's your main or secondary skill, and counts once a round (in the Arena, once a move).
 
+## Checked in play
+
+- After every round every monster takes its lightning damage: 1-30 at rank 1, 1-410 at rank 20. A monster's damage shield takes its share first.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

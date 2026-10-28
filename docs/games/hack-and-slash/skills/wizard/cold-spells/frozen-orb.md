@@ -24,6 +24,10 @@ title: "Frozen Orb"
 - Its cold damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- It hops "targets" times (3 at rank 1, 6 at rank 20) and explodes at every hop: the monster it reaches takes its cold damage twice, the ones next to it once (51-86 at rank 1, 621-694 at rank 20); every monster hit has its freeze chance (5%, 24%).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

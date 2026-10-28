@@ -23,6 +23,10 @@ title: "Cyclone Armor"
 - It's on you for its rounds.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For 15 rounds (72 at rank 20), or until its shield is used up: it absorbs 35 magical damage (320), and strikes every melee attacker, landed or not, with 10-15 physical (143-224). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

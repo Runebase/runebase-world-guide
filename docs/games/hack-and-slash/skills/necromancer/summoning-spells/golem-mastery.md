@@ -21,6 +21,10 @@ title: "Golem Mastery"
 
 - It's always on: nothing to select, no mana.
 
+## Checked in play
+
+- Every golem you summon (Clay, Blood, Iron, Fire) gets its health and rounds: +2.5% health and +3 rounds at rank 1, +50% and +60 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).

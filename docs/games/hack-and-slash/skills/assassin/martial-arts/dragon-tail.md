@@ -24,6 +24,10 @@ title: "Dragon Tail"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- A kick with your boots' damage (1-2 without boots) at +85% (+465% at rank 20), with your strength and Dragon Claw bonuses, chained to 2 monsters (4). 2 mana, 21 at rank 20.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

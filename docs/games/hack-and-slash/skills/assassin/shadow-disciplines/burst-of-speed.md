@@ -22,6 +22,10 @@ title: "Burst of Speed"
 - It hits every monster.
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 
+## Checked in play
+
+- Every monster takes your hit at −50% (+140% at rank 20), with Claw Mastery's bonus for your katar. It costs no mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

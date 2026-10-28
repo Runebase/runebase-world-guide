@@ -25,6 +25,10 @@ title: "Fire Claws"
 - Its physical damage rolls to hit ([your hit chance](../../../attributes-and-combat.md#hitting-and-missing)), and monsters can block it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- In Werewolf or Werebear shape: your hit at +10% (+105% at rank 20) and 19-35 fire (209-320) explode: the monster you selected takes the hit twice and the fire, each monster next to it the hit and the fire. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

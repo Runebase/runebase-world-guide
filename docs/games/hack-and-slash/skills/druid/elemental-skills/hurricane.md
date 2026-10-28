@@ -24,6 +24,10 @@ title: "Hurricane"
 - A monster it stuns skips its attack that round.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For 15 rounds (72 at rank 20), from the round after you cast it, every monster takes 23-30 physical (308-391) each round, each may be stunned at its own roll (3%, 18%). 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

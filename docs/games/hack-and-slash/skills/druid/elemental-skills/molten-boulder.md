@@ -24,6 +24,10 @@ title: "Molten Boulder"
 - Its fire damage never misses: only physical attacks roll to hit.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- The monster you selected takes the boulder and its explosion, each monster next to it the explosion: 6-15 fire each at rank 1, 101-243 at rank 20. 2 mana.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

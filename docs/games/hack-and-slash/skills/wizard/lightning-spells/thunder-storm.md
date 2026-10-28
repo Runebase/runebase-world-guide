@@ -24,6 +24,10 @@ title: "Thunder Storm"
 - A monster it stuns skips its attack that round.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- For its rounds (15 at rank 1, 72 at rank 20), every round has its proc chance (35%, 92%) to strike a monster with its lightning (1-30, 1-505) and its stun chance (3%, 18%); a critical strike deals +75%. A monster's damage shield takes its share first, and the storm keeps striking.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

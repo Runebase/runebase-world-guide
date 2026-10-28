@@ -21,6 +21,10 @@ title: "Sanctuary"
 
 - It works while it's your main or secondary skill, and counts once a round (in the Arena, once a move).
 
+## Checked in play
+
+- Your life gets its bonus: +10% at rank 1 (+105% at rank 20), so a monster hit takes that much less of your health (the damage divided by 1.10).
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

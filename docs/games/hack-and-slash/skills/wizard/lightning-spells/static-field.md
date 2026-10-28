@@ -24,6 +24,10 @@ title: "Static Field"
 - A monster it stuns skips its attack that round.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
+## Checked in play
+
+- Nothing happens until its 3 rounds are over; in the 4th round after you cast it, every monster takes its lightning damage (1-30 at rank 1, 1-315 at rank 20) and has its stun chance (50%, 88%) to skip its attack that round.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).

@@ -26,6 +26,7 @@ title: "Mirror"
 ## Checked in play
 
 - The reflection repeats your attack with its damage bonus: −50% at rank 1.
+- It has your critical chance: a critical reflection deals 75% more, as yours does.
 
 ## Rank by rank
 

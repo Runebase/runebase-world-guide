@@ -23,9 +23,9 @@ Your **points** in a reign are the damage you dealt (bleeds and detonations incl
 
 When an attack or a round's bleed brings the Crown to 0:
 
-1. **The next Crown is drawn** among everyone with points in this reign who is still in the server, weighted by points: each player's chance is their share of all the points. The draw is posted with its roll. The final blow's 200 points help, but don't crown you by themselves. When nobody still here has points, the realm's default Crown takes it.
+1. **The next Crown is drawn** among everyone with points in this reign who is still in the server: each player's chance is exactly their share of all the points. The draw is posted with its roll and each player's range (300 points of 750 is "0.00-299.99", the next player's starts at 300.00, and so on); a player with 0 points has no chance. The final blow's 200 points help, but don't crown you by themselves. When nobody still here has points, the realm's default Crown takes it.
 2. **The old Crown gets the whole pool** in credits, once (the one prize not capped at 25,000 credits). The pool starts again at 0.
-3. **<span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span>** (a share of the realm's RUNES wallet, tipped): the old Crown gets **0.000032407% per point**, counting at most **19,999 points**; the final blow gets 3.5% of that, and the top three by points 5%, 3.5% and 1.5% of it.
+3. **<span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span>** (a share of the realm's RUNES wallet, tipped): the old Crown gets **0.000032407% per point**, counting at most **19,999 points**; the final blow gets 3.5% of that, and the top three by points still in the server 5%, 3.5% and 1.5% of it (someone who left the server gets no share, and the next one moves up).
 4. **Experience:** the old Crown gets 0.85 × its points, at most **8,999**.
 5. The Crown role moves to the new Crown, who starts with a seizure bubble.
 

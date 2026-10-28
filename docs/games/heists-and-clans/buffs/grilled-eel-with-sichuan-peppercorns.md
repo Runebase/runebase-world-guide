@@ -15,6 +15,11 @@ title: "Grilled Eel with Sichuan Peppercorns"
 
 Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 [Eel](../../../items/ingredients.md#eel) + 4 [Sichuan Peppercorns](../../../items/ingredients.md#sichuan-peppercorns); swapped for at the [convert market](../../../account/gifts-and-convert-market.md#the-convert-market); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Grilled Eel with Sichuan Peppercorns](../../../items/dishes.md#grilled-eel-with-sichuan-peppercorns).
 
+## Checked in play
+
+- Exactly 5% for your attack to keep its energy (10% with the Recovery Chance attack); the charge is used even when it doesn't. Held while you defend, it stays: a defender never recovers energy.
+- The heist menu lists it with its charges and its number and adds it to your stats; the log shows it among your triggered buffs when it's used.
+
 ## How buffs work
 
 Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: [heist buffs](index.md).

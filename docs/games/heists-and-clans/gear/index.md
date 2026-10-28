@@ -11,7 +11,10 @@ Heist gear is crafted with scrap from the heist gear menu (it costs exactly the 
 
 - **Without Tactical Shift** (the default), your **neutral** set counts both when you attack and when you defend.
 - **With Tactical Shift** (**Enable Tactical Shift** in the heist menu), your **offensive** set counts when you attack and your **defensive** set when you defend; the neutral set rests.
-- An attacking bonus only works when you attack, a defending bonus when you defend (and when you're counter-attacked).
+- An attacking bonus works when you attack, a defending bonus when you defend.
+- **A counter-attack** is the defender's attack and the raider's defence for experience: Odin's Furyblade and Forseti's Judgment also add to your counter-attack when you defend, and the defending block and experience pieces (Njord's takes 1 off, a block item can block it) protect you when you're counter-attacked as the raider. A counter-attack never gives energy back or earns a buff, so the recovery and earned-buff pieces do nothing in it.
+- With Tactical Shift each side keeps the set it's wearing in a counter-attack: the raider their offensive set (its defending pieces protect them, the defensive set's don't), the defender their defensive set.
+- Every item's numbers are the ones its gear screen, the crafting screen and the heist menu show, and the heist uses exactly those; every slot adds up.
 
 | Item | Slot | When attacking | When defending | Crafting cost (wood / metal / leather scrap) |
 |---|---|---|---|---|

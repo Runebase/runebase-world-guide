@@ -12,7 +12,7 @@ title: "Attributes and combat"
 You get **5 attribute points per level** to spend on the stats screen (never more than you've earned).
 
 - **Strength:** its whole value as % extra physical (and throw) damage.
-- **Dexterity:** +5 attack rating a point, multiplied by your level's multiplier ([below](#hitting-and-missing)).
+- **Dexterity:** +5 attack rating a point, multiplied by your level's multiplier ([below](#hitting-and-missing)); dexterity from your gear and its inscriptions counts the same as the points you spend.
 - **Vitality:** health (× your class's health per vitality) and stamina (+1 a point, Assassin 1.25).
 - **Energy:** mana (× your class's mana per energy).
 - Each level lowers your fire, cold, lightning, poison and magic resistance by 1.
@@ -23,7 +23,7 @@ You get **5 attribute points per level** to spend on the stats screen (never mor
 
 Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ (your attack rating + the monster's armor) × your level ÷ (your level + the monster's level), kept between 5% and 95%. A level-1 Warrior (attack rating 91) hits a level-1 Flamecaster (armor 55) 62.3% of the time.
 
-- **Your attack rating grows with your level:** your class's 50 plus 5 per dexterity point, times your level's multiplier; attack rating from gear is added on top.
+- **Your attack rating grows with your level:** your class's 50 plus 5 per dexterity point (spent or from gear), times your level's multiplier; attack rating from gear is added on top.
 - Skills and buffs with attack rating % raise it ([Strategic Shout](skills/warrior/warcries/strategic-shout.md)'s +40% takes that 62.3% to 69.8%).
 - **Monsters block** your physical attacks as often as their screen shows (a Zombie 10%).
 - **Spells never miss:** only physical attacks roll to hit. Magic, Fire, Cold, Lightning and Poison attacks always land, yours and the monsters'.

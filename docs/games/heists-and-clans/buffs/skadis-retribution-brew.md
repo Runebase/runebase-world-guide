@@ -15,6 +15,11 @@ title: "Skadi's Retribution Brew"
 
 Bought in the [store](../../../account/store.md#the-store); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: [Skadi's Retribution Brew](../../../items/store-consumables.md#skadis-retribution-brew).
 
+## Checked in play
+
+- Counter-attacks the next hit: the raider loses what you win back. Held while you attack, it stays.
+- The heist menu lists it with its charges and its number and adds it to your stats; the log shows it among your triggered buffs when it's used.
+
 ## How buffs work
 
 Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: [heist buffs](index.md).

@@ -52,6 +52,7 @@ Dice, treasure chests, scratch cards and Crown of Chaos pay some prizes in RUNES
 
 - If the tipbot is offline, the dice roll, chest or scratch card says so, and nothing is spent.
 - If the realm's tipbot session isn't active, no RUNES are tipped: the prize is recorded as not paid.
+- **A tip is never sent twice.** Each prize's tip is on record from the moment you win it. If the bot restarts right after your win, or the tipbot doesn't confirm the tip, the bot doesn't send it again on its own: the realm's admins are told, check the tipbot, and settle it by hand.
 
 ## Tips
 

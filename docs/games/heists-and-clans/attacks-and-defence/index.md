@@ -23,7 +23,7 @@ Then the chances roll:
 
 - **Recovery:** the attack costs no energy (it still scores its energy on the ladder).
 - **Block:** the defender blocks; nobody gains or loses experience, but it's still one of the defender's daily hits.
-- **Counter-attack:** the defender strikes back: the defender wins back 10 and the attacker loses 10 (so with the default attack type, the attacker ends at +1 and the defender at 0). It counts as a hit on the attacker's ladder, not on their daily hits.
+- **Counter-attack:** the defender strikes back: the defender wins back 10 and the attacker loses 10 (so with the default attack type, the attacker ends at +1 and the defender at 0). It counts as a hit on the attacker's ladder, not on their daily hits. It's the defender's attack and the raider's defence for experience: the defender's experience bonuses (Wild Turkey, Fried Squirrel, Odin's Furyblade, Forseti's Judgment, Phoenix Chick, Thunderbird) add to it, the raider's block and experience protections (Moose, Mackerel, the Barrier Draught, Assault Fortification, defending gear, Ghost Cat, the block pets, the clan) work against it; it never gives energy back or earns a buff. It wins back at most 14 and takes at most 13, at least 6.
 - **Deflect:** the heist lands on another heister instead, who takes the hit; the defender is untouched (and gets a deflect on their stats). It never lands on a member of the attacker's clan; with nobody to take it, there's no deflection.
 
 Nobody's experience goes below 0: a defender with 4 experience loses 4, and the attacker still gains the full amount.
@@ -32,9 +32,9 @@ After each heist the attacker gets a private message ("Heist Energy Left: n/3"),
 
 ## Pets, buildings, clans
 
-- **Pets:** your active pet's heist perk counts while it's awake and cared for; asleep, it doesn't. Every pet's perks: [Pets](../../../account/pets.md).
+- **Pets:** your active pet's heist perk counts while it's awake and cared for (every condition its perk screen lists); asleep, it doesn't. An attacking perk works on your own attacks, a defending perk when you're hit. In a counter-attack, an experience perk of the defender (Phoenix Chick, Thunderbird) adds to it, and a block or experience perk of the raider (Ghost Cat, the block pets) protects against it; the others do nothing in it. Every pet's perks: [Pets](../../../account/pets.md).
 - **[Thieves Den](../../../account/buildings.md#what-each-building-does)** (a building): +0.035% chance per level that an attack keeps its energy.
-- **Heist Clan Protection:** a defender who is in a clan loses 1 less experience.
+- **Heist Clan Protection:** a defender who is in a clan loses 1 less experience, and so does a raider in a clan who is counter-attacked.
 
 ## The heist's prize
 

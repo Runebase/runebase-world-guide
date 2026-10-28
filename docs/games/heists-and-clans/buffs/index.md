@@ -23,7 +23,8 @@ Eat a buff from the heist menu's **Heist Buffs** (every buff of every game: [Buf
 | [Retribution Fury](retribution-fury.md) (earned) | 100% counter-attack | defending |
 | [Assault Fortification](assault-fortification.md) (earned) | 100% block | defending; attacking, only when you're counter-attacked |
 
-- A buff used "only when you're counter-attacked" (Moose, Mackerel, Barrier Draught, Assault Fortification) stays when you attack and nobody strikes back.
+- A buff used "only when you're counter-attacked" (Moose, Mackerel, Barrier Draught, Assault Fortification) stays when you attack and nobody strikes back. A defending-only buff (Seared Tuna, Retribution Brew, Retribution Fury) stays when you attack, and an attacking-only one (Grilled Eel, Frigg's Elixir) when you defend; Wild Turkey and Fried Squirrel wait for your attack or your counter-attack.
+- **A deflected heist** uses none of the defender's charges (they weren't hit); the raider's are used once, on the heist that lands, with the new defender's.
 - **Super buffs:** at most **5** a month. You must be on this month's heist ladder: you are once you joined, attacked or were attacked this month (in the heist since an earlier month, you're refused until then, and nothing is taken). For a clan member, the clan must be on this month's clan ladder too (opening the heist menu puts it there); both count them. A 6th is refused and nothing is taken.
 - **Super buff charges you haven't used are gone at the month change:** the new month's first run resets them to 0. Your other buffs stay.
 - **Earned buffs** come from the [attack types](../attacks-and-defence/index.md#one-heist), and from gear and pets that add a chance to earn them: each win adds one charge.

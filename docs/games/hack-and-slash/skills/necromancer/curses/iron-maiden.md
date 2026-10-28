@@ -27,7 +27,7 @@ nav_icon: "assets/icons/skill/necromancer/iron-maiden.webp"
 
 ## Checked in play
 
-- A cursed monster whose physical hit on you lands takes its % of that damage back (100% at rank 1, 290% at rank 20), through its armor like any physical damage.
+- A cursed monster whose physical hit on you lands takes its % of that damage back (100% at rank 1, 290% at rank 20), through its armor like any physical damage. The reflection rolls to hit with your attack rating: it can miss or be blocked.
 
 ## Rank by rank
 

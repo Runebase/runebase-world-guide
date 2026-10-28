@@ -26,7 +26,7 @@ nav_icon: "assets/icons/skill/warrior/retaliate.webp"
 
 ## Checked in play
 
-- It kicks back a monster whose melee hit on you landed; a ranged hit or a miss isn't answered.
+- It kicks back a monster whose melee hit on you landed; a ranged hit or a miss isn't answered. The kick rolls to hit like any physical attack (it can miss or be blocked) and meets the monster's armor: your boots' damage matters.
 
 ## Rank by rank
 

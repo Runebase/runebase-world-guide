@@ -28,7 +28,7 @@ nav_icon: "assets/icons/skill/paladin/conversion.webp"
 
 ## Checked in play
 
-- A hit that lands has its chance (1% at rank 1, 4.8% at rank 20) to turn the monster into a minion that fights for you with the health it had left, for its rounds (10, 48); at most 1 at once (3 at rank 20). A monster the hit kills isn't converted.
+- A hit that lands has its chance (1% at rank 1, 4.8% at rank 20) to turn the monster into a minion that fights for you with the health it had left, for its rounds (10, 48); at most 1 at once (3 at rank 20). A monster the hit kills isn't converted. The converted monster keeps all its skills, now for your side: its Battle Cry or Frozen Armor buffs you and your minions, its Bone Armor shields itself.
 - In the Arena it never converts your opponent, as in Diablo II: the hit deals its damage and they fight on; it can convert one of their minions.
 
 ## Rank by rank

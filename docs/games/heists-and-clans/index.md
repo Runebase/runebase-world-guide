@@ -34,15 +34,19 @@ In a heist you steal **experience** from another player, not credits. Buffs, gea
 
 - After your **3rd** bubble of a month you can't rejoin until the next month begins: the heist menu's join button stays locked, and `/rolepanel` refuses privately.
 - Joining stays open in the month's last 3 days; only leaving is closed then.
-- Left in an earlier month, or lost your place? In a new month you can rejoin right away (with enough experience).
+- Left in an earlier month, or lost your place to low experience? You can rejoin right away once you have enough experience again, also in a new month.
+- `/rolepanel` (the heist role's Earn or Remove button) does the same: leaving within 2 days of joining, or rejoining before the wait is over, is refused privately with the time you can.
+- Being heisted is no bubble: you stay in the heist, protected only by the 6 hits a day.
 
 ## Energy and hits
 
-- You have **3 heist energy** a day, and you can be heisted **6 times** a day. Both refill at 00:00 UTC.
+- You have **3 heist energy** a day, and you can be heisted **6 times** a day. Both refill at 00:00 UTC, when the bot's midnight refill runs (a few seconds after midnight it may still count the old day). A heist counts on the ladder of the month it's made in: 23:59:59 on the last day is that month, 00:00:00 on the 1st the new one.
 - An attack costs 1 energy (unless you recover it: [one heist](attacks-and-defence/index.md#one-heist)). Every heist on you uses one of your 6 daily hits, also a blocked one.
-- **Mímisbrunnr** (in the heist menu): sacrifice an eye, once a month, to refill your heist energy and your daily hits. It's closed in the last 3 days of the month.
+- **Mímisbrunnr** (in the heist menu): sacrifice an eye, once a month, to refill your heist energy and your daily hits. It costs nothing else (experience, credits, buffs and your score stay as they are), counts for your clan too, and is told in the heist channel. It's closed in the last 3 days of the month. A second eye the same month, or one from outside the heist, is refused privately; a double click takes one eye.
 
-A heist is refused, and nothing changes, when you're out of energy, when you target yourself, a player in a bubble or who never joined, a player who left the server, a player already hit 6 times today, or a member of your own clan. If you haven't joined, `/heist` tells you heists aren't enabled for you.
+A heist is refused, and nothing changes, when you're out of energy, when you target yourself, a player in a bubble or who never joined, a player who left the server, a player already hit 6 times today, or a member of your own clan; also when the player bubbles or leaves the server while your heist is starting. If you haven't joined, `/heist` tells you heists aren't enabled for you; on a server not set up for heists, it says so. Every refusal is private, also from the heist menu's attack guide. A double click on the guide's Attack button attacks once: the second click is told the attack was already made.
+
+The buttons under every heist log (Heist, the monthly ladders, Legend) work for anyone and answer only the one who clicks.
 
 ## In this section
 

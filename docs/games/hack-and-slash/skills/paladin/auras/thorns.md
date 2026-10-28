@@ -25,7 +25,7 @@ nav_icon: "assets/icons/skill/paladin/thorns.webp"
 
 ## Checked in play
 
-- A monster's physical hit that lands on you comes back at its % (25% at rank 1, 215% at rank 20), through the monster's armor. Only melee hits: a ranged hit (an arrow, a bolt) isn't answered (your gear's Reflect Physical still answers it).
+- A monster's physical hit that lands on you comes back at its % (25% at rank 1, 215% at rank 20), through the monster's armor. Only melee hits: a ranged hit (an arrow, a bolt) isn't answered (your gear's Reflect Physical still answers it). The reflection rolls to hit with your attack rating: it can miss or be blocked.
 
 ## Rank by rank
 

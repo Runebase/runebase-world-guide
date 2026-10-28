@@ -65,7 +65,7 @@ You have **1,000 mana**, and you get 10 back every round (more with Abyssal Mana
 
 - **Brutal Strike:** extra damage on the hit.
 - **Bleed:** on a hit, the Crown bleeds for some rounds; each round's bleed damage counts as your damage. A new bleed of yours replaces your old one.
-- **Doomseed:** on a hit, plants a seed that detonates after its rounds (fewer with Premature Bloom); **Thornburst** gives a detonation a chance to make the Crown bleed too. A new seed of yours replaces your old one, and its rounds start again.
+- **Doomseed:** on a hit, plants a seed that detonates after its rounds (fewer with Premature Bloom); **Thornburst** gives a detonation a chance to make the Crown bleed too (not a detonation the Crown's Bubble absorbs). A new seed of yours replaces your old one, and its rounds start again.
 - **Robin Hood:** on a damaging hit, steals a share of the pool and splits it evenly among the reign's attackers. **Black Hood:** steals a share for you alone. Each steals exactly its share; the rounding remainder stays in the pool.
 - **Silence:** on a hit, the Crown can't use Resurgence, Blood Purge, Defuse or Mana Drain for the silence's duration (Bubble still works).
 
@@ -125,7 +125,7 @@ Only the Crown has these buttons. They cost nothing but their cooldown; clicking
 | Blood Purge | removes every bleed on the Crown, whoever cast it (seeds stay). With no bleed on the Crown it's refused and stays ready |
 | Defuse | removes every seed waiting to detonate. With none, it's refused ("No detonations to defuse") and stays ready |
 | Mana Drain | while it lasts, every hit on the Crown (not a miss) drains 10% of the attacker's mana, never below 0 |
-| Bubble | while it lasts, attacks bounce off for free, bleeds on the Crown deal 0 but still run down, and a seed that detonates deals nothing (it's used up). Remove Bubble ends it early. Then it waits an hour |
+| Bubble | while it lasts, attacks bounce off for free, bleeds on the Crown deal 0 but still run down, and a seed that detonates deals nothing and starts no Thornburst bleed (it's used up, and nothing of it hits after the Bubble). Remove Bubble ends it early. Then it waits an hour |
 
 The cooldowns and durations, and what the defensive skills change, are in the tables above.
 

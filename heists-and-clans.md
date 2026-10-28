@@ -152,7 +152,7 @@ Heist gear is crafted with scrap from the heist gear menu (it costs exactly the 
 - Clanmates can't heist each other, and a deflection never lands in the attacker's clan.
 - A heist between members of two clans also counts for both clans' ladders.
 
-Prize tables are without utilities: a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows ([activities]({{ '/activities/' | relative_url }})).
+Prize tables are without utilities: a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows ([utilities]({{ '/expeditions/' | relative_url }}#utilities-wood-axe-skinning-knife-mining-pick)).
 
 
 

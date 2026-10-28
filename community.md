@@ -20,7 +20,7 @@ Your first chat message in a realm creates your account there: wallet, pouch, qu
 - **40 chat points in the last 30 days** make you an active chatter (a role); it goes again when old points drop out of the 30 days.
 - Chat points count on the chatter leaderboards.
 
-Prize tables on this page are without utilities (a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows; see [activities]({{ '/activities/' | relative_url }})).
+Prize tables on this page are without utilities (a Wood Axe, Skinning Knife or Mining Pick raises the scrap rows; see [utilities]({{ '/expeditions/' | relative_url }}#utilities-wood-axe-skinning-knife-mining-pick)).
 
 
 

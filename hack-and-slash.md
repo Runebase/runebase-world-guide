@@ -454,7 +454,8 @@ Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ 
 
 - **Critical hits** deal 75% more damage.
 - **Armor** takes armor ÷ (armor + damage) × 95% off physical damage, at most 85%: even a weak hit on heavy armor keeps 15% of its damage.
-- **Resistances** (fire, cold, lightning, poison, magic) lower the damage of their kind by their %. Gear and passive skills can raise them to 70% at most.
+- **Resistances** (fire, cold, lightning, poison, magic) lower the damage of their kind by their %. They stop at 70%, counted after everything that changes them: gear, passive skills, and buffs such as Fade. At 70% a fire hit still deals 30% of its damage; it never heals you.
+- **Curses** on you (in the Arena, a Necromancer's Lower Resist) lower your whole total before the 70% limit, so resistance above 70% on your gear still protects you from them. Nothing stops a curse from taking a resistance below 0. In the Arena the 70% limit counts after each move's buffs and curses too.
 - **Blocking with a shield:** your chance is the shield's block × (your dexterity − 15) ÷ (2 × your level), at most 50%. It blocks monsters' physical attacks.
 
 ## Condition, repairs and gear
@@ -527,8 +528,8 @@ A giant appears in the Hack & Slash channel once every 3 hours. Press **Attack G
 
 `/hackslash` → **Arena** → **Challenge Opponent**: pick a player and challenge them; they join from the public **Join Duel** message. You take turns until one of you falls; the survivor wins.
 
-- **A challenge waits 5 minutes** for the opponent (your screen says when it cancels). Then it's cancelled, and **Join Duel** says the duel is gone.
-- **Each turn has 2 minutes**; the screen counts them down.
+- **A challenge waits 5 minutes** for the opponent (your screen says when it cancels; opening the challenge again doesn't move that time). Then it's cancelled, and **Join Duel** says the duel is gone.
+- **Each turn has 2 minutes**; the screen counts them down. **If you don't move in time, you lose the duel** and your opponent wins: both duel screens and the duel's message in the channel say so. A move made before the time runs out counts; a click after it doesn't.
 - You can have at most 5 open duels, and a player who has 5 can't be challenged.
 
 - A duel pays nothing: no experience, no credits. There are no wagers.

@@ -44,6 +44,6 @@ The Runebase bot runs a set of games in the Runebase Discord server and its part
 - A double click, or two devices at once, never pays twice or spends twice.
 - If the bot restarts, nothing you earned is lost: trips, the nightly production and your games pick up where they were. While the bot is starting up, it answers "The bot is starting up…" and does nothing.
 - When something is refused (not enough energy, credits or items), you get a clear message and nothing is spent.
-- Most refusals only you see: a button or menu that isn't yours, a command used too often, the dice on cooldown, a chest without a key, a scratch card outside its channel, a refused collect or craft, the bot starting up, an old button. A few commands answer in the channel and refuse there too: `/fish` and `/hunt` without energy (the menu shows your energy at 0), `/fire` without wood, a `/gift` you can't make.
+- Refusals only you see, with the reason: a button or menu that isn't yours, a command used too often, the dice on cooldown, a chest without a key, a scratch card outside its channel, a refused collect or craft, the bot starting up, an old button, `/fish` and `/hunt` without energy (with your fishing or hunting menu) or while you're busy, `/fire` without wood or in a channel where fires can't burn, a `/gift` you can't make (the receiver doesn't see it). What succeeds stays where it was: a trip, a fire and a gift still show in the channel.
 - Buttons on old messages from an earlier version of the bot only show a note.
 

@@ -14,7 +14,7 @@ Three idle activities: you spend energy, wait while your trip runs, and come bac
 ## How a trip works
 
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip (expeditions: longer with a resource building, see below).
-2. While the trip runs you're busy: you can't start another fishing trip, hunt or expedition until it's over (the bot tells you you're already busy).
+2. While the trip runs you're busy: you can't start another fishing trip, hunt or expedition until it's over (the bot tells you, privately, that you're already busy and until when).
 3. Every second of the trip is one roll for a catch, and one roll on the trip's extra prizes (scrap, pet items, tokens and more; the tables are at the end of this page).
 4. At the end you get your catch, your experience and your quest progress, and the trip counts on the leaderboards.
 
@@ -34,7 +34,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 - Energy refills at **00:00 UTC** every day. The refill sets your energy to the day's full amount; it doesn't add to what you had left.
 - A trip that runs over midnight still pays once.
-- **Out of fishing or hunting energy?** A **Pan-Fried Trout with Lemon and Dill** pays for one more energy of fishing, a **Wild Boar with Cherry Sauce** for one more energy of hunting. They are only used for the energy your daily energy doesn't cover, never while you still have energy. With neither, the trip doesn't start and nothing is spent.
+- **Out of fishing or hunting energy?** A **Pan-Fried Trout with Lemon and Dill** pays for one more energy of fishing, a **Wild Boar with Cherry Sauce** for one more energy of hunting. They are only used for the energy your daily energy doesn't cover, never while you still have energy. With neither, the trip doesn't start and nothing is spent: `/fish` and `/hunt` tell you so privately, with your fishing or hunting menu (your energy, when it refills), and a **Go Fishing** / **Go Hunting** button on a menu from earlier tells you privately and leaves the menu as it was.
 - Expeditions have no such dish: without expedition energy, expeditions can't be started.
 
 ## Experience, quests and leaderboards

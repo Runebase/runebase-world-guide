@@ -99,7 +99,7 @@ The Consumables category also lists bread, water and mead made for Runebase Worl
 
 `/gift` sends credits to another member. The receiver gets exactly what you send, it's recorded on both sides, and nothing is created or lost. A gift reaches a member who never used the bot too.
 
-Nothing moves for an amount that isn't valid, a gift to yourself or to a bot, or more than you have. Two gifts at the same time can never spend the same credits twice.
+Nothing moves for an amount that isn't valid, a gift to yourself or to a bot, a member who can't be found, or more than you have, and only you see why (the receiver doesn't see it). A gift that goes through is shown in the channel. Two gifts at the same time can never spend the same credits twice.
 
 ## Scratch cards
 
@@ -210,8 +210,8 @@ Runes Pattern Cards cost 50 credits in the store; they also drop from many prize
 
 ## The fire and cooking
 
-1. `/fire` costs **one Wood Scrap** and starts a fire in the channel for **10 minutes**. Starting a fire pays **3 experience** and counts on the fire leaderboards.
-2. **Add Fuel** costs another Wood Scrap, adds 10 minutes and pays 3 experience. Without wood, you're told so and nothing is spent.
+1. `/fire` costs **one Wood Scrap** and starts a fire in the channel for **10 minutes**. Starting a fire pays **3 experience** and counts on the fire leaderboards. Without wood, or in a channel not every verified member can see and write in, no fire starts, nothing is spent and only you are told why (also from **Activities** → **Cooking Fire** → **Start Fire**).
+2. **Add Fuel** costs another Wood Scrap, adds 10 minutes and pays 3 experience. Without wood, you're told so privately and nothing is spent.
 3. **Cook** opens your private cooking table. Pick a recipe and an amount: it uses exactly the recipe's ingredients × the amount from your basket, gives you the dishes, pays **1 experience per dish** and moves your cooking quests. Without the ingredients, or with an amount that isn't valid, nothing is spent, and the table says why.
 
 The **Cuisine Cottage** building gives each dish a 1% per level chance of one more; an extra dish pays its experience and counts for your cooking quests like the others. A fire that went out while the bot was offline is put out when the bot starts; its old buttons spend nothing.

@@ -2,7 +2,7 @@
 title: "Fire Bolt"
 ---
 
-# Fire Bolt
+# ![Fire Bolt](../../../../../assets/icons/skill/wizard/fire-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Bolt
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Fire Bolt"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | mana |
+| Rank | Fire damage | Mana |
 |---|---|---|
 | 1 | 4-7 | 2 |
 | 2 | 7-13 | 3 |

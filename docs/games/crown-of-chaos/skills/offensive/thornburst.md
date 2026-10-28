@@ -2,7 +2,7 @@
 title: "Thornburst"
 ---
 
-# Thornburst
+# ![Thornburst](../../../../assets/icons/crown-skill/thornburst.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Thornburst
 
 **Where to play:** Discord
 { .where-to-play }

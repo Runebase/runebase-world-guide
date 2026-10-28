@@ -2,7 +2,7 @@
 title: "Urgent Embind"
 ---
 
-# Urgent Embind
+# ![Urgent Embind](../../../../assets/icons/crown-skill/urgent-embind.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Urgent Embind
 
 **Where to play:** Discord
 { .where-to-play }

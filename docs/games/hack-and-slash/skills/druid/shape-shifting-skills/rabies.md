@@ -2,7 +2,7 @@
 title: "Rabies"
 ---
 
-# Rabies
+# ![Rabies](../../../../../assets/icons/skill/druid/rabies.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Rabies
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Rabies"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage | rounds | mana |
+| Rank | Poison damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 15-23 | 3 | 2 |
 | 2 | 22-40 | 3 | 2 |

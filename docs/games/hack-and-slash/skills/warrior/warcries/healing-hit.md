@@ -2,7 +2,7 @@
 title: "Healing Hit"
 ---
 
-# Healing Hit
+# ![Healing Hit](../../../../../assets/icons/skill/warrior/healing-hit.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Healing Hit
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Healing Hit"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | heal % |
+| Rank | Heal (%) |
 |---|---|
 | 1 | 1 |
 | 2 | 2 |

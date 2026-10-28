@@ -2,7 +2,7 @@
 title: "Moose with Blueberry Sauce"
 ---
 
-# Moose with Blueberry Sauce
+# ![Moose with Blueberry Sauce](../../../assets/icons/item/moose-with-blueberry-sauce.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Moose with Blueberry Sauce
 
 **Where to play:** Discord
 { .where-to-play }

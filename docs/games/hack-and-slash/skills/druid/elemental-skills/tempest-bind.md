@@ -2,7 +2,7 @@
 title: "Tempest Bind"
 ---
 
-# Tempest Bind
+# ![Tempest Bind](../../../../../assets/icons/skill/druid/tempest-bind.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Tempest Bind
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Tempest Bind"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | stun % | rounds | mana |
+| Rank | Stun chance (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 100 | 1 | 3 |
 | 2 | 100 | 1 | 3 |

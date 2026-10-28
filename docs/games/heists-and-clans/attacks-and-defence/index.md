@@ -42,21 +42,21 @@ Prize tables are without utilities: a Wood Axe, Skinning Knife or Mining Pick ra
 
 | Prize | Chance per roll |
 |---|---|
-| 1 [Gold Key](../../../items/keys-and-cards.md#gold-key) | 1% |
-| 1 [Silver Key](../../../items/keys-and-cards.md#silver-key) | 2% |
-| 1 [Bronze Key](../../../items/keys-and-cards.md#bronze-key) | 4% |
-| 2 [Mystery Card](../../../items/keys-and-cards.md#mystery-card) | 2% |
-| 1 [Mystery Card](../../../items/keys-and-cards.md#mystery-card) | 10% |
-| 1 [Runes Pattern Card](../../../items/keys-and-cards.md#runes-pattern-card) | 5% |
-| 1 [Metal Scrap](../../../items/materials.md#metal-scrap) | 10% |
-| 1 [Wood Scrap](../../../items/materials.md#wood-scrap) | 10% |
-| 1 [Nail](../../../items/materials.md#nail) | 2% |
-| 1 [Rope](../../../items/materials.md#rope) | 0.5% |
-| 1 [Chaos Relic](../../../items/keys-and-cards.md#chaos-relic) | 3.5% |
-| 1 [Engraving Tool](../../../items/materials.md#engraving-tool) | 3.5% |
-| 1 [Common Pet Token](../../../items/pet-items.md#common-pet-token) | 1% |
+| ![Gold Key](../../../assets/icons/item/gold-key.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Gold Key](../../../items/keys-and-cards.md#gold-key) | 1% |
+| ![Silver Key](../../../assets/icons/item/silver-key.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Silver Key](../../../items/keys-and-cards.md#silver-key) | 2% |
+| ![Bronze Key](../../../assets/icons/item/bronze-key.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Bronze Key](../../../items/keys-and-cards.md#bronze-key) | 4% |
+| ![Mystery Card](../../../assets/icons/item/mystery-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Mystery Card](../../../items/keys-and-cards.md#mystery-card) | 2% |
+| ![Mystery Card](../../../assets/icons/item/mystery-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Mystery Card](../../../items/keys-and-cards.md#mystery-card) | 10% |
+| ![Runes Pattern Card](../../../assets/icons/item/runes-pattern-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Runes Pattern Card](../../../items/keys-and-cards.md#runes-pattern-card) | 5% |
+| ![Metal Scrap](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../../../items/materials.md#metal-scrap) | 10% |
+| ![Wood Scrap](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../../../items/materials.md#wood-scrap) | 10% |
+| ![Nail](../../../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../../../items/materials.md#nail) | 2% |
+| ![Rope](../../../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../../../items/materials.md#rope) | 0.5% |
+| ![Chaos Relic](../../../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../../../items/keys-and-cards.md#chaos-relic) | 3.5% |
+| ![Engraving Tool](../../../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../../../items/materials.md#engraving-tool) | 3.5% |
+| ![Common Pet Token](../../../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../../../items/pet-items.md#common-pet-token) | 1% |
 | 1 [Pet Token](../../../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 to 10 credits | 25% |
+| ![Credits](../../../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 to 10 credits | 25% |
 | nothing | 18% |
 
 Every heist gives the attacker **one** draw of this table, also when it's blocked, counter-attacked or deflected; the defender draws nothing.

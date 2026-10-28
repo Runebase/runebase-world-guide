@@ -2,7 +2,7 @@
 title: "Blade Sentinel"
 ---
 
-# Blade Sentinel
+# ![Blade Sentinel](../../../../../assets/icons/skill/assassin/blade-sentinel.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Sentinel
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Blade Sentinel"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | volley | mana |
+| Rank | Physical damage | Volley | Mana |
 |---|---|---|---|
 | 1 | 6-10 | 3 | 2 |
 | 2 | 10-14 | 3 | 2 |

@@ -2,7 +2,7 @@
 title: "Bone Armor"
 ---
 
-# Bone Armor
+# ![Bone Armor](../../../../../assets/icons/skill/necromancer/bone-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Armor
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Bone Armor"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamageShield | rounds | mana |
+| Rank | Physical damage shield | Rounds | Mana |
 |---|---|---|---|
 | 1 | 30 | 5 | 2 |
 | 2 | 45 | 7 | 2 |

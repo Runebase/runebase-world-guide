@@ -22,34 +22,168 @@ Costs below are Toolbox / Nail / Rope / Wood / Metal / Leather. Level L costs th
 
 | Building | Levels | Rank per level | Level 1 | Level 2 | Last level | All levels together |
 |---|---|---|---|---|---|---|
-| Lumber Yard | 10 | 10 | 4 / 1,000 / 200 / 40 / 40 / 0 | 6 / 1,700 / 340 / 68 / 68 / 0 | 29 / 7,300 / 1,460 / 292 / 292 / 0 | 162 / 41,497 / 8,298 / 1,657 / 1,657 / 0 |
-| Iron Mine | 10 | 10 | 4 / 1,000 / 200 / 60 / 30 / 0 | 6 / 1,700 / 340 / 102 / 51 / 0 | 29 / 7,300 / 1,460 / 438 / 219 / 0 | 162 / 41,497 / 8,298 / 2,487 / 1,242 / 0 |
-| Tannery | 10 | 10 | 4 / 1,000 / 200 / 30 / 60 / 0 | 6 / 1,700 / 340 / 51 / 102 / 0 | 29 / 7,300 / 1,460 / 219 / 438 / 0 | 162 / 41,497 / 8,298 / 1,242 / 2,487 / 0 |
-| Hunting Cabin | 12 | 8 | 1 / 500 / 50 / 40 / 5 / 25 | 1 / 800 / 80 / 64 / 8 / 40 | 7 / 3,800 / 380 / 304 / 38 / 190 | 47 / 25,799 / 2,579 / 2,063 / 257 / 1,289 |
-| Fishing Club | 12 | 8 | 1 / 500 / 50 / 40 / 15 / 15 | 1 / 800 / 80 / 64 / 24 / 24 | 7 / 3,800 / 380 / 304 / 114 / 114 | 47 / 25,799 / 2,579 / 2,063 / 773 / 773 |
-| The Inn | 100 | 1 | 0 / 75 / 15 / 3 / 3 / 3 | 0 / 150 / 30 / 6 / 6 / 6 | 0 / 7,500 / 1,500 / 300 / 300 / 300 | 0 / 378,750 / 75,750 / 15,150 / 15,150 / 15,150 |
-| Training Grounds | 20 | 5 | 1 / 350 / 50 / 20 / 25 / 15 | 1 / 612 / 87 / 35 / 43 / 26 | 15 / 5,337 / 762 / 305 / 381 / 228 | 155 / 56,870 / 8,120 / 3,250 / 4,055 / 2,430 |
-| Traveler's Camp | 20 | 5 | 0 / 100 / 15 / 50 / 30 / 100 | 0 / 155 / 23 / 77 / 46 / 155 | 0 / 1,145 / 171 / 572 / 343 / 1,145 | 0 / 12,450 / 1,860 / 6,220 / 3,730 / 12,450 |
-| Treasure Forge | 7 | 14 | 1 / 250 / 15 / 100 / 150 / 75 | 2 / 562 / 33 / 225 / 337 / 168 | 8 / 2,125 / 127 / 850 / 1,275 / 637 | 31 / 8,311 / 496 / 3,325 / 4,986 / 2,491 |
-| Trade Post | 100 | 1 | 0 / 210 / 20 / 25 / 10 / 30 | 0 / 348 / 33 / 41 / 16 / 49 | 0 / 13,931 / 1,326 / 1,658 / 663 / 1,990 | 0 / 707,030 / 67,300 / 84,150 / 33,630 / 100,970 |
-| Expedition Command Center | 20 | 5 | 1 / 350 / 30 / 30 / 50 / 20 | 1 / 647 / 55 / 55 / 92 / 37 | 17 / 6,002 / 514 / 514 / 857 / 343 | 172 / 63,518 / 5,439 / 5,439 / 9,069 / 3,627 |
-| Thieves Den | 100 | 1 | 0 / 400 / 180 / 19 / 13 / 26 | 0 / 540 / 243 / 25 / 17 / 35 | 0 / 14,260 / 6,417 / 677 / 463 / 926 | 0 / 732,967 / 329,812 / 34,770 / 23,775 / 47,600 |
-| Party Store | 12 | 8 | 1 / 450 / 75 / 75 / 50 / 100 | 1 / 787 / 131 / 131 / 87 / 175 | 9 / 4,162 / 693 / 693 / 462 / 925 | 57 / 27,672 / 4,608 / 4,608 / 3,072 / 6,150 |
-| Arcane Library | 20 | 5 | 1 / 350 / 50 / 35 / 25 / 20 | 1 / 612 / 87 / 61 / 43 / 35 | 15 / 5,337 / 762 / 533 / 381 / 305 | 155 / 56,870 / 8,120 / 5,680 / 4,055 / 3,250 |
-| Healing Spring | 100 | 1 | 0 / 100 / 15 / 10 / 10 / 10 | 0 / 150 / 22 / 15 / 15 / 15 | 0 / 5,050 / 757 / 505 / 505 / 505 | 0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750 |
-| Mana Well | 100 | 1 | 0 / 100 / 15 / 10 / 10 / 10 | 0 / 150 / 22 / 15 / 15 / 15 | 0 / 5,050 / 757 / 505 / 505 / 505 | 0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750 |
-| Fitness Foundry | 33 | 3 | 1 / 180 / 25 / 14 / 18 / 13 | 1 / 306 / 42 / 23 / 30 / 22 | 23 / 4,212 / 585 / 327 / 421 / 304 | 388 / 72,456 / 10,053 / 5,623 / 7,234 / 5,220 |
-| Nail Factory | 11 | 9 | 0 / 400 / 50 / 100 / 120 / 80 | 0 / 720 / 90 / 180 / 216 / 144 | 0 / 3,600 / 450 / 900 / 1,080 / 720 | 0 / 21,999 / 2,749 / 5,499 / 6,599 / 4,400 |
-| Rope Factory | 11 | 9 | 0 / 200 / 100 / 100 / 80 / 120 | 0 / 360 / 180 / 180 / 144 / 216 | 0 / 1,800 / 900 / 900 / 720 / 1,080 | 0 / 10,999 / 5,499 / 5,499 / 4,400 / 6,599 |
-| Cuisine Cottage | 10 | 10 | 1 / 300 / 75 / 150 / 110 / 85 | 1 / 555 / 138 / 277 / 203 / 157 | 8 / 2,594 / 648 / 1,297 / 951 / 735 | 43 / 14,474 / 3,615 / 7,235 / 5,305 / 4,098 |
-| Iron Bank | 50 | 2 | 0 / 120 / 15 / 45 / 85 / 20 | 0 / 204 / 25 / 76 / 144 / 34 | 0 / 4,236 / 529 / 1,588 / 3,000 / 706 | 0 / 108,880 / 13,589 / 40,815 / 77,114 / 18,137 |
-| Bastion of the Chosen | 20 | 5 | 0 / 200 / 45 / 60 / 45 / 20 | 0 / 330 / 74 / 99 / 74 / 33 | 0 / 2,670 / 600 / 801 / 600 / 267 | 0 / 28,699 / 6,450 / 8,610 / 6,450 / 2,870 |
-| Pillar of the Undying | 20 | 5 | 0 / 200 / 45 / 50 / 70 / 30 | 0 / 330 / 74 / 82 / 115 / 49 | 0 / 2,670 / 600 / 667 / 934 / 400 | 0 / 28,699 / 6,450 / 7,169 / 10,040 / 4,300 |
-| Temporal Nexus | 50 | 2 | 0 / 75 / 15 / 20 / 10 / 15 | 0 / 123 / 24 / 33 / 16 / 24 | 0 / 2,463 / 492 / 657 / 328 / 492 | 0 / 63,450 / 12,675 / 16,925 / 8,450 / 12,675 |
-| Pet Kennel | 6 | 15 | 0 / 300 / 100 / 90 / 30 / 60 | 0 / 519 / 173 / 155 / 51 / 103 | 0 / 1,395 / 465 / 418 / 139 / 279 | 0 / 5,085 / 1,695 / 1,523 / 505 / 1,015 |
-| Arcane Reliquary | 33 | 3 | 0 / 100 / 15 / 20 / 20 / 20 | 0 / 150 / 22 / 30 / 30 / 30 | 0 / 1,700 / 255 / 340 / 340 / 340 | 0 / 29,700 / 4,447 / 5,940 / 5,940 / 5,940 |
+| ![Lumber Yard](../assets/icons/building/lumber-yard.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Lumber Yard | 10 | 10 | 4 / 1,000 / 200 / 40 / 40 / 0 | 6 / 1,700 / 340 / 68 / 68 / 0 | 29 / 7,300 / 1,460 / 292 / 292 / 0 | 162 / 41,497 / 8,298 / 1,657 / 1,657 / 0 |
+| ![Iron Mine](../assets/icons/building/iron-mine.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Iron Mine | 10 | 10 | 4 / 1,000 / 200 / 60 / 30 / 0 | 6 / 1,700 / 340 / 102 / 51 / 0 | 29 / 7,300 / 1,460 / 438 / 219 / 0 | 162 / 41,497 / 8,298 / 2,487 / 1,242 / 0 |
+| ![Tannery](../assets/icons/building/tannery.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Tannery | 10 | 10 | 4 / 1,000 / 200 / 30 / 60 / 0 | 6 / 1,700 / 340 / 51 / 102 / 0 | 29 / 7,300 / 1,460 / 219 / 438 / 0 | 162 / 41,497 / 8,298 / 1,242 / 2,487 / 0 |
+| ![Hunting Cabin](../assets/icons/building/hunting-cabin.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Hunting Cabin | 12 | 8 | 1 / 500 / 50 / 40 / 5 / 25 | 1 / 800 / 80 / 64 / 8 / 40 | 7 / 3,800 / 380 / 304 / 38 / 190 | 47 / 25,799 / 2,579 / 2,063 / 257 / 1,289 |
+| ![Fishing Club](../assets/icons/building/fishing-club.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Fishing Club | 12 | 8 | 1 / 500 / 50 / 40 / 15 / 15 | 1 / 800 / 80 / 64 / 24 / 24 | 7 / 3,800 / 380 / 304 / 114 / 114 | 47 / 25,799 / 2,579 / 2,063 / 773 / 773 |
+| ![The Inn](../assets/icons/building/the-inn.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } The Inn | 100 | 1 | 0 / 75 / 15 / 3 / 3 / 3 | 0 / 150 / 30 / 6 / 6 / 6 | 0 / 7,500 / 1,500 / 300 / 300 / 300 | 0 / 378,750 / 75,750 / 15,150 / 15,150 / 15,150 |
+| ![Training Grounds](../assets/icons/building/training-grounds.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Training Grounds | 20 | 5 | 1 / 350 / 50 / 20 / 25 / 15 | 1 / 612 / 87 / 35 / 43 / 26 | 15 / 5,337 / 762 / 305 / 381 / 228 | 155 / 56,870 / 8,120 / 3,250 / 4,055 / 2,430 |
+| ![Traveler's Camp](../assets/icons/building/travelers-camp.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Traveler's Camp | 20 | 5 | 0 / 100 / 15 / 50 / 30 / 100 | 0 / 155 / 23 / 77 / 46 / 155 | 0 / 1,145 / 171 / 572 / 343 / 1,145 | 0 / 12,450 / 1,860 / 6,220 / 3,730 / 12,450 |
+| ![Treasure Forge](../assets/icons/building/treasure-forge.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Treasure Forge | 7 | 14 | 1 / 250 / 15 / 100 / 150 / 75 | 2 / 562 / 33 / 225 / 337 / 168 | 8 / 2,125 / 127 / 850 / 1,275 / 637 | 31 / 8,311 / 496 / 3,325 / 4,986 / 2,491 |
+| ![Trade Post](../assets/icons/building/trade-post.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Trade Post | 100 | 1 | 0 / 210 / 20 / 25 / 10 / 30 | 0 / 348 / 33 / 41 / 16 / 49 | 0 / 13,931 / 1,326 / 1,658 / 663 / 1,990 | 0 / 707,030 / 67,300 / 84,150 / 33,630 / 100,970 |
+| ![Expedition Command Center](../assets/icons/building/expedition-command-center.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Expedition Command Center | 20 | 5 | 1 / 350 / 30 / 30 / 50 / 20 | 1 / 647 / 55 / 55 / 92 / 37 | 17 / 6,002 / 514 / 514 / 857 / 343 | 172 / 63,518 / 5,439 / 5,439 / 9,069 / 3,627 |
+| ![Thieves Den](../assets/icons/building/thieves-den.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Thieves Den | 100 | 1 | 0 / 400 / 180 / 19 / 13 / 26 | 0 / 540 / 243 / 25 / 17 / 35 | 0 / 14,260 / 6,417 / 677 / 463 / 926 | 0 / 732,967 / 329,812 / 34,770 / 23,775 / 47,600 |
+| ![Party Store](../assets/icons/building/party-store.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Party Store | 12 | 8 | 1 / 450 / 75 / 75 / 50 / 100 | 1 / 787 / 131 / 131 / 87 / 175 | 9 / 4,162 / 693 / 693 / 462 / 925 | 57 / 27,672 / 4,608 / 4,608 / 3,072 / 6,150 |
+| ![Arcane Library](../assets/icons/building/arcane-library.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Arcane Library | 20 | 5 | 1 / 350 / 50 / 35 / 25 / 20 | 1 / 612 / 87 / 61 / 43 / 35 | 15 / 5,337 / 762 / 533 / 381 / 305 | 155 / 56,870 / 8,120 / 5,680 / 4,055 / 3,250 |
+| ![Healing Spring](../assets/icons/building/healing-spring.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Healing Spring | 100 | 1 | 0 / 100 / 15 / 10 / 10 / 10 | 0 / 150 / 22 / 15 / 15 / 15 | 0 / 5,050 / 757 / 505 / 505 / 505 | 0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750 |
+| ![Mana Well](../assets/icons/building/mana-well.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Mana Well | 100 | 1 | 0 / 100 / 15 / 10 / 10 / 10 | 0 / 150 / 22 / 15 / 15 / 15 | 0 / 5,050 / 757 / 505 / 505 / 505 | 0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750 |
+| ![Fitness Foundry](../assets/icons/building/fitness-foundry.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Fitness Foundry | 33 | 3 | 1 / 180 / 25 / 14 / 18 / 13 | 1 / 306 / 42 / 23 / 30 / 22 | 23 / 4,212 / 585 / 327 / 421 / 304 | 388 / 72,456 / 10,053 / 5,623 / 7,234 / 5,220 |
+| ![Nail Factory](../assets/icons/building/nail-factory.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Nail Factory | 11 | 9 | 0 / 400 / 50 / 100 / 120 / 80 | 0 / 720 / 90 / 180 / 216 / 144 | 0 / 3,600 / 450 / 900 / 1,080 / 720 | 0 / 21,999 / 2,749 / 5,499 / 6,599 / 4,400 |
+| ![Rope Factory](../assets/icons/building/rope-factory.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Rope Factory | 11 | 9 | 0 / 200 / 100 / 100 / 80 / 120 | 0 / 360 / 180 / 180 / 144 / 216 | 0 / 1,800 / 900 / 900 / 720 / 1,080 | 0 / 10,999 / 5,499 / 5,499 / 4,400 / 6,599 |
+| ![Cuisine Cottage](../assets/icons/building/cuisine-cottage.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Cuisine Cottage | 10 | 10 | 1 / 300 / 75 / 150 / 110 / 85 | 1 / 555 / 138 / 277 / 203 / 157 | 8 / 2,594 / 648 / 1,297 / 951 / 735 | 43 / 14,474 / 3,615 / 7,235 / 5,305 / 4,098 |
+| ![Iron Bank](../assets/icons/building/iron-bank.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Iron Bank | 50 | 2 | 0 / 120 / 15 / 45 / 85 / 20 | 0 / 204 / 25 / 76 / 144 / 34 | 0 / 4,236 / 529 / 1,588 / 3,000 / 706 | 0 / 108,880 / 13,589 / 40,815 / 77,114 / 18,137 |
+| ![Bastion of the Chosen](../assets/icons/building/bastion-of-the-chosen.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Bastion of the Chosen | 20 | 5 | 0 / 200 / 45 / 60 / 45 / 20 | 0 / 330 / 74 / 99 / 74 / 33 | 0 / 2,670 / 600 / 801 / 600 / 267 | 0 / 28,699 / 6,450 / 8,610 / 6,450 / 2,870 |
+| ![Pillar of the Undying](../assets/icons/building/pillar-of-the-undying.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Pillar of the Undying | 20 | 5 | 0 / 200 / 45 / 50 / 70 / 30 | 0 / 330 / 74 / 82 / 115 / 49 | 0 / 2,670 / 600 / 667 / 934 / 400 | 0 / 28,699 / 6,450 / 7,169 / 10,040 / 4,300 |
+| ![Temporal Nexus](../assets/icons/building/temporal-nexus.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Temporal Nexus | 50 | 2 | 0 / 75 / 15 / 20 / 10 / 15 | 0 / 123 / 24 / 33 / 16 / 24 | 0 / 2,463 / 492 / 657 / 328 / 492 | 0 / 63,450 / 12,675 / 16,925 / 8,450 / 12,675 |
+| ![Pet Kennel](../assets/icons/building/pet-kennel.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Pet Kennel | 6 | 15 | 0 / 300 / 100 / 90 / 30 / 60 | 0 / 519 / 173 / 155 / 51 / 103 | 0 / 1,395 / 465 / 418 / 139 / 279 | 0 / 5,085 / 1,695 / 1,523 / 505 / 1,015 |
+| ![Arcane Reliquary](../assets/icons/building/arcane-reliquary.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Arcane Reliquary | 33 | 3 | 0 / 100 / 15 / 20 / 20 / 20 | 0 / 150 / 22 / 30 / 30 / 30 | 0 / 1,700 / 255 / 340 / 340 / 340 | 0 / 29,700 / 4,447 / 5,940 / 5,940 / 5,940 |
 
 ## What each building does
+
+<div class="guide-gallery" markdown>
+
+<figure markdown="span">
+![Lumber Yard](../assets/icons/building/lumber-yard.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Lumber Yard</figcaption>
+</figure>
+
+<figure markdown="span">
+![Iron Mine](../assets/icons/building/iron-mine.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Iron Mine</figcaption>
+</figure>
+
+<figure markdown="span">
+![Tannery](../assets/icons/building/tannery.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Tannery</figcaption>
+</figure>
+
+<figure markdown="span">
+![Hunting Cabin](../assets/icons/building/hunting-cabin.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Hunting Cabin</figcaption>
+</figure>
+
+<figure markdown="span">
+![Fishing Club](../assets/icons/building/fishing-club.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Fishing Club</figcaption>
+</figure>
+
+<figure markdown="span">
+![The Inn](../assets/icons/building/the-inn.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>The Inn</figcaption>
+</figure>
+
+<figure markdown="span">
+![Training Grounds](../assets/icons/building/training-grounds.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Training Grounds</figcaption>
+</figure>
+
+<figure markdown="span">
+![Traveler's Camp](../assets/icons/building/travelers-camp.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Traveler's Camp</figcaption>
+</figure>
+
+<figure markdown="span">
+![Treasure Forge](../assets/icons/building/treasure-forge.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Treasure Forge</figcaption>
+</figure>
+
+<figure markdown="span">
+![Trade Post](../assets/icons/building/trade-post.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Trade Post</figcaption>
+</figure>
+
+<figure markdown="span">
+![Expedition Command Center](../assets/icons/building/expedition-command-center.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Expedition Command Center</figcaption>
+</figure>
+
+<figure markdown="span">
+![Thieves Den](../assets/icons/building/thieves-den.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Thieves Den</figcaption>
+</figure>
+
+<figure markdown="span">
+![Party Store](../assets/icons/building/party-store.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Party Store</figcaption>
+</figure>
+
+<figure markdown="span">
+![Arcane Library](../assets/icons/building/arcane-library.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Arcane Library</figcaption>
+</figure>
+
+<figure markdown="span">
+![Healing Spring](../assets/icons/building/healing-spring.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Healing Spring</figcaption>
+</figure>
+
+<figure markdown="span">
+![Mana Well](../assets/icons/building/mana-well.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Mana Well</figcaption>
+</figure>
+
+<figure markdown="span">
+![Fitness Foundry](../assets/icons/building/fitness-foundry.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Fitness Foundry</figcaption>
+</figure>
+
+<figure markdown="span">
+![Nail Factory](../assets/icons/building/nail-factory.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Nail Factory</figcaption>
+</figure>
+
+<figure markdown="span">
+![Rope Factory](../assets/icons/building/rope-factory.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Rope Factory</figcaption>
+</figure>
+
+<figure markdown="span">
+![Cuisine Cottage](../assets/icons/building/cuisine-cottage.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Cuisine Cottage</figcaption>
+</figure>
+
+<figure markdown="span">
+![Iron Bank](../assets/icons/building/iron-bank.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Iron Bank</figcaption>
+</figure>
+
+<figure markdown="span">
+![Bastion of the Chosen](../assets/icons/building/bastion-of-the-chosen.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Bastion of the Chosen</figcaption>
+</figure>
+
+<figure markdown="span">
+![Pillar of the Undying](../assets/icons/building/pillar-of-the-undying.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Pillar of the Undying</figcaption>
+</figure>
+
+<figure markdown="span">
+![Temporal Nexus](../assets/icons/building/temporal-nexus.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Temporal Nexus</figcaption>
+</figure>
+
+<figure markdown="span">
+![Pet Kennel](../assets/icons/building/pet-kennel.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Pet Kennel</figcaption>
+</figure>
+
+<figure markdown="span">
+![Arcane Reliquary](../assets/icons/building/arcane-reliquary.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }
+<figcaption>Arcane Reliquary</figcaption>
+</figure>
+
+</div>
 
 L is the building's level.
 

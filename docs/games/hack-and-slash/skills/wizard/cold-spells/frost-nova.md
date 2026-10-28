@@ -2,7 +2,7 @@
 title: "Frost Nova"
 ---
 
-# Frost Nova
+# ![Frost Nova](../../../../../assets/icons/skill/wizard/frost-nova.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Frost Nova
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Frost Nova"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 1-2 | 20 | 2 | 3 |
 | 2 | 3-5 | 23 | 2 | 4 |

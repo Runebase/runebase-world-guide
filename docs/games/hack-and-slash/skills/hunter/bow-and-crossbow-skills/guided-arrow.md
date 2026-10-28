@@ -2,7 +2,7 @@
 title: "Guided Arrow"
 ---
 
-# Guided Arrow
+# ![Guided Arrow](../../../../../assets/icons/skill/hunter/guided-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Guided Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Guided Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | targets | damageBonus % | mana |
+| Rank | Targets | Damage bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 4 | -18 | 3 |
 | 2 | 4 | -11 | 3 |

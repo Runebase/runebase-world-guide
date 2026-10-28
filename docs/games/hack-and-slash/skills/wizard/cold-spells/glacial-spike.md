@@ -2,7 +2,7 @@
 title: "Glacial Spike"
 ---
 
-# Glacial Spike
+# ![Glacial Spike](../../../../../assets/icons/skill/wizard/glacial-spike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Glacial Spike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Glacial Spike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 17-26 | 20 | 2 | 3 |
 | 2 | 30-43 | 24 | 2 | 4 |

@@ -2,7 +2,7 @@
 title: "Ice Arrow"
 ---
 
-# Ice Arrow
+# ![Ice Arrow](../../../../../assets/icons/skill/hunter/ice-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Ice Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Ice Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | attackBonus % | freeze % | rounds | mana |
+| Rank | Cold damage | Attack rating bonus (%) | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 6-10 | 20 | 20 | 2 | 3 |
 | 2 | 12-16 | 29 | 23 | 2 | 3 |

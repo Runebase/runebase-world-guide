@@ -2,7 +2,7 @@
 title: "Fire Claws"
 ---
 
-# Fire Claws
+# ![Fire Claws](../../../../../assets/icons/skill/druid/fire-claws.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Claws
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Fire Claws"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | fireDamage | mana |
+| Rank | Damage bonus (%) | Fire damage | Mana |
 |---|---|---|---|
 | 1 | 10 | 19-35 | 2 |
 | 2 | 15 | 29-50 | 2 |

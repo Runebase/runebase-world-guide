@@ -2,7 +2,7 @@
 title: "Retaliate"
 ---
 
-# Retaliate
+# ![Retaliate](../../../../../assets/icons/skill/warrior/retaliate.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Retaliate
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Retaliate"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | retaliationChance % |
+| Rank | Retaliation chance (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 13 |

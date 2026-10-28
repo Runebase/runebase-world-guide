@@ -2,7 +2,7 @@
 title: "Warmth"
 ---
 
-# Warmth
+# ![Warmth](../../../../../assets/icons/skill/wizard/warmth.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Warmth
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Warmth"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | manaRegen % |
+| Rank | Mana regeneration (%) |
 |---|---|
 | 1 | 2 |
 | 2 | 3.2 |

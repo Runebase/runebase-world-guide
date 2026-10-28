@@ -2,7 +2,7 @@
 title: "Sif's Nature's Embrace"
 ---
 
-# Sif's Nature's Embrace
+# ![Sif's Nature's Embrace](../../../assets/icons/heist-gear/sifs-natures-embrace.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sif's Nature's Embrace
 
 **Where to play:** Discord
 { .where-to-play }

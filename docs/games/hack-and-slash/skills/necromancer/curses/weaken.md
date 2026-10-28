@@ -2,7 +2,7 @@
 title: "Weaken"
 ---
 
-# Weaken
+# ![Weaken](../../../../../assets/icons/skill/necromancer/weaken.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Weaken
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Weaken"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | decreaseDamageDealt % | rounds | mana |
+| Rank | Lowers damage dealt by (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 10 | 2 |
 | 2 | 12 | 15 | 2 |

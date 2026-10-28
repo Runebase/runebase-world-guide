@@ -58,15 +58,15 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
-| Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
-| Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
-| Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Wood Axe](../assets/icons/activity-gear/wood-axe.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Skinning Knife](../assets/icons/activity-gear/skinning-knife.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Mining Pick](../assets/icons/activity-gear/mining-pick.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
 
 ## Buffs
 
 | Buff | Where it comes from | Used by |
 |---|---|---|
-| [Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce) | cooked: 2 [Rabbit](../items/ingredients.md#rabbit) + 2 [Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce) | expeditions |
+| ![Braised Rabbit with Mustard Cream Sauce](../assets/icons/item/braised-rabbit-with-mustard-cream-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce) | cooked: 2 [Rabbit](../items/ingredients.md#rabbit) + 2 [Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce) | expeditions |
 
 - **[Braised Rabbit with Mustard Cream Sauce](../items/dishes.md#braised-rabbit-with-mustard-cream-sauce):** eat it in **Expeditions** → **Expedition Buffs**. Each one is a charge that adds **2 seconds** to one energy of an expedition: an expedition uses **one charge per energy**. Fishing and hunting never use them.
 - The expedition menu shows the buffs you have and the trip time they give.
@@ -91,23 +91,23 @@ Without utilities, pets or buildings. Each second rolls once on this table, whic
 
 | Prize | Chance each second |
 |---|---|
-| 1 [Standard Essence](../items/materials.md#standard-essence) | 0.4% |
-| 1 [Elemental Core](../items/materials.md#elemental-core) | 0.2% |
-| 1 [Primal Source](../items/materials.md#primal-source) | 0.08% |
-| 1 [Basic Residue](../items/materials.md#basic-residue) | 0.2% |
-| 1 [Enigmatic Nexus](../items/materials.md#enigmatic-nexus) | 0.08% |
-| 1 [Mystical Node](../items/materials.md#mystical-node) | 0.04% |
-| 1 [Elite Essence](../items/materials.md#elite-essence) | 0.08% |
-| 1 [Radiant Shard](../items/materials.md#radiant-shard) | 0.04% |
-| 1 [Shattered Prism](../items/materials.md#shattered-prism) | 0.02% |
-| 1 [Engraving Tool](../items/materials.md#engraving-tool) | 0.8% |
-| 3 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 1% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
+| ![Standard Essence](../assets/icons/item/standard-essence.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Standard Essence](../items/materials.md#standard-essence) | 0.4% |
+| ![Elemental Core](../assets/icons/item/elemental-core.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Elemental Core](../items/materials.md#elemental-core) | 0.2% |
+| ![Primal Source](../assets/icons/item/primal-source.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Primal Source](../items/materials.md#primal-source) | 0.08% |
+| ![Basic Residue](../assets/icons/item/basic-residue.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Basic Residue](../items/materials.md#basic-residue) | 0.2% |
+| ![Enigmatic Nexus](../assets/icons/item/enigmatic-nexus.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Enigmatic Nexus](../items/materials.md#enigmatic-nexus) | 0.08% |
+| ![Mystical Node](../assets/icons/item/mystical-node.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Mystical Node](../items/materials.md#mystical-node) | 0.04% |
+| ![Elite Essence](../assets/icons/item/elite-essence.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Elite Essence](../items/materials.md#elite-essence) | 0.08% |
+| ![Radiant Shard](../assets/icons/item/radiant-shard.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Radiant Shard](../items/materials.md#radiant-shard) | 0.04% |
+| ![Shattered Prism](../assets/icons/item/shattered-prism.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Shattered Prism](../items/materials.md#shattered-prism) | 0.02% |
+| ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials.md#engraving-tool) | 0.8% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 1% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
 | 1 [Pet Food](../items/pet-items.md#pet-food) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Cure](../items/pet-items.md#pet-cures) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Wash Kit](../items/pet-items.md#pet-wash-kits) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 0.5 to 5 credits | 15% |
+| ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 0.5 to 5 credits | 15% |
 | nothing | 71.31% |
 
 ## Tips

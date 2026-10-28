@@ -2,7 +2,7 @@
 title: "Mackerel and Smoked Paprika"
 ---
 
-# Mackerel and Smoked Paprika
+# ![Mackerel and Smoked Paprika](../../../assets/icons/item/mackerel-and-smoked-paprika.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mackerel and Smoked Paprika
 
 **Where to play:** Discord
 { .where-to-play }

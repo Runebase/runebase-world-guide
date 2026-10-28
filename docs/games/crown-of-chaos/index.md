@@ -7,6 +7,8 @@ title: "Crown of Chaos"
 **Where to play:** Discord
 { .where-to-play }
 
+![Crown of Chaos](../../assets/icons/header/crown-of-chaos.webp){ .gi .gi-picture width="240" height="240" loading="lazy" }
+
 One player in the realm holds **the Crown**. The Crown earns a point every minute it holds on; everyone else spends **[Chaos Relics](../../items/keys-and-cards.md#chaos-relic)** to attack it. When the Crown's health reaches 0, the reign ends: the old Crown is paid the realm's **Crown pool** in credits, a RUNES reward and experience, and the next Crown is **drawn from the attackers, weighted by their points**.
 
 **Where:** `/start` → **Activities** → **Crown Of Chaos**. The menu shows the Crown, its health, the pool ("Accumulated Crown Tax", also on the attack screen and in the store), your buffs, and the buttons to attack, pick runes, learn skills and eat buffs. The Crown also sees its own skills there.

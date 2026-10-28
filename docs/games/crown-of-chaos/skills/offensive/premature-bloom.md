@@ -2,7 +2,7 @@
 title: "Premature Bloom"
 ---
 
-# Premature Bloom
+# ![Premature Bloom](../../../../assets/icons/crown-skill/premature-bloom.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Premature Bloom
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Nova"
 ---
 
-# Nova
+# ![Nova](../../../../../assets/icons/skill/wizard/nova.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Nova
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Nova"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | stun % | mana |
+| Rank | Lightning damage | Stun chance (%) | Mana |
 |---|---|---|---|
 | 1 | 1-30 | 2 | 2 |
 | 2 | 1-55 | 4 | 3 |

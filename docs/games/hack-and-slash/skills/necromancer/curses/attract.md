@@ -2,7 +2,7 @@
 title: "Attract"
 ---
 
-# Attract
+# ![Attract](../../../../../assets/icons/skill/necromancer/attract.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Attract
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Attract"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attractToMinions % | rounds | mana |
+| Rank | Attract to minions (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 1 | 10 | 2 |
 | 2 | 2 | 15 | 2 |

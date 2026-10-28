@@ -2,7 +2,7 @@
 title: "Fade"
 ---
 
-# Fade
+# ![Fade](../../../../../assets/icons/skill/assassin/fade.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fade
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Fade"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | allResistance % | rounds | mana |
+| Rank | All resistances (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 2 | 15 | 2 |
 | 2 | 4 | 20 | 2 |

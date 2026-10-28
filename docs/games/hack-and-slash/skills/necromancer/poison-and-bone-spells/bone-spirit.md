@@ -2,7 +2,7 @@
 title: "Bone Spirit"
 ---
 
-# Bone Spirit
+# ![Bone Spirit](../../../../../assets/icons/skill/necromancer/bone-spirit.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Spirit
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Bone Spirit"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | targets | mana |
+| Rank | Magic damage | Targets | Mana |
 |---|---|---|---|
 | 1 | 20-40 | 2 | 2 |
 | 2 | 30-60 | 2 | 2 |

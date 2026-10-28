@@ -2,7 +2,7 @@
 title: "Heart of Wolverine"
 ---
 
-# Heart of Wolverine
+# ![Heart of Wolverine](../../../../../assets/icons/skill/druid/heart-of-wolverine.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Heart of Wolverine
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Heart of Wolverine"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lifeSteal % |
+| Rank | Life steal (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 8 |

@@ -2,7 +2,7 @@
 title: "Valkyrie's Vengeance"
 ---
 
-# Valkyrie's Vengeance
+# ![Valkyrie's Vengeance](../../../assets/icons/heist-gear/valkyries-vengeance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Valkyrie's Vengeance
 
 **Where to play:** Discord
 { .where-to-play }

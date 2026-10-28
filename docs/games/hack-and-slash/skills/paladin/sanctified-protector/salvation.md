@@ -2,7 +2,7 @@
 title: "Salvation"
 ---
 
-# Salvation
+# ![Salvation](../../../../../assets/icons/skill/paladin/salvation.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Salvation
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Salvation"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | manaBonus % |
+| Rank | Mana bonus (%) |
 |---|---|
 | 1 | 2 |
 | 2 | 4 |

@@ -2,7 +2,7 @@
 title: "Thorns"
 ---
 
-# Thorns
+# ![Thorns](../../../../../assets/icons/skill/paladin/thorns.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Thorns
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Thorns"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reflectPhysicalDamage % |
+| Rank | Reflects physical damage (%) |
 |---|---|
 | 1 | 25 |
 | 2 | 35 |

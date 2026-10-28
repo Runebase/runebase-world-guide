@@ -2,7 +2,7 @@
 title: "Silence"
 ---
 
-# Silence
+# ![Silence](../../../../assets/icons/crown-skill/silence.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Silence
 
 **Where to play:** Discord
 { .where-to-play }

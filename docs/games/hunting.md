@@ -44,10 +44,10 @@ You craft them in the **Hunt** menu (**Craft Hunting Rifle**) for scrap from you
 
 | Item | Crafting cost (wood / metal / leather scrap) | Catches, chance each second |
 |---|---|---|
-| no rifle | – | [Squirrel](../items/ingredients.md#squirrel) 5% |
-| Savage Model 11 | 1 / 6 / 2 | [Squirrel](../items/ingredients.md#squirrel) 5%, [Rabbit](../items/ingredients.md#rabbit) 5%, [Coyote](../items/ingredients.md#coyote) 5% |
-| Winchester Model 70 | 16 / 41 / 20 | [Wild Turkey](../items/ingredients.md#wild-turkey) 5%, [Pheasant](../items/ingredients.md#pheasant) 5%, [White-tailed Deer](../items/ingredients.md#white-tailed-deer) 5% |
-| Weatherby Mark V | 50 / 200 / 60 | [Elk](../items/ingredients.md#elk) 5%, [Moose](../items/ingredients.md#moose) 5%, [Wild Boar](../items/ingredients.md#wild-boar) 5% |
+| ![no rifle](../assets/icons/activity-gear/no-rifle.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } no rifle | – | [Squirrel](../items/ingredients.md#squirrel) 5% |
+| ![Savage Model 11](../assets/icons/activity-gear/savage-model-11.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Savage Model 11 | 1 / 6 / 2 | [Squirrel](../items/ingredients.md#squirrel) 5%, [Rabbit](../items/ingredients.md#rabbit) 5%, [Coyote](../items/ingredients.md#coyote) 5% |
+| ![Winchester Model 70](../assets/icons/activity-gear/winchester-model-70.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Winchester Model 70 | 16 / 41 / 20 | [Wild Turkey](../items/ingredients.md#wild-turkey) 5%, [Pheasant](../items/ingredients.md#pheasant) 5%, [White-tailed Deer](../items/ingredients.md#white-tailed-deer) 5% |
+| ![Weatherby Mark V](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Weatherby Mark V | 50 / 200 / 60 | [Elk](../items/ingredients.md#elk) 5%, [Moose](../items/ingredients.md#moose) 5%, [Wild Boar](../items/ingredients.md#wild-boar) 5% |
 
 - Equip a rifle in the Hunt menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
 - With more than one rifle you can turn on **rotative** hunting: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
@@ -59,9 +59,9 @@ Each rifle has its own enhancement, upgraded from the crafting screen for scrap.
 
 | Item | Enhancement | Each level | Level 1 (rank 2) | Level 2 (rank 4) | Level 10 (rank 20) | Level 25 (rank 50) | Level 50 (rank 100) |
 |---|---|---|---|---|---|---|---|
-| Savage Model 11 | Phantomstrike Optics | +0.1 points on each of its catches | 1 / 5 / 3 | 2 / 7 / 5 | 9 / 27 / 18 | 21 / 63 / 42 | 41 / 123 / 82 |
-| Winchester Model 70 | Precision Prowler | +0.1 points on each of its catches | 16 / 6 / 8 | 22 / 8 / 11 | 70 / 28 / 35 | 160 / 64 / 80 | 310 / 124 / 155 |
-| Weatherby Mark V | Tempest Vision | +0.1 points on each of its catches | 52 / 22 / 15 | 70 / 30 / 20 | 210 / 90 / 60 | 472 / 202 / 135 | 910 / 390 / 260 |
+| ![Savage Model 11](../assets/icons/activity-gear/savage-model-11.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Savage Model 11 | Phantomstrike Optics | +0.1 points on each of its catches | 1 / 5 / 3 | 2 / 7 / 5 | 9 / 27 / 18 | 21 / 63 / 42 | 41 / 123 / 82 |
+| ![Winchester Model 70](../assets/icons/activity-gear/winchester-model-70.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Winchester Model 70 | Precision Prowler | +0.1 points on each of its catches | 16 / 6 / 8 | 22 / 8 / 11 | 70 / 28 / 35 | 160 / 64 / 80 | 310 / 124 / 155 |
+| ![Weatherby Mark V](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Weatherby Mark V | Tempest Vision | +0.1 points on each of its catches | 52 / 22 / 15 | 70 / 30 / 20 | 210 / 90 / 60 | 472 / 202 / 135 | 910 / 390 / 260 |
 
 ## Utilities: Skinning Knife
 
@@ -69,14 +69,14 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
-| Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Skinning Knife](../assets/icons/activity-gear/skinning-knife.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
 
 ## Buffs
 
 | Buff | Where it comes from | Used by |
 |---|---|---|
-| [Hunting Weed](../items/store-consumables.md#hunting-weed) | 3 credits in the store; the Party Store | hunting |
-| [Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce) | cooked: 2 [Wild Boar](../items/ingredients.md#wild-boar) + 6 [Cherry Sauce](../items/ingredients.md#cherry-sauce) | hunting, when the energy is gone |
+| ![Hunting Weed](../assets/icons/item/hunting-weed.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Hunting Weed](../items/store-consumables.md#hunting-weed) | 3 credits in the store; the Party Store | hunting |
+| ![Wild Boar with Cherry Sauce](../assets/icons/item/wild-boar-with-cherry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wild Boar with Cherry Sauce](../items/dishes.md#wild-boar-with-cherry-sauce) | cooked: 2 [Wild Boar](../items/ingredients.md#wild-boar) + 6 [Cherry Sauce](../items/ingredients.md#cherry-sauce) | hunting, when the energy is gone |
 
 - **[Hunting Weed](../items/store-consumables.md#hunting-weed)** (bought from the store, or collected at the Party Store): each one adds **2 seconds** to one energy of a trip, so a trip uses **one per energy**, at most. A 3-energy trip with 2 weeds lasts 34 seconds. The extra seconds roll for catches and extra prizes like any other second, and count on the leaderboard. Experience and the Hunting quest count energy, so the extra seconds add none.
 - The hunting menu shows the buffs you have and the trip time they give.
@@ -97,9 +97,9 @@ Without utilities, pets or buildings. Each second rolls once on this table (at m
 
 | Prize | Chance each second |
 |---|---|
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 0.3% |
-| 6 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 0.15% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 0.3% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 0.15% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
 | 1 [Pet Food](../items/pet-items.md#pet-food) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Cure](../items/pet-items.md#pet-cures) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |

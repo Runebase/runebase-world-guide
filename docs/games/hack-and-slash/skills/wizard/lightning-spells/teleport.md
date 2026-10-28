@@ -2,7 +2,7 @@
 title: "Teleport"
 ---
 
-# Teleport
+# ![Teleport](../../../../../assets/icons/skill/wizard/teleport.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Teleport
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Teleport"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | decreaseStaminaCost |
+| Rank | Stamina cost reduced by |
 |---|---|
 | 1 | 1 |
 | 2 | 1 |

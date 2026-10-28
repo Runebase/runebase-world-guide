@@ -2,7 +2,7 @@
 title: "Fanaticism"
 ---
 
-# Fanaticism
+# ![Fanaticism](../../../../../assets/icons/skill/paladin/fanaticism.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fanaticism
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Fanaticism"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | pierce % |
+| Rank | Pierce (%) |
 |---|---|
 | 1 | 3 |
 | 2 | 5 |

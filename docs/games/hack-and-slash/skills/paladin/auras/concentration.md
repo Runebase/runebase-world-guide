@@ -2,7 +2,7 @@
 title: "Concentration"
 ---
 
-# Concentration
+# ![Concentration](../../../../../assets/icons/skill/paladin/concentration.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Concentration
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Concentration"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | manaSteal % |
+| Rank | Mana steal (%) |
 |---|---|
 | 1 | 3 |
 | 2 | 5 |

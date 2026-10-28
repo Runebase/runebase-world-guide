@@ -2,7 +2,7 @@
 title: "Armageddon"
 ---
 
-# Armageddon
+# ![Armageddon](../../../../../assets/icons/skill/druid/armageddon.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Armageddon
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Armageddon"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | stun % | burn | rounds | mana |
+| Rank | Fire damage | Stun chance (%) | Burn damage | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 88-110 | 10 | 25-48 | 2 | 2 |
 | 2 | 113-137 | 12 | 40-63 | 2 | 4 |

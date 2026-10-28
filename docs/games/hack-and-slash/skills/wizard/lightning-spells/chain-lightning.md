@@ -2,7 +2,7 @@
 title: "Chain Lightning"
 ---
 
-# Chain Lightning
+# ![Chain Lightning](../../../../../assets/icons/skill/wizard/chain-lightning.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Chain Lightning
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Chain Lightning"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | targets | mana |
+| Rank | Lightning damage | Targets | Mana |
 |---|---|---|---|
 | 1 | 1-35 | 5 | 3 |
 | 2 | 1-55 | 6 | 4 |

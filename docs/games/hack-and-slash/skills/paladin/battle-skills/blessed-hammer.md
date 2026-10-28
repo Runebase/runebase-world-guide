@@ -2,7 +2,7 @@
 title: "Blessed Hammer"
 ---
 
-# Blessed Hammer
+# ![Blessed Hammer](../../../../../assets/icons/skill/paladin/blessed-hammer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blessed Hammer
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Blessed Hammer"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | stun % | targets | mana |
+| Rank | Magic damage | Stun chance (%) | Targets | Mana |
 |---|---|---|---|---|
 | 1 | 20-30 | 15 | 1 | 2 |
 | 2 | 30-45 | 17 | 1 | 4 |

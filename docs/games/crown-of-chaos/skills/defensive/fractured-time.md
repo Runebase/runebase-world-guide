@@ -2,7 +2,7 @@
 title: "Fractured Time"
 ---
 
-# Fractured Time
+# ![Fractured Time](../../../../assets/icons/crown-skill/fractured-time.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fractured Time
 
 **Where to play:** Discord
 { .where-to-play }

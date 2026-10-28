@@ -2,7 +2,7 @@
 title: "Multiple Shot"
 ---
 
-# Multiple Shot
+# ![Multiple Shot](../../../../../assets/icons/skill/hunter/multiple-shot.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Multiple Shot
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Multiple Shot"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | mana |
+| Rank | Damage bonus (%) | Mana |
 |---|---|---|
 | 1 | -45 | 2 |
 | 2 | -30 | 2 |

@@ -2,7 +2,7 @@
 title: "Prayer"
 ---
 
-# Prayer
+# ![Prayer](../../../../../assets/icons/skill/paladin/prayer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Prayer
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Prayer"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthRegen % | rounds | mana |
+| Rank | Health regeneration (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 1 | 2 | 2 |
 | 2 | 1.25 | 3 | 3 |

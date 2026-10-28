@@ -2,7 +2,7 @@
 title: "Burst of Speed"
 ---
 
-# Burst of Speed
+# ![Burst of Speed](../../../../../assets/icons/skill/assassin/burst-of-speed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Burst of Speed
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Burst of Speed"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % |
+| Rank | Damage bonus (%) | Attack rating bonus (%) |
 |---|---|---|
 | 1 | -50 | 10 |
 | 2 | -40 | 20 |

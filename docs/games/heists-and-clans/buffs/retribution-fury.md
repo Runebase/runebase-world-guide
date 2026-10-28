@@ -2,7 +2,7 @@
 title: "Retribution Fury"
 ---
 
-# Retribution Fury
+# ![Retribution Fury](../../../assets/icons/heist-buff/retribution-fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Retribution Fury
 
 **Where to play:** Discord
 { .where-to-play }

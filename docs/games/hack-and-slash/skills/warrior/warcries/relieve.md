@@ -2,7 +2,7 @@
 title: "Relieve"
 ---
 
-# Relieve
+# ![Relieve](../../../../../assets/icons/skill/warrior/relieve.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Relieve
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Relieve"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | heal % |
+| Rank | Heal (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 11 |

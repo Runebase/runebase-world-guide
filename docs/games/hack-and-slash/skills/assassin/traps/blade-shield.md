@@ -2,7 +2,7 @@
 title: "Blade Shield"
 ---
 
-# Blade Shield
+# ![Blade Shield](../../../../../assets/icons/skill/assassin/blade-shield.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Shield
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Blade Shield"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | physicalDamage | procChance | rounds | mana |
+| Rank | Armor bonus (%) | Physical damage | Strike chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 1 | 1-30 | 100 | 15 | 2 |
 | 2 | 2 | 4-45 | 100 | 18 | 2 |

@@ -2,7 +2,7 @@
 title: "Recovery Chance"
 ---
 
-# Recovery Chance
+# ![Recovery Chance](../../../assets/icons/heist-attack/recovery-chance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Recovery Chance
 
 **Where to play:** Discord
 { .where-to-play }

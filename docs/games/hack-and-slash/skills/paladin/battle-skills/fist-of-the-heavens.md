@@ -2,7 +2,7 @@
 title: "Fist of the Heavens"
 ---
 
-# Fist of the Heavens
+# ![Fist of the Heavens](../../../../../assets/icons/skill/paladin/fist-of-the-heavens.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fist of the Heavens
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Fist of the Heavens"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | targets | mana |
+| Rank | Lightning damage | Targets | Mana |
 |---|---|---|---|
 | 1 | 1-60 | 2 | 2 |
 | 2 | 1-90 | 2 | 4 |

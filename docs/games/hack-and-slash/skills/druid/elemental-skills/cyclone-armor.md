@@ -2,7 +2,7 @@
 title: "Cyclone Armor"
 ---
 
-# Cyclone Armor
+# ![Cyclone Armor](../../../../../assets/icons/skill/druid/cyclone-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cyclone Armor
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Cyclone Armor"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicalDamageShield | physicalDamage | procChance | rounds | mana |
+| Rank | Magic damage shield | Physical damage | Strike chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 35 | 10-15 | 100 | 15 | 2 |
 | 2 | 50 | 17-26 | 100 | 18 | 2 |

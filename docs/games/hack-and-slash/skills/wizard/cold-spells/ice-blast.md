@@ -2,7 +2,7 @@
 title: "Ice Blast"
 ---
 
-# Ice Blast
+# ![Ice Blast](../../../../../assets/icons/skill/wizard/ice-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Ice Blast
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Ice Blast"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 8-12 | 20 | 2 | 3 |
 | 2 | 18-26 | 24 | 2 | 4 |

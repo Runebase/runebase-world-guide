@@ -2,7 +2,7 @@
 title: "Conversion"
 ---
 
-# Conversion
+# ![Conversion](../../../../../assets/icons/skill/paladin/conversion.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Conversion
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Conversion"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | conversionChance % | maxRaised | rounds | mana |
+| Rank | Conversion chance (%) | Raised at most | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 1 | 1 | 10 | 2 |
 | 2 | 1.2 | 1 | 12 | 2 |

@@ -2,7 +2,7 @@
 title: "Werebear"
 ---
 
-# Werebear
+# ![Werebear](../../../../../assets/icons/skill/druid/werebear.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Werebear
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Werebear"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | damageBonus % | healthBonus % | rounds | mana |
+| Rank | Armor bonus (%) | Damage bonus (%) | Health bonus (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 20 | 3 | 10 | 10 | 2 |
 | 2 | 30 | 6 | 15 | 15 | 2 |

@@ -2,7 +2,7 @@
 title: "Dragon Talon"
 ---
 
-# Dragon Talon
+# ![Dragon Talon](../../../../../assets/icons/skill/assassin/dragon-talon.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Talon
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Dragon Talon"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | repeatingAttack |
+| Rank | Attack rating bonus (%) | Repeated attacks |
 |---|---|---|
 | 1 | 20 | 0 |
 | 2 | 40 | 0 |

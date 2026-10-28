@@ -2,7 +2,7 @@
 title: "Cobra Strike"
 ---
 
-# Cobra Strike
+# ![Cobra Strike](../../../../../assets/icons/skill/assassin/cobra-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cobra Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Cobra Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | lifeSteal % | manaSteal % | mana |
+| Rank | Attack rating bonus (%) | Life steal (%) | Mana steal (%) | Mana |
 |---|---|---|---|---|
 | 1 | 25 | 40 | 40 | 2 |
 | 2 | 35 | 45 | 45 | 2 |

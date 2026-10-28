@@ -2,7 +2,7 @@
 title: "Battle Command"
 ---
 
-# Battle Command
+# ![Battle Command](../../../../../assets/icons/skill/warrior/battle-command.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Battle Command
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Battle Command"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damage % | rounds | mana |
+| Rank | Damage (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 5 | 2 |
 | 2 | 15 | 6 | 2 |

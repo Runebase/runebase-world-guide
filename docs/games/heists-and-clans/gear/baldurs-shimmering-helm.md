@@ -2,7 +2,7 @@
 title: "Baldur's Shimmering Helm"
 ---
 
-# Baldur's Shimmering Helm
+# ![Baldur's Shimmering Helm](../../../assets/icons/heist-gear/baldurs-shimmering-helm.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Baldur's Shimmering Helm
 
 **Where to play:** Discord
 { .where-to-play }

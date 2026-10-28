@@ -2,7 +2,7 @@
 title: "Bonk"
 ---
 
-# Bonk
+# ![Bonk](../../../../../assets/icons/skill/warrior/bonk.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bonk
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Bonk"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damage | damageBonus % | attackBonus % | mana |
+| Rank | Damage | Damage bonus (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 1 | 50 | 20 | 2 |
 | 2 | 2 | 55 | 25 | 2 |

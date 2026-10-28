@@ -2,7 +2,7 @@
 title: "Carrion Vine"
 ---
 
-# Carrion Vine
+# ![Carrion Vine](../../../../../assets/icons/skill/druid/carrion-vine.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Carrion Vine
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Carrion Vine"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage |
+| Rank | Poison damage |
 |---|---|
 | 1 | 6-10 |
 | 2 | 11-18 |

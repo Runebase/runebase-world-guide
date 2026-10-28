@@ -2,7 +2,7 @@
 title: "Tiger Strike"
 ---
 
-# Tiger Strike
+# ![Tiger Strike](../../../../../assets/icons/skill/assassin/tiger-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Tiger Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -33,7 +33,7 @@ title: "Tiger Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | damageBonus % | mana |
+| Rank | Attack rating bonus (%) | Damage bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 25 | 100 | 2 |
 | 2 | 35 | 120 | 2 |

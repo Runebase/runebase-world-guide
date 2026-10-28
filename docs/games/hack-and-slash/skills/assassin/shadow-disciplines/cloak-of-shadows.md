@@ -2,7 +2,7 @@
 title: "Cloak of Shadows"
 ---
 
-# Cloak of Shadows
+# ![Cloak of Shadows](../../../../../assets/icons/skill/assassin/cloak-of-shadows.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cloak of Shadows
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Cloak of Shadows"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | dodgeChance % | avoidMissiles % | rounds | mana |
+| Rank | Dodge (%) | Avoid missiles (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 10 | 10 | 15 | 2 |
 | 2 | 12.5 | 12.5 | 20 | 2 |

@@ -2,7 +2,7 @@
 title: "Penetrate"
 ---
 
-# Penetrate
+# ![Penetrate](../../../../../assets/icons/skill/hunter/penetrate.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Penetrate
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Penetrate"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % |
+| Rank | Attack rating bonus (%) |
 |---|---|
 | 1 | 35 |
 | 2 | 45 |

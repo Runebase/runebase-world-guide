@@ -25,18 +25,19 @@ title: "Quick battles"
 - A roll on the battle prize table (credits go to your wallet).
 - Items the monsters drop: each monster rolls once for an item, at the quality chances its setup screen shows (table below); loot each one once into your inventory. The [Arcane Reliquary](../../account/buildings.md#what-each-building-does) raises the Magic and Rare chances.
 - Dying pays nothing; a battle left unfinished pays nothing, and starting another doesn't pay for it. Clicking the last attack twice, showing the results again or reopening an old battle pays nothing more.
+- If the bot restarts right after your winning blow, before the results show, the battle is paid when the bot is back (its experience and loot, once). Its dropped items stay with the battle, as if you'd left the results without looting them.
 
 | Prize | Chance per won battle |
 |---|---|
-| 0.1 to 10 credits | 6.5% |
-| 1 [Runes Pattern Card](../../items/keys-and-cards.md#runes-pattern-card) | 0.3% |
-| 1 [Chaos Relic](../../items/keys-and-cards.md#chaos-relic) | 0.3% |
-| 1 [Leather Scrap](../../items/materials.md#leather-scrap) | 0.5% |
-| 1 [Metal Scrap](../../items/materials.md#metal-scrap) | 0.5% |
-| 1 [Wood Scrap](../../items/materials.md#wood-scrap) | 0.5% |
-| 1 [Nail](../../items/materials.md#nail) | 3% |
-| 1 [Rope](../../items/materials.md#rope) | 0.5% |
-| 1 [Engraving Tool](../../items/materials.md#engraving-tool) | 8% |
+| ![Credits](../../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 0.1 to 10 credits | 6.5% |
+| ![Runes Pattern Card](../../assets/icons/item/runes-pattern-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Runes Pattern Card](../../items/keys-and-cards.md#runes-pattern-card) | 0.3% |
+| ![Chaos Relic](../../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../../items/keys-and-cards.md#chaos-relic) | 0.3% |
+| ![Leather Scrap](../../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../../items/materials.md#leather-scrap) | 0.5% |
+| ![Metal Scrap](../../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../../items/materials.md#metal-scrap) | 0.5% |
+| ![Wood Scrap](../../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../../items/materials.md#wood-scrap) | 0.5% |
+| ![Nail](../../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../../items/materials.md#nail) | 3% |
+| ![Rope](../../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../../items/materials.md#rope) | 0.5% |
+| ![Engraving Tool](../../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../../items/materials.md#engraving-tool) | 8% |
 | nothing | 79.9% |
 
 Which monsters spawn, at level 1 (the same at every level):

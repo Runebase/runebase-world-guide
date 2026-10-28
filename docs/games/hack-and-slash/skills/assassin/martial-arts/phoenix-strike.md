@@ -2,7 +2,7 @@
 title: "Phoenix Strike"
 ---
 
-# Phoenix Strike
+# ![Phoenix Strike](../../../../../assets/icons/skill/assassin/phoenix-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Phoenix Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Phoenix Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | coldDamage | fireDamage | lightningDamage | mana |
+| Rank | Attack rating bonus (%) | Cold damage | Fire damage | Lightning damage | Mana |
 |---|---|---|---|---|---|
 | 1 | 25 | 17-35 | 22-44 | 1-45 | 2 |
 | 2 | 35 | 25-43 | 33-55 | 1-60 | 2 |

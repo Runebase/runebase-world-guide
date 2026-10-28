@@ -2,7 +2,7 @@
 title: "Impale"
 ---
 
-# Impale
+# ![Impale](../../../../../assets/icons/skill/hunter/impale.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Impale
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Impale"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | criticalStrike % | mana |
+| Rank | Damage bonus (%) | Critical strike (%) | Mana |
 |---|---|---|---|
 | 1 | 300 | 5 | 2 |
 | 2 | 325 | 7 | 4 |

@@ -2,7 +2,7 @@
 title: "Wake of Fire"
 ---
 
-# Wake of Fire
+# ![Wake of Fire](../../../../../assets/icons/skill/assassin/wake-of-fire.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wake of Fire
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Wake of Fire"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | rounds | mana |
+| Rank | Fire damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 5-10 | 4 | 2 |
 | 2 | 9-15 | 6 | 2 |

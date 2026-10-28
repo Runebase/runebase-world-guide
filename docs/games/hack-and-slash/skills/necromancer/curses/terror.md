@@ -2,7 +2,7 @@
 title: "Terror"
 ---
 
-# Terror
+# ![Terror](../../../../../assets/icons/skill/necromancer/terror.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Terror
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Terror"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | stun % | rounds | mana |
+| Rank | Stun chance (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 10 | 2 |
 | 2 | 12 | 15 | 2 |

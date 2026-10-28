@@ -2,7 +2,7 @@
 title: "Skadi's Retribution Brew"
 ---
 
-# Skadi's Retribution Brew
+# ![Skadi's Retribution Brew](../../../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Skadi's Retribution Brew
 
 **Where to play:** Discord
 { .where-to-play }

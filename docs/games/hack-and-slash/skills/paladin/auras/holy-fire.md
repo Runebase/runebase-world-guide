@@ -2,7 +2,7 @@
 title: "Holy Fire"
 ---
 
-# Holy Fire
+# ![Holy Fire](../../../../../assets/icons/skill/paladin/holy-fire.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Fire
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Holy Fire"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage |
+| Rank | Fire damage |
 |---|---|
 | 1 | 6-10 |
 | 2 | 12-20 |

@@ -2,7 +2,7 @@
 title: "Lower Resist"
 ---
 
-# Lower Resist
+# ![Lower Resist](../../../../../assets/icons/skill/necromancer/lower-resist.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lower Resist
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Lower Resist"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lowerAllResistance % | rounds | mana |
+| Rank | Lowers resistances by (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 10 | 2 |
 | 2 | 12 | 15 | 2 |

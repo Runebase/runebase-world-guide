@@ -2,7 +2,7 @@
 title: "Frozen Orb"
 ---
 
-# Frozen Orb
+# ![Frozen Orb](../../../../../assets/icons/skill/wizard/frozen-orb.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Frozen Orb
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Frozen Orb"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | targets | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Targets | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 51-86 | 5 | 3 | 2 | 3 |
 | 2 | 81-118 | 6 | 3 | 2 | 4 |

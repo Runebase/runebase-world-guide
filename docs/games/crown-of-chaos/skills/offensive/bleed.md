@@ -2,7 +2,7 @@
 title: "Bleed"
 ---
 
-# Bleed
+# ![Bleed](../../../../assets/icons/crown-skill/bleed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bleed
 
 **Where to play:** Discord
 { .where-to-play }

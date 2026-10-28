@@ -2,7 +2,7 @@
 title: "Telekinesis"
 ---
 
-# Telekinesis
+# ![Telekinesis](../../../../../assets/icons/skill/wizard/telekinesis.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Telekinesis
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Telekinesis"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | manaBonus % |
+| Rank | Mana bonus (%) |
 |---|---|
 | 1 | 4 |
 | 2 | 8 |

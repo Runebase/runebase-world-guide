@@ -2,7 +2,7 @@
 title: "Shock Wave"
 ---
 
-# Shock Wave
+# ![Shock Wave](../../../../../assets/icons/skill/druid/shock-wave.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shock Wave
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Shock Wave"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | stun % | mana |
+| Rank | Physical damage | Stun chance (%) | Mana |
 |---|---|---|---|
 | 1 | 25-33 | 30 | 2 |
 | 2 | 43-56 | 31 | 4 |

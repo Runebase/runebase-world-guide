@@ -2,7 +2,7 @@
 title: "Summon Divine Protector"
 ---
 
-# Summon Divine Protector
+# ![Summon Divine Protector](../../../../../assets/icons/skill/paladin/summon-divine-protector.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Divine Protector
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Summon Divine Protector"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | hp | maxRaised | rounds | mana |
+| Rank | Physical damage | Health | Raised at most | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 3-5 | 750 | 2 | 15 | 2 |
 | 2 | 4-15 | 1250 | 2 | 18 | 4 |

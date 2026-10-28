@@ -2,7 +2,7 @@
 title: "Fire Wall"
 ---
 
-# Fire Wall
+# ![Fire Wall](../../../../../assets/icons/skill/wizard/fire-wall.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Wall
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Fire Wall"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | burn | rounds | mana |
+| Rank | Burn damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10-12 | 10 | 2 |
 | 2 | 19-22 | 12 | 3 |

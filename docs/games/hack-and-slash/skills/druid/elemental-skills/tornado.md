@@ -2,7 +2,7 @@
 title: "Tornado"
 ---
 
-# Tornado
+# ![Tornado](../../../../../assets/icons/skill/druid/tornado.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Tornado
 
 **Where to play:** Discord
 { .where-to-play }
@@ -33,7 +33,7 @@ title: "Tornado"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | stun % | mana |
+| Rank | Physical damage | Stun chance (%) | Mana |
 |---|---|---|---|
 | 1 | 51-73 | 100 | 2 |
 | 2 | 76-108 | 100 | 4 |

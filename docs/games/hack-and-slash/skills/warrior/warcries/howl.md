@@ -2,7 +2,7 @@
 title: "Howl"
 ---
 
-# Howl
+# ![Howl](../../../../../assets/icons/skill/warrior/howl.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Howl
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Howl"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reducedArmor % | rounds |
+| Rank | Lowers armor by (%) | Rounds |
 |---|---|---|
 | 1 | 10 | 4 |
 | 2 | 12 | 4 |

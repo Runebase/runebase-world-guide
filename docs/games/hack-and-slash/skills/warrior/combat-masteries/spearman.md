@@ -2,7 +2,7 @@
 title: "Spearman"
 ---
 
-# Spearman
+# ![Spearman](../../../../../assets/icons/skill/warrior/spearman.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Spearman
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Spearman"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % | criticalStrike % |
+| Rank | Damage bonus (%) | Attack rating bonus (%) | Critical strike (%) |
 |---|---|---|---|
 | 1 | 28 | 40 | 5 |
 | 2 | 33 | 48 | 9 |

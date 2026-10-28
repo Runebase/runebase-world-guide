@@ -2,7 +2,7 @@
 title: "Raven"
 ---
 
-# Raven
+# ![Raven](../../../../../assets/icons/skill/druid/raven.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Raven
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Raven"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | maxRaised | rounds | mana |
+| Rank | Physical damage | Raised at most | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 2-3 | 1 | 15 | 2 |
 | 2 | 4-6 | 1 | 18 | 2 |

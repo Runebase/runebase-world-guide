@@ -2,7 +2,7 @@
 title: "Death Sentry"
 ---
 
-# Death Sentry
+# ![Death Sentry](../../../../../assets/icons/skill/assassin/death-sentry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Death Sentry
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Death Sentry"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | targets | rounds | mana |
+| Rank | Lightning damage | Targets | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 1-56 | 2 | 4 | 2 |
 | 2 | 1-81 | 2 | 6 | 2 |

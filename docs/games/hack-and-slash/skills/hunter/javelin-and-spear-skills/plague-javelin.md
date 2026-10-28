@@ -2,7 +2,7 @@
 title: "Plague Javelin"
 ---
 
-# Plague Javelin
+# ![Plague Javelin](../../../../../assets/icons/skill/hunter/plague-javelin.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Plague Javelin
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Plague Javelin"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage | attackBonus % | mana |
+| Rank | Poison damage | Attack rating bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 23-37 | 30 | 2 |
 | 2 | 42-59 | 39 | 4 |

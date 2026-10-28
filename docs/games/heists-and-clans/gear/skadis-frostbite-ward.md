@@ -2,7 +2,7 @@
 title: "Skadi's Frostbite Ward"
 ---
 
-# Skadi's Frostbite Ward
+# ![Skadi's Frostbite Ward](../../../assets/icons/heist-gear/skadis-frostbite-ward.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Skadi's Frostbite Ward
 
 **Where to play:** Discord
 { .where-to-play }

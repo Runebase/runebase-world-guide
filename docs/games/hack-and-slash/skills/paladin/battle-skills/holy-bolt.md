@@ -2,7 +2,7 @@
 title: "Holy Bolt"
 ---
 
-# Holy Bolt
+# ![Holy Bolt](../../../../../assets/icons/skill/paladin/holy-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Bolt
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Holy Bolt"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | mana |
+| Rank | Magic damage | Mana |
 |---|---|---|
 | 1 | 10-10 | 2 |
 | 2 | 20-20 | 2 |

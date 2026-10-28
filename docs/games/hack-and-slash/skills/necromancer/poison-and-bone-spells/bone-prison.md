@@ -2,7 +2,7 @@
 title: "Bone Prison"
 ---
 
-# Bone Prison
+# ![Bone Prison](../../../../../assets/icons/skill/necromancer/bone-prison.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Prison
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Bone Prison"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage |
+| Rank | Magic damage |
 |---|---|
 | 1 | 15-25 |
 | 2 | 22-40 |

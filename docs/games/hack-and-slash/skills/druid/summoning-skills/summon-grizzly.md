@@ -2,7 +2,7 @@
 title: "Summon Grizzly"
 ---
 
-# Summon Grizzly
+# ![Summon Grizzly](../../../../../assets/icons/skill/druid/summon-grizzly.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Grizzly
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Summon Grizzly"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | stun % | hp | rounds | mana |
+| Rank | Physical damage | Stun chance (%) | Health | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 25-40 | 5 | 1500 | 15 | 2 |
 | 2 | 35-62 | 6 | 1650 | 18 | 2 |

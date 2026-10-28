@@ -2,7 +2,7 @@
 title: "Skadi's Rejuvenating Shroud"
 ---
 
-# Skadi's Rejuvenating Shroud
+# ![Skadi's Rejuvenating Shroud](../../../assets/icons/heist-gear/skadis-rejuvenating-shroud.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Skadi's Rejuvenating Shroud
 
 **Where to play:** Discord
 { .where-to-play }

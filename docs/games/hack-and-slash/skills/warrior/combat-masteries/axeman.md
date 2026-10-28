@@ -2,7 +2,7 @@
 title: "Axeman"
 ---
 
-# Axeman
+# ![Axeman](../../../../../assets/icons/skill/warrior/axeman.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Axeman
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Axeman"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % | criticalStrike % |
+| Rank | Damage bonus (%) | Attack rating bonus (%) | Critical strike (%) |
 |---|---|---|---|
 | 1 | 28 | 40 | 5 |
 | 2 | 33 | 48 | 9 |

@@ -2,7 +2,7 @@
 title: "Heal"
 ---
 
-# Heal
+# ![Heal](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Heal
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Heal"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | heal % | mana |
+| Rank | Heal (%) | Mana |
 |---|---|---|
 | 1 | 10 | 2 |
 | 2 | 10 | 4 |

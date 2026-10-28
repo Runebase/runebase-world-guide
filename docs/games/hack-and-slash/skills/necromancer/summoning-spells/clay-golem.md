@@ -2,7 +2,7 @@
 title: "Clay Golem"
 ---
 
-# Clay Golem
+# ![Clay Golem](../../../../../assets/icons/skill/necromancer/clay-golem.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Clay Golem
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Clay Golem"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | physicalDamage | attackBonus % | rounds | mana |
+| Rank | Health | Physical damage | Attack rating bonus (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 275 | 4-9 | 40 | 10 | 2 |
 | 2 | 375 | 6-13 | 80 | 13 | 4 |

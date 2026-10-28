@@ -2,7 +2,7 @@
 title: "Blade Fury"
 ---
 
-# Blade Fury
+# ![Blade Fury](../../../../../assets/icons/skill/assassin/blade-fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blade Fury
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Blade Fury"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | mana |
+| Rank | Physical damage | Mana |
 |---|---|---|
 | 1 | 11-15 | 2 |
 | 2 | 17-22 | 2 |

@@ -2,7 +2,7 @@
 title: "Blaze"
 ---
 
-# Blaze
+# ![Blaze](../../../../../assets/icons/skill/wizard/blaze.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blaze
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Blaze"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamageBonus % | rounds | mana |
+| Rank | Fire damage bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 15 | 4 | 2 |
 | 2 | 18 | 5 | 3 |

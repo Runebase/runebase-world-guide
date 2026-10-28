@@ -2,7 +2,7 @@
 title: "Shiver Armor"
 ---
 
-# Shiver Armor
+# ![Shiver Armor](../../../../../assets/icons/skill/wizard/shiver-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shiver Armor
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Shiver Armor"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | coldDamage | freeze % | defenseAttackDebuffRounds | rounds | mana |
+| Rank | Armor bonus (%) | Cold damage | Freeze chance (%) | Strike-back effect rounds | Rounds | Mana |
 |---|---|---|---|---|---|---|
 | 1 | 15 | 4-10 | 5 | 2 | 30 | 2 |
 | 2 | 21 | 8-20 | 5 | 2 | 35 | 3 |

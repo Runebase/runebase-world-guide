@@ -2,7 +2,7 @@
 title: "Fire Golem"
 ---
 
-# Fire Golem
+# ![Fire Golem](../../../../../assets/icons/skill/necromancer/fire-golem.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Golem
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Fire Golem"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | fireDamage | rounds | mana |
+| Rank | Health | Fire damage | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 1013 | 52-128 | 6 | 2 |
 | 2 | 1130 | 77-153 | 8 | 4 |

@@ -2,7 +2,7 @@
 title: "Teeth"
 ---
 
-# Teeth
+# ![Teeth](../../../../../assets/icons/skill/necromancer/teeth.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Teeth
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Teeth"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | mana |
+| Rank | Magic damage | Mana |
 |---|---|---|
 | 1 | 3-5 | 2 |
 | 2 | 5-8 | 2 |

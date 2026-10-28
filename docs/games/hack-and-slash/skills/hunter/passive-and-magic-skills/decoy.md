@@ -2,7 +2,7 @@
 title: "Decoy"
 ---
 
-# Decoy
+# ![Decoy](../../../../../assets/icons/skill/hunter/decoy.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Decoy
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Decoy"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | rounds | mana |
+| Rank | Health bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | -30 | 10 | 2 |
 | 2 | -25 | 12 | 2 |

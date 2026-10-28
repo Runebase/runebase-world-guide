@@ -2,7 +2,7 @@
 title: "Seared Tuna with Wasabi Butter"
 ---
 
-# Seared Tuna with Wasabi Butter
+# ![Seared Tuna with Wasabi Butter](../../../assets/icons/item/seared-tuna-with-wasabi-butter.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Seared Tuna with Wasabi Butter
 
 **Where to play:** Discord
 { .where-to-play }

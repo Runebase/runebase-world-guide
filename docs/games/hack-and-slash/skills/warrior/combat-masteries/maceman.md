@@ -2,7 +2,7 @@
 title: "Maceman"
 ---
 
-# Maceman
+# ![Maceman](../../../../../assets/icons/skill/warrior/maceman.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Maceman
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Maceman"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % | criticalStrike % |
+| Rank | Damage bonus (%) | Attack rating bonus (%) | Critical strike (%) |
 |---|---|---|---|
 | 1 | 28 | 40 | 5 |
 | 2 | 33 | 48 | 9 |

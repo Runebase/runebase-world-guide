@@ -2,7 +2,7 @@
 title: "Vengeance"
 ---
 
-# Vengeance
+# ![Vengeance](../../../../../assets/icons/skill/paladin/vengeance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Vengeance
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Vengeance"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | fireDamage | coldDamage | mana |
+| Rank | Lightning damage | Fire damage | Cold damage | Mana |
 |---|---|---|---|---|
 | 1 | 1-15 | 6-12 | 6-12 | 2 |
 | 2 | 1-22 | 10-21 | 10-21 | 3 |

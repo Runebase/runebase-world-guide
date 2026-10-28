@@ -2,7 +2,7 @@
 title: "Inferno"
 ---
 
-# Inferno
+# ![Inferno](../../../../../assets/icons/skill/wizard/inferno.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Inferno
 
 **Where to play:** Discord
 { .where-to-play }
@@ -33,7 +33,7 @@ title: "Inferno"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | burn | rounds | mana |
+| Rank | Burn damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 13-25 | 4 | 2 |
 | 2 | 26-38 | 5 | 3 |

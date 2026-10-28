@@ -2,7 +2,7 @@
 title: "Claw Mastery"
 ---
 
-# Claw Mastery
+# ![Claw Mastery](../../../../../assets/icons/skill/assassin/claw-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Claw Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Claw Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | damageBonus % | criticalStrike % |
+| Rank | Attack rating bonus (%) | Damage bonus (%) | Critical strike (%) |
 |---|---|---|---|
 | 1 | 30 | 35 | 3 |
 | 2 | 40 | 39 | 6 |

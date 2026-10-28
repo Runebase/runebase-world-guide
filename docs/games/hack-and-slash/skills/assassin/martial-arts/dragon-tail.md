@@ -2,7 +2,7 @@
 title: "Dragon Tail"
 ---
 
-# Dragon Tail
+# ![Dragon Tail](../../../../../assets/icons/skill/assassin/dragon-tail.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Tail
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Dragon Tail"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | targets | mana |
+| Rank | Damage bonus (%) | Targets | Mana |
 |---|---|---|---|
 | 1 | 85 | 2 | 2 |
 | 2 | 105 | 2 | 3 |

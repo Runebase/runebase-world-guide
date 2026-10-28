@@ -2,7 +2,7 @@
 title: "Frozen Armor"
 ---
 
-# Frozen Armor
+# ![Frozen Armor](../../../../../assets/icons/skill/wizard/frozen-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Frozen Armor
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Frozen Armor"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | rounds | mana |
+| Rank | Armor bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 50 | 20 | 2 |
 | 2 | 55 | 25 | 3 |

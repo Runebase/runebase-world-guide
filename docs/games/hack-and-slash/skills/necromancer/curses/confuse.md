@@ -2,7 +2,7 @@
 title: "Confuse"
 ---
 
-# Confuse
+# ![Confuse](../../../../../assets/icons/skill/necromancer/confuse.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Confuse
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Confuse"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | confusion % | rounds | mana |
+| Rank | Confusion (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 10 | 2 |
 | 2 | 12 | 15 | 2 |

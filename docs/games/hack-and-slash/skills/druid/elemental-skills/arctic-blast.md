@@ -2,7 +2,7 @@
 title: "Arctic Blast"
 ---
 
-# Arctic Blast
+# ![Arctic Blast](../../../../../assets/icons/skill/druid/arctic-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Arctic Blast
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Arctic Blast"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 5-10 | 15 | 2 | 3 |
 | 2 | 11-18 | 18 | 2 | 3 |

@@ -2,7 +2,7 @@
 title: "Zeal"
 ---
 
-# Zeal
+# ![Zeal](../../../../../assets/icons/skill/paladin/zeal.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Zeal
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Zeal"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | damageBonus % | targets | mana |
+| Rank | Attack rating bonus (%) | Damage bonus (%) | Targets | Mana |
 |---|---|---|---|---|
 | 1 | 10 | 6 | 1 | 2 |
 | 2 | 20 | 12 | 1 | 3 |

@@ -2,7 +2,7 @@
 title: "Blizzard"
 ---
 
-# Blizzard
+# ![Blizzard](../../../../../assets/icons/skill/wizard/blizzard.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blizzard
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Blizzard"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | freeze % | rounds | mana |
+| Rank | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 51-86 | 20 | 2 | 3 |
 | 2 | 81-118 | 24 | 2 | 4 |

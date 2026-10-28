@@ -2,7 +2,7 @@
 title: "Fists of Fire"
 ---
 
-# Fists of Fire
+# ![Fists of Fire](../../../../../assets/icons/skill/assassin/fists-of-fire.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fists of Fire
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Fists of Fire"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | burn | rounds | mana |
+| Rank | Fire damage | Burn damage | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 6-10 | 9-15 | 3 | 2 |
 | 2 | 11-15 | 17-23 | 3 | 2 |

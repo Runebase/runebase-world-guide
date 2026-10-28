@@ -2,7 +2,7 @@
 title: "War Cry"
 ---
 
-# War Cry
+# ![War Cry](../../../../../assets/icons/skill/warrior/war-cry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } War Cry
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "War Cry"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | parryBonus % | rounds | mana |
+| Rank | Parry bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 30 | 4 | 2 |
 | 2 | 35 | 5 | 2 |

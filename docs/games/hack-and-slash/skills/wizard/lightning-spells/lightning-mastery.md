@@ -2,7 +2,7 @@
 title: "Lightning Mastery"
 ---
 
-# Lightning Mastery
+# ![Lightning Mastery](../../../../../assets/icons/skill/wizard/lightning-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Lightning Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamageBonus % |
+| Rank | Lightning damage bonus (%) |
 |---|---|
 | 1 | 30 |
 | 2 | 37 |

@@ -2,7 +2,7 @@
 title: "Sacrifice"
 ---
 
-# Sacrifice
+# ![Sacrifice](../../../../../assets/icons/skill/paladin/sacrifice.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sacrifice
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Sacrifice"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | damageBonus % | damageToSelf % |
+| Rank | Attack rating bonus (%) | Damage bonus (%) | Damage to yourself (%) |
 |---|---|---|---|
 | 1 | 20 | 180 | 7 |
 | 2 | 40 | 200 | 6.69 |

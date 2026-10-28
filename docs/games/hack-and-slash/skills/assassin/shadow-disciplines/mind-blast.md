@@ -2,7 +2,7 @@
 title: "Mind Blast"
 ---
 
-# Mind Blast
+# ![Mind Blast](../../../../../assets/icons/skill/assassin/mind-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mind Blast
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Mind Blast"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | confusion % | rounds | mana |
+| Rank | Confusion (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 5 | 6 | 2 |
 | 2 | 6 | 8 | 4 |

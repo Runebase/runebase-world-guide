@@ -2,7 +2,7 @@
 title: "Dodge"
 ---
 
-# Dodge
+# ![Dodge](../../../../../assets/icons/skill/hunter/dodge.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dodge
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Dodge"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | dodgeChance % |
+| Rank | Dodge (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 7 |

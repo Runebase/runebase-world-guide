@@ -2,7 +2,7 @@
 title: "Brutal Strike"
 ---
 
-# Brutal Strike
+# ![Brutal Strike](../../../../assets/icons/crown-skill/brutal-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Brutal Strike
 
 **Where to play:** Discord
 { .where-to-play }

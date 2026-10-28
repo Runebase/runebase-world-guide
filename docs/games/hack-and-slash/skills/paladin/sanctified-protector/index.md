@@ -2,7 +2,7 @@
 title: "Sanctified Protector"
 ---
 
-# Sanctified Protector
+# ![Sanctified Protector](../../../../../assets/icons/skill-tree/sanctified-protector.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sanctified Protector
 
 **Where to play:** Discord
 { .where-to-play }
@@ -11,13 +11,13 @@ A [Paladin](../../../classes/paladin.md) skill tree ([all Paladin skills](../ind
 
 | Skill | Level | Kind | Rank 1 | Rank 20 | Needs |
 |---|---|---|---|---|---|
-| [Prayer](prayer.md) | 1 | buff, spell | healthRegen % 1, rounds 2, mana 2 | healthRegen % 5.75, rounds 13, mana 21 |  |
-| [Radiant Counter](radiant-counter.md) | 1 | passive | retaliationChance % 10 | retaliationChance % 48 | a shield |
-| [Defiance](defiance.md) | 6 | passive | defenseBonus % 50 | defenseBonus % 145 |  |
-| [Radiant Reflection](radiant-reflection.md) | 6 | passive | magicDamage 8-15 | magicDamage 84-167 | a shield, [Radiant Counter](radiant-counter.md) |
-| [Heal](heal.md) | 12 | heal, spell | heal % 10, mana 2 | heal % 17, mana 40 | [Prayer](prayer.md) |
-| [Radiant Explosion](radiant-explosion.md) | 12 | passive | magicDamage 8-15 | magicDamage 84-167 | a shield, [Radiant Reflection](radiant-reflection.md) |
-| [Summon Divine Protector](summon-divine-protector.md) | 18 | summon, spell | physicalDamage 3-5, hp 750, maxRaised 2, rounds 15, mana 2 | physicalDamage 22-195, hp 10250, maxRaised 2, rounds 72, mana 40 | [Defiance](defiance.md), [Heal](heal.md) |
-| [Cleansing](cleansing.md) | 24 | heal, spell | heal % 5, mana 3 | heal % 15, mana 22 | [Heal](heal.md) |
-| [Sanctified Divine Ward](sanctified-divine-ward.md) | 30 | passive | hp 150, stun % 3, rounds 4 | hp 3000, stun % 7, rounds 10 | [Summon Divine Protector](summon-divine-protector.md) |
-| [Salvation](salvation.md) | 30 | passive | manaBonus % 2 | manaBonus % 40 |  |
+| ![Prayer](../../../../../assets/icons/skill/paladin/prayer.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Prayer](prayer.md) | 1 | buff, spell | health regeneration 1%, rounds 2, mana 2 | health regeneration 5.75%, rounds 13, mana 21 |  |
+| ![Radiant Counter](../../../../../assets/icons/skill/paladin/radiant-counter.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Radiant Counter](radiant-counter.md) | 1 | passive | retaliation chance 10% | retaliation chance 48% | a shield |
+| ![Defiance](../../../../../assets/icons/skill/paladin/defiance.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Defiance](defiance.md) | 6 | passive | armor bonus 50% | armor bonus 145% |  |
+| ![Radiant Reflection](../../../../../assets/icons/skill/paladin/radiant-reflection.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Radiant Reflection](radiant-reflection.md) | 6 | passive | magic damage 8-15 | magic damage 84-167 | a shield, [Radiant Counter](radiant-counter.md) |
+| ![Heal](../../../../../assets/icons/skill/paladin/heal.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Heal](heal.md) | 12 | heal, spell | heal 10%, mana 2 | heal 17%, mana 40 | [Prayer](prayer.md) |
+| ![Radiant Explosion](../../../../../assets/icons/skill/paladin/radiant-explosion.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Radiant Explosion](radiant-explosion.md) | 12 | passive | magic damage 8-15 | magic damage 84-167 | a shield, [Radiant Reflection](radiant-reflection.md) |
+| ![Summon Divine Protector](../../../../../assets/icons/skill/paladin/summon-divine-protector.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Summon Divine Protector](summon-divine-protector.md) | 18 | summon, spell | physical damage 3-5, health 750, raised at most 2, rounds 15, mana 2 | physical damage 22-195, health 10250, raised at most 2, rounds 72, mana 40 | [Defiance](defiance.md), [Heal](heal.md) |
+| ![Cleansing](../../../../../assets/icons/skill/paladin/cleansing.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Cleansing](cleansing.md) | 24 | heal, spell | heal 5%, mana 3 | heal 15%, mana 22 | [Heal](heal.md) |
+| ![Sanctified Divine Ward](../../../../../assets/icons/skill/paladin/sanctified-divine-ward.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sanctified Divine Ward](sanctified-divine-ward.md) | 30 | passive | health 150, stun chance 3%, rounds 4 | health 3000, stun chance 7%, rounds 10 | [Summon Divine Protector](summon-divine-protector.md) |
+| ![Salvation](../../../../../assets/icons/skill/paladin/salvation.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Salvation](salvation.md) | 30 | passive | mana bonus 2% | mana bonus 40% |  |

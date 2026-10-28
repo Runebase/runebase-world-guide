@@ -2,7 +2,7 @@
 title: "Ironbark Bulwark"
 ---
 
-# Ironbark Bulwark
+# ![Ironbark Bulwark](../../../assets/icons/heist-gear/ironbark-bulwark.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Ironbark Bulwark
 
 **Where to play:** Discord
 { .where-to-play }

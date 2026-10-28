@@ -2,7 +2,7 @@
 title: "Might"
 ---
 
-# Might
+# ![Might](../../../../../assets/icons/skill/paladin/might.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Might
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Might"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamageBonus % |
+| Rank | Physical damage bonus (%) |
 |---|---|
 | 1 | 20 |
 | 2 | 35 |

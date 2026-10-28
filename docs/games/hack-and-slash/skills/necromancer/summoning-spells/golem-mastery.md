@@ -2,7 +2,7 @@
 title: "Golem Mastery"
 ---
 
-# Golem Mastery
+# ![Golem Mastery](../../../../../assets/icons/skill/necromancer/golem-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Golem Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Golem Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | rounds |
+| Rank | Health bonus (%) | Rounds |
 |---|---|---|
 | 1 | 2.5 | 3 |
 | 2 | 5 | 6 |

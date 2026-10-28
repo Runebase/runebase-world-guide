@@ -2,7 +2,7 @@
 title: "Siphon's Grasp"
 ---
 
-# Siphon's Grasp
+# ![Siphon's Grasp](../../../../assets/icons/crown-skill/siphons-grasp.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Siphon's Grasp
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Radiant Explosion"
 ---
 
-# Radiant Explosion
+# ![Radiant Explosion](../../../../../assets/icons/skill/paladin/radiant-explosion.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Radiant Explosion
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Radiant Explosion"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage |
+| Rank | Magic damage |
 |---|---|
 | 1 | 8-15 |
 | 2 | 12-23 |

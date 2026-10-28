@@ -2,7 +2,7 @@
 title: "Dragon Flight"
 ---
 
-# Dragon Flight
+# ![Dragon Flight](../../../../../assets/icons/skill/assassin/dragon-flight.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Flight
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Dragon Flight"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage |
+| Rank | Fire damage |
 |---|---|
 | 1 | 22-44 |
 | 2 | 33-55 |

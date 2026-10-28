@@ -2,7 +2,7 @@
 title: "Shape Shifting Skills"
 ---
 
-# Shape Shifting Skills
+# ![Shape Shifting Skills](../../../../../assets/icons/skill-tree/shape-shifting-skills.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shape Shifting Skills
 
 **Where to play:** Discord
 { .where-to-play }
@@ -11,13 +11,13 @@ A [Druid](../../../classes/druid.md) skill tree ([all Druid skills](../index.md)
 
 | Skill | Level | Kind | Rank 1 | Rank 20 | Needs |
 |---|---|---|---|---|---|
-| [Werewolf](werewolf.md) | 1 | shapeshift, spell | pierce % 6, attackBonus % 10, rounds 10, mana 2 | pierce % 25, attackBonus % 200, rounds 105, mana 2 |  |
-| [Lycanthropy](lycanthropy.md) | 1 | passive | healthBonus % 5, rounds 5, mana 2 | healthBonus % 62, rounds 62, mana 2 | [Werewolf](werewolf.md) |
-| [Werebear](werebear.md) | 6 | shapeshift, spell | defenseBonus % 20, damageBonus % 3, healthBonus % 10, rounds 10, mana 2 | defenseBonus % 210, damageBonus % 60, healthBonus % 105, rounds 105, mana 2 |  |
-| [Feral Rage](feral-rage.md) | 12 | attack | damageBonus % 30, lifeSteal % 10, mana 2 | damageBonus % 410, lifeSteal % 105, mana 2 | [Werewolf](werewolf.md) |
-| [Maul](maul.md) | 12 | area | damageBonus % 5, mana 2 | damageBonus % 100, mana 2 | [Werebear](werebear.md) |
-| [Rabies](rabies.md) | 18 | attack | poisonDamage 15-23, rounds 3, mana 2 | poisonDamage 148-346, rounds 7, mana 2 | [Feral Rage](feral-rage.md) |
-| [Fire Claws](fire-claws.md) | 18 | explodes | damageBonus % 10, fireDamage 19-35, mana 2 | damageBonus % 105, fireDamage 209-320, mana 2 | [Feral Rage](feral-rage.md), [Maul](maul.md) |
-| [Hunger](hunger.md) | 24 | attack | lifeSteal % 50, manaSteal % 50, attackBonus % 50, mana 2 | lifeSteal % 335, manaSteal % 335, attackBonus % 240, mana 40 | [Fire Claws](fire-claws.md) |
-| [Shock Wave](shock-wave.md) | 24 | area, spell | physicalDamage 25-33, stun % 30, mana 2 | physicalDamage 367-470, stun % 49, mana 40 | [Maul](maul.md) |
-| [Fury](fury.md) | 30 | chain | targets 2, damageBonus % 0, mana 3 | targets 8, damageBonus % 285, mana 9 | [Rabies](rabies.md) |
+| ![Werewolf](../../../../../assets/icons/skill/druid/werewolf.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Werewolf](werewolf.md) | 1 | shapeshift, spell | pierce 6%, attack rating bonus 10%, rounds 10, mana 2 | pierce 25%, attack rating bonus 200%, rounds 105, mana 2 |  |
+| ![Lycanthropy](../../../../../assets/icons/skill/druid/lycanthropy.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Lycanthropy](lycanthropy.md) | 1 | passive | health bonus 5%, rounds 5, mana 2 | health bonus 62%, rounds 62, mana 2 | [Werewolf](werewolf.md) |
+| ![Werebear](../../../../../assets/icons/skill/druid/werebear.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Werebear](werebear.md) | 6 | shapeshift, spell | armor bonus 20%, damage bonus 3%, health bonus 10%, rounds 10, mana 2 | armor bonus 210%, damage bonus 60%, health bonus 105%, rounds 105, mana 2 |  |
+| ![Feral Rage](../../../../../assets/icons/skill/druid/feral-rage.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Feral Rage](feral-rage.md) | 12 | attack | damage bonus 30%, life steal 10%, mana 2 | damage bonus 410%, life steal 105%, mana 2 | [Werewolf](werewolf.md) |
+| ![Maul](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Maul](maul.md) | 12 | area | damage bonus 5%, mana 2 | damage bonus 100%, mana 2 | [Werebear](werebear.md) |
+| ![Rabies](../../../../../assets/icons/skill/druid/rabies.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rabies](rabies.md) | 18 | attack | poison damage 15-23, rounds 3, mana 2 | poison damage 148-346, rounds 7, mana 2 | [Feral Rage](feral-rage.md) |
+| ![Fire Claws](../../../../../assets/icons/skill/druid/fire-claws.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Fire Claws](fire-claws.md) | 18 | explodes | damage bonus 10%, fire damage 19-35, mana 2 | damage bonus 105%, fire damage 209-320, mana 2 | [Feral Rage](feral-rage.md), [Maul](maul.md) |
+| ![Hunger](../../../../../assets/icons/skill/druid/hunger.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Hunger](hunger.md) | 24 | attack | life steal 50%, mana steal 50%, attack rating bonus 50%, mana 2 | life steal 335%, mana steal 335%, attack rating bonus 240%, mana 40 | [Fire Claws](fire-claws.md) |
+| ![Shock Wave](../../../../../assets/icons/skill/druid/shock-wave.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Shock Wave](shock-wave.md) | 24 | area, spell | physical damage 25-33, stun chance 30%, mana 2 | physical damage 367-470, stun chance 49%, mana 40 | [Maul](maul.md) |
+| ![Fury](../../../../../assets/icons/skill/druid/fury.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Fury](fury.md) | 30 | chain | targets 2, damage bonus 0%, mana 3 | targets 8, damage bonus 285%, mana 9 | [Rabies](rabies.md) |

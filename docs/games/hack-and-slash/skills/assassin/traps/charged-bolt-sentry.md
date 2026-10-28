@@ -2,7 +2,7 @@
 title: "Charged Bolt Sentry"
 ---
 
-# Charged Bolt Sentry
+# ![Charged Bolt Sentry](../../../../../assets/icons/skill/assassin/charged-bolt-sentry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Charged Bolt Sentry
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Charged Bolt Sentry"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | rounds | mana |
+| Rank | Lightning damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 1-7 | 4 | 2 |
 | 2 | 1-13 | 6 | 2 |

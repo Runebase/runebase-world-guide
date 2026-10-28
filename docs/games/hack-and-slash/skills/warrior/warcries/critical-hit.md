@@ -2,7 +2,7 @@
 title: "Critical Hit"
 ---
 
-# Critical Hit
+# ![Critical Hit](../../../../../assets/icons/skill/warrior/critical-hit.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Critical Hit
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Critical Hit"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | criticalStrike % |
+| Rank | Critical strike (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 6 |

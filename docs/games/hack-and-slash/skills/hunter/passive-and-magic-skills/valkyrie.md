@@ -2,7 +2,7 @@
 title: "Valkyrie"
 ---
 
-# Valkyrie
+# ![Valkyrie](../../../../../assets/icons/skill/hunter/valkyrie.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Valkyrie
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Valkyrie"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | damageBonus % | attackBonus % | defenseBonus % | rounds | mana |
+| Rank | Health | Damage bonus (%) | Attack rating bonus (%) | Armor bonus (%) | Rounds | Mana |
 |---|---|---|---|---|---|---|
 | 1 | 528 | 0 | 40 | 0 | 6 | 2 |
 | 2 | 616 | 25 | 80 | 10 | 8 | 4 |

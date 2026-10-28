@@ -2,7 +2,7 @@
 title: "Radiant Reflection"
 ---
 
-# Radiant Reflection
+# ![Radiant Reflection](../../../../../assets/icons/skill/paladin/radiant-reflection.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Radiant Reflection
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Radiant Reflection"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage |
+| Rank | Magic damage |
 |---|---|
 | 1 | 8-15 |
 | 2 | 12-23 |

@@ -2,7 +2,7 @@
 title: "Mimir's Cap of Insight"
 ---
 
-# Mimir's Cap of Insight
+# ![Mimir's Cap of Insight](../../../assets/icons/heist-gear/mimirs-cap-of-insight.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mimir's Cap of Insight
 
 **Where to play:** Discord
 { .where-to-play }

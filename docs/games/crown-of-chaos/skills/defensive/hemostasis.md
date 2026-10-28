@@ -2,7 +2,7 @@
 title: "Hemostasis"
 ---
 
-# Hemostasis
+# ![Hemostasis](../../../../assets/icons/crown-skill/hemostasis.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Hemostasis
 
 **Where to play:** Discord
 { .where-to-play }

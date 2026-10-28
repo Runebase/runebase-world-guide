@@ -2,7 +2,7 @@
 title: "Twister"
 ---
 
-# Twister
+# ![Twister](../../../../../assets/icons/skill/druid/twister.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Twister
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Twister"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | stun % | targets | mana |
+| Rank | Physical damage | Stun chance (%) | Targets | Mana |
 |---|---|---|---|---|
 | 1 | 25-30 | 35 | 2 | 2 |
 | 2 | 37-49 | 36 | 2 | 2 |

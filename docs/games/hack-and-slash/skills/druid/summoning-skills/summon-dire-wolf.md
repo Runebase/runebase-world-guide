@@ -2,7 +2,7 @@
 title: "Summon Dire Wolf"
 ---
 
-# Summon Dire Wolf
+# ![Summon Dire Wolf](../../../../../assets/icons/skill/druid/summon-dire-wolf.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Dire Wolf
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Summon Dire Wolf"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | pierce % | hp | rounds |
+| Rank | Damage bonus (%) | Pierce (%) | Health | Rounds |
 |---|---|---|---|---|
 | 1 | 25 | 1 | 75 | 3 |
 | 2 | 40 | 2 | 150 | 6 |

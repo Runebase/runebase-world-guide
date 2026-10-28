@@ -2,7 +2,7 @@
 title: "Raise Skeletal Mage"
 ---
 
-# Raise Skeletal Mage
+# ![Raise Skeletal Mage](../../../../../assets/icons/skill/necromancer/raise-skeletal-mage.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Raise Skeletal Mage
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Raise Skeletal Mage"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | defense | maxRaised | rounds | mana |
+| Rank | Health | Armor | Raised at most | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 80 | 10 | 1 | 30 | 2 |
 | 2 | 105 | 20 | 1 | 32 | 4 |

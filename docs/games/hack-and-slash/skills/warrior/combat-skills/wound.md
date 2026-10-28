@@ -2,7 +2,7 @@
 title: "Wound"
 ---
 
-# Wound
+# ![Wound](../../../../../assets/icons/skill/warrior/wound.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wound
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Wound"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damage % | rounds | mana |
+| Rank | Damage (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 50 | 4 | 2 |
 | 2 | 55 | 4 | 2 |

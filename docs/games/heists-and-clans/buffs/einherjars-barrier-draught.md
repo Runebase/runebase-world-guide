@@ -2,7 +2,7 @@
 title: "Einherjar's Barrier Draught"
 ---
 
-# Einherjar's Barrier Draught
+# ![Einherjar's Barrier Draught](../../../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Einherjar's Barrier Draught
 
 **Where to play:** Discord
 { .where-to-play }

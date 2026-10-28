@@ -2,7 +2,7 @@
 title: "Robin Hood"
 ---
 
-# Robin Hood
+# ![Robin Hood](../../../../assets/icons/crown-skill/robin-hood.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Robin Hood
 
 **Where to play:** Discord
 { .where-to-play }

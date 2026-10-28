@@ -2,7 +2,7 @@
 title: "Maul"
 ---
 
-# Maul
+# ![Maul](../../../../../assets/icons/skill/druid/maul.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Maul
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Maul"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | mana |
+| Rank | Damage bonus (%) | Mana |
 |---|---|---|
 | 1 | 5 | 2 |
 | 2 | 10 | 2 |

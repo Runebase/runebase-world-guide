@@ -2,7 +2,7 @@
 title: "Poison Nova"
 ---
 
-# Poison Nova
+# ![Poison Nova](../../../../../assets/icons/skill/necromancer/poison-nova.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Poison Nova
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Poison Nova"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage | rounds | mana |
+| Rank | Poison damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 35-62 | 3 | 2 |
 | 2 | 53-92 | 3 | 2 |

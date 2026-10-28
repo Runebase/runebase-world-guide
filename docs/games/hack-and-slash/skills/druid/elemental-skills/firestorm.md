@@ -2,7 +2,7 @@
 title: "Firestorm"
 ---
 
-# Firestorm
+# ![Firestorm](../../../../../assets/icons/skill/druid/firestorm.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Firestorm
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Firestorm"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | mana |
+| Rank | Fire damage | Mana |
 |---|---|---|
 | 1 | 3-6 | 2 |
 | 2 | 6-12 | 2 |

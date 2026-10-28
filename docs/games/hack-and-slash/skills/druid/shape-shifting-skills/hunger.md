@@ -2,7 +2,7 @@
 title: "Hunger"
 ---
 
-# Hunger
+# ![Hunger](../../../../../assets/icons/skill/druid/hunger.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Hunger
 
 **Where to play:** Discord
 { .where-to-play }
@@ -34,7 +34,7 @@ title: "Hunger"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lifeSteal % | manaSteal % | attackBonus % | mana |
+| Rank | Life steal (%) | Mana steal (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 50 | 50 | 50 | 2 |
 | 2 | 65 | 65 | 60 | 4 |

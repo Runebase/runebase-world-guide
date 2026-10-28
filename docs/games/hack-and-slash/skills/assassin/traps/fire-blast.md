@@ -2,7 +2,7 @@
 title: "Fire Blast"
 ---
 
-# Fire Blast
+# ![Fire Blast](../../../../../assets/icons/skill/assassin/fire-blast.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Blast
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Fire Blast"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | mana |
+| Rank | Fire damage | Mana |
 |---|---|---|
 | 1 | 3-4 | 2 |
 | 2 | 7-8 | 2 |

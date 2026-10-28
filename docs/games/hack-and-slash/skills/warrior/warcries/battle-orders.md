@@ -2,7 +2,7 @@
 title: "Battle Orders"
 ---
 
-# Battle Orders
+# ![Battle Orders](../../../../../assets/icons/skill/warrior/battle-orders.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Battle Orders
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Battle Orders"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | rounds | mana |
+| Rank | Health bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 40 | 7 | 2 |
 | 2 | 45 | 9 | 2 |

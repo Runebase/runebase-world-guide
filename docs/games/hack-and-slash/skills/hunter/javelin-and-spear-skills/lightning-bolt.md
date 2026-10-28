@@ -2,7 +2,7 @@
 title: "Lightning Bolt"
 ---
 
-# Lightning Bolt
+# ![Lightning Bolt](../../../../../assets/icons/skill/hunter/lightning-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Bolt
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Lightning Bolt"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | mana |
+| Rank | Lightning damage | Mana |
 |---|---|---|
 | 1 | 1-40 | 2 |
 | 2 | 1-70 | 4 |

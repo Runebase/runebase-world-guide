@@ -2,7 +2,7 @@
 title: "Magic Arrow"
 ---
 
-# Magic Arrow
+# ![Magic Arrow](../../../../../assets/icons/skill/hunter/magic-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Magic Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Magic Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | attackBonus % | damageBonus % | mana |
+| Rank | Magic damage | Attack rating bonus (%) | Damage bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 2-5 | 10 | 10 | 2 |
 | 2 | 4-10 | 19 | 15 | 2 |

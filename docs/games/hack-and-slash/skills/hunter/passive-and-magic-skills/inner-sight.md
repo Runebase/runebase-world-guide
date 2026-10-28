@@ -2,7 +2,7 @@
 title: "Inner Sight"
 ---
 
-# Inner Sight
+# ![Inner Sight](../../../../../assets/icons/skill/hunter/inner-sight.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Inner Sight
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Inner Sight"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reducedArmor | rounds | mana |
+| Rank | Lowers armor by | Rounds | Mana |
 |---|---|---|---|
 | 1 | 40 | 4 | 2 |
 | 2 | 55 | 4 | 2 |

@@ -2,7 +2,7 @@
 title: "Claws of Thunder"
 ---
 
-# Claws of Thunder
+# ![Claws of Thunder](../../../../../assets/icons/skill/assassin/claws-of-thunder.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Claws of Thunder
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Claws of Thunder"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | lightningDamage | targets | mana |
+| Rank | Attack rating bonus (%) | Lightning damage | Targets | Mana |
 |---|---|---|---|---|
 | 1 | 25 | 1-80 | 3 | 2 |
 | 2 | 35 | 1-100 | 3 | 2 |

@@ -2,7 +2,7 @@
 title: "Assault Fortification"
 ---
 
-# Assault Fortification
+# ![Assault Fortification](../../../assets/icons/heist-buff/assault-fortification.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Assault Fortification
 
 **Where to play:** Discord
 { .where-to-play }

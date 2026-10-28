@@ -2,7 +2,7 @@
 title: "Blades of Ice"
 ---
 
-# Blades of Ice
+# ![Blades of Ice](../../../../../assets/icons/skill/assassin/blades-of-ice.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blades of Ice
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Blades of Ice"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | coldDamage | freeze % | rounds | mana |
+| Rank | Attack rating bonus (%) | Cold damage | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 25 | 15-35 | 20 | 2 | 2 |
 | 2 | 35 | 25-45 | 22 | 2 | 2 |

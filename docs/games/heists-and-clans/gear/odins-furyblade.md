@@ -2,7 +2,7 @@
 title: "Odin's Furyblade"
 ---
 
-# Odin's Furyblade
+# ![Odin's Furyblade](../../../assets/icons/heist-gear/odins-furyblade.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Odin's Furyblade
 
 **Where to play:** Discord
 { .where-to-play }

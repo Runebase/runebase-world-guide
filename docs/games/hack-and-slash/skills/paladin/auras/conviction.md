@@ -2,7 +2,7 @@
 title: "Conviction"
 ---
 
-# Conviction
+# ![Conviction](../../../../../assets/icons/skill/paladin/conviction.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Conviction
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Conviction"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lowerAllResistance % |
+| Rank | Lowers resistances by (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 8 |

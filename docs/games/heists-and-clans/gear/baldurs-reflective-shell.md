@@ -2,7 +2,7 @@
 title: "Baldur's Reflective Shell"
 ---
 
-# Baldur's Reflective Shell
+# ![Baldur's Reflective Shell](../../../assets/icons/heist-gear/baldurs-reflective-shell.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Baldur's Reflective Shell
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Einherjar's Wrathful Loop"
 ---
 
-# Einherjar's Wrathful Loop
+# ![Einherjar's Wrathful Loop](../../../assets/icons/heist-gear/einherjars-wrathful-loop.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Einherjar's Wrathful Loop
 
 **Where to play:** Discord
 { .where-to-play }

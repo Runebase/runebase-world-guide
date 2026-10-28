@@ -2,7 +2,7 @@
 title: "Hydra"
 ---
 
-# Hydra
+# ![Hydra](../../../../../assets/icons/skill/wizard/hydra.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Hydra
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Hydra"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | rounds | mana |
+| Rank | Fire damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 14-19 | 10 | 2 |
 | 2 | 20-27 | 11 | 3 |

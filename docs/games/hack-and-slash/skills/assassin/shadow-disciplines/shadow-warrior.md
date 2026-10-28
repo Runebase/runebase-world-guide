@@ -2,7 +2,7 @@
 title: "Shadow Warrior"
 ---
 
-# Shadow Warrior
+# ![Shadow Warrior](../../../../../assets/icons/skill/assassin/shadow-warrior.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shadow Warrior
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Shadow Warrior"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | defenseBonus % | rounds | mana |
+| Rank | Health | Armor bonus (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 376 | 0 | 6 | 2 |
 | 2 | 431 | 12 | 8 | 4 |

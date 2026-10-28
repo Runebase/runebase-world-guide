@@ -2,7 +2,7 @@
 title: "Radiant Counter"
 ---
 
-# Radiant Counter
+# ![Radiant Counter](../../../../../assets/icons/skill/paladin/radiant-counter.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Radiant Counter
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Radiant Counter"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | retaliationChance % |
+| Rank | Retaliation chance (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 12 |

@@ -2,7 +2,7 @@
 title: "Smite"
 ---
 
-# Smite
+# ![Smite](../../../../../assets/icons/skill/paladin/smite.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Smite
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Smite"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | stun % | mana |
+| Rank | Damage bonus (%) | Stun chance (%) | Mana |
 |---|---|---|---|
 | 1 | 30 | 5 | 2 |
 | 2 | 60 | 9 | 3 |

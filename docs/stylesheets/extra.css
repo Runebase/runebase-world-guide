@@ -7,3 +7,46 @@
   background: var(--md-accent-fg-color--transparent);
   font-size: 0.75rem;
 }
+/* The games' icons (scripts/player-guide/icons.mjs): beside a name, a title,
+   a catalog entry; a picture beside a section's first lines. */
+.md-typeset img.gi {
+  vertical-align: middle;
+}
+.md-typeset img.gi-inline {
+  margin-right: 0.15rem;
+}
+.md-typeset h1 img.gi,
+.md-typeset h3 img.gi {
+  margin-right: 0.4rem;
+}
+.md-typeset img.gi-picture,
+.md-typeset img.gi-banner {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 0.4rem;
+}
+.md-typeset h2 {
+  clear: right;
+}
+.md-typeset .guide-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: 0.6rem 1rem;
+  margin: 1rem 0;
+}
+.md-typeset .guide-gallery figure {
+  width: auto;
+  margin: 0;
+}
+.md-typeset .guide-gallery figcaption {
+  margin: 0.2rem 0 0;
+  font-size: 0.7rem;
+}
+@media screen and (max-width: 44.9375em) {
+  .md-typeset img.gi-picture,
+  .md-typeset img.gi-banner {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}

@@ -2,7 +2,7 @@
 title: "Mirror"
 ---
 
-# Mirror
+# ![Mirror](../../../../../assets/icons/skill/warrior/mirror.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Mirror
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Mirror"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | rounds | mana |
+| Rank | Damage bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | -50 | 6 | 2 |
 | 2 | -45 | 9 | 4 |

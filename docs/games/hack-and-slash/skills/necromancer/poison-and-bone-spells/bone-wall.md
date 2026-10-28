@@ -2,7 +2,7 @@
 title: "Bone Wall"
 ---
 
-# Bone Wall
+# ![Bone Wall](../../../../../assets/icons/skill/necromancer/bone-wall.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Wall
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Bone Wall"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicalDamageShield |
+| Rank | Magic damage shield |
 |---|---|
 | 1 | 30 |
 | 2 | 45 |

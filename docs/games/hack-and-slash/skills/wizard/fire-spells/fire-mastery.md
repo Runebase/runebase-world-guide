@@ -2,7 +2,7 @@
 title: "Fire Mastery"
 ---
 
-# Fire Mastery
+# ![Fire Mastery](../../../../../assets/icons/skill/wizard/fire-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Fire Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamageBonus % |
+| Rank | Fire damage bonus (%) |
 |---|---|
 | 1 | 30 |
 | 2 | 37 |

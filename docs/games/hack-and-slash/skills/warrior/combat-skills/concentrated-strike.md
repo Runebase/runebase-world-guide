@@ -2,7 +2,7 @@
 title: "Concentrated Strike"
 ---
 
-# Concentrated Strike
+# ![Concentrated Strike](../../../../../assets/icons/skill/warrior/concentrated-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Concentrated Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Concentrated Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | criticalStrike % | mana |
+| Rank | Damage bonus (%) | Critical strike (%) | Mana |
 |---|---|---|---|
 | 1 | 35 | 2 | 2 |
 | 2 | 55 | 3 | 5 |

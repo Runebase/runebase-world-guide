@@ -2,7 +2,7 @@
 title: "Though Skin"
 ---
 
-# Though Skin
+# ![Though Skin](../../../../../assets/icons/skill/warrior/though-skin.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Though Skin
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Though Skin"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % |
+| Rank | Armor bonus (%) |
 |---|---|
 | 1 | 50 |
 | 2 | 55 |

@@ -2,7 +2,7 @@
 title: "Energy Shield"
 ---
 
-# Energy Shield
+# ![Energy Shield](../../../../../assets/icons/skill/wizard/energy-shield.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Energy Shield
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Energy Shield"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | manaShield % | rounds | mana |
+| Rank | Mana shield (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 20 | 10 | 5 |
 | 2 | 24 | 12 | 6 |

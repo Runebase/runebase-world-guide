@@ -2,7 +2,7 @@
 title: "Iron Maiden"
 ---
 
-# Iron Maiden
+# ![Iron Maiden](../../../../../assets/icons/skill/necromancer/iron-maiden.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Iron Maiden
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Iron Maiden"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reflectPhysicalDamage % | rounds | mana |
+| Rank | Reflects physical damage (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 100 | 10 | 2 |
 | 2 | 110 | 15 | 2 |

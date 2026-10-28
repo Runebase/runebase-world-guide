@@ -2,7 +2,7 @@
 title: "Njord's Serene Barrier"
 ---
 
-# Njord's Serene Barrier
+# ![Njord's Serene Barrier](../../../assets/icons/heist-gear/njords-serene-barrier.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Njord's Serene Barrier
 
 **Where to play:** Discord
 { .where-to-play }

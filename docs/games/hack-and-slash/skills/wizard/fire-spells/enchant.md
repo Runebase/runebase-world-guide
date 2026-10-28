@@ -2,7 +2,7 @@
 title: "Enchant"
 ---
 
-# Enchant
+# ![Enchant](../../../../../assets/icons/skill/wizard/enchant.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Enchant
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Enchant"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamageOnWeapon | rounds | mana |
+| Rank | Fire damage on your weapon | Rounds | Mana |
 |---|---|---|---|
 | 1 | 6-15 | 10 | 2 |
 | 2 | 11-27 | 15 | 3 |

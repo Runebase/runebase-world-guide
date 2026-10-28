@@ -2,7 +2,7 @@
 title: "Dim Vision"
 ---
 
-# Dim Vision
+# ![Dim Vision](../../../../../assets/icons/skill/necromancer/dim-vision.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dim Vision
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Dim Vision"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | decreaseMagicResistance % | rounds | mana |
+| Rank | Lowers magic resistance by (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 15 | 10 | 2 |
 | 2 | 20 | 15 | 2 |

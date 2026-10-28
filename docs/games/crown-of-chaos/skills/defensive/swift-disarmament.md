@@ -2,7 +2,7 @@
 title: "Swift Disarmament"
 ---
 
-# Swift Disarmament
+# ![Swift Disarmament](../../../../assets/icons/crown-skill/swift-disarmament.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Swift Disarmament
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Wild Turkey with Cranberry Glaze"
 ---
 
-# Wild Turkey with Cranberry Glaze
+# ![Wild Turkey with Cranberry Glaze](../../../assets/icons/item/wild-turkey-with-cranberry-glaze.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wild Turkey with Cranberry Glaze
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Grilled Eel with Sichuan Peppercorns"
 ---
 
-# Grilled Eel with Sichuan Peppercorns
+# ![Grilled Eel with Sichuan Peppercorns](../../../assets/icons/item/grilled-eel-with-sichuan-peppercorns.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Grilled Eel with Sichuan Peppercorns
 
 **Where to play:** Discord
 { .where-to-play }

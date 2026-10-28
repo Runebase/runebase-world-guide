@@ -2,7 +2,7 @@
 title: "Strafe"
 ---
 
-# Strafe
+# ![Strafe](../../../../../assets/icons/skill/hunter/strafe.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Strafe
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Strafe"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | volley | damageBonus % | attackBonus % | mana |
+| Rank | Volley | Damage bonus (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 3 | 5 | 30 | 2 |
 | 2 | 3 | 10 | 35 | 2 |

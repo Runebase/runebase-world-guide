@@ -36,76 +36,76 @@ The store sells you items for credits and buys them back; the basket holds what 
 
 | Material | Base cost | Stock 1 | Stock 2 | Stock 5 | Stock 20 | Stock 100 | Stock 1,000 |
 |---|---|---|---|---|---|---|---|
-| [Standard Essence](../items/materials.md#standard-essence) | 1.5 credits | 30.74 | 15.74 | 6.72 | 2.16 | 0.84 | 0.38 |
-| [Elemental Core](../items/materials.md#elemental-core) | 4.5 credits | 92.23 | 47.21 | 20.17 | 6.49 | 2.51 | 1.14 |
-| [Primal Source](../items/materials.md#primal-source) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
-| [Basic Residue](../items/materials.md#basic-residue) | 4.5 credits | 92.23 | 47.21 | 20.17 | 6.49 | 2.51 | 1.14 |
-| [Enigmatic Nexus](../items/materials.md#enigmatic-nexus) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
-| [Mystical Node](../items/materials.md#mystical-node) | 40.5 credits | 830.09 | 424.93 | 181.5 | 58.43 | 22.6 | 10.3 |
-| [Elite Essence](../items/materials.md#elite-essence) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
-| [Radiant Shard](../items/materials.md#radiant-shard) | 40.5 credits | 830.09 | 424.93 | 181.5 | 58.43 | 22.6 | 10.3 |
-| [Shattered Prism](../items/materials.md#shattered-prism) | 121.5 credits | 2,490.26 | 1,274.79 | 544.49 | 175.29 | 67.81 | 30.9 |
-| [Engraving Tool](../items/materials.md#engraving-tool) | 1.5 credits | 30.74 | 15.74 | 6.72 | 2.16 | 0.84 | 0.38 |
+| ![Standard Essence](../assets/icons/item/standard-essence.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Standard Essence](../items/materials.md#standard-essence) | 1.5 credits | 30.74 | 15.74 | 6.72 | 2.16 | 0.84 | 0.38 |
+| ![Elemental Core](../assets/icons/item/elemental-core.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Elemental Core](../items/materials.md#elemental-core) | 4.5 credits | 92.23 | 47.21 | 20.17 | 6.49 | 2.51 | 1.14 |
+| ![Primal Source](../assets/icons/item/primal-source.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Primal Source](../items/materials.md#primal-source) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
+| ![Basic Residue](../assets/icons/item/basic-residue.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Basic Residue](../items/materials.md#basic-residue) | 4.5 credits | 92.23 | 47.21 | 20.17 | 6.49 | 2.51 | 1.14 |
+| ![Enigmatic Nexus](../assets/icons/item/enigmatic-nexus.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Enigmatic Nexus](../items/materials.md#enigmatic-nexus) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
+| ![Mystical Node](../assets/icons/item/mystical-node.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mystical Node](../items/materials.md#mystical-node) | 40.5 credits | 830.09 | 424.93 | 181.5 | 58.43 | 22.6 | 10.3 |
+| ![Elite Essence](../assets/icons/item/elite-essence.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Elite Essence](../items/materials.md#elite-essence) | 13.5 credits | 276.7 | 141.64 | 60.5 | 19.48 | 7.53 | 3.43 |
+| ![Radiant Shard](../assets/icons/item/radiant-shard.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Radiant Shard](../items/materials.md#radiant-shard) | 40.5 credits | 830.09 | 424.93 | 181.5 | 58.43 | 22.6 | 10.3 |
+| ![Shattered Prism](../assets/icons/item/shattered-prism.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Shattered Prism](../items/materials.md#shattered-prism) | 121.5 credits | 2,490.26 | 1,274.79 | 544.49 | 175.29 | 67.81 | 30.9 |
+| ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Engraving Tool](../items/materials.md#engraving-tool) | 1.5 credits | 30.74 | 15.74 | 6.72 | 2.16 | 0.84 | 0.38 |
 
 | Category | Item | Price | Sells back for (without a Trade Post) |
 |---|---|---|---|
-| Spices | [Anchovy Powder](../items/ingredients.md#anchovy-powder) | 1 credit | 0.75 credits (75%) |
-| Spices | [Smoked Paprika](../items/ingredients.md#smoked-paprika) | 2 credits | 1.5 credits (75%) |
-| Spices | [Sumac](../items/ingredients.md#sumac) | 3 credits | 2.25 credits (75%) |
-| Spices | [Old Bay Seasoning](../items/ingredients.md#old-bay-seasoning) | 4 credits | 3 credits (75%) |
-| Spices | [Wasabi](../items/ingredients.md#wasabi) | 8 credits | 6 credits (75%) |
-| Spices | [Cumin](../items/ingredients.md#cumin) | 5 credits | 3.75 credits (75%) |
-| Spices | [Sichuan Peppercorns](../items/ingredients.md#sichuan-peppercorns) | 5 credits | 3.75 credits (75%) |
-| Spices | [Dill](../items/ingredients.md#dill) | 8 credits | 6 credits (75%) |
-| Spices | [Rosemary](../items/ingredients.md#rosemary) | 10 credits | 7.5 credits (75%) |
-| Spices | [Lemon](../items/ingredients.md#lemon) | 25 credits | 18.75 credits (75%) |
-| Sauces | [Sawmill Gravy](../items/ingredients.md#sawmill-gravy) | 1 credit | 0.75 credits (75%) |
-| Sauces | [Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce) | 2 credits | 1.5 credits (75%) |
-| Sauces | [Lingonberry Sauce](../items/ingredients.md#lingonberry-sauce) | 3 credits | 2.25 credits (75%) |
-| Sauces | [Cranberry Glaze](../items/ingredients.md#cranberry-glaze) | 4 credits | 3 credits (75%) |
-| Sauces | [Blackberry Balsamic Glaze](../items/ingredients.md#blackberry-balsamic-glaze) | 8 credits | 6 credits (75%) |
-| Sauces | [Juniper Berry Demi-Glace](../items/ingredients.md#juniper-berry-demi-glace) | 5 credits | 3.75 credits (75%) |
-| Sauces | [Huckleberry Sauce](../items/ingredients.md#huckleberry-sauce) | 5 credits | 3.75 credits (75%) |
-| Sauces | [Blueberry Sauce](../items/ingredients.md#blueberry-sauce) | 8 credits | 6 credits (75%) |
-| Sauces | [Cherry Sauce](../items/ingredients.md#cherry-sauce) | 10 credits | 7.5 credits (75%) |
-| Consumables | [Fishing Beer](../items/store-consumables.md#fishing-beer) | 3 credits | 2.25 credits (75%) |
-| Consumables | [Hunting Weed](../items/store-consumables.md#hunting-weed) | 3 credits | 2.25 credits (75%) |
-| Consumables | [Einherjar's Barrier Draught](../items/store-consumables.md#einherjars-barrier-draught) | 850 credits | 637.5 credits (75%) |
-| Consumables | [Skadi's Retribution Brew](../items/store-consumables.md#skadis-retribution-brew) | 850 credits | 637.5 credits (75%) |
-| Consumables | [Frigg's Resurgence Elixir](../items/store-consumables.md#friggs-resurgence-elixir) | 850 credits | 637.5 credits (75%) |
-| Consumables | [Forgotten Throne Elixir](../items/store-consumables.md#forgotten-throne-elixir) | 8,000 credits | 200 credits (2.5%) |
-| Building Supplies | [Toolbox](../items/materials.md#toolbox) | 1,250 credits | 937.5 credits (75%) |
-| Building Supplies | [Nail](../items/materials.md#nail) | 2.5 credits | 1.875 credits (75%) |
-| Building Supplies | [Rope](../items/materials.md#rope) | 10 credits | 7.5 credits (75%) |
-| Playtime Provisions | [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 50 credits | 37.5 credits (75%) |
-| Playtime Provisions | [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 2 credits | 1.5 credits (75%) |
-| Pet Items | [Common Pet Token](../items/pet-items.md#common-pet-token) | 5 credits | 3.75 credits (75%) |
-| Pet Items | [Uncommon Pet Token](../items/pet-items.md#uncommon-pet-token) | not sold | 7.5 credits (75%) |
-| Pet Items | [Rare Pet Token](../items/pet-items.md#rare-pet-token) | not sold | 11.25 credits (75%) |
-| Pet Items | [Epic Pet Token](../items/pet-items.md#epic-pet-token) | not sold | 15 credits (75%) |
-| Pet Items | [Legendary Pet Token](../items/pet-items.md#legendary-pet-token) | not sold | 18.75 credits (75%) |
-| Pet Items | [Mythical Pet Token](../items/pet-items.md#mythical-pet-token) | not sold | 22.5 credits (75%) |
-| Pet Items | [Common Pet Food](../items/pet-items.md#common-pet-food) | 1 credit | 0.75 credits (75%) |
-| Pet Items | [Uncommon Pet Food](../items/pet-items.md#uncommon-pet-food) | 1.5 credits | 1.125 credits (75%) |
-| Pet Items | [Rare Pet Food](../items/pet-items.md#rare-pet-food) | 2 credits | 1.5 credits (75%) |
-| Pet Items | [Epic Pet Food](../items/pet-items.md#epic-pet-food) | 2.5 credits | 1.875 credits (75%) |
-| Pet Items | [Legendary Pet Food](../items/pet-items.md#legendary-pet-food) | 3 credits | 2.25 credits (75%) |
-| Pet Items | [Mythical Pet Food](../items/pet-items.md#mythical-pet-food) | 3.5 credits | 2.625 credits (75%) |
-| Pet Items | [Common Pet Cure](../items/pet-items.md#common-pet-cure) | 10 credits | 7.5 credits (75%) |
-| Pet Items | [Uncommon Pet Cure](../items/pet-items.md#uncommon-pet-cure) | 15 credits | 11.25 credits (75%) |
-| Pet Items | [Rare Pet Cure](../items/pet-items.md#rare-pet-cure) | 20 credits | 15 credits (75%) |
-| Pet Items | [Epic Pet Cure](../items/pet-items.md#epic-pet-cure) | 25 credits | 18.75 credits (75%) |
-| Pet Items | [Legendary Pet Cure](../items/pet-items.md#legendary-pet-cure) | 30 credits | 22.5 credits (75%) |
-| Pet Items | [Mythical Pet Cure](../items/pet-items.md#mythical-pet-cure) | 35 credits | 26.25 credits (75%) |
-| Pet Items | [Common Pet Wash Kit](../items/pet-items.md#common-pet-wash-kit) | 5 credits | 3.75 credits (75%) |
-| Pet Items | [Uncommon Pet Wash Kit](../items/pet-items.md#uncommon-pet-wash-kit) | 6 credits | 4.5 credits (75%) |
-| Pet Items | [Rare Pet Wash Kit](../items/pet-items.md#rare-pet-wash-kit) | 7 credits | 5.25 credits (75%) |
-| Pet Items | [Epic Pet Wash Kit](../items/pet-items.md#epic-pet-wash-kit) | 8 credits | 6 credits (75%) |
-| Pet Items | [Legendary Pet Wash Kit](../items/pet-items.md#legendary-pet-wash-kit) | 9 credits | 6.75 credits (75%) |
-| Pet Items | [Mythical Pet Wash Kit](../items/pet-items.md#mythical-pet-wash-kit) | 10 credits | 7.5 credits (75%) |
-| Scrap Resources | [Wood Scrap](../items/materials.md#wood-scrap) | 100 credits | can't be sold |
-| Scrap Resources | [Leather Scrap](../items/materials.md#leather-scrap) | 100 credits | can't be sold |
-| Scrap Resources | [Metal Scrap](../items/materials.md#metal-scrap) | 100 credits | can't be sold |
+| Spices | ![Anchovy Powder](../assets/icons/item/anchovy-powder.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Anchovy Powder](../items/ingredients.md#anchovy-powder) | 1 credit | 0.75 credits (75%) |
+| Spices | ![Smoked Paprika](../assets/icons/item/smoked-paprika.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Smoked Paprika](../items/ingredients.md#smoked-paprika) | 2 credits | 1.5 credits (75%) |
+| Spices | ![Sumac](../assets/icons/item/sumac.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sumac](../items/ingredients.md#sumac) | 3 credits | 2.25 credits (75%) |
+| Spices | ![Old Bay Seasoning](../assets/icons/item/old-bay-seasoning.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Old Bay Seasoning](../items/ingredients.md#old-bay-seasoning) | 4 credits | 3 credits (75%) |
+| Spices | ![Wasabi](../assets/icons/item/wasabi.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wasabi](../items/ingredients.md#wasabi) | 8 credits | 6 credits (75%) |
+| Spices | ![Cumin](../assets/icons/item/cumin.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Cumin](../items/ingredients.md#cumin) | 5 credits | 3.75 credits (75%) |
+| Spices | ![Sichuan Peppercorns](../assets/icons/item/sichuan-peppercorns.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sichuan Peppercorns](../items/ingredients.md#sichuan-peppercorns) | 5 credits | 3.75 credits (75%) |
+| Spices | ![Dill](../assets/icons/item/dill.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Dill](../items/ingredients.md#dill) | 8 credits | 6 credits (75%) |
+| Spices | ![Rosemary](../assets/icons/item/rosemary.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rosemary](../items/ingredients.md#rosemary) | 10 credits | 7.5 credits (75%) |
+| Spices | ![Lemon](../assets/icons/item/lemon.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Lemon](../items/ingredients.md#lemon) | 25 credits | 18.75 credits (75%) |
+| Sauces | ![Sawmill Gravy](../assets/icons/item/sawmill-gravy.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sawmill Gravy](../items/ingredients.md#sawmill-gravy) | 1 credit | 0.75 credits (75%) |
+| Sauces | ![Mustard Cream Sauce](../assets/icons/item/mustard-cream-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mustard Cream Sauce](../items/ingredients.md#mustard-cream-sauce) | 2 credits | 1.5 credits (75%) |
+| Sauces | ![Lingonberry Sauce](../assets/icons/item/lingonberry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Lingonberry Sauce](../items/ingredients.md#lingonberry-sauce) | 3 credits | 2.25 credits (75%) |
+| Sauces | ![Cranberry Glaze](../assets/icons/item/cranberry-glaze.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Cranberry Glaze](../items/ingredients.md#cranberry-glaze) | 4 credits | 3 credits (75%) |
+| Sauces | ![Blackberry Balsamic Glaze](../assets/icons/item/blackberry-balsamic-glaze.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Blackberry Balsamic Glaze](../items/ingredients.md#blackberry-balsamic-glaze) | 8 credits | 6 credits (75%) |
+| Sauces | ![Juniper Berry Demi-Glace](../assets/icons/item/juniper-berry-demi-glace.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Juniper Berry Demi-Glace](../items/ingredients.md#juniper-berry-demi-glace) | 5 credits | 3.75 credits (75%) |
+| Sauces | ![Huckleberry Sauce](../assets/icons/item/huckleberry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Huckleberry Sauce](../items/ingredients.md#huckleberry-sauce) | 5 credits | 3.75 credits (75%) |
+| Sauces | ![Blueberry Sauce](../assets/icons/item/blueberry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Blueberry Sauce](../items/ingredients.md#blueberry-sauce) | 8 credits | 6 credits (75%) |
+| Sauces | ![Cherry Sauce](../assets/icons/item/cherry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Cherry Sauce](../items/ingredients.md#cherry-sauce) | 10 credits | 7.5 credits (75%) |
+| Consumables | ![Fishing Beer](../assets/icons/item/fishing-beer.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Fishing Beer](../items/store-consumables.md#fishing-beer) | 3 credits | 2.25 credits (75%) |
+| Consumables | ![Hunting Weed](../assets/icons/item/hunting-weed.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Hunting Weed](../items/store-consumables.md#hunting-weed) | 3 credits | 2.25 credits (75%) |
+| Consumables | ![Einherjar's Barrier Draught](../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Einherjar's Barrier Draught](../items/store-consumables.md#einherjars-barrier-draught) | 850 credits | 637.5 credits (75%) |
+| Consumables | ![Skadi's Retribution Brew](../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Skadi's Retribution Brew](../items/store-consumables.md#skadis-retribution-brew) | 850 credits | 637.5 credits (75%) |
+| Consumables | ![Frigg's Resurgence Elixir](../assets/icons/item/friggs-resurgence-elixir.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Frigg's Resurgence Elixir](../items/store-consumables.md#friggs-resurgence-elixir) | 850 credits | 637.5 credits (75%) |
+| Consumables | ![Forgotten Throne Elixir](../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Forgotten Throne Elixir](../items/store-consumables.md#forgotten-throne-elixir) | 8,000 credits | 200 credits (2.5%) |
+| Building Supplies | ![Toolbox](../assets/icons/item/toolbox.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Toolbox](../items/materials.md#toolbox) | 1,250 credits | 937.5 credits (75%) |
+| Building Supplies | ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Nail](../items/materials.md#nail) | 2.5 credits | 1.875 credits (75%) |
+| Building Supplies | ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rope](../items/materials.md#rope) | 10 credits | 7.5 credits (75%) |
+| Playtime Provisions | ![Runes Pattern Card](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 50 credits | 37.5 credits (75%) |
+| Playtime Provisions | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 2 credits | 1.5 credits (75%) |
+| Pet Items | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Token](../items/pet-items.md#common-pet-token) | 5 credits | 3.75 credits (75%) |
+| Pet Items | ![Uncommon Pet Token](../assets/icons/item/uncommon-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Token](../items/pet-items.md#uncommon-pet-token) | not sold | 7.5 credits (75%) |
+| Pet Items | ![Rare Pet Token](../assets/icons/item/rare-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Token](../items/pet-items.md#rare-pet-token) | not sold | 11.25 credits (75%) |
+| Pet Items | ![Epic Pet Token](../assets/icons/item/epic-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Token](../items/pet-items.md#epic-pet-token) | not sold | 15 credits (75%) |
+| Pet Items | ![Legendary Pet Token](../assets/icons/item/legendary-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Token](../items/pet-items.md#legendary-pet-token) | not sold | 18.75 credits (75%) |
+| Pet Items | ![Mythical Pet Token](../assets/icons/item/mythical-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Token](../items/pet-items.md#mythical-pet-token) | not sold | 22.5 credits (75%) |
+| Pet Items | ![Common Pet Food](../assets/icons/item/common-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Food](../items/pet-items.md#common-pet-food) | 1 credit | 0.75 credits (75%) |
+| Pet Items | ![Uncommon Pet Food](../assets/icons/item/uncommon-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Food](../items/pet-items.md#uncommon-pet-food) | 1.5 credits | 1.125 credits (75%) |
+| Pet Items | ![Rare Pet Food](../assets/icons/item/rare-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Food](../items/pet-items.md#rare-pet-food) | 2 credits | 1.5 credits (75%) |
+| Pet Items | ![Epic Pet Food](../assets/icons/item/epic-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Food](../items/pet-items.md#epic-pet-food) | 2.5 credits | 1.875 credits (75%) |
+| Pet Items | ![Legendary Pet Food](../assets/icons/item/legendary-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Food](../items/pet-items.md#legendary-pet-food) | 3 credits | 2.25 credits (75%) |
+| Pet Items | ![Mythical Pet Food](../assets/icons/item/mythical-pet-food.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Food](../items/pet-items.md#mythical-pet-food) | 3.5 credits | 2.625 credits (75%) |
+| Pet Items | ![Common Pet Cure](../assets/icons/item/common-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Cure](../items/pet-items.md#common-pet-cure) | 10 credits | 7.5 credits (75%) |
+| Pet Items | ![Uncommon Pet Cure](../assets/icons/item/uncommon-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Cure](../items/pet-items.md#uncommon-pet-cure) | 15 credits | 11.25 credits (75%) |
+| Pet Items | ![Rare Pet Cure](../assets/icons/item/rare-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Cure](../items/pet-items.md#rare-pet-cure) | 20 credits | 15 credits (75%) |
+| Pet Items | ![Epic Pet Cure](../assets/icons/item/epic-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Cure](../items/pet-items.md#epic-pet-cure) | 25 credits | 18.75 credits (75%) |
+| Pet Items | ![Legendary Pet Cure](../assets/icons/item/legendary-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Cure](../items/pet-items.md#legendary-pet-cure) | 30 credits | 22.5 credits (75%) |
+| Pet Items | ![Mythical Pet Cure](../assets/icons/item/mythical-pet-cure.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Cure](../items/pet-items.md#mythical-pet-cure) | 35 credits | 26.25 credits (75%) |
+| Pet Items | ![Common Pet Wash Kit](../assets/icons/item/common-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Wash Kit](../items/pet-items.md#common-pet-wash-kit) | 5 credits | 3.75 credits (75%) |
+| Pet Items | ![Uncommon Pet Wash Kit](../assets/icons/item/uncommon-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Wash Kit](../items/pet-items.md#uncommon-pet-wash-kit) | 6 credits | 4.5 credits (75%) |
+| Pet Items | ![Rare Pet Wash Kit](../assets/icons/item/rare-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Wash Kit](../items/pet-items.md#rare-pet-wash-kit) | 7 credits | 5.25 credits (75%) |
+| Pet Items | ![Epic Pet Wash Kit](../assets/icons/item/epic-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Wash Kit](../items/pet-items.md#epic-pet-wash-kit) | 8 credits | 6 credits (75%) |
+| Pet Items | ![Legendary Pet Wash Kit](../assets/icons/item/legendary-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Wash Kit](../items/pet-items.md#legendary-pet-wash-kit) | 9 credits | 6.75 credits (75%) |
+| Pet Items | ![Mythical Pet Wash Kit](../assets/icons/item/mythical-pet-wash-kit.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Wash Kit](../items/pet-items.md#mythical-pet-wash-kit) | 10 credits | 7.5 credits (75%) |
+| Scrap Resources | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wood Scrap](../items/materials.md#wood-scrap) | 100 credits | can't be sold |
+| Scrap Resources | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Leather Scrap](../items/materials.md#leather-scrap) | 100 credits | can't be sold |
+| Scrap Resources | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Metal Scrap](../items/materials.md#metal-scrap) | 100 credits | can't be sold |
 
 ## The basket
 

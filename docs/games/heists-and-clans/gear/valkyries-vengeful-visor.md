@@ -2,7 +2,7 @@
 title: "Valkyrie's Vengeful Visor"
 ---
 
-# Valkyrie's Vengeful Visor
+# ![Valkyrie's Vengeful Visor](../../../assets/icons/heist-gear/valkyries-vengeful-visor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Valkyrie's Vengeful Visor
 
 **Where to play:** Discord
 { .where-to-play }

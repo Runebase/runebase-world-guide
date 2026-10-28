@@ -2,7 +2,7 @@
 title: "Stun"
 ---
 
-# Stun
+# ![Stun](../../../../../assets/icons/skill/warrior/stun.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Stun
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Stun"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | stun % |
+| Rank | Damage bonus (%) | Stun chance (%) |
 |---|---|---|
 | 1 | 5 | 15 |
 | 2 | 10 | 18 |

@@ -2,7 +2,7 @@
 title: "Weapon Block"
 ---
 
-# Weapon Block
+# ![Weapon Block](../../../../../assets/icons/skill/assassin/weapon-block.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Weapon Block
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Weapon Block"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | blockChance % |
+| Rank | Block chance (%) |
 |---|---|
 | 1 | 15 |
 | 2 | 17.5 |

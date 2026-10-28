@@ -2,7 +2,7 @@
 title: "Baldur's Gleaming Band"
 ---
 
-# Baldur's Gleaming Band
+# ![Baldur's Gleaming Band](../../../assets/icons/heist-gear/baldurs-gleaming-band.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Baldur's Gleaming Band
 
 **Where to play:** Discord
 { .where-to-play }

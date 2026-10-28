@@ -2,7 +2,7 @@
 title: "Power Strike"
 ---
 
-# Power Strike
+# ![Power Strike](../../../../../assets/icons/skill/hunter/power-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Power Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Power Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | attackBonus % | mana |
+| Rank | Lightning damage | Attack rating bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 1-16 | 20 | 2 |
 | 2 | 1-34 | 32 | 4 |

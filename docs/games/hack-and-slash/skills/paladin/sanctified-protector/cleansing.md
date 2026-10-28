@@ -2,7 +2,7 @@
 title: "Cleansing"
 ---
 
-# Cleansing
+# ![Cleansing](../../../../../assets/icons/skill/paladin/cleansing.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cleansing
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Cleansing"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | heal % | mana |
+| Rank | Heal (%) | Mana |
 |---|---|---|
 | 1 | 5 | 3 |
 | 2 | 6 | 4 |

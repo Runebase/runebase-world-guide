@@ -2,7 +2,7 @@
 title: "Lightning Fury"
 ---
 
-# Lightning Fury
+# ![Lightning Fury](../../../../../assets/icons/skill/hunter/lightning-fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Fury
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Lightning Fury"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | mana |
+| Rank | Lightning damage | Mana |
 |---|---|---|
 | 1 | 1-60 | 2 |
 | 2 | 1-95 | 4 |

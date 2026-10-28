@@ -2,7 +2,7 @@
 title: "Wake of Inferno"
 ---
 
-# Wake of Inferno
+# ![Wake of Inferno](../../../../../assets/icons/skill/assassin/wake-of-inferno.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Wake of Inferno
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Wake of Inferno"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | burn | rounds | mana |
+| Rank | Burn damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 12-30 | 4 | 2 |
 | 2 | 23-41 | 6 | 2 |

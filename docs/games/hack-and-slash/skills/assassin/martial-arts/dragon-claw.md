@@ -2,7 +2,7 @@
 title: "Dragon Claw"
 ---
 
-# Dragon Claw
+# ![Dragon Claw](../../../../../assets/icons/skill/assassin/dragon-claw.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dragon Claw
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Dragon Claw"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % |
+| Rank | Damage bonus (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 15 |

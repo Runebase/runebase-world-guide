@@ -2,7 +2,7 @@
 title: "Jab"
 ---
 
-# Jab
+# ![Jab](../../../../../assets/icons/skill/hunter/jab.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Jab
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Jab"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | volley | damageBonus % | attackBonus % | mana |
+| Rank | Volley | Damage bonus (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 3 | -15 | 10 | 2 |
 | 2 | 3 | -12 | 19 | 4 |

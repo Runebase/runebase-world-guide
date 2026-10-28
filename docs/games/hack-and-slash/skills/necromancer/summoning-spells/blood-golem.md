@@ -2,7 +2,7 @@
 title: "Blood Golem"
 ---
 
-# Blood Golem
+# ![Blood Golem](../../../../../assets/icons/skill/necromancer/blood-golem.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blood Golem
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Blood Golem"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | physicalDamage | lifeSteal % | rounds | mana |
+| Rank | Health | Physical damage | Life steal (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 637 | 12-33 | 25 | 6 | 2 |
 | 2 | 774 | 19-48 | 26 | 8 | 4 |

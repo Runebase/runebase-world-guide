@@ -2,7 +2,7 @@
 title: "Evade"
 ---
 
-# Evade
+# ![Evade](../../../../../assets/icons/skill/hunter/evade.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Evade
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Evade"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | dodgeChance % | avoidMissiles % |
+| Rank | Dodge (%) | Avoid missiles (%) |
 |---|---|---|
 | 1 | 3 | 3 |
 | 2 | 4 | 4 |

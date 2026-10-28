@@ -2,7 +2,7 @@
 title: "Iron Veins"
 ---
 
-# Iron Veins
+# ![Iron Veins](../../../../assets/icons/crown-skill/iron-veins.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Iron Veins
 
 **Where to play:** Discord
 { .where-to-play }

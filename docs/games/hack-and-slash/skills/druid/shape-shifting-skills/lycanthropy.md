@@ -2,7 +2,7 @@
 title: "Lycanthropy"
 ---
 
-# Lycanthropy
+# ![Lycanthropy](../../../../../assets/icons/skill/druid/lycanthropy.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lycanthropy
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Lycanthropy"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | rounds | mana |
+| Rank | Health bonus (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 5 | 5 | 2 |
 | 2 | 8 | 8 | 2 |

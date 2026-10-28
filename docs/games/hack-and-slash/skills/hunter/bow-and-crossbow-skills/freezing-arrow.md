@@ -2,7 +2,7 @@
 title: "Freezing Arrow"
 ---
 
-# Freezing Arrow
+# ![Freezing Arrow](../../../../../assets/icons/skill/hunter/freezing-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Freezing Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Freezing Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | attackBonus % | freeze % | rounds | mana |
+| Rank | Cold damage | Attack rating bonus (%) | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 40-50 | 40 | 40 | 2 | 3 |
 | 2 | 50-60 | 49 | 42 | 2 | 3 |

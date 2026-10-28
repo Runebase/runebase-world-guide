@@ -2,7 +2,7 @@
 title: "Iron Golem"
 ---
 
-# Iron Golem
+# ![Iron Golem](../../../../../assets/icons/skill/necromancer/iron-golem.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Iron Golem
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Iron Golem"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | physicalDamage | defenseBonus % | rounds | mana |
+| Rank | Health | Physical damage | Armor bonus (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 1000 | 4-5 | 0 | 20 | 2 |
 | 2 | 1500 | 8-10 | 20 | 30 | 4 |

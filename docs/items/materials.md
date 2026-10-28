@@ -8,7 +8,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 
 ## Scrap
 
-### Wood Scrap
+### ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Wood Scrap
 
 > In the game: Wood Scrap Resource
 
@@ -20,7 +20,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Convert market:** can pay at the [convert market](../account/gifts-and-convert-market.md#the-convert-market).
 - **Store:** 100 credits in the [store](../account/store.md#the-store); can't be sold.
 
-### Leather Scrap
+### ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Leather Scrap
 
 > In the game: Leather Scrap Resource
 
@@ -32,7 +32,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Convert market:** can pay at the [convert market](../account/gifts-and-convert-market.md#the-convert-market).
 - **Store:** 100 credits in the [store](../account/store.md#the-store); can't be sold.
 
-### Metal Scrap
+### ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Metal Scrap
 
 > In the game: Metal Scrap Resource
 
@@ -47,7 +47,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 
 ## Building supplies
 
-### Toolbox
+### ![Toolbox](../assets/icons/item/toolbox.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Toolbox
 
 > In the game: Toolbox for constructing buildings.
 
@@ -55,7 +55,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Buildings:** pays for building and upgrading 12 buildings ([costs](../account/buildings.md#building-and-upgrading)).
 - **Store:** 1,250 credits in the [store](../account/store.md#the-store); sells back for 937.5 credits (75%, more with a Trade Post).
 
-### Nail
+### ![Nail](../assets/icons/item/nail.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Nail
 
 > In the game: Nail for constructing buildings.
 
@@ -63,7 +63,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Buildings:** pays for building and upgrading every building ([costs](../account/buildings.md#building-and-upgrading)).
 - **Store:** 2.5 credits in the [store](../account/store.md#the-store); sells back for 1.875 credits (75%, more with a Trade Post).
 
-### Rope
+### ![Rope](../assets/icons/item/rope.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Rope
 
 > In the game: Rope for constructing buildings.
 
@@ -73,7 +73,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 
 ## Hack & Slash crafting materials
 
-### Standard Essence
+### ![Standard Essence](../assets/icons/item/standard-essence.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Standard Essence
 
 > In the game: Hack & Slash Crafting Material for crafting **Normal items** of **Normal quality**
 
@@ -81,7 +81,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Elemental Core
+### ![Elemental Core](../assets/icons/item/elemental-core.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Elemental Core
 
 > In the game: Hack & Slash Crafting Material for crafting **Normal items** of **Magic quality**
 
@@ -89,7 +89,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Primal Source
+### ![Primal Source](../assets/icons/item/primal-source.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Primal Source
 
 > In the game: Hack & Slash Crafting Material for crafting **Normal items** of **Rare quality**
 
@@ -97,7 +97,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Basic Residue
+### ![Basic Residue](../assets/icons/item/basic-residue.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Basic Residue
 
 > In the game: Hack & Slash Crafting Material for crafting **Exceptional items** of **Normal quality**
 
@@ -105,7 +105,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Enigmatic Nexus
+### ![Enigmatic Nexus](../assets/icons/item/enigmatic-nexus.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Enigmatic Nexus
 
 > In the game: Hack & Slash Crafting Material for crafting **Exceptional items** of **Magic quality**
 
@@ -113,7 +113,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Mystical Node
+### ![Mystical Node](../assets/icons/item/mystical-node.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Mystical Node
 
 > In the game: Hack & Slash Crafting Material for crafting **Exceptional items** of **Rare quality**
 
@@ -121,7 +121,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Elite Essence
+### ![Elite Essence](../assets/icons/item/elite-essence.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Elite Essence
 
 > In the game: Hack & Slash Crafting Material for crafting **Elite items** of **Normal quality**
 
@@ -129,7 +129,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Radiant Shard
+### ![Radiant Shard](../assets/icons/item/radiant-shard.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Radiant Shard
 
 > In the game: Hack & Slash Crafting Material for crafting **Elite items** of **Magic quality**
 
@@ -137,7 +137,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Shattered Prism
+### ![Shattered Prism](../assets/icons/item/shattered-prism.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Shattered Prism
 
 > In the game: Hack & Slash Crafting Material for crafting **Elite items** of **Rare quality**
 
@@ -145,7 +145,7 @@ Scrap and building supplies build and upgrade buildings and craft gear; crafting
 - **Hack & Slash:** crafting a Hack & Slash item takes 3 crafting materials ([crafting](../games/hack-and-slash/gear-and-crafting.md#crafting)).
 - **Store:** its price follows the store's stock ([prices by stock](../account/store.md#the-store)); a sale pays 75% of the price at one more.
 
-### Engraving Tool
+### ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Engraving Tool
 
 > In the game: Tool for engraving **Runic Inscriptions** onto items to bestow additonal attributes.
 

@@ -2,7 +2,7 @@
 title: "Black Hood"
 ---
 
-# Black Hood
+# ![Black Hood](../../../../assets/icons/crown-skill/black-hood.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Black Hood
 
 **Where to play:** Discord
 { .where-to-play }

@@ -2,7 +2,7 @@
 title: "Raise Skeleton"
 ---
 
-# Raise Skeleton
+# ![Raise Skeleton](../../../../../assets/icons/skill/necromancer/raise-skeleton.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Raise Skeleton
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Raise Skeleton"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | defense | maxRaised | physicalDamage | rounds | mana |
+| Rank | Health | Armor | Raised at most | Physical damage | Rounds | Mana |
 |---|---|---|---|---|---|---|
 | 1 | 35 | 30 | 1 | 3-5 | 30 | 2 |
 | 2 | 60 | 50 | 1 | 6-10 | 32 | 4 |

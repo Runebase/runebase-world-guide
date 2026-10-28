@@ -2,7 +2,7 @@
 title: "Skeleton Mastery"
 ---
 
-# Skeleton Mastery
+# ![Skeleton Mastery](../../../../../assets/icons/skill/necromancer/skeleton-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Skeleton Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Skeleton Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | rounds |
+| Rank | Health bonus (%) | Rounds |
 |---|---|---|
 | 1 | 2.5 | 2 |
 | 2 | 5 | 3 |

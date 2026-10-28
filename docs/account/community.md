@@ -21,16 +21,16 @@ Prize tables on this page are without utilities (a Wood Axe, Skinning Knife or M
 
 | Prize | Chance per payout |
 |---|---|
-| 1 to 8 credits | 24.1% |
-| 1 [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 5% |
-| 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 20% |
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 20% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 20% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
+| ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 to 8 credits | 24.1% |
+| ![Runes Pattern Card](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 5% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 20% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 20% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 20% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Nail](../items/materials.md#nail) | 2% |
-| 1 [Rope](../items/materials.md#rope) | 0.4% |
+| ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../items/materials.md#nail) | 2% |
+| ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials.md#rope) | 0.4% |
 
 ### Spam control
 
@@ -46,16 +46,16 @@ Bump the server with Disboard's `/bump` (or Discord Home's). The bumper gets **1
 
 | Prize | Chance per bump |
 |---|---|
-| 5 to 15 credits | 8% |
-| 1 [Nail](../items/materials.md#nail) | 2% |
-| 1 [Rope](../items/materials.md#rope) | 0.4% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
+| ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 5 to 15 credits | 8% |
+| ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../items/materials.md#nail) | 2% |
+| ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials.md#rope) | 0.4% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 24.35% |
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 24.35% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 24.35% |
-| 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
-| 1 [Engraving Tool](../items/materials.md#engraving-tool) | 8% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 24.35% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 24.35% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 24.35% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
+| ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials.md#engraving-tool) | 8% |
 | nothing | 0.05% |
 
 ## Votes
@@ -64,16 +64,16 @@ A vote for the bot on discordbotlist.com pays **20 experience**, a roll on the v
 
 | Prize | Chance per vote |
 |---|---|
-| 5 to 15 credits | 8% |
-| 1 [Nail](../items/materials.md#nail) | 2% |
-| 1 [Rope](../items/materials.md#rope) | 0.4% |
-| 1 [Engraving Tool](../items/materials.md#engraving-tool) | 5% |
-| 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
+| ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 5 to 15 credits | 8% |
+| ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../items/materials.md#nail) | 2% |
+| ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials.md#rope) | 0.4% |
+| ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials.md#engraving-tool) | 5% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 25% |
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 25% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 25% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 25% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 25% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 25% |
 | nothing | 1.1% |
 
 ## Memes
@@ -85,16 +85,16 @@ A meme posted in a meme channel pays **8 experience** and a roll on the meme pri
 
 | Prize | Chance per meme |
 |---|---|
-| 1 to 7 credits | 7% |
-| 1 [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 5% |
-| 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 20% |
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 20% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 20% |
-| 1 [Nail](../items/materials.md#nail) | 2% |
-| 1 [Rope](../items/materials.md#rope) | 0.4% |
-| 1 [Engraving Tool](../items/materials.md#engraving-tool) | 5% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
+| ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 to 7 credits | 7% |
+| ![Runes Pattern Card](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Runes Pattern Card](../items/keys-and-cards.md#runes-pattern-card) | 5% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 20% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 20% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 20% |
+| ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../items/materials.md#nail) | 2% |
+| ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials.md#rope) | 0.4% |
+| ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials.md#engraving-tool) | 5% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 1% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | nothing | 12.1% |
 

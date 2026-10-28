@@ -2,7 +2,7 @@
 title: "Static Field"
 ---
 
-# Static Field
+# ![Static Field](../../../../../assets/icons/skill/wizard/static-field.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Static Field
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Static Field"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | stun % | rounds | mana |
+| Rank | Lightning damage | Stun chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 1-30 | 50 | 3 | 2 |
 | 2 | 1-45 | 52 | 3 | 3 |

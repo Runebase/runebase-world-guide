@@ -2,7 +2,7 @@
 title: "Avoid"
 ---
 
-# Avoid
+# ![Avoid](../../../../../assets/icons/skill/hunter/avoid.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Avoid
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Avoid"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | avoidMissiles % |
+| Rank | Avoid missiles (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 7 |

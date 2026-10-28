@@ -38,4 +38,4 @@ A Crown who leaves the server **loses the reign without any reward**: until the 
 
 ## The pool
 
-The pool grows with **5% of every store purchase** in the realm and the **unclaimed shares of expired credit piles**. It shrinks by [Robin Hood](skills/offensive/robin-hood.md) and [Black Hood](skills/offensive/black-hood.md) steals and the tax piles (a tax pile that can't be posted puts its credits back). The old Crown gets what's left when the reign ends.
+The pool grows with **5% of every store purchase** in the realm and the **unclaimed shares of expired credit piles**. It shrinks by [Robin Hood](skills/offensive/robin-hood.md) and [Black Hood](skills/offensive/black-hood.md) steals and the tax piles (a tax pile takes its credits from the pool only when it appears: one that can't be posted, or a restart before it appears, leaves them in the pool). The old Crown gets what's left when the reign ends.

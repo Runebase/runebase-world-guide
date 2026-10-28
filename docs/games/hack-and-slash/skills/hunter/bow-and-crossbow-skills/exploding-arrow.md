@@ -2,7 +2,7 @@
 title: "Exploding Arrow"
 ---
 
-# Exploding Arrow
+# ![Exploding Arrow](../../../../../assets/icons/skill/hunter/exploding-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Exploding Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Exploding Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | damageBonus % | mana |
+| Rank | Fire damage | Damage bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 10-15 | -30 | 2 |
 | 2 | 16-24 | -22 | 2 |

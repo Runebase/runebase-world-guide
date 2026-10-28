@@ -2,7 +2,7 @@
 title: "Shadow Master"
 ---
 
-# Shadow Master
+# ![Shadow Master](../../../../../assets/icons/skill/assassin/shadow-master.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Shadow Master
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Shadow Master"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | rounds |
+| Rank | Damage bonus (%) | Rounds |
 |---|---|---|
 | 1 | 20 | 2 |
 | 2 | 30 | 4 |

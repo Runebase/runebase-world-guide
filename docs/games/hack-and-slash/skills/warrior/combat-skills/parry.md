@@ -2,7 +2,7 @@
 title: "Parry"
 ---
 
-# Parry
+# ![Parry](../../../../../assets/icons/skill/warrior/parry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Parry
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Parry"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | parry % |
+| Rank | Parry (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 6 |

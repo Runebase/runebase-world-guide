@@ -2,7 +2,7 @@
 title: "Grip of Stability"
 ---
 
-# Grip of Stability
+# ![Grip of Stability](../../../../assets/icons/crown-skill/grip-of-stability.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Grip of Stability
 
 **Where to play:** Discord
 { .where-to-play }

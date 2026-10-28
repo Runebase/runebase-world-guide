@@ -2,7 +2,7 @@
 title: "Fend"
 ---
 
-# Fend
+# ![Fend](../../../../../assets/icons/skill/hunter/fend.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fend
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Fend"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % | mana |
+| Rank | Damage bonus (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 70 | 40 | 2 |
 | 2 | 80 | 50 | 4 |

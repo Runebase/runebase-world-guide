@@ -2,7 +2,7 @@
 title: "Blessed Aim"
 ---
 
-# Blessed Aim
+# ![Blessed Aim](../../../../../assets/icons/skill/paladin/blessed-aim.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blessed Aim
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Blessed Aim"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % |
+| Rank | Attack rating bonus (%) |
 |---|---|
 | 1 | 25 |
 | 2 | 35 |

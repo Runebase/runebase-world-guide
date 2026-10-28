@@ -2,7 +2,7 @@
 title: "Throne of Endurance"
 ---
 
-# Throne of Endurance
+# ![Throne of Endurance](../../../../assets/icons/crown-skill/throne-of-endurance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Throne of Endurance
 
 **Where to play:** Discord
 { .where-to-play }

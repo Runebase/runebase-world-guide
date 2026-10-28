@@ -2,7 +2,7 @@
 title: "Screech"
 ---
 
-# Screech
+# ![Screech](../../../../../assets/icons/skill/warrior/screech.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Screech
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Screech"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | stun % | rounds | mana |
+| Rank | Stun chance (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 10 | 4 | 2 |
 | 2 | 12 | 4 | 2 |

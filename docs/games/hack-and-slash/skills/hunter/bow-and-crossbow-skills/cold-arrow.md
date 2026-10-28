@@ -2,7 +2,7 @@
 title: "Cold Arrow"
 ---
 
-# Cold Arrow
+# ![Cold Arrow](../../../../../assets/icons/skill/hunter/cold-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cold Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Cold Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | attackBonus % | damageBonus % | freeze % | rounds | mana |
+| Rank | Cold damage | Attack rating bonus (%) | Damage bonus (%) | Freeze chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|---|
 | 1 | 1-1 | 10 | 3 | 15 | 2 | 3 |
 | 2 | 2-2 | 19 | 5 | 18 | 3 | 3 |

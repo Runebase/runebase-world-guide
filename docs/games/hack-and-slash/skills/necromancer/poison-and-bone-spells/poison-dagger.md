@@ -2,7 +2,7 @@
 title: "Poison Dagger"
 ---
 
-# Poison Dagger
+# ![Poison Dagger](../../../../../assets/icons/skill/necromancer/poison-dagger.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Poison Dagger
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Poison Dagger"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage |
+| Rank | Poison damage |
 |---|---|
 | 1 | 7-15 |
 | 2 | 13-23 |

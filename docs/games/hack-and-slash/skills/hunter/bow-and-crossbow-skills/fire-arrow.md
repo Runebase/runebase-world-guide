@@ -2,7 +2,7 @@
 title: "Fire Arrow"
 ---
 
-# Fire Arrow
+# ![Fire Arrow](../../../../../assets/icons/skill/hunter/fire-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Fire Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | attackBonus % | damageBonus % | mana |
+| Rank | Fire damage | Attack rating bonus (%) | Damage bonus (%) | Mana |
 |---|---|---|---|---|
 | 1 | 3-5 | 10 | 3 | 3 |
 | 2 | 6-10 | 19 | 5 | 3 |

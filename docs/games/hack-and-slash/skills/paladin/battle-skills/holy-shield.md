@@ -2,7 +2,7 @@
 title: "Holy Shield"
 ---
 
-# Holy Shield
+# ![Holy Shield](../../../../../assets/icons/skill/paladin/holy-shield.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Shield
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Holy Shield"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | blockBonus % | smiteDamage | rounds | mana |
+| Rank | Armor bonus (%) | Block bonus (%) | Smite damage | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 25 | 15 | 3-6 | 10 | 2 |
 | 2 | 50 | 16 | 5-11 | 15 | 4 |

@@ -2,7 +2,7 @@
 title: "Doomseed"
 ---
 
-# Doomseed
+# ![Doomseed](../../../../assets/icons/crown-skill/doomseed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Doomseed
 
 **Where to play:** Discord
 { .where-to-play }

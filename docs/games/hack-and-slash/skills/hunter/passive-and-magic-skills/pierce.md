@@ -2,7 +2,7 @@
 title: "Pierce"
 ---
 
-# Pierce
+# ![Pierce](../../../../../assets/icons/skill/hunter/pierce.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Pierce
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Pierce"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | pierce % |
+| Rank | Pierce (%) |
 |---|---|
 | 1 | 20 |
 | 2 | 22 |

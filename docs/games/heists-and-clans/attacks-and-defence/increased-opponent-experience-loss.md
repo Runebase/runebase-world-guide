@@ -2,7 +2,7 @@
 title: "Increased Opponent Experience Loss"
 ---
 
-# Increased Opponent Experience Loss
+# ![Increased Opponent Experience Loss](../../../assets/icons/heist-attack/increased-opponent-experience-loss.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Increased Opponent Experience Loss
 
 **Where to play:** Discord
 { .where-to-play }

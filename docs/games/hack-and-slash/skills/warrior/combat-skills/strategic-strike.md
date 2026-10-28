@@ -2,7 +2,7 @@
 title: "Strategic Strike"
 ---
 
-# Strategic Strike
+# ![Strategic Strike](../../../../../assets/icons/skill/warrior/strategic-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Strategic Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Strategic Strike"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | attackBonus % | mana |
+| Rank | Damage bonus (%) | Attack rating bonus (%) | Mana |
 |---|---|---|---|
 | 1 | 20 | 40 | 2 |
 | 2 | 25 | 45 | 2 |

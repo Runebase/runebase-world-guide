@@ -2,7 +2,7 @@
 title: "Sanctified Divine Ward"
 ---
 
-# Sanctified Divine Ward
+# ![Sanctified Divine Ward](../../../../../assets/icons/skill/paladin/sanctified-divine-ward.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Sanctified Divine Ward
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Sanctified Divine Ward"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | stun % | rounds |
+| Rank | Health | Stun chance (%) | Rounds |
 |---|---|---|---|
 | 1 | 150 | 3 | 4 |
 | 2 | 300 | 3 | 4 |

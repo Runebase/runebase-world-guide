@@ -2,7 +2,7 @@
 title: "Einherjar's Rejuvenating Cuirass"
 ---
 
-# Einherjar's Rejuvenating Cuirass
+# ![Einherjar's Rejuvenating Cuirass](../../../assets/icons/heist-gear/einherjars-rejuvenating-cuirass.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Einherjar's Rejuvenating Cuirass
 
 **Where to play:** Discord
 { .where-to-play }

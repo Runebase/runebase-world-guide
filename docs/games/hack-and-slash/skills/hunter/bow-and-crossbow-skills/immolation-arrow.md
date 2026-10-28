@@ -2,7 +2,7 @@
 title: "Immolation Arrow"
 ---
 
-# Immolation Arrow
+# ![Immolation Arrow](../../../../../assets/icons/skill/hunter/immolation-arrow.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Immolation Arrow
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Immolation Arrow"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | burn | rounds | mana |
+| Rank | Fire damage | Burn damage | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 20-20 | 13-25 | 2 | 2 |
 | 2 | 25-25 | 26-38 | 2 | 2 |

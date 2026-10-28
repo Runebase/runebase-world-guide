@@ -2,7 +2,7 @@
 title: "Grip of Greed"
 ---
 
-# Grip of Greed
+# ![Grip of Greed](../../../../assets/icons/crown-skill/grip-of-greed.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Grip of Greed
 
 **Where to play:** Discord
 { .where-to-play }

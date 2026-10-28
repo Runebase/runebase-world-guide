@@ -2,7 +2,7 @@
 title: "Lightning Sentry"
 ---
 
-# Lightning Sentry
+# ![Lightning Sentry](../../../../../assets/icons/skill/assassin/lightning-sentry.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Lightning Sentry
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Lightning Sentry"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | rounds | mana |
+| Rank | Lightning damage | Rounds | Mana |
 |---|---|---|---|
 | 1 | 1-24 | 4 | 2 |
 | 2 | 1-39 | 6 | 2 |

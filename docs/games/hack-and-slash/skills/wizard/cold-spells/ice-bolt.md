@@ -2,7 +2,7 @@
 title: "Ice Bolt"
 ---
 
-# Ice Bolt
+# ![Ice Bolt](../../../../../assets/icons/skill/wizard/ice-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Ice Bolt
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Ice Bolt"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamage | mana |
+| Rank | Cold damage | Mana |
 |---|---|---|
 | 1 | 3-6 | 2 |
 | 2 | 7-12 | 2 |

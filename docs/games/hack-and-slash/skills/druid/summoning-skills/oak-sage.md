@@ -2,7 +2,7 @@
 title: "Oak Sage"
 ---
 
-# Oak Sage
+# ![Oak Sage](../../../../../assets/icons/skill/druid/oak-sage.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Oak Sage
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Oak Sage"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | healthBonus % | hp | rounds | mana |
+| Rank | Health bonus (%) | Health | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 10 | 75 | 15 | 2 |
 | 2 | 20 | 150 | 18 | 2 |

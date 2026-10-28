@@ -19,17 +19,17 @@ Runes Pattern Cards cost 50 credits in the [store](../account/store.md); they al
 
 | Prize | Chance per win |
 |---|---|
-| 6 [Nail](../items/materials.md#nail) | 2% |
-| 2 [Rope](../items/materials.md#rope) | 0.4% |
-| 3 [Leather Scrap](../items/materials.md#leather-scrap) | 1.5% |
-| 3 [Metal Scrap](../items/materials.md#metal-scrap) | 1.5% |
-| 3 [Wood Scrap](../items/materials.md#wood-scrap) | 1.5% |
-| 2 [Leather Scrap](../items/materials.md#leather-scrap) | 3.5% |
-| 2 [Metal Scrap](../items/materials.md#metal-scrap) | 3.5% |
-| 2 [Wood Scrap](../items/materials.md#wood-scrap) | 3.5% |
-| 1 [Leather Scrap](../items/materials.md#leather-scrap) | 5% |
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 5% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 5% |
-| 5 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
+| ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Nail](../items/materials.md#nail) | 2% |
+| ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Rope](../items/materials.md#rope) | 0.4% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Leather Scrap](../items/materials.md#leather-scrap) | 1.5% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Metal Scrap](../items/materials.md#metal-scrap) | 1.5% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Wood Scrap](../items/materials.md#wood-scrap) | 1.5% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Leather Scrap](../items/materials.md#leather-scrap) | 3.5% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Metal Scrap](../items/materials.md#metal-scrap) | 3.5% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Wood Scrap](../items/materials.md#wood-scrap) | 3.5% |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 5% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 5% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 5% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 5 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 5% |
 | nothing | 62.6% |
 

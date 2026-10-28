@@ -2,7 +2,7 @@
 title: "Thunder Storm"
 ---
 
-# Thunder Storm
+# ![Thunder Storm](../../../../../assets/icons/skill/wizard/thunder-storm.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Thunder Storm
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Thunder Storm"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | stun % | procChance | rounds | mana |
+| Rank | Lightning damage | Stun chance (%) | Strike chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 1-30 | 3 | 35 | 15 | 2 |
 | 2 | 1-55 | 4 | 38 | 18 | 3 |

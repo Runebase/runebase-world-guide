@@ -2,7 +2,7 @@
 title: "Hurricane"
 ---
 
-# Hurricane
+# ![Hurricane](../../../../../assets/icons/skill/druid/hurricane.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Hurricane
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Hurricane"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | stun % | rounds | mana |
+| Rank | Physical damage | Stun chance (%) | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 23-30 | 3 | 15 | 2 |
 | 2 | 38-49 | 4 | 18 | 2 |

@@ -2,7 +2,7 @@
 title: "Charged Bolt"
 ---
 
-# Charged Bolt
+# ![Charged Bolt](../../../../../assets/icons/skill/wizard/charged-bolt.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Charged Bolt
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Charged Bolt"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | lightningDamage | mana |
+| Rank | Lightning damage | Mana |
 |---|---|---|
 | 1 | 1-12 | 2 |
 | 2 | 1-24 | 3 |

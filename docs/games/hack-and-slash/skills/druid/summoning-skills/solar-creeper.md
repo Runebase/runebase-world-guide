@@ -2,7 +2,7 @@
 title: "Solar Creeper"
 ---
 
-# Solar Creeper
+# ![Solar Creeper](../../../../../assets/icons/skill/druid/solar-creeper.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Solar Creeper
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Solar Creeper"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | hp | rounds | explosiveAttack % |
+| Rank | Health | Rounds | Explosive attack (%) |
 |---|---|---|---|
 | 1 | 100 | 5 | 15 |
 | 2 | 200 | 10 | 16.5 |

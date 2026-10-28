@@ -2,7 +2,7 @@
 title: "Increased Experience Gain"
 ---
 
-# Increased Experience Gain
+# ![Increased Experience Gain](../../../assets/icons/heist-attack/increased-experience-gain.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Increased Experience Gain
 
 **Where to play:** Discord
 { .where-to-play }

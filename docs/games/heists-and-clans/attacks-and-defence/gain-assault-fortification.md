@@ -2,7 +2,7 @@
 title: "Gain Assault Fortification"
 ---
 
-# Gain Assault Fortification
+# ![Gain Assault Fortification](../../../assets/icons/heist-attack/gain-assault-fortification.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Gain Assault Fortification
 
 **Where to play:** Discord
 { .where-to-play }

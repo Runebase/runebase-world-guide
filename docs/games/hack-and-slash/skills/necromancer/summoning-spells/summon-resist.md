@@ -2,7 +2,7 @@
 title: "Summon Resist"
 ---
 
-# Summon Resist
+# ![Summon Resist](../../../../../assets/icons/skill/necromancer/summon-resist.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Resist
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Summon Resist"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | allResistance % |
+| Rank | All resistances (%) |
 |---|---|
 | 1 | 15 |
 | 2 | 17 |

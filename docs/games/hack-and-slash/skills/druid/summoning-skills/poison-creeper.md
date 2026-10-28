@@ -2,7 +2,7 @@
 title: "Poison Creeper"
 ---
 
-# Poison Creeper
+# ![Poison Creeper](../../../../../assets/icons/skill/druid/poison-creeper.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Poison Creeper
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Poison Creeper"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage | hp | rounds | mana |
+| Rank | Poison damage | Health | Rounds | Mana |
 |---|---|---|---|---|
 | 1 | 2-4 | 50 | 15 | 2 |
 | 2 | 4-8 | 100 | 18 | 2 |

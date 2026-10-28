@@ -2,7 +2,7 @@
 title: "Fried Squirrel with Sawmill Gravy"
 ---
 
-# Fried Squirrel with Sawmill Gravy
+# ![Fried Squirrel with Sawmill Gravy](../../../assets/icons/item/fried-squirrel-with-sawmill-gravy.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fried Squirrel with Sawmill Gravy
 
 **Where to play:** Discord
 { .where-to-play }

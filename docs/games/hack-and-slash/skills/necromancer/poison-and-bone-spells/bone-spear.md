@@ -2,7 +2,7 @@
 title: "Bone Spear"
 ---
 
-# Bone Spear
+# ![Bone Spear](../../../../../assets/icons/skill/necromancer/bone-spear.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Bone Spear
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Bone Spear"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | magicDamage | mana |
+| Rank | Magic damage | Mana |
 |---|---|---|
 | 1 | 20-40 | 2 |
 | 2 | 30-60 | 2 |

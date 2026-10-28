@@ -2,7 +2,7 @@
 title: "Strategic Shout"
 ---
 
-# Strategic Shout
+# ![Strategic Shout](../../../../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Strategic Shout
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Strategic Shout"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | attackBonus % | rounds |
+| Rank | Attack rating bonus (%) | Rounds |
 |---|---|---|
 | 1 | 40 | 4 |
 | 2 | 45 | 4 |

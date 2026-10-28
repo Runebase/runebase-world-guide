@@ -2,7 +2,7 @@
 title: "Critical Strike"
 ---
 
-# Critical Strike
+# ![Critical Strike](../../../../../assets/icons/skill/hunter/critical-strike.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Critical Strike
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Critical Strike"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | criticalStrike % |
+| Rank | Critical strike (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 13 |

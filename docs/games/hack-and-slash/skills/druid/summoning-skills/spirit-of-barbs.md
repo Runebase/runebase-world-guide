@@ -2,7 +2,7 @@
 title: "Spirit of Barbs"
 ---
 
-# Spirit of Barbs
+# ![Spirit of Barbs](../../../../../assets/icons/skill/druid/spirit-of-barbs.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Spirit of Barbs
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Spirit of Barbs"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % |
+| Rank | Damage bonus (%) |
 |---|---|
 | 1 | 5 |
 | 2 | 10 |

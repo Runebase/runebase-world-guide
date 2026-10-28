@@ -7,6 +7,8 @@ title: "Heists and clans"
 **Where to play:** Discord
 { .where-to-play }
 
+![Runebase Heisting](../../assets/icons/header/heists.webp){ .gi .gi-banner width="320" height="182" loading="lazy" }
+
 In a heist you steal **experience** from another player, not credits. Buffs, gear, pets, a building and a clan change the odds. Every heist counts on a monthly ladder; its best players win a role, and the ladder can pay RUNES prizes.
 
 **Where:** `/heist` (pick the player and the attack type), or `/start` → **Activities** → **Heist** for the heist menu (joining, buffs, gear, clans, the attack guide). `/heistboard` shows the ladders, `/browseclans` lists the clans.

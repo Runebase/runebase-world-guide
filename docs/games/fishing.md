@@ -44,10 +44,10 @@ You craft them in the **Fish** menu (**Craft Fishing Pole**) for scrap from your
 
 | Item | Crafting cost (wood / metal / leather scrap) | Catches, chance each second |
 |---|---|---|
-| no rod | – | [Anchovy](../items/ingredients.md#anchovy) 5% |
-| Skathi's Rod | 6 / 1 / 2 | [Anchovy](../items/ingredients.md#anchovy) 5%, [Mackerel](../items/ingredients.md#mackerel) 5%, [Sardines](../items/ingredients.md#sardines) 5% |
-| Gaul's Glimmer | 41 / 16 / 20 | [Cod](../items/ingredients.md#cod) 5%, [Tuna](../items/ingredients.md#tuna) 5%, [Tilapia](../items/ingredients.md#tilapia) 5% |
-| Freyja's Spar | 200 / 50 / 60 | [Eel](../items/ingredients.md#eel) 5%, [Trout](../items/ingredients.md#trout) 5%, [Swordfish](../items/ingredients.md#swordfish) 5% |
+| ![no rod](../assets/icons/activity-gear/no-rod.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } no rod | – | [Anchovy](../items/ingredients.md#anchovy) 5% |
+| ![Skathi's Rod](../assets/icons/activity-gear/skathis-rod.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skathi's Rod | 6 / 1 / 2 | [Anchovy](../items/ingredients.md#anchovy) 5%, [Mackerel](../items/ingredients.md#mackerel) 5%, [Sardines](../items/ingredients.md#sardines) 5% |
+| ![Gaul's Glimmer](../assets/icons/activity-gear/gauls-glimmer.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Gaul's Glimmer | 41 / 16 / 20 | [Cod](../items/ingredients.md#cod) 5%, [Tuna](../items/ingredients.md#tuna) 5%, [Tilapia](../items/ingredients.md#tilapia) 5% |
+| ![Freyja's Spar](../assets/icons/activity-gear/freyjas-spar.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Freyja's Spar | 200 / 50 / 60 | [Eel](../items/ingredients.md#eel) 5%, [Trout](../items/ingredients.md#trout) 5%, [Swordfish](../items/ingredients.md#swordfish) 5% |
 
 - Equip a rod in the Fish menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
 - With more than one rod you can turn on **rotative** fishing: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
@@ -59,9 +59,9 @@ Each rod has its own enhancement, upgraded from the crafting screen for scrap. E
 
 | Item | Enhancement | Each level | Level 1 (rank 2) | Level 2 (rank 4) | Level 10 (rank 20) | Level 25 (rank 50) | Level 50 (rank 100) |
 |---|---|---|---|---|---|---|---|
-| Skathi's Rod | Glacier Glider | +0.1 points on each of its catches | 5 / 1 / 3 | 7 / 2 / 5 | 27 / 9 / 18 | 63 / 21 / 42 | 123 / 41 / 82 |
-| Gaul's Glimmer | Moonlit Mirage | +0.1 points on each of its catches | 16 / 6 / 8 | 22 / 8 / 11 | 70 / 28 / 35 | 160 / 64 / 80 | 310 / 124 / 155 |
-| Freyja's Spar | Runebound Rouser | +0.1 points on each of its catches | 52 / 22 / 15 | 70 / 30 / 20 | 210 / 90 / 60 | 472 / 202 / 135 | 910 / 390 / 260 |
+| ![Skathi's Rod](../assets/icons/activity-gear/skathis-rod.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skathi's Rod | Glacier Glider | +0.1 points on each of its catches | 5 / 1 / 3 | 7 / 2 / 5 | 27 / 9 / 18 | 63 / 21 / 42 | 123 / 41 / 82 |
+| ![Gaul's Glimmer](../assets/icons/activity-gear/gauls-glimmer.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Gaul's Glimmer | Moonlit Mirage | +0.1 points on each of its catches | 16 / 6 / 8 | 22 / 8 / 11 | 70 / 28 / 35 | 160 / 64 / 80 | 310 / 124 / 155 |
+| ![Freyja's Spar](../assets/icons/activity-gear/freyjas-spar.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Freyja's Spar | Runebound Rouser | +0.1 points on each of its catches | 52 / 22 / 15 | 70 / 30 / 20 | 210 / 90 / 60 | 472 / 202 / 135 | 910 / 390 / 260 |
 
 ## Utilities: Wood Axe and Mining Pick
 
@@ -69,15 +69,15 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
-| Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
-| Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Wood Axe](../assets/icons/activity-gear/wood-axe.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ![Mining Pick](../assets/icons/activity-gear/mining-pick.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
 
 ## Buffs
 
 | Buff | Where it comes from | Used by |
 |---|---|---|
-| [Fishing Beer](../items/store-consumables.md#fishing-beer) | 3 credits in the store; the Party Store | fishing |
-| [Pan-Fried Trout with Lemon and Dill](../items/dishes.md#pan-fried-trout-with-lemon-and-dill) | cooked: 2 [Trout](../items/ingredients.md#trout) + 4 [Dill](../items/ingredients.md#dill) + 1 [Lemon](../items/ingredients.md#lemon) | fishing, when the energy is gone |
+| ![Fishing Beer](../assets/icons/item/fishing-beer.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Fishing Beer](../items/store-consumables.md#fishing-beer) | 3 credits in the store; the Party Store | fishing |
+| ![Pan-Fried Trout with Lemon and Dill](../assets/icons/item/pan-fried-trout-with-lemon-and-dill.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Pan-Fried Trout with Lemon and Dill](../items/dishes.md#pan-fried-trout-with-lemon-and-dill) | cooked: 2 [Trout](../items/ingredients.md#trout) + 4 [Dill](../items/ingredients.md#dill) + 1 [Lemon](../items/ingredients.md#lemon) | fishing, when the energy is gone |
 
 - **[Fishing Beer](../items/store-consumables.md#fishing-beer)** (bought from the store, also from the fishing menu, or collected at the Party Store): each one adds **2 seconds** to one energy of a trip, so a trip uses **one per energy**, at most. A 3-energy trip with 2 beers lasts 34 seconds. The extra seconds roll for catches and extra prizes like any other second, and count on the leaderboard. Experience and the Fishing quest count energy, so the extra seconds add none; a fish caught in them counts for its fish quest like any other.
 - The fishing menu shows the buffs you have and the trip time they give.
@@ -98,10 +98,10 @@ Without utilities, pets or buildings. Each second rolls once on this table (at m
 
 | Prize | Chance each second |
 |---|---|
-| 1 [Metal Scrap](../items/materials.md#metal-scrap) | 0.15% |
-| 1 [Wood Scrap](../items/materials.md#wood-scrap) | 0.15% |
-| 6 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 0.15% |
-| 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
+| ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials.md#metal-scrap) | 0.15% |
+| ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials.md#wood-scrap) | 0.15% |
+| ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 0.15% |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
 | 1 [Pet Food](../items/pet-items.md#pet-food) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Cure](../items/pet-items.md#pet-cures) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |

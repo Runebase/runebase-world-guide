@@ -2,7 +2,7 @@
 title: "Freyja's Enchanting Whisper"
 ---
 
-# Freyja's Enchanting Whisper
+# ![Freyja's Enchanting Whisper](../../../assets/icons/heist-gear/freyjas-enchanting-whisper.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Freyja's Enchanting Whisper
 
 **Where to play:** Discord
 { .where-to-play }

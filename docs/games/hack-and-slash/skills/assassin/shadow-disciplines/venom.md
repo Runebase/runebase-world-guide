@@ -2,7 +2,7 @@
 title: "Venom"
 ---
 
-# Venom
+# ![Venom](../../../../../assets/icons/skill/assassin/venom.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Venom
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Venom"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage |
+| Rank | Poison damage |
 |---|---|
 | 1 | 60-80 |
 | 2 | 75-95 |

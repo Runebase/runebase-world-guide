@@ -2,7 +2,7 @@
 title: "Holy Freeze"
 ---
 
-# Holy Freeze
+# ![Holy Freeze](../../../../../assets/icons/skill/paladin/holy-freeze.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Holy Freeze
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +25,7 @@ title: "Holy Freeze"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | freeze % |
+| Rank | Freeze chance (%) |
 |---|---|
 | 1 | 10 |
 | 2 | 12 |

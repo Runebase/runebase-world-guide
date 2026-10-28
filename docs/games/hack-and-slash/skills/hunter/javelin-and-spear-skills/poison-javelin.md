@@ -2,7 +2,7 @@
 title: "Poison Javelin"
 ---
 
-# Poison Javelin
+# ![Poison Javelin](../../../../../assets/icons/skill/hunter/poison-javelin.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Poison Javelin
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Poison Javelin"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | poisonDamage | mana |
+| Rank | Poison damage | Mana |
 |---|---|---|
 | 1 | 25-37 | 2 |
 | 2 | 46-62 | 4 |

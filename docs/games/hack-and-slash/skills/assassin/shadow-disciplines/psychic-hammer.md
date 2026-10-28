@@ -2,7 +2,7 @@
 title: "Psychic Hammer"
 ---
 
-# Psychic Hammer
+# ![Psychic Hammer](../../../../../assets/icons/skill/assassin/psychic-hammer.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Psychic Hammer
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Psychic Hammer"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reducedArmor % | stun % | rounds |
+| Rank | Lowers armor by (%) | Stun chance (%) | Rounds |
 |---|---|---|---|
 | 1 | 20 | 100 | 2 |
 | 2 | 23 | 100 | 2 |

@@ -2,7 +2,7 @@
 title: "Fire Ball"
 ---
 
-# Fire Ball
+# ![Fire Ball](../../../../../assets/icons/skill/wizard/fire-ball.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Fire Ball
 
 **Where to play:** Discord
 { .where-to-play }
@@ -32,7 +32,7 @@ title: "Fire Ball"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | mana |
+| Rank | Fire damage | Mana |
 |---|---|---|
 | 1 | 6-15 | 2 |
 | 2 | 11-27 | 3 |

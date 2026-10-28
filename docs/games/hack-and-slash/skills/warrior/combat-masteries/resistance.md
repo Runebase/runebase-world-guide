@@ -2,7 +2,7 @@
 title: "Resistance"
 ---
 
-# Resistance
+# ![Resistance](../../../../../assets/icons/skill/warrior/resistance.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Resistance
 
 **Where to play:** Discord
 { .where-to-play }
@@ -30,7 +30,7 @@ title: "Resistance"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | resistance % |
+| Rank | Resistances (%) |
 |---|---|
 | 1 | 2 |
 | 2 | 4 |

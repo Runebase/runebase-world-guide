@@ -2,7 +2,7 @@
 title: "Molten Boulder"
 ---
 
-# Molten Boulder
+# ![Molten Boulder](../../../../../assets/icons/skill/druid/molten-boulder.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Molten Boulder
 
 **Where to play:** Discord
 { .where-to-play }
@@ -28,7 +28,7 @@ title: "Molten Boulder"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | mana |
+| Rank | Fire damage | Mana |
 |---|---|---|
 | 1 | 6-15 | 2 |
 | 2 | 11-27 | 2 |

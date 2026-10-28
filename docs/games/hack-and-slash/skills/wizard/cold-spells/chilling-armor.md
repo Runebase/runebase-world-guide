@@ -2,7 +2,7 @@
 title: "Chilling Armor"
 ---
 
-# Chilling Armor
+# ![Chilling Armor](../../../../../assets/icons/skill/wizard/chilling-armor.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Chilling Armor
 
 **Where to play:** Discord
 { .where-to-play }
@@ -31,7 +31,7 @@ title: "Chilling Armor"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | defenseBonus % | attack | procChance | rounds | mana |
+| Rank | Armor bonus (%) | Strikes back with | Strike chance (%) | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 15 | Ice Blast | 25 | 20 | 2 |
 | 2 | 21 | Ice Blast | 28 | 25 | 3 |

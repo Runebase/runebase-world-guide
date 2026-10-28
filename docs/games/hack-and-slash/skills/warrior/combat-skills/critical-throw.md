@@ -2,7 +2,7 @@
 title: "Critical Throw"
 ---
 
-# Critical Throw
+# ![Critical Throw](../../../../../assets/icons/skill/warrior/critical-throw.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Critical Throw
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Critical Throw"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | criticalStrike % | attackBonus % |
+| Rank | Critical strike (%) | Attack rating bonus (%) |
 |---|---|---|
 | 1 | 10 | 40 |
 | 2 | 12 | 45 |

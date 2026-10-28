@@ -2,7 +2,7 @@
 title: "Feral Rage"
 ---
 
-# Feral Rage
+# ![Feral Rage](../../../../../assets/icons/skill/druid/feral-rage.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Feral Rage
 
 **Where to play:** Discord
 { .where-to-play }
@@ -34,7 +34,7 @@ title: "Feral Rage"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | damageBonus % | lifeSteal % | mana |
+| Rank | Damage bonus (%) | Life steal (%) | Mana |
 |---|---|---|---|
 | 1 | 30 | 10 | 2 |
 | 2 | 50 | 15 | 2 |

@@ -2,7 +2,7 @@
 title: "Slow Missiles"
 ---
 
-# Slow Missiles
+# ![Slow Missiles](../../../../../assets/icons/skill/hunter/slow-missiles.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Slow Missiles
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Slow Missiles"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | reducedMissileDamage % | rounds | mana |
+| Rank | Less missile damage (%) | Rounds | Mana |
 |---|---|---|---|
 | 1 | 5 | 6 | 2 |
 | 2 | 7 | 8 | 2 |

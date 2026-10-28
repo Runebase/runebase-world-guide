@@ -2,7 +2,7 @@
 title: "Frigg's Resurgence Elixir"
 ---
 
-# Frigg's Resurgence Elixir
+# ![Frigg's Resurgence Elixir](../../../assets/icons/item/friggs-resurgence-elixir.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Frigg's Resurgence Elixir
 
 **Where to play:** Discord
 { .where-to-play }

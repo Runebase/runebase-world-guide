@@ -2,7 +2,7 @@
 title: "Forseti's Judgment"
 ---
 
-# Forseti's Judgment
+# ![Forseti's Judgment](../../../assets/icons/heist-gear/forsetis-judgment.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Forseti's Judgment
 
 **Where to play:** Discord
 { .where-to-play }

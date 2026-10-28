@@ -2,7 +2,7 @@
 title: "Baldur's Deflective Guard"
 ---
 
-# Baldur's Deflective Guard
+# ![Baldur's Deflective Guard](../../../assets/icons/heist-gear/baldurs-deflective-guard.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Baldur's Deflective Guard
 
 **Where to play:** Discord
 { .where-to-play }

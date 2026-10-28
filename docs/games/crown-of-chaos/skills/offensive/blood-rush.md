@@ -2,7 +2,7 @@
 title: "Blood Rush"
 ---
 
-# Blood Rush
+# ![Blood Rush](../../../../assets/icons/crown-skill/blood-rush.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Blood Rush
 
 **Where to play:** Discord
 { .where-to-play }

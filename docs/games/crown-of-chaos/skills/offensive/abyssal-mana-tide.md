@@ -2,7 +2,7 @@
 title: "Abyssal Mana Tide"
 ---
 
-# Abyssal Mana Tide
+# ![Abyssal Mana Tide](../../../../assets/icons/crown-skill/abyssal-mana-tide.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Abyssal Mana Tide
 
 **Where to play:** Discord
 { .where-to-play }

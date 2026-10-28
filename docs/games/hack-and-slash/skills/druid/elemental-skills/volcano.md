@@ -2,7 +2,7 @@
 title: "Volcano"
 ---
 
-# Volcano
+# ![Volcano](../../../../../assets/icons/skill/druid/volcano.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Volcano
 
 **Where to play:** Discord
 { .where-to-play }
@@ -29,7 +29,7 @@ title: "Volcano"
 
 What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | fireDamage | stun % | mana |
+| Rank | Fire damage | Stun chance (%) | Mana |
 |---|---|---|---|
 | 1 | 25-35 | 10 | 2 |
 | 2 | 41-56 | 13 | 4 |

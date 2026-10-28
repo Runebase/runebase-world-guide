@@ -2,7 +2,7 @@
 title: "Summon Spirit Wolf"
 ---
 
-# Summon Spirit Wolf
+# ![Summon Spirit Wolf](../../../../../assets/icons/skill/druid/summon-spirit-wolf.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Summon Spirit Wolf
 
 **Where to play:** Discord
 { .where-to-play }
@@ -27,7 +27,7 @@ title: "Summon Spirit Wolf"
 
 What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | physicalDamage | hp | maxRaised | rounds | mana |
+| Rank | Physical damage | Health | Raised at most | Rounds | Mana |
 |---|---|---|---|---|---|
 | 1 | 5-10 | 150 | 2 | 15 | 2 |
 | 2 | 8-18 | 200 | 2 | 18 | 2 |

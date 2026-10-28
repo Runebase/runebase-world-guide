@@ -2,7 +2,7 @@
 title: "Veil of Shadows"
 ---
 
-# Veil of Shadows
+# ![Veil of Shadows](../../../../assets/icons/crown-skill/veil-of-shadows.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Veil of Shadows
 
 **Where to play:** Discord
 { .where-to-play }

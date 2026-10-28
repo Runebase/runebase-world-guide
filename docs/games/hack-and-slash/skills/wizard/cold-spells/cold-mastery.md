@@ -2,7 +2,7 @@
 title: "Cold Mastery"
 ---
 
-# Cold Mastery
+# ![Cold Mastery](../../../../../assets/icons/skill/wizard/cold-mastery.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Cold Mastery
 
 **Where to play:** Discord
 { .where-to-play }
@@ -26,7 +26,7 @@ title: "Cold Mastery"
 
 What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
 
-| Rank | coldDamageBonus % |
+| Rank | Cold damage bonus (%) |
 |---|---|
 | 1 | 30 |
 | 2 | 37 |

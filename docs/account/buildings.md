@@ -264,7 +264,9 @@ The Iron Bank keeps credits for you and pays interest on them.
 2. Every night it adds **0.25%** of what's stored to its pool, up to the pool's size. **Collect** the pool for a few <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials.md#metal-scrap)</span>.
 3. To take your credits out, **Unbound** them first. After the unbounding period you **Withdraw** them. Nothing is earned while they unbound.
 
-Every credit the Iron Bank moves is in your wallet's history. A double click on Collect or Withdraw pays once.
+Every credit the Iron Bank moves is in your wallet's history. A double click on Collect or Withdraw pays once, and a double click on Start Unbounding starts it once.
+
+**When the bank says no, only you see why**, and nothing moves: a deposit that isn't a positive amount (the smallest is 0.00000001 credits), more than your wallet holds or more than the bank can still store; and anything an older screen still offers that no longer fits: a deposit while your credits unbound, unbounding when nothing is stored, a withdrawal before the unbounding period ends or when nothing unbounds.
 
 | Level | Rank needed | Credits it stores | Interest a day when full | Pool (collect at least this often) | Unbounding | Metal Scrap to collect |
 |---|---|---|---|---|---|---|

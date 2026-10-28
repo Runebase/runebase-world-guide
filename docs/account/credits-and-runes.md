@@ -32,7 +32,7 @@ title: "Credits and RUNES"
 **Pouch → Buy Credits → Buy Credits With Hermes**, type the amount, **Accept Purchase**. Hermes charges your RUNES and the bot credits **exactly the amount you asked for (1 RUNES = 1 credit)**, once. Fractions are fine (2.5 credits).
 
 - If Hermes refuses, nothing is credited and you see why.
-- The bot only credits an answer from Hermes that is about your purchase, for exactly that amount. If Hermes' answer gets lost, the screen says Hermes may have charged you and doesn't offer the purchase again (so you can't pay twice); the purchase isn't credited automatically, it's logged for the staff to sort out, so ask them.
+- The bot only credits an answer from Hermes that is about your purchase, for exactly that amount. If Hermes' answer gets lost, the screen says Hermes may have charged you and doesn't offer the purchase again (so you can't pay twice); the purchase isn't credited automatically, it's logged for the staff to sort out, so ask them. The same when Hermes' answer doesn't say what it charged, or your purchase was changed or settled by the staff while Hermes was answering: never credited twice.
 
 ## Withdrawals
 
@@ -52,6 +52,7 @@ Dice, treasure chests, scratch cards and Crown of Chaos pay some prizes in RUNES
 
 - If the tipbot is offline, the dice roll, chest or scratch card says so, and nothing is spent.
 - If the realm's tipbot session isn't active, no RUNES are tipped: the prize is recorded as not paid.
+- **No single RUNES prize is more than 1% of the realm's wallet.** A prize above that would be a mistake in a prize table: the whole roll or card fails and nothing of it is paid (no experience, no item, no tip), and you can try again.
 - **A tip is never sent twice.** Each prize's tip is on record from the moment you win it. If the bot restarts right after your win, or the tipbot doesn't confirm the tip, the bot doesn't send it again on its own: the realm's admins are told, check the tipbot, and settle it by hand.
 
 ## Tips

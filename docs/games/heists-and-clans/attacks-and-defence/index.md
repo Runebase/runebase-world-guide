@@ -28,7 +28,7 @@ Then the chances roll:
 
 Nobody's experience goes below 0: a defender with 4 experience loses 4, and the attacker still gains the full amount.
 
-After each heist the attacker gets a private message ("Heist Energy Left: n/3"), and the heist channel shows everyone what happened: each side's buffs, the experience moved, the scores, energy and hits.
+After each heist the attacker gets a private message ("Heist Energy Left: n/3"), and the heist channel shows everyone what happened: each side's buffs, the experience moved, the scores, energy and hits, and each side's loot and the [quests](../../../account/quests.md) the heist completed for them (every quest in their loot summary; a box of its own for each that fits in the message, however many both sides completed).
 
 ## Pets, buildings, clans
 

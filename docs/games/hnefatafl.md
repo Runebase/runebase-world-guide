@@ -25,7 +25,17 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 ## Against the bot (Singleplayer)
 
-A win pays credits and maybe scrap, by difficulty (table below). **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
+**Hnefatafl** → **Singleplayer**: pick a difficulty and your side (the King's side, the attackers, or random), then start. The attackers move first, so as the King's side you find the bot's opening move already played. Type your moves into **Make Move** as `from-to` (`f8-f9`); the bot answers each one. A move that breaks the rules is refused privately and the board stays.
+
+| Difficulty | The bot thinks |
+|---|---|
+| easy | 1 move ahead, and picks among its nearly best moves at random |
+| medium | 2 moves ahead |
+| hard | 3 moves ahead |
+
+**Forfeit** ends the game at once (it doesn't ask) as a loss. A new game can start right away: unlike chess, there's no wait between games.
+
+A win pays credits and maybe scrap, by difficulty (table below). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
 
 | Difficulty | Credits (always) | Also, each on its own chance |
 |---|---|---|
@@ -34,6 +44,18 @@ A win pays credits and maybe scrap, by difficulty (table below). **Only the firs
 | hard | ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 50 to 85 credits | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Leather Scrap](../items/materials.md#leather-scrap) 25%, ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Metal Scrap](../items/materials.md#metal-scrap) 25%, ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Wood Scrap](../items/materials.md#wood-scrap) 25% |
 
 ## Against other players (ranked)
+
+### The challenge
+
+**Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. They get a DM and find your challenge in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
+
+You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused (a late Accept, a button that isn't yours, a move from an old screen) is answered privately.
+
+### How a game ends
+
+The King escapes to a corner, the King is captured, the side to move has no legal move, the same position comes a third time (a draw), a player resigns (**Resign**), or the player to move doesn't move within **15 minutes** (they lose). The player whose move or click ended the game sees the result on their screen; the game then leaves both lobbies (Discord doesn't tell the other player otherwise, nor whose turn it is: **Refresh** your lobby to see).
+
+### Ranked points
 
 Multiplayer games score **ranked points** on the Hnefatafl leaderboards: **25 for a win, 5 for a loss, 12 each for a draw**. To stop farming:
 
@@ -44,7 +66,9 @@ Multiplayer games score **ranked points** on the Hnefatafl leaderboards: **25 fo
 
 A draw comes from playing the same position a third time (see the rules above), and scores 12 each, once.
 
-Only the side to move may move, each player from their own screen. An abandoned game times out once, within the same limits. A restart never counts against you: as in [chess](chess.md), the player to move gets a DM and 15 minutes.
+The boards: `/leaderboard` → **All-Time Hnefatafl Points** or **Monthly Hnefatafl Points**, best first.
+
+Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A restart never counts against you: as in [chess](chess.md), the player to move gets a DM and 15 minutes.
 
 ## Tips
 

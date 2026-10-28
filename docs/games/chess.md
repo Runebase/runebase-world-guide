@@ -13,7 +13,17 @@ Chess against the bot or against another player. Chess has its own leaderboards 
 
 ## Against the bot (Singleplayer)
 
-**Chess** → **Singleplayer**: pick a difficulty and play against the bot. Pick your move from the menus or type it (SAN Input); a move typed wrong is refused and the bot doesn't move.
+**Chess** → **Singleplayer**: pick your side (white, black or random) and a difficulty, then start the game and play against the bot. Pick your move from the menus or type it (SAN Input); the bot answers each move. A move typed wrong is refused privately (with the moves you can play) and the bot doesn't move.
+
+The bot is the Stockfish chess engine, at the strength of the difficulty:
+
+| Difficulty | The bot plays like | It looks |
+|---|---|---|
+| easy | a beginner (rated 800) | 3 moves ahead, 0.15 seconds a move |
+| medium | a strong club player (rated 2100) | 11 moves ahead, about 2 seconds a move |
+| hard | at full strength | 30 moves ahead, up to 25 seconds a move |
+
+**Forfeit** asks first (**Cancel** keeps playing); a forfeited game is a loss.
 
 - **Only a win pays:** experience, credits and maybe scrap (table below), and chess points on the leaderboards:
 
@@ -23,7 +33,7 @@ Chess against the bot or against another player. Chess has its own leaderboards 
   | medium | 20 | 3 |
   | hard | 35 | 5 |
 
-- A loss pays nothing, and neither does a draw (a stalemate, for example).
+- A loss pays nothing, and neither does a draw (a stalemate, for example) or a forfeit.
 - **Only the first 5 wins of a UTC day pay.** The next day pays again.
 - A new game can start **3 hours** after your last one started.
 - Wins also complete the [Chess - Win quests](../account/quests.md#every-quest), which pay their own experience and rewards.
@@ -39,9 +49,40 @@ Credits always come; each scrap rolls on its own.
 
 ## Against other players (Multiplayer)
 
-Challenge another player. Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a resignation and a move at the same moment end the game once, the way that came first.
+**A multiplayer game pays nothing:** no credits, experience, chess points or quest progress. You play for the game.
 
-**If the bot restarts during your game,** a restart never counts against you: the player to move gets a DM and **15 minutes** before any timer counts again (a blitz clock is paused through them).
+### The challenge
+
+**Chess** → **Multiplayer**: pick the member to challenge, then the settings:
+
+- **Public** (the board is shown in the server's chess channel, for everyone to watch) or **Private** (only the two of you see it);
+- **Normal** (3 minutes a move) or **Blitz**: a clock for each side, from 5 to 125 minutes.
+
+**Challenge User** posts the challenge in the chess channel, mentioning you both, with **Accept** and **Decline**: only the challenged player can answer. Your screen says it's sent and has **Cancel Challenge** until they answer. A challenge nobody answers expires after **5 minutes** (the channel and your screen say so). The challenged player can also accept it from **View Active Games**.
+
+You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Anything refused (a second click, a late Accept, a button that isn't yours) is answered privately and changes nothing.
+
+### Playing
+
+Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move**, or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused privately and the board stays. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
+
+A game ends with a checkmate, or in a draw by stalemate, insufficient material (a king against a king and a knight, for example) or the fifty-move rule. The same position a third time doesn't end the game.
+
+### The timers
+
+- **3 minutes a move:** when your time is up, the bot plays a random legal move for you, and both screens say so.
+- **12 minutes away** (no click of yours for 12 minutes) and you forfeit: your opponent wins, and both screens say so.
+- **Blitz:** your clock runs only during your turns. When it runs out you lose on time.
+
+Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a timer that fires as the game ends doesn't change the result.
+
+**If the bot restarts during your game,** a restart never counts against you: the player to move gets a DM and **15 minutes** before any timer counts again (a blitz clock is paused through them). A challenge waiting at a restart expires once it's 5 minutes old.
+
+### Your games and your history
+
+**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you.
+
+**Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move. **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
 
 ## Tips
 

@@ -23,6 +23,8 @@ The bot is the Stockfish chess engine, at the strength of the difficulty:
 | medium | a strong club player (rated 2100) | 11 moves ahead, about 2 seconds a move |
 | hard | at full strength | 30 moves ahead, up to 25 seconds a move |
 
+The bot sees the whole game, every move played so far, not only the board as it stands: like a player at the table, it knows when a position has come up before.
+
 **Forfeit** asks first (**Cancel** keeps playing); a forfeited game is a loss.
 
 - **Only a win pays:** experience, credits and maybe scrap (table below), and chess points on the leaderboards:
@@ -65,6 +67,8 @@ You can't challenge yourself, a bot or someone who isn't in the server, and you 
 ### Playing
 
 Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move**, or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused privately and the board stays. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
+
+Discord lets the bot update your screen through your last click for 15 minutes, and a blitz game can run much longer. After that, a screen in the channel (the menu you challenged from) is still updated; a private one (the board **Accept** showed you) can't be: open **View Active Games** to see the board and your moves.
 
 A game ends with a checkmate, a resignation, or in a draw by stalemate, insufficient material (a king against a king and a knight, for example), the fifty-move rule or **threefold repetition**: the same position a third time in the game ends it in a draw, whoever repeats it. A position is the same when the same pieces stand on the same squares with the same player to move, and the same castling and en passant captures possible (a king that walked out and back has lost its castling, so the position before isn't the same one). Both screens and the public board say how the game ended.
 

@@ -49,19 +49,23 @@ A win pays credits and maybe scrap, by difficulty (table below); every way of wi
 
 ### The challenge
 
-**Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. They get a DM and find your challenge in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. When they accept or decline (or the challenge expires), your lobby says so at once. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
+**Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. Your challenge is posted in the server's Hnefatafl channel, mentioning them (no DM), with who plays which side and **Accept** and **Decline**, which only they can use; they also find it in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. When they accept or decline, you cancel, or the challenge expires, the post and your lobby say so at once, and the post's buttons go. **Accept** on the post shows them their board privately, and the game is on. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
 
-You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused (a late Accept, a button that isn't yours, a move from an old screen) is answered privately.
+A server without a Hnefatafl channel can't take challenges: yours is refused privately and nothing is sent (an admin sets the channel with `/config`, **Hnefatafl Channel**).
+
+You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused (a late Accept, a second click, a button that isn't yours, a move from an old screen) is answered privately and changes nothing.
 
 ### How a game ends
 
 The King escapes to a corner, the King is captured, the attackers ring in the King and every defender (encirclement), the King holds an exit fort, the side to move has no legal move, the same position comes a third time (a draw), a player resigns (**Resign**), or the player to move doesn't move within **15 minutes** (they lose). The game then leaves both lobbies.
 
+**Resign** asks first, on your turn or your opponent's: **Cancel** brings your board back, **Yes, resign** ends the game at once as a loss for you, and both screens say so. **Yes, resign** clicked twice ends the game once (the second click is told privately that the game is over), and a **Yes, resign** left from an earlier game never ends a newer one.
+
 ### Your screen follows the game
 
-Moves and endings come without a DM (a challenge and the notice after a restart still do). Instead, your Hnefatafl message follows the game: the board you last looked at, or your lobby if you haven't opened the game. When your opponent moves, it shows their move and, on your turn, your **Make Move**; when the game ends (a move, a resignation, a timeout), both players' messages show the result, with a note when the game scored no ranked points. Leave Multiplayer for the Hnefatafl menu or Singleplayer and that message is left alone; your lobby shows your games when you come back.
+Challenges, moves and endings come without a DM (only the notice after a restart still does). Instead, your Hnefatafl message follows the game: the board you last looked at, or your lobby if you haven't opened the game. When your opponent moves, it shows their move and, on your turn, your **Make Move**; when the game ends (a move, a resignation, a timeout), both players' messages show the result, with a note when the game scored no ranked points. Leave Multiplayer for the Hnefatafl menu or Singleplayer and that message is left alone; your lobby shows your games when you come back.
 
-Discord lets the bot update a message through your last click for 15 minutes. After that, a message in the channel is still updated; a private one can't be (open your lobby to see the game).
+Discord lets the bot update a message through your last click for 15 minutes. After that, a message in the channel is still updated; a private one can't be (open your lobby to see the game). The board **Accept** on the post showed you is private.
 
 ### Ranked points
 

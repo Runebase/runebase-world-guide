@@ -1,12 +1,10 @@
 ---
-title: "The store and the basket"
+title: "Store"
 ---
 
-# The store and the basket
+# The store
 
-The store sells you items for credits and buys them back; the basket holds what you gathered and cooked. How credits get in and out of the game is in [Credits and RUNES](credits-and-runes.md).
-
-## The store
+The store sells you items for credits and buys them back. How credits get in and out of the game is in [Credits and RUNES](credits-and-runes.md).
 
 **Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the [Crown of Chaos](../games/crown-of-chaos/attacking.md) menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
 
@@ -106,10 +104,6 @@ The store sells you items for credits and buys them back; the basket holds what 
 | Scrap Resources | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Wood Scrap](../items/materials.md#wood-scrap) | 100 credits | can't be sold |
 | Scrap Resources | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Leather Scrap](../items/materials.md#leather-scrap) | 100 credits | can't be sold |
 | Scrap Resources | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Metal Scrap](../items/materials.md#metal-scrap) | 100 credits | can't be sold |
-
-## The basket
-
-`/basket` shows what you gathered and cooked. **<span class="gi-m">![](../assets/icons/item/swordfish-kebabs-with-lemon-and-rosemary.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Swordfish Kebabs with Lemon and Rosemary](../items/dishes.md#swordfish-kebabs-with-lemon-and-rosemary)</span>** can be eaten from the basket: each one gives **15 experience**. More than you have, or an amount that isn't a whole number, eats nothing.
 
 ## Tips
 

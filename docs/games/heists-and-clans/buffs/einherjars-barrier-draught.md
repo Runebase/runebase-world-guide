@@ -15,7 +15,7 @@ nav_icon: "assets/icons/item/einherjars-barrier-draught.webp"
 
 ## Where you get it
 
-Bought in the [store](../../../account/store.md#the-store); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Barrier Draught](../../../items/store-consumables.md#einherjars-barrier-draught)</span>.
+Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Barrier Draught](../../../items/store-consumables.md#einherjars-barrier-draught)</span>.
 
 ## Checked in play
 

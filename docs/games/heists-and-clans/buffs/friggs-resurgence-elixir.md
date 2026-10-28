@@ -15,7 +15,7 @@ nav_icon: "assets/icons/item/friggs-resurgence-elixir.webp"
 
 ## Where you get it
 
-Bought in the [store](../../../account/store.md#the-store); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/friggs-resurgence-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Frigg's Resurgence Elixir](../../../items/store-consumables.md#friggs-resurgence-elixir)</span>.
+Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/friggs-resurgence-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Frigg's Resurgence Elixir](../../../items/store-consumables.md#friggs-resurgence-elixir)</span>.
 
 ## Checked in play
 

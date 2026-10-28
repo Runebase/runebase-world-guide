@@ -1,20 +1,12 @@
 ---
-title: "Gifts and the convert market"
+title: "Convert Market"
 ---
 
-# Gifts and the convert market
+# The convert market
 
-Two ways to trade: send credits to another member, or swap scrap and dishes at fixed rates. How credits get in and out of the game is in [Credits and RUNES](credits-and-runes.md).
+`/convert` swaps scrap and dishes at fixed rates.
 
-## Gifts
-
-`/gift` sends credits to another member. The receiver gets exactly what you send, it's recorded on both sides, and nothing is created or lost. A gift reaches a member who never used the bot too.
-
-Nothing moves for an amount that isn't valid (a gift's amount is the rule for [every amount you type](credits-and-runes.md#typing-an-amount): a plain number, rounded down to 8 decimals), a gift to yourself or to a bot, a member who can't be found, or more than you have, and only you see why (the receiver doesn't see it). A gift that goes through is shown in the channel. Two gifts at the same time can never spend the same credits twice.
-
-## The convert market
-
-`/convert` swaps scrap and dishes at fixed rates. Pick what you want and what you pay with: the price is in the column of what you pay with. For example, **2 <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../items/materials.md#wood-scrap)</span> buy 10 <span class="gi-m">![](../assets/icons/item/anchovy-with-anchovy-powder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Anchovy with Anchovy Powder](../items/dishes.md#anchovy-with-anchovy-powder)</span>**, and **20 Anchovy with Anchovy Powder buy 1 Wood Scrap**. Each conversion moves exactly the listed amounts; without enough to pay, or without room in your pouch for scrap, nothing moves, and only you are told why (also when an older screen still shows the Convert button). A double click converts once.
+Pick what you want and what you pay with: the price is in the column of what you pay with. For example, **2 <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../items/materials.md#wood-scrap)</span> buy 10 <span class="gi-m">![](../assets/icons/item/anchovy-with-anchovy-powder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Anchovy with Anchovy Powder](../items/dishes.md#anchovy-with-anchovy-powder)</span>**, and **20 Anchovy with Anchovy Powder buy 1 Wood Scrap**. Each conversion moves exactly the listed amounts; without enough to pay, or without room in your pouch for scrap, nothing moves, and only you are told why (also when an older screen still shows the Convert button). A double click converts once.
 
 | You get | Group | Paid with scrap | Paid with group 1 dishes | Paid with group 2 dishes | Paid with group 3 dishes |
 |---|---|---|---|---|---|

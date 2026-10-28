@@ -13,7 +13,7 @@ title: "Credits and RUNES"
 ## Getting credits
 
 - **From the games:** expeditions, piles, chests, chess and Hnefatafl wins, quests, WordWeaver, Loot Reels, dice, heists and more (each game's page has its prize table). A single credit prize above **25,000 credits** is withheld instead of paid, and announced in the payout channel. The Crown of Chaos pool is the one exception: it's paid in full.
-- **Gifts** from other players (`/gift`, see [Gifts and the convert market](gifts-and-convert-market.md)).
+- **Gifts** from other players (`/gift`, see [Gifts](gifts.md)).
 - **The <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>** pays interest on credits you store in it ([Buildings](buildings.md)).
 - **Deposits** and **buying credits with Hermes** (below).
 

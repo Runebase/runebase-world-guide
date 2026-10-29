@@ -1,0 +1,1900 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How the Runebase games work (the Discord bot today, the Runebase World web app later), from what the tests prove">
+      
+      
+      
+        <link rel="canonical" href="https://runebase.github.io/runebase-world-guide/next/games/hnefatafl/">
+      
+      
+        <link rel="prev" href="../chess/">
+      
+      
+        <link rel="next" href="../dice/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Hnefatafl - Runebase World Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hnefatafl" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            <strong>Coming soon:</strong> this is the guide to the bot's next update. Until it's live, some rules and numbers on the bot are still those of v0.172.5.
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're reading the guide to an older version of the bot.
+  <a href="../../.."><strong>The guide to the version live now</strong></a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Runebase World Guide" class="md-header__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Runebase World Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Hnefatafl
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+    
+  
+  Games
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../items/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+    
+  
+  Items and buffs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../account/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+    
+  
+  Your account
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../mmorpg/" class="md-tabs__link">
+        
+  
+  
+    
+      <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+    
+  
+  The MMORPG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Runebase World Guide" class="md-nav__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Runebase World Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Games
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Games
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../hack-and-slash/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👹</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hack & Slash
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../crown-of-chaos/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../assets/icons/game/crown-of-chaos.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Crown of Chaos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../heists-and-clans/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../assets/icons/game/heists.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Heists and clans
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fishing/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/fishin.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Fishing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hunting/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏹</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expeditions/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧭</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Expeditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cooking/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/unstartedcampfire.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Cooking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loot-reels/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎰</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot Reels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wordweaver/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔤</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    WordWeaver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chess/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">♟️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Chess
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏰</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hnefatafl
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏰</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hnefatafl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The rules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#against-the-bot-singleplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Against the bot (Singleplayer)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#against-other-players-ranked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Against other players (ranked)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Against other players (ranked)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-a-game-ends" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a game ends
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-screen-follows-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your screen follows the game
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranked-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ranked points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dice/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/diceroll.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Dice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treasure-chests/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/bronzekey.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Treasure chests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../piles-and-key-hunt/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗝️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Piles and the key hunt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scratch-cards/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/goldcard.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Scratch cards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../runes-pattern/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🃏</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Runes Pattern
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../items/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and buffs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../account/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Your account
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mmorpg/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    The MMORPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The rules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#against-the-bot-singleplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Against the bot (Singleplayer)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#against-other-players-ranked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Against other players (ranked)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Against other players (ranked)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-a-game-ends" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a game ends
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-screen-follows-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your screen follows the game
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranked-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ranked points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Games
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="hnefatafl">🏰 Hnefatafl<a class="headerlink" href="#hnefatafl" title="Permanent link">&para;</a></h1>
+<p class="where-to-play"><strong>Where to play:</strong> Discord</p>
+<p>The Viking board game, new in this release, against the bot or against another player. Hnefatafl has its own leaderboards (all-time and monthly).</p>
+<p><strong>Where:</strong> <code>/start</code> → <strong>Activities</strong> → <strong>Hnefatafl</strong>.</p>
+<h2 id="the-rules">The rules<a class="headerlink" href="#the-rules" title="Permanent link">&para;</a></h2>
+<p>Two sides on an <strong>11 × 11</strong> board (the Copenhagen rules):</p>
+<ul>
+<li><strong>The attackers</strong> (24 pieces) move first and win by <strong>surrounding the King on all four sides</strong>. A King on the edge of the board can't be captured.</li>
+<li><strong>The defenders</strong> (12 pieces and the King, who starts on the throne in the middle) win when <strong>the King reaches a corner</strong>.</li>
+<li><strong>Encirclement:</strong> the attackers also win when their move closes a ring around the King and <strong>every</strong> remaining defender, so that none of them can reach the edge of the board. Pieces move in straight lines, so attackers touching corner to corner close the ring. A ring with a gap, a defender left outside it, or a ring that leaves the King room to reach the edge is no encirclement.</li>
+<li><strong>Exit fort:</strong> the defenders also win when, after their move, the King stands on the edge of the board, can still move, and is walled in by defenders the attackers can never capture: only defenders and the edge around the King's free squares, and every one of those defenders backed (on each line, across and along, at least one neighbour the attackers can never take: the edge, the King's free squares, or another such defender). A wall piece with open squares on both sides of a line, an attacker touching the King's squares, or a King with no free square is no fort. The King inside his fort but off the edge isn't a win yet; back on the edge it is.</li>
+<li>Pieces move in straight lines, any number of free squares, and can't jump. Only the King may stop on the throne or the corners.</li>
+<li>A piece is captured when it's <strong>sandwiched</strong> between two enemies (a corner and the empty throne count as enemies). Moving into a sandwich yourself is safe. A row of defenders along the edge can be captured by a shieldwall.</li>
+<li>A side with no legal move loses.</li>
+<li><strong>The same position a third time is a draw:</strong> when the same pieces stand on the same squares with the same side to move for the third time in a game (counted over the whole game), the game ends in a draw, whichever side repeats (the published Copenhagen rules make a repetition a loss for the King's side instead). Moving a piece out and back while your opponent does the same ends the game on the 8th such move.</li>
+<li>A move that breaks the rules is refused: your board says why and stays as it was.</li>
+</ul>
+<h2 id="against-the-bot-singleplayer">Against the bot (Singleplayer)<a class="headerlink" href="#against-the-bot-singleplayer" title="Permanent link">&para;</a></h2>
+<p><strong>Hnefatafl</strong> → <strong>Singleplayer</strong>: pick a difficulty and your side (the King's side, the attackers, or random), then start. The attackers move first, so as the King's side you find the bot's opening move already played. Type your moves into <strong>Make Move</strong> as <code>from-to</code> (<code>f8-f9</code>); the bot answers each one. A move that breaks the rules is refused privately and the board stays.</p>
+<table>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>The bot thinks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>easy</td>
+<td>1 move ahead, and picks among its nearly best moves at random</td>
+</tr>
+<tr>
+<td>medium</td>
+<td>2 moves ahead</td>
+</tr>
+<tr>
+<td>hard</td>
+<td>3 moves ahead</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Forfeit</strong> asks first (<strong>Cancel</strong> keeps playing); <strong>Yes, forfeit</strong> ends that game as a loss, once (clicked again, its screen says the game is already over, and it never ends a newer game). A new game can start right away: unlike chess, there's no wait between games.</p>
+<p>A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. <strong>Only the first 5 wins of a UTC day pay</strong>; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.</p>
+<table>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>Credits (always)</th>
+<th>Also, each on its own chance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>easy</td>
+<td><img alt="Credits" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/currency/credits.webp" width="24" /> 15 to 25 credits</td>
+<td><img alt="Leather Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="24" /> 1 <a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a> 25%, <img alt="Metal Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="24" /> 1 <a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a> 25%, <img alt="Wood Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="24" /> 1 <a href="../../items/materials/scrap/#wood-scrap">Wood Scrap</a> 25%</td>
+</tr>
+<tr>
+<td>medium</td>
+<td><img alt="Credits" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/currency/credits.webp" width="24" /> 25 to 50 credits</td>
+<td><img alt="Leather Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="24" /> 2 <a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a> 25%, <img alt="Metal Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="24" /> 2 <a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a> 25%, <img alt="Wood Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="24" /> 2 <a href="../../items/materials/scrap/#wood-scrap">Wood Scrap</a> 25%</td>
+</tr>
+<tr>
+<td>hard</td>
+<td><img alt="Credits" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/currency/credits.webp" width="24" /> 50 to 85 credits</td>
+<td><img alt="Leather Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="24" /> 3 <a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a> 25%, <img alt="Metal Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="24" /> 3 <a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a> 25%, <img alt="Wood Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="24" /> 3 <a href="../../items/materials/scrap/#wood-scrap">Wood Scrap</a> 25%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="against-other-players-ranked">Against other players (ranked)<a class="headerlink" href="#against-other-players-ranked" title="Permanent link">&para;</a></h2>
+<h3 id="the-challenge">The challenge<a class="headerlink" href="#the-challenge" title="Permanent link">&para;</a></h3>
+<p><strong>Hnefatafl</strong> → <strong>Multiplayer</strong> (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. Your challenge is posted in the server's Hnefatafl channel, mentioning them (no DM), with who plays which side and <strong>Accept</strong> and <strong>Decline</strong>, which only they can use; they also find it in their lobby (<strong>Refresh</strong>) with <strong>Accept</strong> and <strong>Decline</strong>; your lobby lists it with <strong>Cancel</strong>. When they accept or decline, you cancel, or the challenge expires, the post and your lobby say so at once, and the post's buttons go. <strong>Accept</strong> on the post shows them their board privately, and the game is on. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after <strong>30 minutes</strong> (a restart gives a waiting challenge a fresh 30 minutes).</p>
+<p>A server without a Hnefatafl channel can't take challenges: your lobby says so and nothing is sent (an admin sets the channel with <code>/config</code>, <strong>Hnefatafl Channel</strong>).</p>
+<p>You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused changes nothing and says why: on your lobby or your board when the button is on your own screen (a late Accept, a second click, a move from an old screen or typed wrong), privately under the challenge's post in the channel or on a button that isn't yours.</p>
+<h3 id="how-a-game-ends">How a game ends<a class="headerlink" href="#how-a-game-ends" title="Permanent link">&para;</a></h3>
+<p>The King escapes to a corner, the King is captured, the attackers ring in the King and every defender (encirclement), the King holds an exit fort, the side to move has no legal move, the same position comes a third time (a draw), a player resigns (<strong>Resign</strong>), or the player to move doesn't move within <strong>15 minutes</strong> (they lose). The game then leaves both lobbies.</p>
+<p><strong>Resign</strong> asks first, on your turn or your opponent's: <strong>Cancel</strong> brings your board back, <strong>Yes, resign</strong> ends the game at once as a loss for you, and both screens say so. <strong>Yes, resign</strong> clicked twice ends the game once (the second click's screen says the game is over), and a <strong>Yes, resign</strong> left from an earlier game never ends a newer one.</p>
+<h3 id="your-screen-follows-the-game">Your screen follows the game<a class="headerlink" href="#your-screen-follows-the-game" title="Permanent link">&para;</a></h3>
+<p>Challenges, moves and endings come without a DM (only the notice after a restart still does). Instead, your Hnefatafl message follows the game: the board you last looked at, or your lobby if you haven't opened the game. When your opponent moves, it shows their move and, on your turn, your <strong>Make Move</strong>; when the game ends (a move, a resignation, a timeout), both players' messages show the result, with a note when the game scored no ranked points. Leave Multiplayer for the Hnefatafl menu or Singleplayer and that message is left alone; your lobby shows your games when you come back.</p>
+<p>Discord lets the bot update a message through your last click for 15 minutes. After that, a message in the channel is still updated; a private one can't be (open your lobby to see the game). The board <strong>Accept</strong> on the post showed you is private.</p>
+<h3 id="ranked-points">Ranked points<a class="headerlink" href="#ranked-points" title="Permanent link">&para;</a></h3>
+<p>Multiplayer games score <strong>ranked points</strong> on the Hnefatafl leaderboards: <strong>25 for a win, 5 for a loss, 12 each for a draw</strong>. To stop farming:</p>
+<ul>
+<li>a game only scores when both sides made at least 10 moves (a game resigned in its first moves scores nothing);</li>
+<li>the same two players score at most <strong>3</strong> ranked games a day (another opponent still scores);</li>
+<li>a player scores at most <strong>5</strong> ranked games a day, whoever the opponents are;</li>
+<li>you can't challenge yourself.</li>
+</ul>
+<p>A draw comes from playing the same position a third time (see the rules above), and scores 12 each, once.</p>
+<p>The boards: <code>/leaderboard</code> → <strong>All-Time Hnefatafl Points</strong> or <strong>Monthly Hnefatafl Points</strong>, best first.</p>
+<p>Only the side to move may move, each player from their own screen; a move sent from a second <strong>Make Move</strong> after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;<a href="../chess/">chess</a></span>, the player to move gets a DM and 15 minutes.</p>
+<h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Hnefatafl pays only 5 wins a day; a hard win pays the most.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chess/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chess">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Chess
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../dice/" class="md-footer__link md-footer__link--next" aria-label="Next: Dice">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Dice
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": ["^latest$", "^next$"], "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

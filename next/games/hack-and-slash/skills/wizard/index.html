@@ -1,0 +1,2989 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How the Runebase games work (the Discord bot today, the Runebase World web app later), from what the tests prove">
+      
+      
+      
+        <link rel="canonical" href="https://runebase.github.io/runebase-world-guide/next/games/hack-and-slash/skills/wizard/">
+      
+      
+        <link rel="prev" href="../hunter/javelin-and-spear-skills/lightning-fury/">
+      
+      
+        <link rel="next" href="fire-spells/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Wizard skills - Runebase World Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wizard-skills" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            <strong>Coming soon:</strong> this is the guide to the bot's next update. Until it's live, some rules and numbers on the bot are still those of v0.172.5.
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're reading the guide to an older version of the bot.
+  <a href="../../../../.."><strong>The guide to the version live now</strong></a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../../../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Runebase World Guide" class="md-header__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Runebase World Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Wizard skills
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+    
+  
+  Games
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../items/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+    
+  
+  Items and buffs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../account/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+    
+  
+  Your account
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../mmorpg/" class="md-tabs__link">
+        
+  
+  
+    
+      <img class="gi-nav" src="../../../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+    
+  
+  The MMORPG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Runebase World Guide" class="md-nav__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Runebase World Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Games
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Games
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👹</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hack & Slash
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hack & Slash
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../classes/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎭</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">💥</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Skills
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../warrior/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/warrior.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Warrior skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../hunter/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/hunter.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/wizard.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard skills
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2_2_3_4" id="__nav_2_2_3_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Wizard skills
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="fire-spells/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/skill-tree/fire-spells.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Fire Spells
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="lightning-spells/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/skill-tree/lightning-spells.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Lightning Spells
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="cold-spells/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/skill-tree/cold-spells.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Cold Spells
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../assassin/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/assassin.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Assassin skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../necromancer/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/necromancer.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../paladin/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/paladin.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../druid/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/class/druid.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid skills
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../attributes-and-combat/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">📈</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes and combat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-battles/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">⚔️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick battles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gear-and-crafting/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👕</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Gear, items and crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../auction-house/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔨</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    The auction house
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jotnar/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗿</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    The Jotnar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arena/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🥊</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    The Arena
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../crown-of-chaos/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/game/crown-of-chaos.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Crown of Chaos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../heists-and-clans/" class="md-nav__link">
+      
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/game/heists.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Heists and clans
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fishing/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/fishin.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Fishing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hunting/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏹</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../expeditions/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧭</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Expeditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cooking/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/unstartedcampfire.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Cooking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../loot-reels/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎰</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot Reels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wordweaver/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔤</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    WordWeaver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chess/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">♟️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Chess
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hnefatafl/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏰</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Hnefatafl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dice/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/diceroll.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Dice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../treasure-chests/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/bronzekey.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Treasure chests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../piles-and-key-hunt/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗝️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Piles and the key hunt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../scratch-cards/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/goldcard.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Scratch cards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../runes-pattern/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🃏</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Runes Pattern
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../items/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and buffs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../account/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Your account
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../mmorpg/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    The MMORPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Games
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Hack & Slash
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Skills
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Wizard skills
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="wizard-skills"><img alt="Wizard" class="gi gi-title" height="64" loading="lazy" src="../../../../assets/icons/class/wizard.webp" width="64" /> Wizard skills<a class="headerlink" href="#wizard-skills" title="Permanent link">&para;</a></h1>
+<p class="where-to-play"><strong>Where to play:</strong> Discord</p>
+<p>The <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/class/wizard.webp" width="20" />&nbsp;<a href="../../classes/wizard/">Wizard</a></span>'s three trees, every skill at rank 1 and rank 20 (mana is the cost when used). Each name leads to the skill's page.</p>
+<table>
+<thead>
+<tr>
+<th>Tree</th>
+<th>Skill</th>
+<th>Level</th>
+<th>Kind</th>
+<th>Rank 1</th>
+<th>Rank 20</th>
+<th>Needs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Fire Bolt" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-bolt.webp" width="24" /> <a href="fire-spells/fire-bolt/">Fire Bolt</a></td>
+<td>1</td>
+<td>attack, spell</td>
+<td>fire damage 4-7, mana 2</td>
+<td>fire damage 61-121, mana 21</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Warmth" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/warmth.webp" width="24" /> <a href="fire-spells/warmth/">Warmth</a></td>
+<td>1</td>
+<td>passive</td>
+<td>mana regeneration 2%</td>
+<td>mana regeneration 24.8%</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Inferno" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/inferno.webp" width="24" /> <a href="fire-spells/inferno/">Inferno</a></td>
+<td>6</td>
+<td>attack, spell</td>
+<td>burn damage 13-25, rounds 4, mana 2</td>
+<td>burn damage 260-272, rounds 14, mana 21</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Blaze" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/blaze.webp" width="24" /> <a href="fire-spells/blaze/">Blaze</a></td>
+<td>12</td>
+<td>buff, spell</td>
+<td>fire damage bonus 15%, rounds 4, mana 2</td>
+<td>fire damage bonus 72%, rounds 23, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/inferno.webp" width="20" />&nbsp;<a href="fire-spells/inferno/">Inferno</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Fire Ball" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-ball.webp" width="24" /> <a href="fire-spells/fire-ball/">Fire Ball</a></td>
+<td>12</td>
+<td>explodes, spell</td>
+<td>fire damage 6-15, mana 2</td>
+<td>fire damage 101-243, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-bolt.webp" width="20" />&nbsp;<a href="fire-spells/fire-bolt/">Fire Bolt</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Fire Wall" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-wall.webp" width="24" /> <a href="fire-spells/fire-wall/">Fire Wall</a></td>
+<td>18</td>
+<td>area debuff, spell</td>
+<td>burn damage 10-12, rounds 10, mana 2</td>
+<td>burn damage 181-202, rounds 48, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/blaze.webp" width="20" />&nbsp;<a href="fire-spells/blaze/">Blaze</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Enchant" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/enchant.webp" width="24" /> <a href="fire-spells/enchant/">Enchant</a></td>
+<td>18</td>
+<td>buff</td>
+<td>fire damage on your weapon 6-15, rounds 10, mana 2</td>
+<td>fire damage on your weapon 101-243, rounds 105, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/warmth.webp" width="20" />&nbsp;<a href="fire-spells/warmth/">Warmth</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-ball.webp" width="20" />&nbsp;<a href="fire-spells/fire-ball/">Fire Ball</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Meteor" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/meteor.webp" width="24" /> <a href="fire-spells/meteor/">Meteor</a></td>
+<td>24</td>
+<td>explodes, spell</td>
+<td>fire damage 88-110, stun chance 10%, burn damage 25-48, rounds 2, mana 2</td>
+<td>fire damage 563-623, stun chance 10%, burn damage 310-333, rounds 6, mana 40</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-ball.webp" width="20" />&nbsp;<a href="fire-spells/fire-ball/">Fire Ball</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-wall.webp" width="20" />&nbsp;<a href="fire-spells/fire-wall/">Fire Wall</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Fire Mastery" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/fire-mastery.webp" width="24" /> <a href="fire-spells/fire-mastery/">Fire Mastery</a></td>
+<td>30</td>
+<td>passive</td>
+<td>fire damage bonus 30%</td>
+<td>fire damage bonus 163%</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/fire-spells.webp" width="20" />&nbsp;<a href="fire-spells/">Fire Spells</a></span></td>
+<td><img alt="Hydra" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/hydra.webp" width="24" /> <a href="fire-spells/hydra/">Hydra</a></td>
+<td>30</td>
+<td>summon</td>
+<td>fire damage 14-19, rounds 10, mana 2</td>
+<td>fire damage 128-171, rounds 29, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/enchant.webp" width="20" />&nbsp;<a href="fire-spells/enchant/">Enchant</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Charged Bolt" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/charged-bolt.webp" width="24" /> <a href="lightning-spells/charged-bolt/">Charged Bolt</a></td>
+<td>1</td>
+<td>area, spell</td>
+<td>lightning damage 1-12, mana 2</td>
+<td>lightning damage 1-240, mana 21</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Static Field" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/static-field.webp" width="24" /> <a href="lightning-spells/static-field/">Static Field</a></td>
+<td>1</td>
+<td>area debuff, spell</td>
+<td>lightning damage 1-30, stun chance 50%, rounds 3, mana 2</td>
+<td>lightning damage 1-315, stun chance 88%, rounds 3, mana 21</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Telekinesis" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/telekinesis.webp" width="24" /> <a href="lightning-spells/telekinesis/">Telekinesis</a></td>
+<td>6</td>
+<td>passive</td>
+<td>mana bonus 4%</td>
+<td>mana bonus 80%</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Nova" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/nova.webp" width="24" /> <a href="lightning-spells/nova/">Nova</a></td>
+<td>12</td>
+<td>area, spell</td>
+<td>lightning damage 1-30, stun chance 2%, mana 2</td>
+<td>lightning damage 1-505, stun chance 40%, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/static-field.webp" width="20" />&nbsp;<a href="lightning-spells/static-field/">Static Field</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Lightning" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/lightning.webp" width="24" /> <a href="lightning-spells/lightning/">Lightning</a></td>
+<td>12</td>
+<td>attack, spell</td>
+<td>lightning damage 1-43, mana 2</td>
+<td>lightning damage 1-423, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/charged-bolt.webp" width="20" />&nbsp;<a href="lightning-spells/charged-bolt/">Charged Bolt</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Chain Lightning" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/chain-lightning.webp" width="24" /> <a href="lightning-spells/chain-lightning/">Chain Lightning</a></td>
+<td>18</td>
+<td>chain, spell</td>
+<td>lightning damage 1-35, targets 5, mana 3</td>
+<td>lightning damage 1-415, targets 24, mana 22</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/lightning.webp" width="20" />&nbsp;<a href="lightning-spells/lightning/">Lightning</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Teleport" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/teleport.webp" width="24" /> <a href="lightning-spells/teleport/">Teleport</a></td>
+<td>18</td>
+<td>passive</td>
+<td>stamina cost reduced by 1</td>
+<td>stamina cost reduced by 10</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/telekinesis.webp" width="20" />&nbsp;<a href="lightning-spells/telekinesis/">Telekinesis</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Thunder Storm" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/thunder-storm.webp" width="24" /> <a href="lightning-spells/thunder-storm/">Thunder Storm</a></td>
+<td>24</td>
+<td>buff, spell</td>
+<td>lightning damage 1-30, stun chance 3%, strike chance 35%, rounds 15, mana 2</td>
+<td>lightning damage 1-505, stun chance 18%, strike chance 92%, rounds 72, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/nova.webp" width="20" />&nbsp;<a href="lightning-spells/nova/">Nova</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/chain-lightning.webp" width="20" />&nbsp;<a href="lightning-spells/chain-lightning/">Chain Lightning</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Energy Shield" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/energy-shield.webp" width="24" /> <a href="lightning-spells/energy-shield/">Energy Shield</a></td>
+<td>24</td>
+<td>buff, spell</td>
+<td>mana shield 20%, rounds 10, mana 5</td>
+<td>mana shield 100%, rounds 48, mana 24</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/chain-lightning.webp" width="20" />&nbsp;<a href="lightning-spells/chain-lightning/">Chain Lightning</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/teleport.webp" width="20" />&nbsp;<a href="lightning-spells/teleport/">Teleport</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/lightning-spells.webp" width="20" />&nbsp;<a href="lightning-spells/">Lightning Spells</a></span></td>
+<td><img alt="Lightning Mastery" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/lightning-mastery.webp" width="24" /> <a href="lightning-spells/lightning-mastery/">Lightning Mastery</a></td>
+<td>30</td>
+<td>passive</td>
+<td>lightning damage bonus 30%</td>
+<td>lightning damage bonus 163%</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Ice Bolt" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/ice-bolt.webp" width="24" /> <a href="cold-spells/ice-bolt/">Ice Bolt</a></td>
+<td>1</td>
+<td>attack, spell</td>
+<td>cold damage 3-6, mana 2</td>
+<td>cold damage 79-120, mana 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Frozen Armor" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/frozen-armor.webp" width="24" /> <a href="cold-spells/frozen-armor/">Frozen Armor</a></td>
+<td>1</td>
+<td>buff, spell</td>
+<td>armor bonus 50%, rounds 20, mana 2</td>
+<td>armor bonus 145%, rounds 115, mana 21</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Frost Nova" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/frost-nova.webp" width="24" /> <a href="cold-spells/frost-nova/">Frost Nova</a></td>
+<td>6</td>
+<td>area, spell</td>
+<td>cold damage 1-2, freeze chance 20%, rounds 2, mana 3</td>
+<td>cold damage 39-59, freeze chance 77%, rounds 2, mana 22</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Ice Blast" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/ice-blast.webp" width="24" /> <a href="cold-spells/ice-blast/">Ice Blast</a></td>
+<td>6</td>
+<td>attack, spell</td>
+<td>cold damage 8-12, freeze chance 20%, rounds 2, mana 3</td>
+<td>cold damage 198-278, freeze chance 96%, rounds 4, mana 22</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/ice-bolt.webp" width="20" />&nbsp;<a href="cold-spells/ice-bolt/">Ice Bolt</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Shiver Armor" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/shiver-armor.webp" width="24" /> <a href="cold-spells/shiver-armor/">Shiver Armor</a></td>
+<td>12</td>
+<td>buff, spell</td>
+<td>armor bonus 15%, cold damage 4-10, freeze chance 5%, strike-back effect rounds 2, rounds 30, mana 2</td>
+<td>armor bonus 129%, cold damage 80-200, freeze chance 9%, strike-back effect rounds 6, rounds 125, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/frozen-armor.webp" width="20" />&nbsp;<a href="cold-spells/frozen-armor/">Frozen Armor</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/ice-blast.webp" width="20" />&nbsp;<a href="cold-spells/ice-blast/">Ice Blast</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Glacial Spike" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/glacial-spike.webp" width="24" /> <a href="cold-spells/glacial-spike/">Glacial Spike</a></td>
+<td>18</td>
+<td>explodes, spell</td>
+<td>cold damage 17-26, freeze chance 20%, rounds 2, mana 3</td>
+<td>cold damage 264-349, freeze chance 96%, rounds 4, mana 22</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/ice-blast.webp" width="20" />&nbsp;<a href="cold-spells/ice-blast/">Ice Blast</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Blizzard" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/blizzard.webp" width="24" /> <a href="cold-spells/blizzard/">Blizzard</a></td>
+<td>24</td>
+<td>area, spell</td>
+<td>cold damage 51-86, freeze chance 20%, rounds 2, mana 3</td>
+<td>cold damage 621-694, freeze chance 96%, rounds 4, mana 22</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/frost-nova.webp" width="20" />&nbsp;<a href="cold-spells/frost-nova/">Frost Nova</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/glacial-spike.webp" width="20" />&nbsp;<a href="cold-spells/glacial-spike/">Glacial Spike</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Chilling Armor" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/chilling-armor.webp" width="24" /> <a href="cold-spells/chilling-armor/">Chilling Armor</a></td>
+<td>24</td>
+<td>buff, spell</td>
+<td>armor bonus 15%, strikes back with Ice Blast, strike chance 25%, rounds 20, mana 2</td>
+<td>armor bonus 129%, strikes back with Ice Blast, strike chance 82%, rounds 115, mana 21</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/shiver-armor.webp" width="20" />&nbsp;<a href="cold-spells/shiver-armor/">Shiver Armor</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Frozen Orb" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/frozen-orb.webp" width="24" /> <a href="cold-spells/frozen-orb/">Frozen Orb</a></td>
+<td>30</td>
+<td>chain, spell</td>
+<td>cold damage 51-86, freeze chance 5%, targets 3, rounds 2, mana 3</td>
+<td>cold damage 621-694, freeze chance 24%, targets 6, rounds 4, mana 22</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill/wizard/blizzard.webp" width="20" />&nbsp;<a href="cold-spells/blizzard/">Blizzard</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../../../assets/icons/skill-tree/cold-spells.webp" width="20" />&nbsp;<a href="cold-spells/">Cold Spells</a></span></td>
+<td><img alt="Cold Mastery" class="gi gi-inline" height="24" loading="lazy" src="../../../../assets/icons/skill/wizard/cold-mastery.webp" width="24" /> <a href="cold-spells/cold-mastery/">Cold Mastery</a></td>
+<td>30</td>
+<td>passive</td>
+<td>cold damage bonus 30%</td>
+<td>cold damage bonus 163%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../hunter/javelin-and-spear-skills/lightning-fury/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lightning Fury">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lightning Fury
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="fire-spells/" class="md-footer__link md-footer__link--next" aria-label="Next: Fire Spells">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Fire Spells
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": ["^latest$", "^next$"], "provider": "mike"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

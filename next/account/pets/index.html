@@ -1,0 +1,2537 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How the Runebase games work (the Discord bot today, the Runebase World web app later), from what the tests prove">
+      
+      
+      
+        <link rel="canonical" href="https://runebase.github.io/runebase-world-guide/next/account/pets/">
+      
+      
+        <link rel="prev" href="../buildings/">
+      
+      
+        <link rel="next" href="../quests/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Pets - Runebase World Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            <strong>Coming soon:</strong> this is the guide to the bot's next update. Until it's live, some rules and numbers on the bot are still those of v0.172.5.
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're reading the guide to an older version of the bot.
+  <a href="../../.."><strong>The guide to the version live now</strong></a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Runebase World Guide" class="md-header__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Runebase World Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../games/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+    
+  
+  Games
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../items/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+    
+  
+  Items and buffs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+    
+  
+  Your account
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../mmorpg/" class="md-tabs__link">
+        
+  
+  
+    
+      <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+    
+  
+  The MMORPG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Runebase World Guide" class="md-nav__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Runebase World Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../games/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Games
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../items/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and buffs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Your account
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Your account
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realms/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🌍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Realms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ranks/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🥇</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leaderboards/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏅</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Leaderboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏷️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits-and-runes/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/pouch.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits and RUNES
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../super-stakers/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧱</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Super stakers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hodlers/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/hodl.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Hodlers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../buildings/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏗️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Buildings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🐾</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🐾</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-a-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting a pet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caring-for-your-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caring for your pet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#awake-and-asleep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awake and asleep
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#every-minute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every minute
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pet-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pet points
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-pets-favorites-nicknames" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing pets, favorites, nicknames
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-kennel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The kennel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quests/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/quest.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Quests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../store/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏪</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Store
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basket/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧺</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Basket
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gifts/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎁</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../convert-market/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">♻️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Convert Market
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chat-points/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗣️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bumps/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">⛰️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Bumps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../votes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗳️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Votes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎨</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Memes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../invites/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">✉️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Invites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joining-and-leaving/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Joining and leaving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../polls/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🙋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Polls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inspect/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info-menu/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">📚</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Info and the Hall of Honor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mmorpg/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    The MMORPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-a-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting a pet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caring-for-your-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caring for your pet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#awake-and-asleep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awake and asleep
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#every-minute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every minute
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pet-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pet points
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#perks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Perks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-pets-favorites-nicknames" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing pets, favorites, nicknames
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-kennel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The kennel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Your account
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="pets">🐾 Pets<a class="headerlink" href="#pets" title="Permanent link">&para;</a></h1>
+<p>Pets come from pet tokens. Your active pet helps you in fishing, hunting, expeditions, heists and Crown of Chaos while it's awake and well cared for, and it earns pet points for the pet leaderboards. It needs food, washing, play and sometimes a cure, and its stats change every minute, also while you're away.</p>
+<p><strong>Where:</strong> <code>/start</code> → <strong>Activities</strong> → <strong>Pet</strong>.</p>
+<h2 id="getting-a-pet">Getting a pet<a class="headerlink" href="#getting-a-pet" title="Permanent link">&para;</a></h2>
+<p>Consume a pet token from the pet menu. Each <strong>Consume</strong> spends exactly one token and gives at most one pet: the token has a chance to find a pet of its rarity, picked from that rarity's pets. If it finds a pet you already have, the token is used up and you get nothing. Your first pet becomes your active pet. Without a token, nothing happens.</p>
+<table>
+<thead>
+<tr>
+<th>Token</th>
+<th>In the store</th>
+<th>Chance to find a pet</th>
+<th>Pets of this rarity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Common Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/common-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#common-pet-token">Common Pet Token</a></td>
+<td>5 credits</td>
+<td>65%</td>
+<td>Chicken, Cat, Dog, Rabbit, Duck, Pigeon</td>
+</tr>
+<tr>
+<td><img alt="Uncommon Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/uncommon-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#uncommon-pet-token">Uncommon Pet Token</a></td>
+<td>not sold</td>
+<td>50%</td>
+<td>Turtle, Hamster, Goldfish, Goat, Frog</td>
+</tr>
+<tr>
+<td><img alt="Rare Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rare-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#rare-pet-token">Rare Pet Token</a></td>
+<td>not sold</td>
+<td>40%</td>
+<td>Fox, Parrot, Squirrel, Raccoon, Hedgehog, Otter, Owl, Ferret</td>
+</tr>
+<tr>
+<td><img alt="Epic Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/epic-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#epic-pet-token">Epic Pet Token</a></td>
+<td>not sold</td>
+<td>30%</td>
+<td>Lizard, Wolf, Eagle</td>
+</tr>
+<tr>
+<td><img alt="Legendary Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/legendary-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#legendary-pet-token">Legendary Pet Token</a></td>
+<td>not sold</td>
+<td>20%</td>
+<td>Panther, Snow Leopard, Koi, Komodo Dragon</td>
+</tr>
+<tr>
+<td><img alt="Mythical Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mythical-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#mythical-pet-token">Mythical Pet Token</a></td>
+<td>not sold</td>
+<td>10%</td>
+<td>Phoenix Chick, Ghost Cat, Thunderbird, Dragon, Cerberus, Griffin, Basilisk, Fenrir, Unicorn, Kraken Hatchling, Shadow Hound, Dire Bear, Lunar Moth, Void Serpent, Astral Hare, Celestial Jellyfish</td>
+</tr>
+</tbody>
+</table>
+<p>Tokens also drop from many activities (fishing, hunting, expeditions, heists, chat, bumps, votes, dice, Loot Reels…): see each game's prize table.</p>
+<h2 id="caring-for-your-pet">Caring for your pet<a class="headerlink" href="#caring-for-your-pet" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Costs</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feed</td>
+<td>one Pet Food of the pet's rarity</td>
+<td></td>
+</tr>
+<tr>
+<td>Wash</td>
+<td>one Pet Wash Kit of the pet's rarity</td>
+<td></td>
+</tr>
+<tr>
+<td>Cure</td>
+<td>one Pet Cure of the pet's rarity</td>
+<td></td>
+</tr>
+<tr>
+<td>Play</td>
+<td>nothing</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Each action moves the pet's stats (hunger, energy, happiness, hygiene, sickness) by that pet's own table, and gives <strong>the pet 1 experience</strong>, unless the action hits a bad condition (playing with a dirty pet, for example): then no experience. Pet items are sold in the pet menu and the store:</p>
+<table>
+<thead>
+<tr>
+<th>Rarity</th>
+<th>Pet Food</th>
+<th>Pet Cure</th>
+<th>Pet Wash Kit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common</td>
+<td>1 credit</td>
+<td>10 credits</td>
+<td>5 credits</td>
+</tr>
+<tr>
+<td>Uncommon</td>
+<td>1.5 credits</td>
+<td>15 credits</td>
+<td>6 credits</td>
+</tr>
+<tr>
+<td>Rare</td>
+<td>2 credits</td>
+<td>20 credits</td>
+<td>7 credits</td>
+</tr>
+<tr>
+<td>Epic</td>
+<td>2.5 credits</td>
+<td>25 credits</td>
+<td>8 credits</td>
+</tr>
+<tr>
+<td>Legendary</td>
+<td>3 credits</td>
+<td>30 credits</td>
+<td>9 credits</td>
+</tr>
+<tr>
+<td>Mythical</td>
+<td>3.5 credits</td>
+<td>35 credits</td>
+<td>10 credits</td>
+</tr>
+</tbody>
+</table>
+<h2 id="awake-and-asleep">Awake and asleep<a class="headerlink" href="#awake-and-asleep" title="Permanent link">&para;</a></h2>
+<p>Each pet is a <strong>day</strong> pet or a <strong>night</strong> pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.</p>
+<h2 id="every-minute">Every minute<a class="headerlink" href="#every-minute" title="Permanent link">&para;</a></h2>
+<p>While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100.</p>
+<p>A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it or use the light switch, and it carries on from the stats it had.</p>
+<h2 id="pet-points">Pet points<a class="headerlink" href="#pet-points" title="Permanent link">&para;</a></h2>
+<p>Your active pet earns <strong>pet points every minute</strong>, awake or asleep, from its stats after the minute's change: the better fed (low hunger), happier, cleaner and healthier it is, the more (energy counts a little). A rarer pet earns more for the same stats: ×1.05 Uncommon, ×1.1 Rare, ×1.15 Epic, ×1.2 Legendary, ×1.25 Mythical. A pet in a bad state earns nothing. The pet menu shows it as <strong>Score per Minute</strong>.</p>
+<ul>
+<li>Only the minute earns points: feeding, washing, curing and playing give your pet experience, not points; a pet resting in the <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Pet Kennel</a></span> earns nothing; activities, heists and the Crown give no pet points.</li>
+<li>The points wait, and go onto the <strong>All-Time Pet Points</strong> and <strong>Monthly Pet Points</strong> <span class="gi-m">🏅&nbsp;<a href="../leaderboards/">leaderboards</a></span> every 15 minutes, also when your pet has fallen into a bad state since (before the update, points earned before a pet fell ill could stay waiting and be lost). Changing pets or putting your pet in the kennel puts its waiting points on the boards first, for that pet. Two clicks at once never count them twice, and a restart of the bot keeps them waiting.</li>
+<li>The monthly board counts the last 30 days: each batch of points leaves it (and your pet's monthly score) about 30 days later; the all-time board keeps them. The top 10 of each board hold its <a href="../roles/#top-roles">role</a>.</li>
+</ul>
+<h2 id="perks">Perks<a class="headerlink" href="#perks" title="Permanent link">&para;</a></h2>
+<p>Every pet has perks for the activities. <strong>A perk works only while the pet is awake and its stats meet the perk's conditions.</strong> Only your active pet counts: a pet in the kennel or among your favorites adds nothing. Every perk below is checked in play at exactly its number, on its game's screen and in the game itself, awake and asleep. A fishing, hunting or expedition trip uses the pet that is active and awake <strong>when the trip ends</strong>: change pets during a trip and the new pet's perks count; put it to sleep and none do. A fishing or hunting perk adds its points to the chance of one fish or animal, and only helps if your rod or rifle catches it. An expedition perk adds its points to one expedition's scrap. A Crown of Chaos perk helps either your attacks on the Crown ("attacking the Crown") or you while you hold the Crown ("holding the Crown"): a Dog's extra 1-2 damage counts on every attack while it's awake, and stops when you turn its lights off.</p>
+<table>
+<thead>
+<tr>
+<th>Perk</th>
+<th>Works while the pet has</th>
+<th>Pets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="gi-m">🏹&nbsp;<a href="../../games/hunting/#pets">Hunting</a></span></td>
+<td>happiness above 20, energy above 10, sickness below 75</td>
+<td>every pet</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/fishin.webp" width="20" />&nbsp;<a href="../../games/fishing/#pets">Fishing</a></span></td>
+<td>happiness above 20, energy above 10, sickness below 75</td>
+<td>every pet not named below</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/fishin.webp" width="20" />&nbsp;<a href="../../games/fishing/#pets">Fishing</a></span></td>
+<td>happiness above 15, energy above 10, sickness below 75</td>
+<td>Eagle, Snow Leopard, Thunderbird, Dragon, Unicorn, Void Serpent, Celestial Jellyfish</td>
+</tr>
+<tr>
+<td><span class="gi-m">🧭&nbsp;<a href="../../games/expeditions/#pets">Expeditions</a></span></td>
+<td>happiness above 15, energy above 10, sickness below 80</td>
+<td>every pet</td>
+</tr>
+<tr>
+<td><a href="../../games/heists-and-clans/attacks-and-defence/#pets-buildings-clans">Heist</a></td>
+<td>happiness above 20, hunger below 80, sickness at most 65, hygiene above 10, energy at least 5</td>
+<td>every pet</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/crown-of-chaos.webp" width="20" />&nbsp;<a href="../../games/crown-of-chaos/attacking/#runes-and-damage">Crown of Chaos</a></span></td>
+<td>happiness above 20, hunger below 80, sickness at most 65, hygiene above 10, energy at least 5</td>
+<td>every pet</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Pet</th>
+<th>Rarity</th>
+<th>Awake</th>
+<th><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/fishin.webp" width="20" />&nbsp;<a href="../../games/fishing/#pets">Fishing</a></span></th>
+<th><span class="gi-m">🏹&nbsp;<a href="../../games/hunting/#pets">Hunting</a></span></th>
+<th><span class="gi-m">🧭&nbsp;<a href="../../games/expeditions/#pets">Expeditions</a></span></th>
+<th><a href="../../games/heists-and-clans/attacks-and-defence/#pets-buildings-clans">Heist</a></th>
+<th><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/crown-of-chaos.webp" width="20" />&nbsp;<a href="../../games/crown-of-chaos/attacking/#runes-and-damage">Crown of Chaos</a></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Chicken" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/chicken.webp" width="24" /> Chicken</td>
+<td>Common</td>
+<td>by day (lights on)</td>
+<td>Anchovy +1%</td>
+<td>Squirrel +1%</td>
+<td>Metal Scrap +0.55% (Deep Excavation)</td>
+<td>Deflection Chance +0.6% (defending)</td>
+<td>Reduce Attack Cooldown -1s (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Cat" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/cat.webp" width="24" /> Cat</td>
+<td>Common</td>
+<td>at night (lights off)</td>
+<td>Mackerel +1.1%</td>
+<td>Rabbit +0.8%</td>
+<td>Leather Scrap +0.6% (Nature Expedition)</td>
+<td>Counter-Attack Chance +0.6% (defending)</td>
+<td>Increased Dodge Chance +2% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Dog" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/dog.webp" width="24" /> Dog</td>
+<td>Common</td>
+<td>by day (lights on)</td>
+<td>Sardines +1%</td>
+<td>Coyote +1%</td>
+<td>Wood Scrap +0.65% (Woodland Logging)</td>
+<td>Recovery Chance +0.6% (attacking)</td>
+<td>Extra damage range +1-2 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Rabbit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/rabbit.webp" width="24" /> Rabbit</td>
+<td>Common</td>
+<td>by day (lights on)</td>
+<td>Cod +0.75%</td>
+<td>Wild Turkey +0.75%</td>
+<td>Wood Scrap +0.6% (Woodland Logging)</td>
+<td>Gain Assault Fortification Chance +0.6% (attacking)</td>
+<td>Increase Health Regen +2 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Duck" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/duck.webp" width="24" /> Duck</td>
+<td>Common</td>
+<td>by day (lights on)</td>
+<td>Tuna +0.75%</td>
+<td>Pheasant +0.75%</td>
+<td>Leather Scrap +0.6% (Nature Expedition)</td>
+<td>Block Chance +0.6% (defending)</td>
+<td>Increase Max Health +30 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Pigeon" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/pigeon.webp" width="24" /> Pigeon</td>
+<td>Common</td>
+<td>by day (lights on)</td>
+<td>Tilapia +0.77%</td>
+<td>White-tailed Deer +0.77%</td>
+<td>Metal Scrap +0.5% (Deep Excavation)</td>
+<td>Gain Retribution Fury Chance +0.6% (attacking)</td>
+<td>Increase Health Bonus % +7.5% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Turtle" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/turtle.webp" width="24" /> Turtle</td>
+<td>Uncommon</td>
+<td>by day (lights on)</td>
+<td>Eel +0.7%</td>
+<td>Wild Turkey +0.85%</td>
+<td>Wood Scrap +0.7% (Woodland Logging)</td>
+<td>Block Chance +0.75% (defending)</td>
+<td>Increase Max Health +50 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Hamster" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/hamster.webp" width="24" /> Hamster</td>
+<td>Uncommon</td>
+<td>by day (lights on)</td>
+<td>Sardines +1.05%</td>
+<td>Rabbit +0.95%</td>
+<td>Leather Scrap +0.65% (Nature Expedition)</td>
+<td>Recovery Chance +0.75% (attacking)</td>
+<td>Extra damage range +2-3 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Goldfish" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/goldfish.webp" width="24" /> Goldfish</td>
+<td>Uncommon</td>
+<td>by day (lights on)</td>
+<td>Cod +0.85%; Mackerel +1.1%</td>
+<td>–</td>
+<td>Metal Scrap +0.75% (Deep Excavation)</td>
+<td>Gain Assault Fortification Chance +0.75% (attacking)</td>
+<td>Increase Health Regen +3 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Goat" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/goat.webp" width="24" /> Goat</td>
+<td>Uncommon</td>
+<td>by day (lights on)</td>
+<td>Anchovy +1.1%</td>
+<td>Wild Boar +0.85%</td>
+<td>Leather Scrap +0.7% (Nature Expedition)</td>
+<td>Deflection Chance +0.75% (defending)</td>
+<td>Reduce Damage Taken -6 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Frog" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/frog.webp" width="24" /> Frog</td>
+<td>Uncommon</td>
+<td>at night (lights off)</td>
+<td>Sardines +1%</td>
+<td>Squirrel +1%</td>
+<td>Wood Scrap +0.65% (Woodland Logging)</td>
+<td>Counter-Attack Chance +0.75% (defending)</td>
+<td>Increase Inflict Cooldown +3s (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Fox" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/fox.webp" width="24" /> Fox</td>
+<td>Rare</td>
+<td>at night (lights off)</td>
+<td>Mackerel +1.2%</td>
+<td>Rabbit +1.2%</td>
+<td>Metal Scrap +0.9% (Deep Excavation)</td>
+<td>Deflection Chance +0.9% (defending)</td>
+<td>Extra damage range +3-4 (attacking the Crown); Increase Health Regen +2 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Parrot" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/parrot.webp" width="24" /> Parrot</td>
+<td>Rare</td>
+<td>by day (lights on)</td>
+<td>Cod +1%</td>
+<td>Coyote +1.2%</td>
+<td>Wood Scrap +0.8% (Woodland Logging)</td>
+<td>Gain Retribution Fury Chance +0.9% (attacking)</td>
+<td>Reduce Attack Cooldown -2s (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Squirrel" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/squirrel.webp" width="24" /> Squirrel</td>
+<td>Rare</td>
+<td>by day (lights on)</td>
+<td>Eel +0.8%</td>
+<td>Elk +1%</td>
+<td>Leather Scrap +0.95% (Nature Expedition)</td>
+<td>Counter-Attack Chance +0.9% (defending)</td>
+<td>Increased Dodge Chance +3% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Raccoon" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/raccoon.webp" width="24" /> Raccoon</td>
+<td>Rare</td>
+<td>at night (lights off)</td>
+<td>Sardines +1.1%</td>
+<td>Wild Boar +1%</td>
+<td>Wood Scrap +0.85% (Woodland Logging)</td>
+<td>Recovery Chance +0.9% (attacking)</td>
+<td>Increase Health Regen +4 (holding the Crown); Reduce Damage Taken -4 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Hedgehog" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/hedgehog.webp" width="24" /> Hedgehog</td>
+<td>Rare</td>
+<td>at night (lights off)</td>
+<td>Trout +0.8%</td>
+<td>Wild Turkey +1%</td>
+<td>Metal Scrap +0.85% (Deep Excavation)</td>
+<td>Block Chance +0.9% (defending)</td>
+<td>Increase Max Health +30 (holding the Crown); Reduce Damage Taken -5 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Otter" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/otter.webp" width="24" /> Otter</td>
+<td>Rare</td>
+<td>by day (lights on)</td>
+<td>Tilapia +1%</td>
+<td>Pheasant +1%</td>
+<td>Leather Scrap +0.75% (Nature Expedition)</td>
+<td>Gain Assault Fortification Chance +0.9% (attacking)</td>
+<td>Extra damage range +3-4 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Owl" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/owl.webp" width="24" /> Owl</td>
+<td>Rare</td>
+<td>at night (lights off)</td>
+<td>Tuna +1%</td>
+<td>White-tailed Deer +1%</td>
+<td>Metal Scrap +0.85% (Deep Excavation)</td>
+<td>Deflection Chance +0.45% (defending); Recovery Chance +0.45% (attacking)</td>
+<td>Reduce Attack Cooldown -2s (attacking the Crown); Increase Inflict Cooldown +2s (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Ferret" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/ferret.webp" width="24" /> Ferret</td>
+<td>Rare</td>
+<td>by day (lights on)</td>
+<td>Cod +1%</td>
+<td>Rabbit +1.2%</td>
+<td>Wood Scrap +0.9% (Woodland Logging)</td>
+<td>Counter-Attack Chance +0.45% (defending); Gain Retribution Fury Chance +0.45% (attacking)</td>
+<td>Increase Health Bonus % +18% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Lizard" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/lizard.webp" width="24" /> Lizard</td>
+<td>Epic</td>
+<td>by day (lights on)</td>
+<td>Cod +1.2%</td>
+<td>Squirrel +1.35%</td>
+<td>Leather Scrap +1% (Nature Expedition)</td>
+<td>Counter-Attack Chance +1% (defending)</td>
+<td>Reduce Attack Cooldown -3s (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Wolf" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/wolf.webp" width="24" /> Wolf</td>
+<td>Epic</td>
+<td>at night (lights off)</td>
+<td>Trout +1%</td>
+<td>Coyote +1.35%</td>
+<td>Wood Scrap +1% (Woodland Logging)</td>
+<td>Recovery Chance +1% (attacking)</td>
+<td>Extra damage range +3-5 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Eagle" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/eagle.webp" width="24" /> Eagle</td>
+<td>Epic</td>
+<td>by day (lights on)</td>
+<td>Swordfish +1%</td>
+<td>Wild Turkey +1.2%</td>
+<td>Metal Scrap +1.05% (Deep Excavation)</td>
+<td>Deflection Chance +1% (defending)</td>
+<td>Increased Dodge Chance +4% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Panther" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/panther.webp" width="24" /> Panther</td>
+<td>Legendary</td>
+<td>at night (lights off)</td>
+<td>Eel +1.11%</td>
+<td>Wild Boar +1.11%</td>
+<td>Leather Scrap +1.02% (Nature Expedition)</td>
+<td>Block Chance +1.1% (defending)</td>
+<td>Extra damage range +4-6 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Snow Leopard" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/snow-leopard.webp" width="24" /> Snow Leopard</td>
+<td>Legendary</td>
+<td>at night (lights off)</td>
+<td>Swordfish +1.12%</td>
+<td>Moose +1.12%</td>
+<td>Metal Scrap +1% (Deep Excavation)</td>
+<td>Deflection Chance +1.1% (defending)</td>
+<td>Increased Dodge Chance +5% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Koi" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/koi.webp" width="24" /> Koi</td>
+<td>Legendary</td>
+<td>by day (lights on)</td>
+<td>Tuna +1.3%</td>
+<td>Wild Turkey +1.3%</td>
+<td>Wood Scrap +1.03% (Woodland Logging)</td>
+<td>Recovery Chance +1.1% (attacking)</td>
+<td>Increase Health Regen +5 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Komodo Dragon" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/komodo-dragon.webp" width="24" /> Komodo Dragon</td>
+<td>Legendary</td>
+<td>by day (lights on)</td>
+<td>Trout +1.15%</td>
+<td>Coyote +1.38%</td>
+<td>Leather Scrap +1.04% (Nature Expedition)</td>
+<td>Gain Retribution Fury Chance +1.1% (attacking)</td>
+<td>Increase Max Health +85 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Phoenix Chick" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/phoenix-chick.webp" width="24" /> Phoenix Chick</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Eel +1.15%</td>
+<td>Elk +1.15%</td>
+<td>Metal Scrap +1.05% (Deep Excavation)</td>
+<td>Increased Experience Gain +1 (attacking)</td>
+<td>Increase Health Regen +8 (holding the Crown); Increase Resurgence Regen +1.25% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Ghost Cat" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/ghost-cat.webp" width="24" /> Ghost Cat</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Trout +1.15%</td>
+<td>Rabbit +1.5%</td>
+<td>Wood Scrap +1.1% (Woodland Logging)</td>
+<td>Lessen Exp Loss -1 (defending)</td>
+<td>Reduce Attack Cooldown -3s (attacking the Crown); Extra damage range +3-5 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Thunderbird" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/thunderbird.webp" width="24" /> Thunderbird</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Swordfish +1.15%</td>
+<td>Wild Boar +1.15%</td>
+<td>Metal Scrap +1.1% (Deep Excavation)</td>
+<td>Increased Opponent Experience Loss +1 (attacking)</td>
+<td>Increase Max Health +100 (holding the Crown); Increased Dodge Chance +1.35% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Dragon" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/dragon.webp" width="24" /> Dragon</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Swordfish +1.15%</td>
+<td>Wild Boar +1.15%</td>
+<td>Leather Scrap +1.1% (Nature Expedition)</td>
+<td>Deflection Chance +0.5% (defending); Counter-Attack Chance +0.75% (defending)</td>
+<td>Increase Health Bonus % +35% (holding the Crown); Reduce Damage Taken -7 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Cerberus" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/cerberus.webp" width="24" /> Cerberus</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Tuna +1.35%</td>
+<td>Wild Boar +1.15%</td>
+<td>Wood Scrap +1.12% (Woodland Logging)</td>
+<td>Recovery Chance +0.5% (attacking); Gain Assault Fortification Chance +0.73% (attacking)</td>
+<td>Extra damage range +5-7 (attacking the Crown); Increase Max Health +30 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Griffin" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/griffin.webp" width="24" /> Griffin</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Tilapia +1.35%</td>
+<td>Moose +1.15%</td>
+<td>Metal Scrap +1.14% (Deep Excavation)</td>
+<td>Block Chance +1.15% (defending)</td>
+<td>Increased Dodge Chance +6% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Basilisk" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/basilisk.webp" width="24" /> Basilisk</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Cod +1.35%</td>
+<td>Squirrel +1.5%</td>
+<td>Leather Scrap +1.1% (Nature Expedition)</td>
+<td>Counter-Attack Chance +1.15% (defending)</td>
+<td>Reduce Attack Cooldown -6s (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Fenrir" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/fenrir.webp" width="24" /> Fenrir</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Eel +1.15%</td>
+<td>White-tailed Deer +1.35%</td>
+<td>Wood Scrap +1.12% (Woodland Logging)</td>
+<td>Gain Retribution Fury Chance +1.15% (attacking)</td>
+<td>Increase Max Health +65 (holding the Crown); Increase Health Regen +4 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Unicorn" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/unicorn.webp" width="24" /> Unicorn</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Swordfish +1.15%</td>
+<td>Wild Turkey +1.35%</td>
+<td>Leather Scrap +1.15% (Nature Expedition)</td>
+<td>Deflection Chance +1.15% (defending)</td>
+<td>Increase Health Bonus % +30% (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Kraken Hatchling" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/kraken-hatchling.webp" width="24" /> Kraken Hatchling</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Cod +1.35%</td>
+<td>Wild Boar +1.15%</td>
+<td>Metal Scrap +1.1% (Deep Excavation)</td>
+<td>Recovery Chance +1.15% (attacking)</td>
+<td>Increase Health Regen +3 (holding the Crown); Extra damage range +3-4 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Shadow Hound" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/shadow-hound.webp" width="24" /> Shadow Hound</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Mackerel +1.5%</td>
+<td>Wild Turkey +1.35%</td>
+<td>Leather Scrap +1.05% (Nature Expedition)</td>
+<td>Deflection Chance +0.6% (defending); Recovery Chance +0.6% (attacking)</td>
+<td>Reduce Health Regen Interval -1 (holding the Crown); Extra damage range +2-3 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Dire Bear" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/dire-bear.webp" width="24" /> Dire Bear</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Tilapia +1.35%</td>
+<td>Moose +1.15%</td>
+<td>Wood Scrap +1.1% (Woodland Logging)</td>
+<td>Block Chance +1.15% (defending)</td>
+<td>Increase Max Health +200 (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Lunar Moth" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/lunar-moth.webp" width="24" /> Lunar Moth</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Sardines +1.5%</td>
+<td>Squirrel +1.5%</td>
+<td>Leather Scrap +1.14% (Nature Expedition)</td>
+<td>Deflection Chance +0.6% (defending); Recovery Chance +0.6% (attacking)</td>
+<td>Increased Dodge Chance +4% (holding the Crown); Reduce Attack Cooldown -2s (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Void Serpent" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/void-serpent.webp" width="24" /> Void Serpent</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Swordfish +1.15%</td>
+<td>Coyote +1.5%</td>
+<td>Metal Scrap +1.1% (Deep Excavation)</td>
+<td>Gain Assault Fortification Chance +1.15% (attacking)</td>
+<td>Extra damage range +6-9 (attacking the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Astral Hare" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/astral-hare.webp" width="24" /> Astral Hare</td>
+<td>Mythical</td>
+<td>at night (lights off)</td>
+<td>Cod +1.35%</td>
+<td>Rabbit +1.5%</td>
+<td>Leather Scrap +1.1% (Nature Expedition)</td>
+<td>Gain Retribution Fury Chance +1.15% (attacking)</td>
+<td>Increase Inflict Cooldown +5s (holding the Crown)</td>
+</tr>
+<tr>
+<td><img alt="Celestial Jellyfish" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/pet/celestial-jellyfish.webp" width="24" /> Celestial Jellyfish</td>
+<td>Mythical</td>
+<td>by day (lights on)</td>
+<td>Swordfish +1.15%</td>
+<td>Squirrel +1.5%</td>
+<td>Wood Scrap +1.15% (Woodland Logging)</td>
+<td>Recovery Chance +1.1% (attacking)</td>
+<td>Increase Health Regen +4 (holding the Crown); Increase Inflict Cooldown +2s (holding the Crown)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="changing-pets-favorites-nicknames">Changing pets, favorites, nicknames<a class="headerlink" href="#changing-pets-favorites-nicknames" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Change Pet</strong> makes another of your pets the active one. The old pet keeps its stats and the points it earned. The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".</li>
+<li><strong>Favorites:</strong> 5 slots for quick switching from a menu. A sixth is refused.</li>
+<li><strong>Nickname:</strong> 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed.</li>
+</ul>
+<h2 id="the-kennel">The kennel<a class="headerlink" href="#the-kennel" title="Permanent link">&para;</a></h2>
+<p>The <strong><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Pet Kennel</a></span></strong> building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;<a href="../buildings/">Buildings</a></span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.</p>
+<h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Check whether your pet is a day or a night pet: its perks only work while it's awake.</li>
+<li>Match your pet to your gear: a fishing perk for a fish your rod doesn't catch does nothing.</li>
+<li>Keep the stats up (happiness, energy, low sickness): below a perk's conditions it stops working.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../buildings/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Buildings">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Buildings
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../quests/" class="md-footer__link md-footer__link--next" aria-label="Next: Quests">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quests
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": ["^latest$", "^next$"], "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

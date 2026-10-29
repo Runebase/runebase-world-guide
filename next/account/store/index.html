@@ -1,0 +1,2251 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How the Runebase games work (the Discord bot today, the Runebase World web app later), from what the tests prove">
+      
+      
+      
+        <link rel="canonical" href="https://runebase.github.io/runebase-world-guide/next/account/store/">
+      
+      
+        <link rel="prev" href="../quests/">
+      
+      
+        <link rel="next" href="../basket/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Store - Runebase World Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-store" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            <strong>Coming soon:</strong> this is the guide to the bot's next update. Until it's live, some rules and numbers on the bot are still those of v0.172.5.
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're reading the guide to an older version of the bot.
+  <a href="../../.."><strong>The guide to the version live now</strong></a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Runebase World Guide" class="md-header__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Runebase World Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Store
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../games/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+    
+  
+  Games
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../items/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+    
+  
+  Items and buffs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+    
+  
+  Your account
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../mmorpg/" class="md-tabs__link">
+        
+  
+  
+    
+      <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+    
+  
+  The MMORPG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Runebase World Guide" class="md-nav__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Runebase World Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../games/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Games
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../items/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and buffs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Your account
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Your account
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realms/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🌍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Realms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ranks/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🥇</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leaderboards/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏅</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Leaderboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏷️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits-and-runes/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/pouch.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits and RUNES
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../super-stakers/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧱</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Super stakers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hodlers/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/hodl.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Hodlers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../buildings/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏗️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Buildings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pets/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🐾</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quests/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/quest.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Quests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏪</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Store
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏪</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Store
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basket/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧺</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Basket
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gifts/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎁</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../convert-market/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">♻️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Convert Market
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chat-points/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗣️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bumps/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">⛰️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Bumps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../votes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗳️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Votes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎨</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Memes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../invites/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">✉️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Invites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joining-and-leaving/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Joining and leaving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../polls/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🙋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Polls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inspect/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info-menu/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">📚</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Info and the Hall of Honor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mmorpg/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    The MMORPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Your account
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="the-store">🏪 The store<a class="headerlink" href="#the-store" title="Permanent link">&para;</a></h1>
+<p>The store sells you items for credits and buys them back. How credits get in and out of the game is in <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/pouch.webp" width="20" />&nbsp;<a href="../credits-and-runes/">Credits and RUNES</a></span>.</p>
+<p><strong>Where:</strong> <code>/store</code>. Pick a category and an item, then <strong>Buy</strong> or <strong>Sell</strong> and type how many. Some other menus open the store on an item (the <span class="gi-m">🤺&nbsp;<a href="../../games/crown-of-chaos/attacking/">Crown of Chaos</a></span> menu's <strong>Buy <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/chaos-relic.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/cards-and-relics/#chaos-relic">Chaos Relic</a></span></strong>), and the store's delivery announcements have <strong>Buy …</strong> buttons for what just arrived.</p>
+<p><strong>What the screen shows:</strong> your credits, how many of the item you have, the price to <strong>Buy</strong> one and what <strong>Sell</strong> pays for one (with its percent), the store's own balance and the Crown of Chaos pool.</p>
+<ul>
+<li><strong>The price on the screen is what you pay</strong>, to the last fraction of a credit: one costs exactly the price shown, several of a fixed-price item exactly the price × the amount (crafting materials: below), and you get exactly the amount. On top of that the game adds <strong>5% of what you pay to the Crown of Chaos pool</strong>; you don't pay it.</li>
+<li><strong>Selling pays exactly the amount the screen shows</strong> × how many you sell, and takes exactly that many. Most items sell back for 75% of their price (the <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/forgotten-throne-elixir.webp" width="20" />&nbsp;<a href="../../items/consumables/store-consumables/#forgotten-throne-elixir">Forgotten Throne Elixir</a></span> for 2.5%). The <strong><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/trade-post.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Trade Post</a></span></strong> building adds 0.15% of the price per level (75% becomes 90% at level 100; the elixir's 2.5% becomes 17.5%), and the screen shows it.</li>
+<li><strong>The store pays from its own balance</strong>, which grows with every purchase in your server. When it doesn't have enough for your sale, the sale is refused and you keep your items. The <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/party-store.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Party Store</a></span> building gives no store discount.</li>
+<li><strong>Every purchase and sale is one line</strong> in your credits history, and one in the store's <strong>Purchase History</strong> button: newest first, 25 a page, with how many, the total and the price of one.</li>
+<li><strong>When the store says no, the store screen says why</strong> (as public or private as it is), and nothing changes: an amount that isn't a whole number above 0 written plainly (<code>5</code>; <code>1e3</code>, <code>0x10</code>, <code>+5</code> and <code>1,000</code> aren't amounts), more than your wallet holds, selling more than you have, more than the store has in stock, a full pouch.</li>
+<li><strong>At the same moment:</strong> a double click, two devices, or two players after the last one never pay twice, sell twice or get more than the store has: one goes through, the other is told why. A buy or sell box you closed never takes over your next purchase.</li>
+<li><strong>Scrap:</strong> every day (from 00:00 UTC) your first 5 scrap cost a quarter of the price (25 credits instead of 100), wood, leather and metal together; after that, full price. The screen shows the price of your next one. The store never sells more scrap than it has, and your pouch must have room (100 of each kind per pouch level). The store gets 5 scrap every hour. Scrap can't be sold back.</li>
+<li><strong>Crafting materials</strong> (for Hack &amp; Slash) have no fixed price: the fewer the store has, the dearer they are (the table below). Each one you buy costs the price at the stock left, so buying several costs more than the shown price × the amount, and the next price goes up; selling raises the stock and lowers the price. The screen always shows the next one's price. Selling back what you just bought pays exactly 75% of what you paid (never more). At most 10,000 in one purchase or sale, and the store doesn't buy a material it already has more than 1,000,000 of. The store gets 3 random materials every 3 hours, and from players' sales.</li>
+<li><strong>The price can move while you look:</strong> if another player buys a crafting material first, yours costs the price at the stock left after theirs. The message after your purchase always says what you paid.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discounted scrap a day</td>
+<td>5</td>
+</tr>
+<tr>
+<td>A discounted scrap costs</td>
+<td>25% of the price (75% off)</td>
+</tr>
+<tr>
+<td>Added to the Crown of Chaos pool on every purchase</td>
+<td>5% of what you pay</td>
+</tr>
+<tr>
+<td>Scrap delivered to the store</td>
+<td>5 every hour</td>
+</tr>
+<tr>
+<td>Crafting materials delivered to the store</td>
+<td>3 every 3 hours</td>
+</tr>
+<tr>
+<td>Most crafting materials in one purchase or sale</td>
+<td>10,000</td>
+</tr>
+<tr>
+<td>The store stops buying a crafting material it has more than</td>
+<td>1,000,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Crafting materials:</strong> the price of one, in credits, by how many the store has (a sale pays 75% of the price at one more):</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Base cost</th>
+<th>Stock 1</th>
+<th>Stock 2</th>
+<th>Stock 5</th>
+<th>Stock 20</th>
+<th>Stock 100</th>
+<th>Stock 1,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Standard Essence" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/standard-essence.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#standard-essence">Standard Essence</a></td>
+<td>1.5 credits</td>
+<td>30.74</td>
+<td>15.74</td>
+<td>6.72</td>
+<td>2.16</td>
+<td>0.84</td>
+<td>0.38</td>
+</tr>
+<tr>
+<td><img alt="Elemental Core" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/elemental-core.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#elemental-core">Elemental Core</a></td>
+<td>4.5 credits</td>
+<td>92.23</td>
+<td>47.21</td>
+<td>20.17</td>
+<td>6.49</td>
+<td>2.51</td>
+<td>1.14</td>
+</tr>
+<tr>
+<td><img alt="Primal Source" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/primal-source.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#primal-source">Primal Source</a></td>
+<td>13.5 credits</td>
+<td>276.7</td>
+<td>141.64</td>
+<td>60.5</td>
+<td>19.48</td>
+<td>7.53</td>
+<td>3.43</td>
+</tr>
+<tr>
+<td><img alt="Basic Residue" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/basic-residue.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#basic-residue">Basic Residue</a></td>
+<td>4.5 credits</td>
+<td>92.23</td>
+<td>47.21</td>
+<td>20.17</td>
+<td>6.49</td>
+<td>2.51</td>
+<td>1.14</td>
+</tr>
+<tr>
+<td><img alt="Enigmatic Nexus" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/enigmatic-nexus.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#enigmatic-nexus">Enigmatic Nexus</a></td>
+<td>13.5 credits</td>
+<td>276.7</td>
+<td>141.64</td>
+<td>60.5</td>
+<td>19.48</td>
+<td>7.53</td>
+<td>3.43</td>
+</tr>
+<tr>
+<td><img alt="Mystical Node" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mystical-node.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#mystical-node">Mystical Node</a></td>
+<td>40.5 credits</td>
+<td>830.09</td>
+<td>424.93</td>
+<td>181.5</td>
+<td>58.43</td>
+<td>22.6</td>
+<td>10.3</td>
+</tr>
+<tr>
+<td><img alt="Elite Essence" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/elite-essence.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#elite-essence">Elite Essence</a></td>
+<td>13.5 credits</td>
+<td>276.7</td>
+<td>141.64</td>
+<td>60.5</td>
+<td>19.48</td>
+<td>7.53</td>
+<td>3.43</td>
+</tr>
+<tr>
+<td><img alt="Radiant Shard" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/radiant-shard.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#radiant-shard">Radiant Shard</a></td>
+<td>40.5 credits</td>
+<td>830.09</td>
+<td>424.93</td>
+<td>181.5</td>
+<td>58.43</td>
+<td>22.6</td>
+<td>10.3</td>
+</tr>
+<tr>
+<td><img alt="Shattered Prism" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/shattered-prism.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#shattered-prism">Shattered Prism</a></td>
+<td>121.5 credits</td>
+<td>2,490.26</td>
+<td>1,274.79</td>
+<td>544.49</td>
+<td>175.29</td>
+<td>67.81</td>
+<td>30.9</td>
+</tr>
+<tr>
+<td><img alt="Engraving Tool" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/engraving-tool.webp" width="24" /> <a href="../../items/materials/hack-and-slash-crafting-materials/#engraving-tool">Engraving Tool</a></td>
+<td>1.5 credits</td>
+<td>30.74</td>
+<td>15.74</td>
+<td>6.72</td>
+<td>2.16</td>
+<td>0.84</td>
+<td>0.38</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Item</th>
+<th>Price</th>
+<th>Sells back for (without a Trade Post)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spices</td>
+<td><img alt="Anchovy Powder" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/anchovy-powder.webp" width="24" /> <a href="../../items/ingredients/spices/#anchovy-powder">Anchovy Powder</a></td>
+<td>1 credit</td>
+<td>0.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Smoked Paprika" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/smoked-paprika.webp" width="24" /> <a href="../../items/ingredients/spices/#smoked-paprika">Smoked Paprika</a></td>
+<td>2 credits</td>
+<td>1.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Sumac" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/sumac.webp" width="24" /> <a href="../../items/ingredients/spices/#sumac">Sumac</a></td>
+<td>3 credits</td>
+<td>2.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Old Bay Seasoning" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/old-bay-seasoning.webp" width="24" /> <a href="../../items/ingredients/spices/#old-bay-seasoning">Old Bay Seasoning</a></td>
+<td>4 credits</td>
+<td>3 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Wasabi" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/wasabi.webp" width="24" /> <a href="../../items/ingredients/spices/#wasabi">Wasabi</a></td>
+<td>8 credits</td>
+<td>6 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Cumin" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/cumin.webp" width="24" /> <a href="../../items/ingredients/spices/#cumin">Cumin</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Sichuan Peppercorns" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/sichuan-peppercorns.webp" width="24" /> <a href="../../items/ingredients/spices/#sichuan-peppercorns">Sichuan Peppercorns</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Dill" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/dill.webp" width="24" /> <a href="../../items/ingredients/spices/#dill">Dill</a></td>
+<td>8 credits</td>
+<td>6 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td><img alt="Rosemary" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rosemary.webp" width="24" /> <a href="../../items/ingredients/spices/#rosemary">Rosemary</a></td>
+<td>10 credits</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Spices</td>
+<td>🍋 <a href="../../items/ingredients/spices/#lemon">Lemon</a></td>
+<td>25 credits</td>
+<td>18.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Sawmill Gravy" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/sawmill-gravy.webp" width="24" /> <a href="../../items/ingredients/sauces/#sawmill-gravy">Sawmill Gravy</a></td>
+<td>1 credit</td>
+<td>0.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Mustard Cream Sauce" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mustard-cream-sauce.webp" width="24" /> <a href="../../items/ingredients/sauces/#mustard-cream-sauce">Mustard Cream Sauce</a></td>
+<td>2 credits</td>
+<td>1.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Lingonberry Sauce" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/lingonberry-sauce.webp" width="24" /> <a href="../../items/ingredients/sauces/#lingonberry-sauce">Lingonberry Sauce</a></td>
+<td>3 credits</td>
+<td>2.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Cranberry Glaze" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/cranberry-glaze.webp" width="24" /> <a href="../../items/ingredients/sauces/#cranberry-glaze">Cranberry Glaze</a></td>
+<td>4 credits</td>
+<td>3 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Blackberry Balsamic Glaze" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/blackberry-balsamic-glaze.webp" width="24" /> <a href="../../items/ingredients/sauces/#blackberry-balsamic-glaze">Blackberry Balsamic Glaze</a></td>
+<td>8 credits</td>
+<td>6 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Juniper Berry Demi-Glace" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/juniper-berry-demi-glace.webp" width="24" /> <a href="../../items/ingredients/sauces/#juniper-berry-demi-glace">Juniper Berry Demi-Glace</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Huckleberry Sauce" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/huckleberry-sauce.webp" width="24" /> <a href="../../items/ingredients/sauces/#huckleberry-sauce">Huckleberry Sauce</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Blueberry Sauce" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/blueberry-sauce.webp" width="24" /> <a href="../../items/ingredients/sauces/#blueberry-sauce">Blueberry Sauce</a></td>
+<td>8 credits</td>
+<td>6 credits (75%)</td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td><img alt="Cherry Sauce" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/cherry-sauce.webp" width="24" /> <a href="../../items/ingredients/sauces/#cherry-sauce">Cherry Sauce</a></td>
+<td>10 credits</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Fishing Beer" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/fishing-beer.webp" width="24" /> <a href="../../items/consumables/store-consumables/#fishing-beer">Fishing Beer</a></td>
+<td>3 credits</td>
+<td>2.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Hunting Weed" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/hunting-weed.webp" width="24" /> <a href="../../items/consumables/store-consumables/#hunting-weed">Hunting Weed</a></td>
+<td>3 credits</td>
+<td>2.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Einherjar's Barrier Draught" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/einherjars-barrier-draught.webp" width="24" /> <a href="../../items/consumables/store-consumables/#einherjars-barrier-draught">Einherjar's Barrier Draught</a></td>
+<td>850 credits</td>
+<td>637.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Skadi's Retribution Brew" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/skadis-retribution-brew.webp" width="24" /> <a href="../../items/consumables/store-consumables/#skadis-retribution-brew">Skadi's Retribution Brew</a></td>
+<td>850 credits</td>
+<td>637.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Frigg's Resurgence Elixir" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/friggs-resurgence-elixir.webp" width="24" /> <a href="../../items/consumables/store-consumables/#friggs-resurgence-elixir">Frigg's Resurgence Elixir</a></td>
+<td>850 credits</td>
+<td>637.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Consumables</td>
+<td><img alt="Forgotten Throne Elixir" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/forgotten-throne-elixir.webp" width="24" /> <a href="../../items/consumables/store-consumables/#forgotten-throne-elixir">Forgotten Throne Elixir</a></td>
+<td>8,000 credits</td>
+<td>200 credits (2.5%)</td>
+</tr>
+<tr>
+<td>Building Supplies</td>
+<td><img alt="Toolbox" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/toolbox.webp" width="24" /> <a href="../../items/materials/building-supplies/#toolbox">Toolbox</a></td>
+<td>1,250 credits</td>
+<td>937.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Building Supplies</td>
+<td><img alt="Nail" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/nail.webp" width="24" /> <a href="../../items/materials/building-supplies/#nail">Nail</a></td>
+<td>2.5 credits</td>
+<td>1.875 credits (75%)</td>
+</tr>
+<tr>
+<td>Building Supplies</td>
+<td><img alt="Rope" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rope.webp" width="24" /> <a href="../../items/materials/building-supplies/#rope">Rope</a></td>
+<td>10 credits</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Playtime Provisions</td>
+<td><img alt="Runes Pattern Card" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/runes-pattern-card.webp" width="24" /> <a href="../../items/keys-and-cards/cards-and-relics/#runes-pattern-card">Runes Pattern Card</a></td>
+<td>50 credits</td>
+<td>37.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Playtime Provisions</td>
+<td><img alt="Chaos Relic" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/chaos-relic.webp" width="24" /> <a href="../../items/keys-and-cards/cards-and-relics/#chaos-relic">Chaos Relic</a></td>
+<td>2 credits</td>
+<td>1.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Common Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/common-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#common-pet-token">Common Pet Token</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Uncommon Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/uncommon-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#uncommon-pet-token">Uncommon Pet Token</a></td>
+<td>not sold</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Rare Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rare-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#rare-pet-token">Rare Pet Token</a></td>
+<td>not sold</td>
+<td>11.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Epic Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/epic-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#epic-pet-token">Epic Pet Token</a></td>
+<td>not sold</td>
+<td>15 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Legendary Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/legendary-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#legendary-pet-token">Legendary Pet Token</a></td>
+<td>not sold</td>
+<td>18.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Mythical Pet Token" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mythical-pet-token.webp" width="24" /> <a href="../../items/pet-items/pet-tokens/#mythical-pet-token">Mythical Pet Token</a></td>
+<td>not sold</td>
+<td>22.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Common Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/common-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#common-pet-food">Common Pet Food</a></td>
+<td>1 credit</td>
+<td>0.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Uncommon Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/uncommon-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#uncommon-pet-food">Uncommon Pet Food</a></td>
+<td>1.5 credits</td>
+<td>1.125 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Rare Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rare-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#rare-pet-food">Rare Pet Food</a></td>
+<td>2 credits</td>
+<td>1.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Epic Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/epic-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#epic-pet-food">Epic Pet Food</a></td>
+<td>2.5 credits</td>
+<td>1.875 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Legendary Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/legendary-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#legendary-pet-food">Legendary Pet Food</a></td>
+<td>3 credits</td>
+<td>2.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Mythical Pet Food" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mythical-pet-food.webp" width="24" /> <a href="../../items/pet-items/pet-food/#mythical-pet-food">Mythical Pet Food</a></td>
+<td>3.5 credits</td>
+<td>2.625 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Common Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/common-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#common-pet-cure">Common Pet Cure</a></td>
+<td>10 credits</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Uncommon Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/uncommon-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#uncommon-pet-cure">Uncommon Pet Cure</a></td>
+<td>15 credits</td>
+<td>11.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Rare Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rare-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#rare-pet-cure">Rare Pet Cure</a></td>
+<td>20 credits</td>
+<td>15 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Epic Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/epic-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#epic-pet-cure">Epic Pet Cure</a></td>
+<td>25 credits</td>
+<td>18.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Legendary Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/legendary-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#legendary-pet-cure">Legendary Pet Cure</a></td>
+<td>30 credits</td>
+<td>22.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Mythical Pet Cure" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mythical-pet-cure.webp" width="24" /> <a href="../../items/pet-items/pet-cures/#mythical-pet-cure">Mythical Pet Cure</a></td>
+<td>35 credits</td>
+<td>26.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Common Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/common-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#common-pet-wash-kit">Common Pet Wash Kit</a></td>
+<td>5 credits</td>
+<td>3.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Uncommon Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/uncommon-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#uncommon-pet-wash-kit">Uncommon Pet Wash Kit</a></td>
+<td>6 credits</td>
+<td>4.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Rare Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/rare-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#rare-pet-wash-kit">Rare Pet Wash Kit</a></td>
+<td>7 credits</td>
+<td>5.25 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Epic Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/epic-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#epic-pet-wash-kit">Epic Pet Wash Kit</a></td>
+<td>8 credits</td>
+<td>6 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Legendary Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/legendary-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#legendary-pet-wash-kit">Legendary Pet Wash Kit</a></td>
+<td>9 credits</td>
+<td>6.75 credits (75%)</td>
+</tr>
+<tr>
+<td>Pet Items</td>
+<td><img alt="Mythical Pet Wash Kit" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/mythical-pet-wash-kit.webp" width="24" /> <a href="../../items/pet-items/pet-wash-kits/#mythical-pet-wash-kit">Mythical Pet Wash Kit</a></td>
+<td>10 credits</td>
+<td>7.5 credits (75%)</td>
+</tr>
+<tr>
+<td>Scrap Resources</td>
+<td><img alt="Wood Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="24" /> <a href="../../items/materials/scrap/#wood-scrap">Wood Scrap</a></td>
+<td>100 credits</td>
+<td>can't be sold</td>
+</tr>
+<tr>
+<td>Scrap Resources</td>
+<td><img alt="Leather Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="24" /> <a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></td>
+<td>100 credits</td>
+<td>can't be sold</td>
+</tr>
+<tr>
+<td>Scrap Resources</td>
+<td><img alt="Metal Scrap" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="24" /> <a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a></td>
+<td>100 credits</td>
+<td>can't be sold</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sell what you don't need: most items sell for 75% of their price, more with a <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/trade-post.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Trade Post</a></span>.</li>
+<li>Buy up to 5 scrap a day: those cost a quarter of the price.</li>
+<li>Crafting materials are cheapest when the store has many: after a delivery, or after other players sold theirs. Buying the last few is expensive.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../quests/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Quests">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Quests
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../basket/" class="md-footer__link md-footer__link--next" aria-label="Next: Basket">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Basket
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": ["^latest$", "^next$"], "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

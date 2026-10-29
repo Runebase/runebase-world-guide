@@ -1,0 +1,2609 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How the Runebase games work (the Discord bot today, the Runebase World web app later), from what the tests prove">
+      
+      
+      
+        <link rel="canonical" href="https://runebase.github.io/runebase-world-guide/next/account/buildings/">
+      
+      
+        <link rel="prev" href="../hodlers/">
+      
+      
+        <link rel="next" href="../pets/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Buildings - Runebase World Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#buildings" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            <strong>Coming soon:</strong> this is the guide to the bot's next update. Until it's live, some rules and numbers on the bot are still those of v0.172.5.
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're reading the guide to an older version of the bot.
+  <a href="../../.."><strong>The guide to the version live now</strong></a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Runebase World Guide" class="md-header__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Runebase World Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Buildings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../games/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+    
+  
+  Games
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../items/" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+    
+  
+  Items and buffs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+      <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+    
+  
+  Your account
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../mmorpg/" class="md-tabs__link">
+        
+  
+  
+    
+      <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+    
+  
+  The MMORPG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Runebase World Guide" class="md-nav__button md-logo" aria-label="Runebase World Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Runebase World Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/runebase/runebase-world-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    runebase/runebase-world-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../games/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎫</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Games
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../items/" class="md-nav__link">
+      
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎒</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and buffs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎖️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Your account
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Your account
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realms/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🌍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Realms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ranks/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🥇</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leaderboards/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏅</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Leaderboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏷️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits-and-runes/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/pouch.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits and RUNES
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../super-stakers/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧱</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Super stakers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hodlers/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/hodl.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Hodlers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏗️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Buildings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏗️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Buildings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#building-and-upgrading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building and upgrading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-each-building-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What each building does
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What each building does">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource buildings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#every-night-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every night: production
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collecting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-iron-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Iron Bank
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pets/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🐾</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quests/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/quest.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    Quests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../store/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🏪</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Store
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basket/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🧺</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Basket
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gifts/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎁</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../convert-market/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">♻️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Convert Market
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chat-points/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗣️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bumps/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">⛰️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Bumps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../votes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🗳️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Votes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memes/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🎨</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Memes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../invites/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">✉️</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Invites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joining-and-leaving/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">👋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Joining and leaving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../polls/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🙋</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Polls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inspect/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">🔍</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info-menu/" class="md-nav__link">
+        
+  
+  
+    <span class="gi-nav gi-nav-emoji" aria-hidden="true">📚</span>
+  
+  <span class="md-ellipsis">
+    
+  
+    Info and the Hall of Honor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mmorpg/" class="md-nav__link">
+        
+  
+  
+    <img class="gi-nav" src="../../assets/icons/emoji/runebase.webp" alt="" loading="lazy">
+  
+  <span class="md-ellipsis">
+    
+  
+    The MMORPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#building-and-upgrading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building and upgrading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-each-building-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What each building does
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What each building does">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource buildings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#every-night-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every night: production
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collecting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-iron-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Iron Bank
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Your account
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="buildings">🏗️ Buildings<a class="headerlink" href="#buildings" title="Permanent link">&para;</a></h1>
+<p>Buildings are yours alone: 3 resource buildings and 23 facilities you build and upgrade with building supplies and scrap. Most work on their own, wherever their effect applies (more energy, longer expeditions, better store prices, stronger heists and battles). Some produce something every night or let you make something every day, which you pick up in the <strong>Collect</strong> menu.</p>
+<p><strong>Where:</strong> <code>/buildings</code> to build and upgrade. <code>/start</code> → <strong>Activities</strong> → <strong>Collect</strong> for <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="20" />&nbsp;<a href="#what-each-building-does">The Inn</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/treasure-forge.webp" width="20" />&nbsp;<a href="#what-each-building-does">Treasure Forge</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/party-store.webp" width="20" />&nbsp;<a href="#what-each-building-does">Party Store</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/nail-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Nail Factory</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/rope-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Rope Factory</a></span> and the <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="20" />&nbsp;<a href="#the-iron-bank">Iron Bank</a></span>.</p>
+<h2 id="building-and-upgrading">Building and upgrading<a class="headerlink" href="#building-and-upgrading" title="Permanent link">&para;</a></h2>
+<p>Pick the type and the building, then <strong>Build</strong> the next level.</p>
+<ul>
+<li><strong>Cost:</strong> <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/toolbox.webp" width="20" />&nbsp;<a href="../../items/materials/building-supplies/#toolbox">Toolbox</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/nail.webp" width="20" />&nbsp;<a href="../../items/materials/building-supplies/#nail">Nail</a></span> and <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/rope.webp" width="20" />&nbsp;<a href="../../items/materials/building-supplies/#rope">Rope</a></span> (building supplies) and <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#wood-scrap">Wood</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#metal-scrap">Metal</a></span> and <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></span>. No credits. The screen shows exactly what the Build button takes.</li>
+<li><strong>Rank:</strong> each building has a "rank per level": level 3 of a building with 5 ranks per level needs rank 15.</li>
+<li><strong>Last level:</strong> 100 divided by the ranks per level, rounded down. A building at its last level can't go higher.</li>
+<li>With one resource short, or your rank too low, the Build button is off and nothing is taken. A double click builds once and charges once; a Build from an older screen that no longer fits takes nothing, and the buildings screen says why (not enough, your rank, the last level).</li>
+<li>The <strong>Preview</strong> screen shows what a level gives (its perks, the numbers the building then works with) and its rank, starting at the level you have; the arrows step one level, <strong>...</strong> jumps to any level (a level that doesn't exist changes nothing: the preview keeps the level it showed and says which levels there are). It also shows the total cost from nothing to the last level.</li>
+</ul>
+<p>Costs below are Toolbox / Nail / Rope / Wood / Metal / Leather. Level L costs the level 1 cost × (1 + the building's cost growth × (L − 1)), each rounded down.</p>
+<table>
+<thead>
+<tr>
+<th>Building</th>
+<th>Levels</th>
+<th>Rank per level</th>
+<th>Level 1</th>
+<th>Level 2</th>
+<th>Last level</th>
+<th>All levels together</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Lumber Yard" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/lumber-yard.webp" width="24" /> Lumber Yard</td>
+<td>10</td>
+<td>10</td>
+<td>4 / 1,000 / 200 / 40 / 40 / 0</td>
+<td>6 / 1,700 / 340 / 68 / 68 / 0</td>
+<td>29 / 7,300 / 1,460 / 292 / 292 / 0</td>
+<td>162 / 41,497 / 8,298 / 1,657 / 1,657 / 0</td>
+</tr>
+<tr>
+<td><img alt="Iron Mine" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/iron-mine.webp" width="24" /> Iron Mine</td>
+<td>10</td>
+<td>10</td>
+<td>4 / 1,000 / 200 / 60 / 30 / 0</td>
+<td>6 / 1,700 / 340 / 102 / 51 / 0</td>
+<td>29 / 7,300 / 1,460 / 438 / 219 / 0</td>
+<td>162 / 41,497 / 8,298 / 2,487 / 1,242 / 0</td>
+</tr>
+<tr>
+<td><img alt="Tannery" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/tannery.webp" width="24" /> Tannery</td>
+<td>10</td>
+<td>10</td>
+<td>4 / 1,000 / 200 / 30 / 60 / 0</td>
+<td>6 / 1,700 / 340 / 51 / 102 / 0</td>
+<td>29 / 7,300 / 1,460 / 219 / 438 / 0</td>
+<td>162 / 41,497 / 8,298 / 1,242 / 2,487 / 0</td>
+</tr>
+<tr>
+<td><img alt="Hunting Cabin" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/hunting-cabin.webp" width="24" /> Hunting Cabin</td>
+<td>12</td>
+<td>8</td>
+<td>1 / 500 / 50 / 40 / 5 / 25</td>
+<td>1 / 800 / 80 / 64 / 8 / 40</td>
+<td>7 / 3,800 / 380 / 304 / 38 / 190</td>
+<td>47 / 25,799 / 2,579 / 2,063 / 257 / 1,289</td>
+</tr>
+<tr>
+<td><img alt="Fishing Club" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/fishing-club.webp" width="24" /> Fishing Club</td>
+<td>12</td>
+<td>8</td>
+<td>1 / 500 / 50 / 40 / 15 / 15</td>
+<td>1 / 800 / 80 / 64 / 24 / 24</td>
+<td>7 / 3,800 / 380 / 304 / 114 / 114</td>
+<td>47 / 25,799 / 2,579 / 2,063 / 773 / 773</td>
+</tr>
+<tr>
+<td><img alt="The Inn" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="24" /> The Inn</td>
+<td>100</td>
+<td>1</td>
+<td>0 / 75 / 15 / 3 / 3 / 3</td>
+<td>0 / 150 / 30 / 6 / 6 / 6</td>
+<td>0 / 7,500 / 1,500 / 300 / 300 / 300</td>
+<td>0 / 378,750 / 75,750 / 15,150 / 15,150 / 15,150</td>
+</tr>
+<tr>
+<td><img alt="Training Grounds" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/training-grounds.webp" width="24" /> Training Grounds</td>
+<td>20</td>
+<td>5</td>
+<td>1 / 350 / 50 / 20 / 25 / 15</td>
+<td>1 / 612 / 87 / 35 / 43 / 26</td>
+<td>15 / 5,337 / 762 / 305 / 381 / 228</td>
+<td>155 / 56,870 / 8,120 / 3,250 / 4,055 / 2,430</td>
+</tr>
+<tr>
+<td><img alt="Traveler's Camp" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/travelers-camp.webp" width="24" /> Traveler's Camp</td>
+<td>20</td>
+<td>5</td>
+<td>0 / 100 / 15 / 50 / 30 / 100</td>
+<td>0 / 155 / 23 / 77 / 46 / 155</td>
+<td>0 / 1,145 / 171 / 572 / 343 / 1,145</td>
+<td>0 / 12,450 / 1,860 / 6,220 / 3,730 / 12,450</td>
+</tr>
+<tr>
+<td><img alt="Treasure Forge" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/treasure-forge.webp" width="24" /> Treasure Forge</td>
+<td>7</td>
+<td>14</td>
+<td>1 / 250 / 15 / 100 / 150 / 75</td>
+<td>2 / 562 / 33 / 225 / 337 / 168</td>
+<td>8 / 2,125 / 127 / 850 / 1,275 / 637</td>
+<td>31 / 8,311 / 496 / 3,325 / 4,986 / 2,491</td>
+</tr>
+<tr>
+<td><img alt="Trade Post" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/trade-post.webp" width="24" /> Trade Post</td>
+<td>100</td>
+<td>1</td>
+<td>0 / 210 / 20 / 25 / 10 / 30</td>
+<td>0 / 348 / 33 / 41 / 16 / 49</td>
+<td>0 / 13,931 / 1,326 / 1,658 / 663 / 1,990</td>
+<td>0 / 707,030 / 67,300 / 84,150 / 33,630 / 100,970</td>
+</tr>
+<tr>
+<td><img alt="Expedition Command Center" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/expedition-command-center.webp" width="24" /> Expedition Command Center</td>
+<td>20</td>
+<td>5</td>
+<td>1 / 350 / 30 / 30 / 50 / 20</td>
+<td>1 / 647 / 55 / 55 / 92 / 37</td>
+<td>17 / 6,002 / 514 / 514 / 857 / 343</td>
+<td>172 / 63,518 / 5,439 / 5,439 / 9,069 / 3,627</td>
+</tr>
+<tr>
+<td><img alt="Thieves Den" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/thieves-den.webp" width="24" /> Thieves Den</td>
+<td>100</td>
+<td>1</td>
+<td>0 / 400 / 180 / 19 / 13 / 26</td>
+<td>0 / 540 / 243 / 25 / 17 / 35</td>
+<td>0 / 14,260 / 6,417 / 677 / 463 / 926</td>
+<td>0 / 732,967 / 329,812 / 34,770 / 23,775 / 47,600</td>
+</tr>
+<tr>
+<td><img alt="Party Store" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/party-store.webp" width="24" /> Party Store</td>
+<td>12</td>
+<td>8</td>
+<td>1 / 450 / 75 / 75 / 50 / 100</td>
+<td>1 / 787 / 131 / 131 / 87 / 175</td>
+<td>9 / 4,162 / 693 / 693 / 462 / 925</td>
+<td>57 / 27,672 / 4,608 / 4,608 / 3,072 / 6,150</td>
+</tr>
+<tr>
+<td><img alt="Arcane Library" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/arcane-library.webp" width="24" /> Arcane Library</td>
+<td>20</td>
+<td>5</td>
+<td>1 / 350 / 50 / 35 / 25 / 20</td>
+<td>1 / 612 / 87 / 61 / 43 / 35</td>
+<td>15 / 5,337 / 762 / 533 / 381 / 305</td>
+<td>155 / 56,870 / 8,120 / 5,680 / 4,055 / 3,250</td>
+</tr>
+<tr>
+<td><img alt="Healing Spring" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/healing-spring.webp" width="24" /> Healing Spring</td>
+<td>100</td>
+<td>1</td>
+<td>0 / 100 / 15 / 10 / 10 / 10</td>
+<td>0 / 150 / 22 / 15 / 15 / 15</td>
+<td>0 / 5,050 / 757 / 505 / 505 / 505</td>
+<td>0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750</td>
+</tr>
+<tr>
+<td><img alt="Mana Well" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/mana-well.webp" width="24" /> Mana Well</td>
+<td>100</td>
+<td>1</td>
+<td>0 / 100 / 15 / 10 / 10 / 10</td>
+<td>0 / 150 / 22 / 15 / 15 / 15</td>
+<td>0 / 5,050 / 757 / 505 / 505 / 505</td>
+<td>0 / 257,500 / 38,600 / 25,750 / 25,750 / 25,750</td>
+</tr>
+<tr>
+<td><img alt="Fitness Foundry" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/fitness-foundry.webp" width="24" /> Fitness Foundry</td>
+<td>33</td>
+<td>3</td>
+<td>1 / 180 / 25 / 14 / 18 / 13</td>
+<td>1 / 306 / 42 / 23 / 30 / 22</td>
+<td>23 / 4,212 / 585 / 327 / 421 / 304</td>
+<td>388 / 72,456 / 10,053 / 5,623 / 7,234 / 5,220</td>
+</tr>
+<tr>
+<td><img alt="Nail Factory" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/nail-factory.webp" width="24" /> Nail Factory</td>
+<td>11</td>
+<td>9</td>
+<td>0 / 400 / 50 / 100 / 120 / 80</td>
+<td>0 / 720 / 90 / 180 / 216 / 144</td>
+<td>0 / 3,600 / 450 / 900 / 1,080 / 720</td>
+<td>0 / 21,999 / 2,749 / 5,499 / 6,599 / 4,400</td>
+</tr>
+<tr>
+<td><img alt="Rope Factory" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/rope-factory.webp" width="24" /> Rope Factory</td>
+<td>11</td>
+<td>9</td>
+<td>0 / 200 / 100 / 100 / 80 / 120</td>
+<td>0 / 360 / 180 / 180 / 144 / 216</td>
+<td>0 / 1,800 / 900 / 900 / 720 / 1,080</td>
+<td>0 / 10,999 / 5,499 / 5,499 / 4,400 / 6,599</td>
+</tr>
+<tr>
+<td><img alt="Cuisine Cottage" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/cuisine-cottage.webp" width="24" /> Cuisine Cottage</td>
+<td>10</td>
+<td>10</td>
+<td>1 / 300 / 75 / 150 / 110 / 85</td>
+<td>1 / 555 / 138 / 277 / 203 / 157</td>
+<td>8 / 2,594 / 648 / 1,297 / 951 / 735</td>
+<td>43 / 14,474 / 3,615 / 7,235 / 5,305 / 4,098</td>
+</tr>
+<tr>
+<td><img alt="Iron Bank" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="24" /> Iron Bank</td>
+<td>50</td>
+<td>2</td>
+<td>0 / 120 / 15 / 45 / 85 / 20</td>
+<td>0 / 204 / 25 / 76 / 144 / 34</td>
+<td>0 / 4,236 / 529 / 1,588 / 3,000 / 706</td>
+<td>0 / 108,880 / 13,589 / 40,815 / 77,114 / 18,137</td>
+</tr>
+<tr>
+<td><img alt="Bastion of the Chosen" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/bastion-of-the-chosen.webp" width="24" /> Bastion of the Chosen</td>
+<td>20</td>
+<td>5</td>
+<td>0 / 200 / 45 / 60 / 45 / 20</td>
+<td>0 / 330 / 74 / 99 / 74 / 33</td>
+<td>0 / 2,670 / 600 / 801 / 600 / 267</td>
+<td>0 / 28,699 / 6,450 / 8,610 / 6,450 / 2,870</td>
+</tr>
+<tr>
+<td><img alt="Pillar of the Undying" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/pillar-of-the-undying.webp" width="24" /> Pillar of the Undying</td>
+<td>20</td>
+<td>5</td>
+<td>0 / 200 / 45 / 50 / 70 / 30</td>
+<td>0 / 330 / 74 / 82 / 115 / 49</td>
+<td>0 / 2,670 / 600 / 667 / 934 / 400</td>
+<td>0 / 28,699 / 6,450 / 7,169 / 10,040 / 4,300</td>
+</tr>
+<tr>
+<td><img alt="Temporal Nexus" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/temporal-nexus.webp" width="24" /> Temporal Nexus</td>
+<td>50</td>
+<td>2</td>
+<td>0 / 75 / 15 / 20 / 10 / 15</td>
+<td>0 / 123 / 24 / 33 / 16 / 24</td>
+<td>0 / 2,463 / 492 / 657 / 328 / 492</td>
+<td>0 / 63,450 / 12,675 / 16,925 / 8,450 / 12,675</td>
+</tr>
+<tr>
+<td><img alt="Pet Kennel" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="24" /> Pet Kennel</td>
+<td>6</td>
+<td>15</td>
+<td>0 / 300 / 100 / 90 / 30 / 60</td>
+<td>0 / 519 / 173 / 155 / 51 / 103</td>
+<td>0 / 1,395 / 465 / 418 / 139 / 279</td>
+<td>0 / 5,085 / 1,695 / 1,523 / 505 / 1,015</td>
+</tr>
+<tr>
+<td><img alt="Arcane Reliquary" class="gi gi-inline" height="24" loading="lazy" src="../../assets/icons/building/arcane-reliquary.webp" width="24" /> Arcane Reliquary</td>
+<td>33</td>
+<td>3</td>
+<td>0 / 100 / 15 / 20 / 20 / 20</td>
+<td>0 / 150 / 22 / 30 / 30 / 30</td>
+<td>0 / 1,700 / 255 / 340 / 340 / 340</td>
+<td>0 / 29,700 / 4,447 / 5,940 / 5,940 / 5,940</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-each-building-does">What each building does<a class="headerlink" href="#what-each-building-does" title="Permanent link">&para;</a></h2>
+<div class="guide-gallery">
+<figure>
+<img alt="Lumber Yard" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/lumber-yard.webp" width="96" />
+
+<figcaption>Lumber Yard</figcaption>
+</figure>
+<figure>
+<img alt="Iron Mine" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/iron-mine.webp" width="96" />
+
+<figcaption>Iron Mine</figcaption>
+</figure>
+<figure>
+<img alt="Tannery" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/tannery.webp" width="96" />
+
+<figcaption>Tannery</figcaption>
+</figure>
+<figure>
+<img alt="Hunting Cabin" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/hunting-cabin.webp" width="96" />
+
+<figcaption>Hunting Cabin</figcaption>
+</figure>
+<figure>
+<img alt="Fishing Club" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/fishing-club.webp" width="96" />
+
+<figcaption>Fishing Club</figcaption>
+</figure>
+<figure>
+<img alt="The Inn" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="96" />
+
+<figcaption>The Inn</figcaption>
+</figure>
+<figure>
+<img alt="Training Grounds" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/training-grounds.webp" width="96" />
+
+<figcaption>Training Grounds</figcaption>
+</figure>
+<figure>
+<img alt="Traveler's Camp" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/travelers-camp.webp" width="96" />
+
+<figcaption>Traveler's Camp</figcaption>
+</figure>
+<figure>
+<img alt="Treasure Forge" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/treasure-forge.webp" width="96" />
+
+<figcaption>Treasure Forge</figcaption>
+</figure>
+<figure>
+<img alt="Trade Post" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/trade-post.webp" width="96" />
+
+<figcaption>Trade Post</figcaption>
+</figure>
+<figure>
+<img alt="Expedition Command Center" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/expedition-command-center.webp" width="96" />
+
+<figcaption>Expedition Command Center</figcaption>
+</figure>
+<figure>
+<img alt="Thieves Den" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/thieves-den.webp" width="96" />
+
+<figcaption>Thieves Den</figcaption>
+</figure>
+<figure>
+<img alt="Party Store" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/party-store.webp" width="96" />
+
+<figcaption>Party Store</figcaption>
+</figure>
+<figure>
+<img alt="Arcane Library" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/arcane-library.webp" width="96" />
+
+<figcaption>Arcane Library</figcaption>
+</figure>
+<figure>
+<img alt="Healing Spring" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/healing-spring.webp" width="96" />
+
+<figcaption>Healing Spring</figcaption>
+</figure>
+<figure>
+<img alt="Mana Well" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/mana-well.webp" width="96" />
+
+<figcaption>Mana Well</figcaption>
+</figure>
+<figure>
+<img alt="Fitness Foundry" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/fitness-foundry.webp" width="96" />
+
+<figcaption>Fitness Foundry</figcaption>
+</figure>
+<figure>
+<img alt="Nail Factory" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/nail-factory.webp" width="96" />
+
+<figcaption>Nail Factory</figcaption>
+</figure>
+<figure>
+<img alt="Rope Factory" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/rope-factory.webp" width="96" />
+
+<figcaption>Rope Factory</figcaption>
+</figure>
+<figure>
+<img alt="Cuisine Cottage" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/cuisine-cottage.webp" width="96" />
+
+<figcaption>Cuisine Cottage</figcaption>
+</figure>
+<figure>
+<img alt="Iron Bank" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="96" />
+
+<figcaption>Iron Bank</figcaption>
+</figure>
+<figure>
+<img alt="Bastion of the Chosen" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/bastion-of-the-chosen.webp" width="96" />
+
+<figcaption>Bastion of the Chosen</figcaption>
+</figure>
+<figure>
+<img alt="Pillar of the Undying" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/pillar-of-the-undying.webp" width="96" />
+
+<figcaption>Pillar of the Undying</figcaption>
+</figure>
+<figure>
+<img alt="Temporal Nexus" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/temporal-nexus.webp" width="96" />
+
+<figcaption>Temporal Nexus</figcaption>
+</figure>
+<figure>
+<img alt="Pet Kennel" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="96" />
+
+<figcaption>Pet Kennel</figcaption>
+</figure>
+<figure>
+<img alt="Arcane Reliquary" class="gi gi-gallery" height="96" loading="lazy" src="../../assets/icons/building/arcane-reliquary.webp" width="96" />
+
+<figcaption>Arcane Reliquary</figcaption>
+</figure>
+</div>
+<p>L is the building's level.</p>
+<table>
+<thead>
+<tr>
+<th>Building</th>
+<th>What it gives</th>
+<th>Where it counts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/lumber-yard.webp" width="20" />&nbsp;<a href="#what-each-building-does">Lumber Yard</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/iron-mine.webp" width="20" />&nbsp;<a href="#what-each-building-does">Iron Mine</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/tannery.webp" width="20" />&nbsp;<a href="#what-each-building-does">Tannery</a></span></td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#wood-scrap">Wood</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#metal-scrap">Metal</a></span> or <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></span> every night (table below), and each energy of its expedition lasts 10 + L seconds</td>
+<td>your pouch; <a href="../../games/expeditions/#the-three-expeditions">Woodland Logging, Deep Excavation, Nature Expedition</a></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/fishing-club.webp" width="20" />&nbsp;<a href="#what-each-building-does">Fishing Club</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/hunting-cabin.webp" width="20" />&nbsp;<a href="#what-each-building-does">Hunting Cabin</a></span></td>
+<td>10 + L fishing / hunting energy a day</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/fishin.webp" width="20" />&nbsp;<a href="../../games/fishing/#energy">fishing</a></span>, <span class="gi-m">🏹&nbsp;<a href="../../games/hunting/#energy">hunting</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/expedition-command-center.webp" width="20" />&nbsp;<a href="#what-each-building-does">Expedition Command Center</a></span></td>
+<td>5 + L expedition energy a day</td>
+<td><span class="gi-m">🧭&nbsp;<a href="../../games/expeditions/#energy">expeditions</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="20" />&nbsp;<a href="#what-each-building-does">The Inn</a></span></td>
+<td>4 × L experience a night into a pool of 7 nights (28 × L). When the pool is full, it stops until you collect</td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="20" />&nbsp;<a href="#the-iron-bank">Iron Bank</a></span></td>
+<td>stores credits and pays interest (below)</td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/treasure-forge.webp" width="20" />&nbsp;<a href="#what-each-building-does">Treasure Forge</a></span></td>
+<td>2 × L keys a day: a <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/bronze-key.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/treasure-keys/#bronze-key">Bronze</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/silver-key.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/treasure-keys/#silver-key">Silver</a></span> or <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/gold-key.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/treasure-keys/#gold-key">Gold Key</a></span> for 1, 2 or 3 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a></span></td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/party-store.webp" width="20" />&nbsp;<a href="#what-each-building-does">Party Store</a></span></td>
+<td>L collects a day: 1 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></span> for a <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/mystery-card.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/cards-and-relics/#mystery-card">Mystery Card</a></span>, a <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/fishing-beer.webp" width="20" />&nbsp;<a href="../../items/consumables/store-consumables/#fishing-beer">Fishing Beer</a></span> and a <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/hunting-weed.webp" width="20" />&nbsp;<a href="../../items/consumables/store-consumables/#hunting-weed">Hunting Weed</a></span></td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/nail-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Nail Factory</a></span></td>
+<td>L collects a day: 1 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a></span> for 28 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/nail.webp" width="20" />&nbsp;<a href="../../items/materials/building-supplies/#nail">Nails</a></span> (at any level); counts toward the Collector - Nail quest</td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/rope-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Rope Factory</a></span></td>
+<td>L collects a day: 1 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></span> for 7 <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/rope.webp" width="20" />&nbsp;<a href="../../items/materials/building-supplies/#rope">Ropes</a></span> (at any level); counts toward the Collector - Rope quest</td>
+<td>Collect</td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/trade-post.webp" width="20" />&nbsp;<a href="#what-each-building-does">Trade Post</a></span></td>
+<td>selling to the store pays 75% + 0.15% × L of the price</td>
+<td><span class="gi-m">🏪&nbsp;<a href="../store/">the store</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/thieves-den.webp" width="20" />&nbsp;<a href="#what-each-building-does">Thieves Den</a></span></td>
+<td>+0.035% × L chance that a heist attack keeps its energy</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/heists.webp" width="20" />&nbsp;<a href="../../games/heists-and-clans/attacks-and-defence/#pets-buildings-clans">heists</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/cuisine-cottage.webp" width="20" />&nbsp;<a href="#what-each-building-does">Cuisine Cottage</a></span></td>
+<td>every dish you cook has an L% chance of one more</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/emoji/unstartedcampfire.webp" width="20" />&nbsp;<a href="../../games/cooking/#the-fire-and-cooking">cooking</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/arcane-reliquary.webp" width="20" />&nbsp;<a href="#what-each-building-does">Arcane Reliquary</a></span></td>
+<td>the expeditions' crafting materials, and Magic and Rare Hack &amp; Slash drops, are 0.25% × L likelier (of their own chance)</td>
+<td><span class="gi-m">🧭&nbsp;<a href="../../games/expeditions/#the-three-expeditions">expeditions</a></span>, <span class="gi-m">⚔️&nbsp;<a href="../../games/hack-and-slash/quick-battles/">quick battles</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="20" />&nbsp;<a href="#what-each-building-does">Pet Kennel</a></span></td>
+<td>holds L pets</td>
+<td><span class="gi-m">🐾&nbsp;<a href="../pets/#the-kennel">pets</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/training-grounds.webp" width="20" />&nbsp;<a href="#what-each-building-does">Training Grounds</a></span></td>
+<td>+5% × L physical and throw damage</td>
+<td><span class="gi-m">👹&nbsp;<a href="../../games/hack-and-slash/gear-and-crafting/#condition-repairs-and-gear">Hack &amp; Slash</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/arcane-library.webp" width="20" />&nbsp;<a href="#what-each-building-does">Arcane Library</a></span></td>
+<td>+2% × L spell damage and +1% × L mana</td>
+<td><span class="gi-m">👹&nbsp;<a href="../../games/hack-and-slash/gear-and-crafting/#condition-repairs-and-gear">Hack &amp; Slash</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/healing-spring.webp" width="20" />&nbsp;<a href="#what-each-building-does">Healing Spring</a></span>, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/mana-well.webp" width="20" />&nbsp;<a href="#what-each-building-does">Mana Well</a></span></td>
+<td>0.05% × L of your maximum health / mana back after every battle round</td>
+<td><span class="gi-m">👹&nbsp;<a href="../../games/hack-and-slash/gear-and-crafting/#condition-repairs-and-gear">Hack &amp; Slash</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/fitness-foundry.webp" width="20" />&nbsp;<a href="#what-each-building-does">Fitness Foundry</a></span></td>
+<td>+1.5% × L stamina</td>
+<td><span class="gi-m">👹&nbsp;<a href="../../games/hack-and-slash/gear-and-crafting/#condition-repairs-and-gear">Hack &amp; Slash</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/travelers-camp.webp" width="20" />&nbsp;<a href="#what-each-building-does">Traveler's Camp</a></span></td>
+<td>+L inventory slots</td>
+<td><span class="gi-m">👹&nbsp;<a href="../../games/hack-and-slash/gear-and-crafting/#condition-repairs-and-gear">Hack &amp; Slash</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/bastion-of-the-chosen.webp" width="20" />&nbsp;<a href="#what-each-building-does">Bastion of the Chosen</a></span></td>
+<td>+15 × L maximum health while you hold the Crown</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/crown-of-chaos.webp" width="20" />&nbsp;<a href="../../games/crown-of-chaos/holding-the-crown/#buildings">Crown of Chaos</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pillar-of-the-undying.webp" width="20" />&nbsp;<a href="#what-each-building-does">Pillar of the Undying</a></span></td>
+<td>while you hold the Crown, every 5th point heals 1 + 3 × L</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/crown-of-chaos.webp" width="20" />&nbsp;<a href="../../games/crown-of-chaos/holding-the-crown/#buildings">Crown of Chaos</a></span></td>
+</tr>
+<tr>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/temporal-nexus.webp" width="20" />&nbsp;<a href="#what-each-building-does">Temporal Nexus</a></span></td>
+<td>while you hold the Crown, each attacker waits 15 + L seconds before attacking again</td>
+<td><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/game/crown-of-chaos.webp" width="20" />&nbsp;<a href="../../games/crown-of-chaos/holding-the-crown/#buildings">Crown of Chaos</a></span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="resource-buildings">Resource buildings<a class="headerlink" href="#resource-buildings" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Rank needed</th>
+<th>Scrap a day</th>
+<th>Expedition seconds per energy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+<td>3</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>20</td>
+<td>3.6</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td>30</td>
+<td>4.2</td>
+<td>13</td>
+</tr>
+<tr>
+<td>4</td>
+<td>40</td>
+<td>4.8</td>
+<td>14</td>
+</tr>
+<tr>
+<td>5</td>
+<td>50</td>
+<td>5.4</td>
+<td>15</td>
+</tr>
+<tr>
+<td>6</td>
+<td>60</td>
+<td>6</td>
+<td>16</td>
+</tr>
+<tr>
+<td>7</td>
+<td>70</td>
+<td>6.6</td>
+<td>17</td>
+</tr>
+<tr>
+<td>8</td>
+<td>80</td>
+<td>7.2</td>
+<td>18</td>
+</tr>
+<tr>
+<td>9</td>
+<td>90</td>
+<td>7.8</td>
+<td>19</td>
+</tr>
+<tr>
+<td>10</td>
+<td>100</td>
+<td>8.4</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<h2 id="every-night-production">Every night: production<a class="headerlink" href="#every-night-production" title="Permanent link">&para;</a></h2>
+<p>At <strong>00:00 UTC</strong> the <a href="#resource-buildings">resource buildings</a> put their scrap in your pouch (up to its room), <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="20" />&nbsp;<a href="#what-each-building-does">The Inn</a></span> adds experience to its pool, and the <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="20" />&nbsp;<a href="#the-iron-bank">Iron Bank</a></span> adds interest to its pool. Each building produces once a day: if the bot restarts in the middle of the night's production, it finishes the day for exactly the buildings it hadn't reached, and pays nobody twice. If the bot is down at midnight, the day is produced once when it's back; a day the bot was down for entirely isn't made up. Resource buildings keep the fraction of a scrap they couldn't give (3.6 a day pays 3 and keeps 0.6 for the next night).</p>
+<h2 id="collecting">Collecting<a class="headerlink" href="#collecting" title="Permanent link">&para;</a></h2>
+<p>In <strong>Collect</strong>, each building shows what's waiting and what a collect costs. When the pool is empty, the day's collects are used up, or you're short of the scrap a collect costs, the button is off and nothing happens. A double click, or two devices, collect once: a click that comes too late collects nothing, and the collect screen says why ("there's nothing to collect", today's collects used, the scrap it costs).</p>
+<ul>
+<li><strong>The day's collects start again at 00:00 UTC:</strong> a collect at 23:59:59 UTC uses that day's, and at 00:00 UTC the next day's are there.</li>
+<li>A <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/nail-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Nail Factory</a></span> or <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/rope-factory.webp" width="20" />&nbsp;<a href="#what-each-building-does">Rope Factory</a></span> collect that completes a Collector quest shows the quest's rewards on the collect screen.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Metal Scrap each</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bronze Key</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Silver Key</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Gold Key</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>Keys, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/mystery-card.webp" width="20" />&nbsp;<a href="../../items/keys-and-cards/cards-and-relics/#mystery-card">Mystery Cards</a></span> and scrap go into your pouch, which has room for this much per pouch level:</p>
+<table>
+<thead>
+<tr>
+<th>In the pouch</th>
+<th>Room per pouch level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wood Scrap</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Metal Scrap</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Leather Scrap</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Mystery Cards (scratch cards)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Bronze Keys</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Silver Keys</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Gold Keys</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-iron-bank">The Iron Bank<a class="headerlink" href="#the-iron-bank" title="Permanent link">&para;</a></h2>
+<p>The Iron Bank keeps credits for you and pays interest on them.</p>
+<ol>
+<li><strong>Deposit</strong> credits, up to what your level can store.</li>
+<li>Every night it adds <strong>0.25%</strong> of what's stored to its pool, up to the pool's size. <strong>Collect</strong> the pool for a few <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/metal-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#metal-scrap">Metal Scrap</a></span>.</li>
+<li>To take your credits out, <strong>Unbound</strong> them first. After the unbounding period you <strong>Withdraw</strong> them. Nothing is earned while they unbound.</li>
+</ol>
+<p>Every credit the Iron Bank moves is in your wallet's history. A double click on Collect or Withdraw pays once, and a double click on Start Unbounding starts it once.</p>
+<p><strong>When the bank says no, its screen says why</strong> (as public or private as it is), and nothing moves: a deposit that isn't a positive amount (the smallest is 0.00000001 credits; <a href="../credits-and-runes/#typing-an-amount">typed as a plain number</a>, rounded down to 8 decimals: <code>1.000000009</code> deposits 1, and <code>0x10</code> or <code>1e3</code> is refused), more than your wallet holds or more than the bank can still store; and anything an older screen still offers that no longer fits: a deposit while your credits unbound, unbounding when nothing is stored, a withdrawal before the unbounding period ends or when nothing unbounds. A second <strong>Withdraw</strong> (a double click, another device) is told there's nothing left to withdraw.</p>
+<p><strong>If something goes wrong</strong> while you deposit, start unbounding or withdraw, its screen says so ("Something went wrong, nothing was withdrawn."), nothing of it happened, and you can try again.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Rank needed</th>
+<th>Credits it stores</th>
+<th>Interest a day when full</th>
+<th>Pool (collect at least this often)</th>
+<th>Unbounding</th>
+<th>Metal Scrap to collect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>20,000</td>
+<td>50 credits</td>
+<td>350 credits (7 days)</td>
+<td>3 days</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+<td>40,000</td>
+<td>100 credits</td>
+<td>800 credits (8 days)</td>
+<td>4 days</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>10</td>
+<td>100,000</td>
+<td>250 credits</td>
+<td>2,750 credits (11 days)</td>
+<td>5 days</td>
+<td>2</td>
+</tr>
+<tr>
+<td>10</td>
+<td>20</td>
+<td>200,000</td>
+<td>500 credits</td>
+<td>8,000 credits (16 days)</td>
+<td>8 days</td>
+<td>3</td>
+</tr>
+<tr>
+<td>25</td>
+<td>50</td>
+<td>500,000</td>
+<td>1,250 credits</td>
+<td>38,750 credits (31 days)</td>
+<td>15 days</td>
+<td>6</td>
+</tr>
+<tr>
+<td>50</td>
+<td>100</td>
+<td>1,000,000</td>
+<td>2,500 credits</td>
+<td>140,000 credits (56 days)</td>
+<td>28 days</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Upgrading needs both the resources and the rank: check the Preview for what each level gives and the whole road to the last level.</li>
+<li>Collect <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/the-inn.webp" width="20" />&nbsp;<a href="#what-each-building-does">The Inn</a></span> and the <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/iron-bank.webp" width="20" />&nbsp;<a href="#the-iron-bank">Iron Bank</a></span> before their pools fill up: a full pool earns nothing more.</li>
+<li>Most buildings work without you doing anything; the energy buildings add their energy at the daily refill (00:00 UTC).</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../hodlers/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Hodlers">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Hodlers
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../pets/" class="md-footer__link md-footer__link--next" aria-label="Next: Pets">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Pets
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": ["^latest$", "^next$"], "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

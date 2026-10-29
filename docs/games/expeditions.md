@@ -16,7 +16,7 @@ An idle activity: you spend energy, wait while your expedition runs, and come ba
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip, longer with a resource building (see below).
 2. While the trip runs you're busy: you can't start another expedition, fishing trip or hunt until it's over (the bot tells you, privately, that you're already busy and until when).
 3. Every second of the trip is one roll for its scrap, and one roll on the trip's extra prizes (crafting materials, pet items, tokens, credits and more; the table is at the end of this page).
-   - The scrap an expedition finds is paid as one prize: if your pouch hasn't room for all of it, none of it is paid (unlike fishing and hunting, which pay each scrap that fits), and the result says **Unable to loot Pouch full**. **Today's Expedition Loot** on the menu counts only what was paid.
+   - Each scrap found is its own prize, as in fishing and hunting: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get what it found, your experience and your quest progress, and the trip counts on the leaderboards.
 
 A trip pays exactly once. Clicking twice, or using two devices, starts one trip and spends the energy once. If the bot restarts during your trip, the trip is finished when the bot is back, and paid once.

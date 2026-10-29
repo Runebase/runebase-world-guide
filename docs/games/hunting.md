@@ -16,7 +16,7 @@ An idle activity: you spend energy, wait while your trip runs, and come back to 
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip.
 2. While the trip runs you're busy: you can't start another hunt, fishing trip or expedition until it's over (the bot tells you, privately, that you're already busy and until when).
 3. Every second of the trip is one roll for a catch, and one roll on the trip's extra prizes (scrap, pet items, tokens and more; the table is at the end of this page).
-   - Each scrap found is its own prize: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's Catches** on the hunting menu counts only what was paid.
+   - Each scrap found is its own prize: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the hunting menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get your catch, your experience and your quest progress, and the trip counts on the leaderboards.
 
 A trip pays exactly once. Clicking twice, or using two devices, starts one trip and spends the energy once. If the bot restarts during your trip, the trip is finished when the bot is back, and paid once.
@@ -98,13 +98,13 @@ Without utilities, pets or buildings. Each second rolls once on this table (at m
 
 | Prize | Chance each second |
 |---|---|
-| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 0.3% |
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Chaos Relic](../items/keys-and-cards.md#chaos-relic) | 0.15% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items.md#common-pet-token) | 0.5% |
 | 1 [Pet Token](../items/pet-items.md#pet-tokens) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
 | 1 [Pet Food](../items/pet-items.md#pet-food) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Cure](../items/pet-items.md#pet-cures) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | 1 [Pet Wash Kit](../items/pet-items.md#pet-wash-kits) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials.md#leather-scrap) | 0.3% |
 | nothing | 88.8% |
 
 ## Tips

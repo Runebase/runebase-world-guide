@@ -14,6 +14,9 @@ title: "Scratch cards"
 - If the tipbot is offline, your Mystery Card is kept. If it goes offline before you press **Collect**, only you are told, the card waits, and it pays once when the tipbot is back.
 - A card pays once, also when it's shown twice (in the channel and in **Activities → Scratch Card**) or a field is clicked twice: a field scratches once, and a collected card pays nothing more.
 - **Collect** before all three fields are scratched tells you, privately, to scratch them first.
+- The result shows the prize with the combination's chance per card, as in the table below. Every combination is played in the tests and pays exactly what it shows.
+- A prize your pouch has no room for isn't paid, and the result says so. FRE and AES give one of each key: a key whose pouch is full isn't paid, the others are, and the result names each key.
+- With the tipbot online but unable to send for this server, a RUNES prize is shown as **not paid: Tipbot offline** and the card counts as collected.
 - If something goes wrong while you collect, scratch or get a card, only you are told, nothing is spent or paid, and the card waits for you: collect or scratch again.
 
 <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards.md#mystery-card)</span> come from the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>, <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[heists](heists-and-clans/index.md)</span>, [chests](treasure-chests.md), [Loot Reels](loot-reels.md) and other prize tables. The HUG combination also gives 1 experience.

@@ -28,6 +28,7 @@ nav_icon: "assets/icons/skill/warrior/battle-cry.webp"
 ## Checked in play
 
 - Rank 1 gives +35% damage for the next 4 rounds; the next attacks hit 35% harder.
+- With a stronger Battle Cry already on you (a converted Werebear's +80%), yours doesn't lower it: the stronger stays and your cast refreshes its rounds; a stronger one of yours replaces it. The battle screen lists Battle Cry once.
 
 ## Rank by rank
 

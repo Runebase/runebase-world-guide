@@ -10,7 +10,7 @@ Bump the server with Disboard's `/bump` (or Discord Home's). The bumper gets **1
 - Two members' bumps answered at the same moment pay only one of them.
 - The bumper role is taken back when its 2 hours are over (also across a bot restart).
 
-The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows).
+The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows). A payout rolls its table once and pays at most one row, so the chances add up to at most 100%: with utilities the scrap rows grow and the rows after them shrink. `/loottables` shows each prize's real chance for you, 0% for one that can't drop. Every row of this table is played in the tests and pays exactly what it shows. Its <span class="gi-m">![](../assets/icons/item/engraving-tool.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Engraving Tool](../items/materials.md#engraving-tool)</span> shrinks from the first utility level and can't drop from level 54 (all three utilities).
 
 | Prize | Chance per bump |
 |---|---|

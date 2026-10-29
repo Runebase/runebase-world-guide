@@ -13,7 +13,9 @@ A quick game of luck: open treasure chests with keys.
 
 - Without that key, or with the tipbot offline, nothing is spent.
 - One key clicked on two chest buttons at once opens one chest and spends the key once.
-- Better keys pay the same prizes at the same chances, the same amount or more:
+- If something goes wrong while opening the chest, only you are told, and your key isn't spent.
+- Every row of the table below is played in the tests: each pays exactly what it shows, where it shows (credits in your wallet, RUNES as a tip, keys and cards in your pouch, the rest in your basket or experience), on your screen and in the chest channel.
+- Better keys pay the same prizes at the same chances, the same amount or more (the key screen says so: **prizes 1.5x**, **2x**):
 
 | Chance per roll | Bronze Key | Silver Key | Gold Key |
 |---|---|---|---|

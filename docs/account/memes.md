@@ -9,7 +9,7 @@ A meme posted in a meme channel pays **8 experience** and a roll on the meme pri
 - Deleting one of your memes while your latest meme is under **4 hours** old takes **10 experience** back. Deleting a meme within **a week** of posting takes its point off the monthly meme board.
 - Your **25th meme in the last 30 days** makes you a memeologist (a role).
 
-The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows).
+The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows). Every row of this table is played in the tests and pays exactly what it shows.
 
 | Prize | Chance per meme |
 |---|---|

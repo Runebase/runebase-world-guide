@@ -6,7 +6,7 @@ title: "Votes"
 
 A vote for the bot on discordbotlist.com pays **20 experience**, a roll on the vote prize table and the **voter role for 12 hours**. Another vote within those 12 hours pays nothing. A voter who isn't in the server gets nothing; a member who never used the bot gets an account and the reward.
 
-The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows).
+The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows). Every row of this table is played in the tests and pays exactly what it shows.
 
 | Prize | Chance per vote |
 |---|---|

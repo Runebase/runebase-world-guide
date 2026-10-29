@@ -14,6 +14,7 @@ A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../
 `/roll` in the dice channel. A roll pays **experience by the sum you roll** (the rarer the sum, the more), a **RUNES prize** tipped to you (also by the sum), and **one** prize draw from the dice prize table (below). Then the dice wait **2 hours** (the bot tells you when you can roll again); after that you roll again and are paid again. <!-- The cooldown is production's; the tests run with 5 seconds. -->
 
 - The RUNES prize is a share of the realm's RUNES wallet at the moment you roll, the percentage in the table below for your sum: with 1,000,000 RUNES in the wallet, a 7 pays 1.6 RUNES and a double six 9.6 RUNES.
+- Each <span class="gi-m">🌍&nbsp;[realm](../account/realms.md)</span> has its own dice: a roll in one server doesn't start the cooldown in another, and each posts its results in its own dice channel.
 - Every roll's result has a **Roll Dice** button: anyone can press it to roll their own dice (during your cooldown it rolls nothing and tells you, privately, when you can roll again). You can also roll from `/start` → **Activities** → **Dice**.
 - A roll outside the dice channel answers you privately and posts the result in the dice channel.
 - If the tipbot is offline, the roll says so, only to you, and nothing changes; also when the bot can't read the realm's RUNES wallet (it lost the tipbot for over a minute).

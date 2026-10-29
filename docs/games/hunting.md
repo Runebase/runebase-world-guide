@@ -16,7 +16,7 @@ An idle activity: you spend energy, wait while your trip runs, and come back to 
 ## How a trip works
 
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip.
-2. While the trip runs you're busy: you can't start another hunt, fishing trip or expedition until it's over (the bot tells you, privately, that you're already busy and until when).
+2. While the trip runs you're busy: you can't start another hunt, fishing trip or expedition until it's over (the bot tells you that you're already busy and until when: privately after `/hunt`, on the menu after its button).
 3. Every second of the trip is one roll for a catch, and one roll on the trip's extra prizes (scrap, pet items, tokens and more; the table is at the end of this page).
    - Each scrap found is its own prize: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the hunting menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get your catch, your experience and your quest progress, and the trip counts on the leaderboards.

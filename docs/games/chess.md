@@ -15,7 +15,7 @@ Chess against the bot or against another player. Chess has its own leaderboards 
 
 ## Against the bot (Singleplayer)
 
-**Chess** → **Singleplayer**: pick your side (white, black or random) and a difficulty, then start the game and play against the bot. Pick your move from the menus or type it (SAN Input); the bot answers each move. A move typed wrong is refused privately (with the moves you can play) and the bot doesn't move.
+**Chess** → **Singleplayer**: pick your side (white, black or random) and a difficulty, then start the game and play against the bot. Pick your move from the menus or type it (SAN Input); the bot answers each move. A move typed wrong is refused on your board (with the moves you can play) and the bot doesn't move.
 
 The bot is the Stockfish chess engine, at the strength of the difficulty:
 
@@ -64,11 +64,11 @@ Credits always come; each scrap rolls on its own.
 
 **Challenge User** posts the challenge in the chess channel, mentioning you both, with **Accept** and **Decline**: only the challenged player can answer. Your screen says it's sent and has **Cancel Challenge** until they answer, and the way back (**Activities Menu**, **Chess Menu**): you can wait elsewhere, and when they accept, that screen shows the game. A challenge nobody answers expires after **5 minutes** (the channel and your screen say so). The challenged player can also accept it from **View Active Games**.
 
-You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Anything refused (a second click, a late Accept, a button that isn't yours) is answered privately and changes nothing.
+You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Anything refused changes nothing and says why: on your own screen (your menu or your board) for a second click, a move out of turn or a Cancel after the game started; privately under the challenge's message or on a button that isn't yours.
 
 ### Playing
 
-Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move**, or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused privately and the board stays. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
+Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move**, or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused on your board, which says why and stays as it was. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
 
 Discord lets the bot update your screen through your last click for 15 minutes, and a blitz game can run much longer. After that, a screen in the channel (the menu you challenged from) is still updated; a private one (the board **Accept** showed you) can't be: open **View Active Games** to see the board and your moves.
 

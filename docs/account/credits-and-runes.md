@@ -27,7 +27,7 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 
 - **A plain number:** `5`, `2.5`, `0.00000001`. Spaces around it don't matter.
 - **8 decimals at most, rounded down:** `1.000000009` is 1 credit, never more than you typed.
-- **Anything else is refused, only you see it, and nothing moves:** `0x10`, `1e3`, `+5`, `1,5` (use a point), `1 000`, `Infinity`.
+- **Anything else is refused, and nothing moves** (on the screen you typed it from; a withdrawal's answer only you see): `0x10`, `1e3`, `+5`, `1,5` (use a point), `1 000`, `Infinity`.
 - Store quantities are whole numbers written the same way (`5`, not `5e0`).
 
 ## Deposits

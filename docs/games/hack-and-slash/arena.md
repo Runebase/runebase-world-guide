@@ -13,7 +13,7 @@ nav_emoji: "🥊"
 
 ## Challenging
 
-- You can pick another player as often as you like before pressing **Challenge**. You can't challenge yourself, a bot, someone who isn't in the server, or a player without a Hack & Slash class: the picker tells you why, and only you see it. Every refusal (a full duel list too) is shown to you alone.
+- You can pick another player as often as you like before pressing **Challenge**. You can't challenge yourself, a bot, someone who isn't in the server, or a player without a Hack & Slash class: the picker tells you why, on itself. Every refusal (a full duel list too) shows on your Arena screen: a duel you already have open with that player shows that duel, saying so.
 - **A challenge waits 5 minutes** for the opponent (your screen says when it cancels; opening the challenge again doesn't move that time). Then it's cancelled, and **Join Duel** says the duel is gone.
 - **Decline:** the challenged player can turn a challenge down from its message: the message says so, and the challenger's screen too. Only the challenged player can decline (anyone else is told so, privately); once they've joined, the button is gone.
 - **Cancel Duel** calls off your challenge while nobody has joined. Once your opponent has joined, the duel is on: a Cancel that comes after the join changes nothing, and you're told so.
@@ -25,6 +25,7 @@ nav_emoji: "🥊"
 
 - The first move is a coin toss. On your turn your screen shows your two attacks (your main and secondary skill, which you can change from the menus below them, at the mana their buttons show), **Heal** and a **Select Target** menu; on your opponent's turn it shows whose turn it is.
 - **One click, one move:** each move button belongs to the turn it was drawn for. A second click of a double click, or a button from an earlier turn, plays nothing and you're told so, privately.
+- A skill picked on a duel screen drawn before you reset your skills changes nothing: the duel screen comes back with your skills as they are now and says why.
 - **Heal** (3 a duel): your whole move, back to full health and mana; it costs nothing else. The rest of the move goes on as usual: your minions still attack, and effects on both of you count down. You can't heal while stunned or frozen (the button is off). A double click heals once.
 - **Targets:** your opponent's minions (a <span class="gi-m">![](../../assets/icons/class/necromancer.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Necromancer](classes/necromancer.md)</span>'s <span class="gi-m">![](../../assets/icons/skill/necromancer/clay-golem.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Clay Golem](skills/necromancer/summoning-spells/clay-golem.md)</span>, for one) appear in your target menu; pick one and your attacks go there. A minion that falls leaves the duel: it attacks no more and your target goes back to the player.
 - **Each turn has 2 minutes**; the screen counts them down. **If you don't move in time, you lose the duel** and your opponent wins: both duel screens and the duel's message in the channel say so. A move made before the time runs out counts; a click after it doesn't. Leaving the server doesn't end a duel: if it's your move, the 2 minutes do.

@@ -16,7 +16,7 @@ An idle activity: you spend energy, wait while your expedition runs, and come ba
 ## How a trip works
 
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip, longer with a resource building (see below).
-2. While the trip runs you're busy: you can't start another expedition, fishing trip or hunt until it's over (the bot tells you, privately, that you're already busy and until when). That notice has the expedition's own button: press it once you're free to start it with 1 energy.
+2. While the trip runs you're busy: you can't start another expedition, fishing trip or hunt until it's over (your expeditions screen tells you that you're already busy and until when, with the way back to the menu). That notice has the expedition's own button: press it once you're free to start it with 1 energy.
 3. Every second of the trip is one roll for its scrap, and one roll on the trip's extra prizes (crafting materials, pet items, tokens, credits and more; the table is at the end of this page).
    - Each scrap found is its own prize, as in fishing and hunting: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get what it found, your experience and your quest progress, and the trip counts on the leaderboards.
@@ -31,7 +31,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 - Energy refills at **00:00 UTC** every day. The refill sets your energy to the day's full amount; it doesn't add to what you had left.
 - A trip that runs over midnight still pays once.
-- Expeditions have no dish for more energy (fishing and hunting have one): without expedition energy, expeditions can't be started. If you click an expedition without the energy it needs (say, spent on another device), the bot tells you privately and leaves the menu as it was.
+- Expeditions have no dish for more energy (fishing and hunting have one): without expedition energy, expeditions can't be started. If you click an expedition without the energy it needs (say, spent on another device), the menu says so (it shows your energy as it is now) and nothing is spent.
 
 ## Experience, quests and leaderboards
 

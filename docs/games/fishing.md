@@ -16,7 +16,7 @@ An idle activity: you spend energy, wait while your trip runs, and come back to 
 ## How a trip works
 
 1. You choose how much energy to spend. Each energy is **10 seconds** of trip.
-2. While the trip runs you're busy: you can't start another fishing trip, hunt or expedition until it's over (the bot tells you, privately, that you're already busy and until when).
+2. While the trip runs you're busy: you can't start another fishing trip, hunt or expedition until it's over (the bot tells you that you're already busy and until when: privately after `/fish`, on the menu after its button).
 3. Every second of the trip is one roll for a catch, and one roll on the trip's extra prizes (scrap, pet items, tokens and more; the table is at the end of this page).
    - Each scrap found is its own prize: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the fishing menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get your catch, your experience and your quest progress, and the trip counts on the leaderboards.
@@ -54,7 +54,7 @@ You craft them in the **Fish** menu (**Craft Fishing Pole**) for scrap from your
 
 - Equip a rod in the Fish menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
 - With more than one rod you can turn on **rotative** fishing: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
-- Crafting costs exactly the scrap shown. With a scrap short, or a rod you already own, the Craft button is off. A double click crafts one rod, and an older screen whose Craft button is still on crafts nothing once the scrap is gone; only you are told why. The same for an enhancement upgrade, and for a utility's credits. If something goes wrong while crafting, the crafting screen comes back, only you are told, and nothing is spent or made.
+- Crafting costs exactly the scrap shown. With a scrap short, or a rod you already own, the Craft button is off. A double click crafts one rod, and an older screen whose Craft button is still on crafts nothing once the scrap is gone, and the crafting screen says why. The same for an enhancement upgrade, and for a utility's credits. If something goes wrong while crafting, the crafting screen comes back saying so, and nothing is spent or made.
 
 ### Enhancements
 

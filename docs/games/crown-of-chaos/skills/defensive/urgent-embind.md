@@ -25,7 +25,7 @@ The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crow
 
 ## Checked in play
 
-- Blood Purge waits 1,155 s at rank 1 and 300 s at rank 20 (1,200 without): 10 s before, it's refused (to you alone) and nothing changes; 10 s after, it works. Its answer says when it's ready again.
+- Blood Purge waits 1,155 s at rank 1 and 300 s at rank 20 (1,200 without): 10 s before, it's refused (your menu says why) and nothing changes; 10 s after, it works. Its answer says when it's ready again.
 
 ## Rank by rank
 

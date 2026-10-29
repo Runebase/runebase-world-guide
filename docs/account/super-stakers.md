@@ -28,6 +28,8 @@ The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits
 
 On **My Super Staker**, **Edit Note** opens a box with your super staker's public note; what you save is shown with it in the list. **Disable Super Staker** asks first (**Cancel** keeps it); once you confirm, it leaves the list and you can register an address again.
 
+When nothing could be saved, **My Super Staker** says why, under the screen as it is: you already have a super staker (registered from another screen), your super staker was disabled since the screen was drawn (so there's no note to edit), or the bot couldn't save it (try again later).
+
 ## A point every 8 hours
 
 At **00:00, 08:00 and 16:00 UTC** every verified super staker gets a **cycle**, and a **point** if it produced a block in the last 8 hours. Your score is your points out of your cycles. **Each cycle counts once:** should the cycle ever run twice within the same 8 hours, the second run counts nothing and posts nothing.

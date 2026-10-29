@@ -1,10 +1,10 @@
 ---
 title: "Pet items"
 icon: guide/nav
-nav_emoji: "🐾"
+nav_emoji: "🦴"
 ---
 
-# 🐾 Pet items
+# 🦴 Pet items
 
 <span class="gi-m">📦&nbsp;[Pet tokens](pet-tokens.md)</span> find pets ([getting a pet](../../account/pets.md#getting-a-pet)); <span class="gi-m">🍖&nbsp;[pet food](pet-food.md)</span>, <span class="gi-m">💊&nbsp;[cures](pet-cures.md)</span> and <span class="gi-m">🛁&nbsp;[wash kits](pet-wash-kits.md)</span> care for them ([caring for your pet](../../account/pets.md#caring-for-your-pet)). Each comes in six rarities, for the pets of that rarity.
 

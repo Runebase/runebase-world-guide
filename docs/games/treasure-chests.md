@@ -15,8 +15,9 @@ A quick game of luck: open treasure chests with keys.
 
 - Without that key, or with the tipbot offline, nothing is spent.
 - One key clicked on two chest buttons at once opens one chest and spends the key once, also when one of them is in **Activities → Treasure** and the other under a chest in the channel.
-- **Activities → Treasure** opens the same chests from the menu: pick a key's table (**View … Loot Table**), then **Use … key**; the result shows on your menu and in the chest channel.
-- Chests are opened only on the Runebase server, and only in its chest channel. Every refusal is told only to you: another server, the wrong channel (also on a chest posted before the chest channel moved), no key, or a key button pressed faster than the bot allows.
+- **Activities → Treasure** opens the same chests from the menu: pick a key's table (**View … Loot Table**), then **Use … key**; the result shows on your menu and in the chest channel. Without that key, or with the tipbot offline, only you are told why and your menu stays as it was.
+- Chests are opened only on the Runebase server: with `/treasurechest` only in its chest channel, from **Activities → Treasure** in any channel. On another server the bot tells you that first, before anything about the channel, and nothing is spent (also on a chest or a menu shown before); the menu or chest you pressed stays as it was. Every refusal is told only to you: another server, the wrong channel (also on a chest posted before the chest channel moved), no key, or a key button pressed faster than the bot allows.
+- A key button answers at once, even when the bot is busy: in the chest channel you see the bot thinking, then the chest; a refusal replaces that with a note only you see.
 - If something goes wrong while opening the chest, only you are told, and your key isn't spent.
 - Every row of the table below is played in the tests: each pays exactly what it shows, where it shows (credits in your wallet, RUNES as a tip, keys and cards in your pouch, the rest in your basket or experience), on your screen and in the chest channel.
 - Better keys pay the same prizes at the same chances, the same amount or more (the key screen says so: **prizes 1.5x**, **2x**):

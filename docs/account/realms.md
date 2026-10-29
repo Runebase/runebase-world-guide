@@ -1,8 +1,10 @@
 ---
 title: "Realms"
+icon: guide/nav
+nav_emoji: "🌍"
 ---
 
-# Realms
+# 🌍 Realms
 
 A **realm** is a Discord server the Runebase bot plays in. The **Runebase Discord server** is the home realm, and every partner server that added the bot is a realm too. Everything in this guide happens inside one realm: the server you're in when you type a command or press a button.
 
@@ -15,7 +17,7 @@ Joining a realm's server, or your first message there, opens your account in tha
 - pouch (keys, scrap, <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span>), <span class="gi-m">🧺&nbsp;[basket](basket.md)</span>, <span class="gi-m">🏗️&nbsp;[buildings](buildings.md)</span>, <span class="gi-m">🐾&nbsp;[pets](pets.md)</span>, quests and daily energy;
 - <span class="gi-m">👹&nbsp;[Hack & Slash](../games/hack-and-slash/index.md)</span> character, with its items, stash and <span class="gi-m">🔨&nbsp;[auction house](../games/hack-and-slash/auction-house.md)</span> listings;
 - <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[heist](../games/heists-and-clans/index.md)</span> role and clan;
-- places on the <span class="gi-m">🏅&nbsp;[leaderboards](leaderboards.md)</span>, the monthly boards and the ladders, and the <span class="gi-m">🎭&nbsp;[roles](roles.md)</span> they give;
+- places on the <span class="gi-m">🏅&nbsp;[leaderboards](leaderboards.md)</span>, the monthly boards and the ladders, and the <span class="gi-m">🏷️&nbsp;[roles](roles.md)</span> they give;
 - `/settings`.
 
 Nothing moves from one realm to another by itself. Leaving a realm's server costs 250 experience there and takes you off its boards; your account stays and is yours again when you come back (<span class="gi-m">👋&nbsp;[Joining and leaving](joining-and-leaving.md)</span>).

@@ -1,10 +1,10 @@
 ---
 title: "Hnefatafl"
 icon: guide/nav
-nav_emoji: "⚔️"
+nav_emoji: "🏰"
 ---
 
-# ⚔️ Hnefatafl
+# 🏰 Hnefatafl
 
 **Where to play:** Discord
 { .where-to-play }

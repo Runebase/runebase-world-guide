@@ -47,7 +47,7 @@ The Crown's numbers before any skills, buildings, pets and buffs:
 |---|---|
 | <span class="gi-m">🤺&nbsp;[Attacking the Crown](attacking.md)</span> | <span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>, cooldowns, runes and damage, mana and attack skills |
 | <span class="gi-m">👑&nbsp;[Holding the Crown](holding-the-crown.md)</span> | the Crown's own skills, defensive runes, buildings |
-| <span class="gi-m">💥&nbsp;[Skills](skills/index.md)</span> | skill points and resets, a page per skill |
+| <span class="gi-m">🌀&nbsp;[Skills](skills/index.md)</span> | skill points and resets, a page per skill |
 | <span class="gi-m">🧪&nbsp;[Buffs](buffs.md)</span> | the two Crown of Chaos dishes and their charges |
 | <span class="gi-m">📊&nbsp;[The round and the reign](round-and-reign.md)</span> | the minute round, points, the end of a reign, the pool |
 | <span class="gi-m">🪜&nbsp;[The weekly ladder](weekly-ladder.md)</span> | the weekly score, the winners role, the RUNES payout |

@@ -6,9 +6,9 @@ nav_icon: "assets/icons/item/metal-scrap.webp"
 
 # ![Metal Scrap](../../assets/icons/item/metal-scrap.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Materials
 
-What builds and crafts: <span class="gi-m">🏗️&nbsp;[scrap](scrap.md)</span> and <span class="gi-m">![](../../assets/icons/emoji/buildingsupplies_emoji.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[building supplies](building-supplies.md)</span> pay for [building and upgrading](../../account/buildings.md#building-and-upgrading) your buildings, scrap also crafts gear, and <span class="gi-m">🧵&nbsp;[Hack & Slash crafting materials](hack-and-slash-crafting-materials.md)</span> [craft](../../games/hack-and-slash/gear-and-crafting.md#crafting) Hack & Slash items. Each entry says which. Scrap sits in your **pouch** (`/pouch`), which holds only so much: a store purchase that would overfill it is refused.
+What builds and crafts: <span class="gi-m">🔩&nbsp;[scrap](scrap.md)</span> and <span class="gi-m">![](../../assets/icons/emoji/buildingsupplies_emoji.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[building supplies](building-supplies.md)</span> pay for [building and upgrading](../../account/buildings.md#building-and-upgrading) your buildings, scrap also crafts gear, and <span class="gi-m">🧵&nbsp;[Hack & Slash crafting materials](hack-and-slash-crafting-materials.md)</span> [craft](../../games/hack-and-slash/gear-and-crafting.md#crafting) Hack & Slash items. Each entry says which. Scrap sits in your **pouch** (`/pouch`), which holds only so much: a store purchase that would overfill it is refused.
 
-**<span class="gi-m">🏗️&nbsp;[Scrap](scrap.md)</span>**
+**<span class="gi-m">🔩&nbsp;[Scrap](scrap.md)</span>**
 
 <div class="guide-gallery" markdown>
 

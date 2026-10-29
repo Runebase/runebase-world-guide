@@ -1,10 +1,10 @@
 ---
 title: "Skills"
 icon: guide/nav
-nav_emoji: "💥"
+nav_emoji: "🌀"
 ---
 
-# 💥 Crown of Chaos skills
+# 🌀 Crown of Chaos skills
 
 **Where to play:** Discord
 { .where-to-play }

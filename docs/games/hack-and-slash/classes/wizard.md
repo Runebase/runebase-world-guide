@@ -26,7 +26,7 @@ A new Wizard starts with these attributes and its full health, mana and stamina 
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 20, 70, 74 |
 
-How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
+How attributes work: <span class="gi-m">📈&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

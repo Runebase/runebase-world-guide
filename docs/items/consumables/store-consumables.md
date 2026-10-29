@@ -6,7 +6,7 @@ nav_icon: "assets/icons/emoji/consumables.webp"
 
 # ![Consumables](../../assets/icons/emoji/consumables.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Store consumables
 
-Drinks, brews and elixirs sold in the <span class="gi-m">🏪&nbsp;[store](../../account/store.md)</span>, each for one game (<span class="gi-m">💪&nbsp;[Buffs by game](../buffs.md)</span>).
+Drinks, brews and elixirs sold in the <span class="gi-m">🏪&nbsp;[store](../../account/store.md)</span>, each for one game (<span class="gi-m">🍲&nbsp;[Buffs by game](../buffs.md)</span>).
 
 ## ![Fishing Beer](../../assets/icons/item/fishing-beer.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Fishing Beer
 

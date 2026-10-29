@@ -1,10 +1,10 @@
 ---
 title: "Buffs by game"
 icon: guide/nav
-nav_emoji: "💪"
+nav_emoji: "🍲"
 ---
 
-# 💪 Buffs by game
+# 🍲 Buffs by game
 
 Every dish and store consumable, grouped by the game it helps (and the one you eat from your basket). Each name leads to its entry (where you get it), each game to its page.
 
@@ -54,7 +54,7 @@ On the <span class="gi-m">💪&nbsp;[Heists page](../games/heists-and-clans/buff
 
 ## Crown of Chaos
 
-On the <span class="gi-m">💪&nbsp;[Crown of Chaos page](../games/crown-of-chaos/buffs.md)</span>.
+On the <span class="gi-m">🧪&nbsp;[Crown of Chaos page](../games/crown-of-chaos/buffs.md)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -65,7 +65,7 @@ On the <span class="gi-m">💪&nbsp;[Crown of Chaos page](../games/crown-of-chao
 
 ## Hack & Slash
 
-On the <span class="gi-m">🗡️&nbsp;[Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battles)</span>.
+On the <span class="gi-m">👹&nbsp;[Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battles)</span>.
 
 | Buff | What it does |
 |---|---|

@@ -478,6 +478,7 @@ nav:
     - "Pet wash kits": "items/pet-items/pet-wash-kits.md"
 - "Your account":
   - "account/index.md"
+  - "Realms": "account/realms.md"
   - "Ranks": "account/ranks.md"
   - "Leaderboards": "account/leaderboards.md"
   - "Roles": "account/roles.md"

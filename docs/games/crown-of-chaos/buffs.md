@@ -1,10 +1,10 @@
 ---
 title: "Buffs"
 icon: guide/nav
-nav_emoji: "💪"
+nav_emoji: "🧪"
 ---
 
-# 💪 Crown of Chaos buffs
+# 🧪 Crown of Chaos buffs
 
 **Where to play:** Discord
 { .where-to-play }

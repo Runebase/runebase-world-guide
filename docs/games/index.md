@@ -10,7 +10,7 @@ Every game of Runebase World, each on its own page; each page says where you can
 
 | Game | What it is |
 |---|---|
-| <span class="gi-m">🗡️&nbsp;[Hack & Slash](hack-and-slash/index.md)</span> | the role-playing game: quick battles, the Jotnar world boss, the Arena, gear and the auction house |
+| <span class="gi-m">👹&nbsp;[Hack & Slash](hack-and-slash/index.md)</span> | the role-playing game: quick battles, the Jotnar world boss, the Arena, gear and the auction house |
 | <span class="gi-m">![](../assets/icons/game/crown-of-chaos.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Crown of Chaos](crown-of-chaos/index.md)</span> | one player holds the Crown, everyone else attacks it with <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>; a reign pays the Crown pool |
 | <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Heists and clans](heists-and-clans/index.md)</span> | steal experience from other players, join a clan, climb the monthly ladder |
 | <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](fishing.md)</span> | trips on energy that catch fish, with rods to craft and enhance |

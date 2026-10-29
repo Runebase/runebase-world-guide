@@ -1,10 +1,10 @@
 ---
 title: "Hack & Slash"
 icon: guide/nav
-nav_emoji: "🗡️"
+nav_emoji: "👹"
 ---
 
-# 🗡️ Hack & Slash
+# 👹 Hack & Slash
 
 **Where to play:** Discord
 { .where-to-play }
@@ -19,7 +19,7 @@ The bot's role-playing game: pick a <span class="gi-m">🎭&nbsp;[class](classes
 |---|---|
 | <span class="gi-m">🎭&nbsp;[Classes](classes/index.md)</span> | the seven classes, what a new character gets, a page per class |
 | <span class="gi-m">💥&nbsp;[Skills](skills/index.md)</span> | skill points, resets, how each kind of skill works in battle, a page per skill |
-| <span class="gi-m">💪&nbsp;[Attributes and combat](attributes-and-combat.md)</span> | attribute points, hitting and missing, damage, armor, resistances, blocking |
+| <span class="gi-m">📈&nbsp;[Attributes and combat](attributes-and-combat.md)</span> | attribute points, hitting and missing, damage, armor, resistances, blocking |
 | <span class="gi-m">⚔️&nbsp;[Quick battles](quick-battles.md)</span> | zones, monster levels, difficulty, stamina, what a won battle pays |
 | <span class="gi-m">👕&nbsp;[Gear, items and crafting](gear-and-crafting.md)</span> | condition, wear and repairs, equipment, inventory, crafting, inscriptions |
 | <span class="gi-m">🔨&nbsp;[The auction house](auction-house.md)</span> | listing fees, bids, buyouts, claims |

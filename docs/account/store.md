@@ -8,7 +8,7 @@ nav_emoji: "🏪"
 
 The store sells you items for credits and buys them back. How credits get in and out of the game is in <span class="gi-m">![](../assets/icons/emoji/pouch.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits and RUNES](credits-and-runes.md)</span>.
 
-**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the <span class="gi-m">🗡️&nbsp;[Crown of Chaos](../games/crown-of-chaos/attacking.md)</span> menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
+**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the <span class="gi-m">🤺&nbsp;[Crown of Chaos](../games/crown-of-chaos/attacking.md)</span> menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
 
 **What the screen shows:** your credits, how many of the item you have, the price to **Buy** one and what **Sell** pays for one (with its percent), the store's own balance and the Crown of Chaos pool.
 

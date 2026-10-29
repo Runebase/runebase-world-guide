@@ -9,7 +9,7 @@ nav_emoji: "💪"
 **Where to play:** Discord
 { .where-to-play }
 
-Eat a buff from the heist menu's **Heist Buffs** (every buff of every game: <span class="gi-m">💪&nbsp;[Buffs by game](../../../items/buffs.md)</span>); each one you eat is one **charge**. **Every charge you hold that applies to your side is used on every heist you're in, one charge each**, whether it changed the outcome or not.
+Eat a buff from the heist menu's **Heist Buffs** (every buff of every game: <span class="gi-m">🍲&nbsp;[Buffs by game](../../../items/buffs.md)</span>); each one you eat is one **charge**. **Every charge you hold that applies to your side is used on every heist you're in, one charge each**, whether it changed the outcome or not.
 
 | Buff | Effect | Used when |
 |---|---|---|

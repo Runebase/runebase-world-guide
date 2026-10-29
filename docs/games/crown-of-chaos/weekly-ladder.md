@@ -1,15 +1,15 @@
 ---
 title: "The weekly ladder"
 icon: guide/nav
-nav_emoji: "🏆"
+nav_emoji: "🪜"
 ---
 
-# 🏆 The weekly ladder
+# 🪜 The weekly ladder
 
 **Where to play:** Discord
 { .where-to-play }
 
-Every ISO week (Monday 00:00 UTC to Sunday) has its own Crown of Chaos ladder. It scores what you did that week (the total is rounded down):
+Every ISO week (Monday 00:00 UTC to Sunday 23:59:59 UTC) has its own Crown of Chaos ladder. It scores what you did that week (the total is rounded down):
 
 | Each … this week | Scores |
 |---|---|
@@ -28,7 +28,7 @@ Every ISO week (Monday 00:00 UTC to Sunday) has its own Crown of Chaos ladder. I
 A <span class="gi-m">![](../../assets/icons/crown-skill/silence.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silence](skills/offensive/silence.md)</span> counts only when it lands: one that misses or is dodged scores nothing. Points Earned are the points you earn as the Crown; the Crown's skills count when used (Resurgences, Bubbles), per bleed purged or seed defused, and per hit its Mana Drain drained.
 
 - **CoC Weekly Ladder Board** on the Crown of Chaos menu (or **CoC Weekly Ladder** under the channel's posts, answered only to you) shows this week's ladder, ten players a page (**Next**, **Previous**), and earlier weeks (**Previous Week**, **Next Week**).
-- On Monday (UTC), last week's **top 3** get the CoC Winners role.
+- On Monday (UTC), last week's **top 3** get the CoC Winners role; a top-3 player who already has it keeps it ("Role Extended"), and a former winner who isn't in the top 3 loses it. Only a score above 0 counts: after a week nobody scored in, nobody holds the role. If the bot was down on Monday at 00:00, it happens when it starts again.
 - A tie goes to whoever reached the score first; players who left the server are left out.
 - When the staff turn the weekly payouts on (on the Runebase server), last week's positive scores share **1% of the realm's <span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span> wallet** by rank, once:
 

@@ -26,7 +26,7 @@ A new Necromancer starts with these attributes and its full health, mana and sta
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 30, 50, 79 |
 
-How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
+How attributes work: <span class="gi-m">📈&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

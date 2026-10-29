@@ -17,6 +17,7 @@ One player in the realm holds **the Crown**. The Crown earns a point every minut
 
 ## How a reign works
 
+- A server's very first reign belongs to its default Crown (the Runebase admin account), behind a 90-minute seizure bubble.
 - A new Crown starts with its full health and a **seizure bubble** of 30 minutes: nobody can attack until it runs out, or until the new Crown removes it (**Remove Bubble**). <!-- Production's length; the tests run with 1 minute. --> Attacks against a bubble spend nothing.
 - Every minute (**a round**) the Crown gets 1 point, regenerates a little, and bleeds and seeds on it run (<span class="gi-m">📊&nbsp;[the round](round-and-reign.md#the-round-every-minute)</span>).
 - The longer a Crown holds on, the more damage it takes (the **handicap**: <span class="gi-m">📊&nbsp;[the round](round-and-reign.md#the-round-every-minute)</span>).
@@ -44,12 +45,12 @@ The Crown's numbers before any skills, buildings, pets and buffs:
 
 | Page | What you'll find |
 |---|---|
-| <span class="gi-m">🗡️&nbsp;[Attacking the Crown](attacking.md)</span> | <span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>, cooldowns, runes and damage, mana and attack skills |
+| <span class="gi-m">🤺&nbsp;[Attacking the Crown](attacking.md)</span> | <span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>, cooldowns, runes and damage, mana and attack skills |
 | <span class="gi-m">👑&nbsp;[Holding the Crown](holding-the-crown.md)</span> | the Crown's own skills, defensive runes, buildings |
 | <span class="gi-m">💥&nbsp;[Skills](skills/index.md)</span> | skill points and resets, a page per skill |
-| <span class="gi-m">💪&nbsp;[Buffs](buffs.md)</span> | the two Crown of Chaos dishes and their charges |
+| <span class="gi-m">🧪&nbsp;[Buffs](buffs.md)</span> | the two Crown of Chaos dishes and their charges |
 | <span class="gi-m">📊&nbsp;[The round and the reign](round-and-reign.md)</span> | the minute round, points, the end of a reign, the pool |
-| <span class="gi-m">🏆&nbsp;[The weekly ladder](weekly-ladder.md)</span> | the weekly score, the winners role, the RUNES payout |
+| <span class="gi-m">🪜&nbsp;[The weekly ladder](weekly-ladder.md)</span> | the weekly score, the winners role, the RUNES payout |
 
 ## Quests
 

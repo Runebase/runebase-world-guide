@@ -22,12 +22,13 @@ nav_icon: "assets/icons/skill/necromancer/amplify-damage.webp"
 
 ## How it works
 
-- It stays on every monster for its rounds; casting it again replaces it and keeps the monster's other debuffs.
+- It stays on every monster for its rounds and keeps the monster's other debuffs. Cast again (or the same debuff from another source), it never stacks: the stronger of the two stays and its rounds refresh, a weaker cast never lowers it.
 - It costs its mana once, when used. Without enough mana, or without the weapon or shape it needs, its button says **Attack** and makes the regular attack instead, for free.
 
 ## Checked in play
 
 - Rank 1: the monsters take +15% physical damage.
+- Cast again at a lower rank (+15% after +110%), it doesn't lower the curse on the monsters: the +110% stays and its rounds refresh; the battle screen lists it once on each monster.
 
 ## Rank by rank
 

@@ -74,7 +74,7 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 ## Pets
 
-Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its expedition perk adds its points to one expedition's scrap. Asleep, or below the perk's conditions, the pet adds nothing.
+Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its expedition perk adds its points to one expedition's scrap. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
 
 ## Buildings that help
 

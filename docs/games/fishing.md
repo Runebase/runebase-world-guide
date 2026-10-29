@@ -85,7 +85,7 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 ## Pets
 
-Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its fishing perk adds its points to one fish. A perk for a fish your rod doesn't catch does nothing: a <span class="gi-m">![](../assets/icons/item/mackerel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mackerel](../items/ingredients/fish.md#mackerel)</span> perk needs <span class="gi-m">![](../assets/icons/activity-gear/skathis-rod.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skathi's Rod](#rods)</span>. Asleep, or below the perk's conditions, the pet adds nothing.
+Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its fishing perk adds its points to one fish. A perk for a fish your rod doesn't catch does nothing: a <span class="gi-m">![](../assets/icons/item/mackerel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mackerel](../items/ingredients/fish.md#mackerel)</span> perk needs <span class="gi-m">![](../assets/icons/activity-gear/skathis-rod.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skathi's Rod](#rods)</span>. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
 
 ## Buildings that help
 

@@ -84,7 +84,7 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 ## Pets
 
-Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its hunting perk adds its points to one animal. Asleep, or below the perk's conditions, the pet adds nothing.
+Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its hunting perk adds its points to one animal. A perk for an animal your rifle doesn't hunt does nothing: a <span class="gi-m">![](../assets/icons/item/moose.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Moose](../items/ingredients/meat.md#moose)</span> perk needs the <span class="gi-m">![](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Weatherby Mark V](#rifles)</span>, and without a rifle only a <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients/meat.md#squirrel)</span> perk helps. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
 
 ## Buildings that help
 

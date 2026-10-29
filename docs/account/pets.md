@@ -49,13 +49,21 @@ Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights
 
 ## Every minute
 
-While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100. The pet earns pet points while it's in good shape (none in a bad state), and the points go onto the all-time and monthly pet leaderboards every 15 minutes.
+While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100.
 
 A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it or use the light switch, and it carries on from the stats it had.
 
+## Pet points
+
+Your active pet earns **pet points every minute**, awake or asleep, from its stats after the minute's change: the better fed (low hunger), happier, cleaner and healthier it is, the more (energy counts a little). A rarer pet earns more for the same stats: ×1.05 Uncommon, ×1.1 Rare, ×1.15 Epic, ×1.2 Legendary, ×1.25 Mythical. A pet in a bad state earns nothing. The pet menu shows it as **Score per Minute**.
+
+- Only the minute earns points: feeding, washing, curing and playing give your pet experience, not points; a pet resting in the <span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span> earns nothing; activities, heists and the Crown give no pet points.
+- The points wait, and go onto the **All-Time Pet Points** and **Monthly Pet Points** [leaderboards](leaderboards.md) every 15 minutes, also when your pet has fallen into a bad state since (before the update, points earned before a pet fell ill could stay waiting and be lost). Changing pets or putting your pet in the kennel puts its waiting points on the boards first, for that pet. Two clicks at once never count them twice, and a restart of the bot keeps them waiting.
+- The monthly board counts the last 30 days: each batch of points leaves it (and your pet's monthly score) about 30 days later; the all-time board keeps them. The top 10 of each board hold its [role](roles.md#top-roles).
+
 ## Perks
 
-Every pet has perks for the activities. **A perk works only while the pet is awake and its stats meet the perk's conditions.** A fishing or hunting perk adds its points to the chance of one fish or animal, and only helps if your rod or rifle catches it. An expedition perk adds its points to one expedition's scrap. A Crown of Chaos perk helps either your attacks on the Crown ("attacking the Crown") or you while you hold the Crown ("holding the Crown"): a Dog's extra 1-2 damage counts on every attack while it's awake, and stops when you turn its lights off.
+Every pet has perks for the activities. **A perk works only while the pet is awake and its stats meet the perk's conditions.** Only your active pet counts: a pet in the kennel or among your favorites adds nothing. Every perk below is checked in play at exactly its number, on its game's screen and in the game itself, awake and asleep. A fishing, hunting or expedition trip uses the pet that is active and awake **when the trip ends**: change pets during a trip and the new pet's perks count; put it to sleep and none do. A fishing or hunting perk adds its points to the chance of one fish or animal, and only helps if your rod or rifle catches it. An expedition perk adds its points to one expedition's scrap. A Crown of Chaos perk helps either your attacks on the Crown ("attacking the Crown") or you while you hold the Crown ("holding the Crown"): a Dog's extra 1-2 damage counts on every attack while it's awake, and stops when you turn its lights off.
 
 | Perk | Works while the pet has | Pets |
 |---|---|---|
@@ -113,7 +121,7 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 ## Changing pets, favorites, nicknames
 
-- **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned.
+- **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned. The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".
 - **Favorites:** 5 slots for quick switching from a menu. A sixth is refused.
 - **Nickname:** 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed.
 

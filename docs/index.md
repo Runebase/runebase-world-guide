@@ -2,8 +2,6 @@
 
 **Runebase World** is the world of the Runebase games. Today you play it through the Runebase bot, in the Runebase Discord server and its partner servers (<span class="gi-m">🌍&nbsp;[realms](account/realms.md)</span>); the Runebase World web app, with its MMORPG, comes later, and many games will be playable in both. Each game's page says where you can play it. The games are all connected: what you catch, find and build in one game helps you in the others, and almost everything pays **experience** (your rank) and **credits** (the bot's money, which you can withdraw as Credits tokens on the Runebase blockchain).
 
-> **Coming soon:** this guide describes the bot's next update (v0.173.0). Until it's live, some rules and numbers on the bot are still the old ones.
-
 **Start here:** chat in the server (your first message creates your account), then type `/start`. The main menu shows your rank card; **Activities** lists the games.
 
 ## What's in this guide

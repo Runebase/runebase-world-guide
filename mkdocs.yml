@@ -5,6 +5,8 @@ site_description: "How the Runebase games work (the Discord bot today, the Runeb
 repo_url: https://github.com/runebase/runebase-world-guide
 repo_name: runebase/runebase-world-guide
 edit_uri: ''
+# mike builds with plain mkdocs build: any warning fails it.
+strict: true
 theme:
   name: material
   language: en
@@ -42,6 +44,17 @@ theme:
         name: Switch to system preference
 plugins:
   - search
+  - mike:
+      alias_type: copy
+extra:
+  # The version menu; an older release shows the outdated bar ("latest" and
+  # "next" don't).
+  version:
+    provider: mike
+    default: ['^latest$', '^next$']
+    alias: true
+  # The version mike is building (empty in mkdocs serve): the coming-soon bar.
+  guide_version: !ENV [MIKE_DOCS_VERSION, '']
 markdown_extensions:
   - admonition
   - attr_list

@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/silence.webp"
 
 On a hit, the Crown can't use Resurgence, Blood Purge, Defuse or Mana Drain for the silence's duration (Bubble still works): 415 s for 500 mana at rank 20. A Silence that misses or is dodged scores nothing on the weekly ladder, but its mana is spent.
 
-Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
@@ -31,7 +31,7 @@ Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chao
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/consumables/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | silence | mana |
 |---|---|---|

@@ -450,12 +450,32 @@ nav:
 - "Items and buffs":
   - "items/index.md"
   - "Buffs by game": "items/buffs.md"
-  - "Dishes": "items/dishes.md"
-  - "Store consumables": "items/store-consumables.md"
-  - "Fish, meat, spices and sauces": "items/ingredients.md"
-  - "Scrap, supplies and crafting materials": "items/materials.md"
-  - "Keys, cards and relics": "items/keys-and-cards.md"
-  - "Pet items": "items/pet-items.md"
+  - "Consumables":
+    - "items/consumables/index.md"
+    - "Fish dishes": "items/consumables/fish-dishes.md"
+    - "Meat dishes": "items/consumables/meat-dishes.md"
+    - "Store consumables": "items/consumables/store-consumables.md"
+  - "Ingredients":
+    - "items/ingredients/index.md"
+    - "Fish": "items/ingredients/fish.md"
+    - "Meat": "items/ingredients/meat.md"
+    - "Spices": "items/ingredients/spices.md"
+    - "Sauces": "items/ingredients/sauces.md"
+  - "Materials":
+    - "items/materials/index.md"
+    - "Scrap": "items/materials/scrap.md"
+    - "Building supplies": "items/materials/building-supplies.md"
+    - "Hack & Slash crafting materials": "items/materials/hack-and-slash-crafting-materials.md"
+  - "Keys and cards":
+    - "items/keys-and-cards/index.md"
+    - "Treasure keys": "items/keys-and-cards/treasure-keys.md"
+    - "Cards and relics": "items/keys-and-cards/cards-and-relics.md"
+  - "Pet items":
+    - "items/pet-items/index.md"
+    - "Pet tokens": "items/pet-items/pet-tokens.md"
+    - "Pet food": "items/pet-items/pet-food.md"
+    - "Pet cures": "items/pet-items/pet-cures.md"
+    - "Pet wash kits": "items/pet-items/pet-wash-kits.md"
 - "Your account":
   - "account/index.md"
   - "Ranks": "account/ranks.md"

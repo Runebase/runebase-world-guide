@@ -51,7 +51,7 @@
   filter: drop-shadow(0 0 0.05rem rgb(255 255 255 / 55%));
 }
 .md-typeset h1 img.gi,
-.md-typeset h3 img.gi {
+.md-typeset h2 img.gi {
   margin-right: 0.4rem;
 }
 .md-typeset img.gi-picture,

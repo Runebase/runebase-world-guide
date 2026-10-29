@@ -11,7 +11,7 @@ nav_icon: "assets/icons/game/crown-of-chaos.webp"
 
 ![Crown of Chaos](../../assets/icons/header/crown-of-chaos.webp){ .gi .gi-picture width="240" height="240" loading="lazy" }
 
-One player in the realm holds **the Crown**. The Crown earns a point every minute it holds on; everyone else spends **<span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards.md#chaos-relic)</span>** to attack it. When the Crown's health reaches 0, the reign ends: the old Crown is paid the realm's **Crown pool** in credits, a <span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span> reward and experience, and the next Crown is **drawn from the attackers, weighted by their points**.
+One player in the realm holds **the Crown**. The Crown earns a point every minute it holds on; everyone else spends **<span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>** to attack it. When the Crown's health reaches 0, the reign ends: the old Crown is paid the realm's **Crown pool** in credits, a <span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span> reward and experience, and the next Crown is **drawn from the attackers, weighted by their points**.
 
 **Where:** `/start` → **Activities** → **Crown Of Chaos**. The menu shows the Crown, its health, the pool ("Accumulated Crown Tax", also on the attack screen and in the store), your buffs, and the buttons to attack, pick runes, learn skills and eat buffs. The Crown also sees its own skills there. Under the attack reports and round messages in the Crown of Chaos channel, anyone can press **Attack The Crown** (their own attack screen), **Attack Score Board** or **CoC Weekly Ladder**: each answers only the player who pressed it.
 
@@ -44,7 +44,7 @@ The Crown's numbers before any skills, buildings, pets and buffs:
 
 | Page | What you'll find |
 |---|---|
-| [Attacking the Crown](attacking.md) | <span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards.md#chaos-relic)</span>, cooldowns, runes and damage, mana and attack skills |
+| [Attacking the Crown](attacking.md) | <span class="gi-m">![](../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relics](../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>, cooldowns, runes and damage, mana and attack skills |
 | [Holding the Crown](holding-the-crown.md) | the Crown's own skills, defensive runes, buildings |
 | [Skills](skills/index.md) | skill points and resets, a page per skill |
 | [Buffs](buffs.md) | the two Crown of Chaos dishes and their charges |

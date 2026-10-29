@@ -14,12 +14,12 @@ Consume a pet token from the pet menu. Each **Consume** spends exactly one token
 
 | Token | In the store | Chance to find a pet | Pets of this rarity |
 |---|---|---|---|
-| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Token](../items/pet-items.md#common-pet-token) | 5 credits | 65% | Chicken, Cat, Dog, Rabbit, Duck, Pigeon |
-| ![Uncommon Pet Token](../assets/icons/item/uncommon-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Token](../items/pet-items.md#uncommon-pet-token) | not sold | 50% | Turtle, Hamster, Goldfish, Goat, Frog |
-| ![Rare Pet Token](../assets/icons/item/rare-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Token](../items/pet-items.md#rare-pet-token) | not sold | 40% | Fox, Parrot, Squirrel, Raccoon, Hedgehog, Otter, Owl, Ferret |
-| ![Epic Pet Token](../assets/icons/item/epic-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Token](../items/pet-items.md#epic-pet-token) | not sold | 30% | Lizard, Wolf, Eagle |
-| ![Legendary Pet Token](../assets/icons/item/legendary-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Token](../items/pet-items.md#legendary-pet-token) | not sold | 20% | Panther, Snow Leopard, Koi, Komodo Dragon |
-| ![Mythical Pet Token](../assets/icons/item/mythical-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Token](../items/pet-items.md#mythical-pet-token) | not sold | 10% | Phoenix Chick, Ghost Cat, Thunderbird, Dragon, Cerberus, Griffin, Basilisk, Fenrir, Unicorn, Kraken Hatchling, Shadow Hound, Dire Bear, Lunar Moth, Void Serpent, Astral Hare, Celestial Jellyfish |
+| ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 5 credits | 65% | Chicken, Cat, Dog, Rabbit, Duck, Pigeon |
+| ![Uncommon Pet Token](../assets/icons/item/uncommon-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Uncommon Pet Token](../items/pet-items/pet-tokens.md#uncommon-pet-token) | not sold | 50% | Turtle, Hamster, Goldfish, Goat, Frog |
+| ![Rare Pet Token](../assets/icons/item/rare-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rare Pet Token](../items/pet-items/pet-tokens.md#rare-pet-token) | not sold | 40% | Fox, Parrot, Squirrel, Raccoon, Hedgehog, Otter, Owl, Ferret |
+| ![Epic Pet Token](../assets/icons/item/epic-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Epic Pet Token](../items/pet-items/pet-tokens.md#epic-pet-token) | not sold | 30% | Lizard, Wolf, Eagle |
+| ![Legendary Pet Token](../assets/icons/item/legendary-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Legendary Pet Token](../items/pet-items/pet-tokens.md#legendary-pet-token) | not sold | 20% | Panther, Snow Leopard, Koi, Komodo Dragon |
+| ![Mythical Pet Token](../assets/icons/item/mythical-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mythical Pet Token](../items/pet-items/pet-tokens.md#mythical-pet-token) | not sold | 10% | Phoenix Chick, Ghost Cat, Thunderbird, Dragon, Cerberus, Griffin, Basilisk, Fenrir, Unicorn, Kraken Hatchling, Shadow Hound, Dire Bear, Lunar Moth, Void Serpent, Astral Hare, Celestial Jellyfish |
 
 Tokens also drop from many activities (fishing, hunting, expeditions, heists, chat, bumps, votes, dice, Loot Reels…): see each game's prize table.
 

@@ -12,7 +12,7 @@ nav_icon: "assets/icons/heist-gear/baldurs-shimmering-helm.webp"
 - **Slot:** helm
 - **When attacking:** –
 - **When defending:** Deflect Chance +1%
-- **Crafting cost:** 125 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials.md#wood-scrap)</span>, 300 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials.md#metal-scrap)</span>, 200 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials.md#leather-scrap)</span>
+- **Crafting cost:** 125 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials/scrap.md#wood-scrap)</span>, 300 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials/scrap.md#metal-scrap)</span>, 200 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials/scrap.md#leather-scrap)</span>
 
 ## Checked in play
 

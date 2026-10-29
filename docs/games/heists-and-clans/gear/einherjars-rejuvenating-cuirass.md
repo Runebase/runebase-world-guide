@@ -12,7 +12,7 @@ nav_icon: "assets/icons/heist-gear/einherjars-rejuvenating-cuirass.webp"
 - **Slot:** armor
 - **When attacking:** Recovery Chance +1.5%, Gain Assault Fortification (Block Buff) +1.75%
 - **When defending:** –
-- **Crafting cost:** 100 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials.md#wood-scrap)</span>, 625 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials.md#metal-scrap)</span>, 225 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials.md#leather-scrap)</span>
+- **Crafting cost:** 100 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials/scrap.md#wood-scrap)</span>, 625 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials/scrap.md#metal-scrap)</span>, 225 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials/scrap.md#leather-scrap)</span>
 
 ## Checked in play
 

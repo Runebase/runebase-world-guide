@@ -12,7 +12,7 @@ nav_icon: "assets/icons/heist-gear/valkyries-vengeance.webp"
 - **Slot:** weapon
 - **When attacking:** –
 - **When defending:** Counter-Attack Chance +2%
-- **Crafting cost:** 275 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials.md#wood-scrap)</span>, 150 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials.md#metal-scrap)</span>, 175 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials.md#leather-scrap)</span>
+- **Crafting cost:** 275 <span class="gi-m">![](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../../../items/materials/scrap.md#wood-scrap)</span>, 150 <span class="gi-m">![](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../../../items/materials/scrap.md#metal-scrap)</span>, 175 <span class="gi-m">![](../../../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../../../items/materials/scrap.md#leather-scrap)</span>
 
 ## Checked in play
 

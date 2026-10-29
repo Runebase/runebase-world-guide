@@ -15,7 +15,7 @@ nav_icon: "assets/icons/item/skadis-retribution-brew.webp"
 
 ## Where you get it
 
-Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skadi's Retribution Brew](../../../items/store-consumables.md#skadis-retribution-brew)</span>.
+Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/skadis-retribution-brew.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Skadi's Retribution Brew](../../../items/consumables/store-consumables.md#skadis-retribution-brew)</span>.
 
 ## Checked in play
 

@@ -9,7 +9,7 @@ title: "Skills"
 
 ## Skill points
 
-Each skill tree (offensive and defensive) has **your rank + 30 points**. A skill holds at most 20. Add points with **Add 1 Skillpoint** or the amount box; a skill needs your rank to reach its level and its prerequisite skills (the menu says what's missing). **Reset Skills** takes back every skill of both trees for one **<span class="gi-m">![](../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../items/store-consumables.md#forgotten-throne-elixir)</span>** (8,000 credits in the store), once.
+Each skill tree (offensive and defensive) has **your rank + 30 points**. A skill holds at most 20. Add points with **Add 1 Skillpoint** or the amount box; a skill needs your rank to reach its level and its prerequisite skills (the menu says what's missing). **Reset Skills** takes back every skill of both trees for one **<span class="gi-m">![](../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../items/consumables/store-consumables.md#forgotten-throne-elixir)</span>** (8,000 credits in the store), once.
 
 What each skill does at its rank is what its screen shows:
 

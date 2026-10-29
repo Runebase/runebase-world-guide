@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/blood-rush.webp"
 
 Takes its seconds off your cooldown after an attack (the Crown's 15 s plus its Fractured Time and Temporal Nexus), never below 3 seconds.
 
-Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
+Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
@@ -30,7 +30,7 @@ Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chao
 
 ## Rank by rank
 
-What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
+What its skill screen shows at each rank; the game plays with exactly these numbers. A skill holds at most 20 points; a <span class="gi-m">![](../../../../assets/icons/item/forgotten-throne-elixir.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Forgotten Throne Elixir](../../../../items/consumables/store-consumables.md#forgotten-throne-elixir)</span> resets every skill ([skill points](../index.md#skill-points)).
 
 | Rank | attack cooldown |
 |---|---|

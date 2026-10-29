@@ -47,12 +47,11 @@ plugins:
   - mike:
       alias_type: copy
 extra:
-  # The version menu; an older release shows the outdated bar ("latest" and
-  # "next" don't).
+  # The version menu (the titles say current and archived: no alias beside
+  # them); an older release shows the outdated bar ("latest" and "next" don't).
   version:
     provider: mike
     default: ['^latest$', '^next$']
-    alias: true
   # The version mike is building (empty in mkdocs serve): the coming-soon bar.
   guide_version: !ENV [MIKE_DOCS_VERSION, '']
 markdown_extensions:

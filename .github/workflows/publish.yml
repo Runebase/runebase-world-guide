@@ -36,17 +36,22 @@ jobs:
             grep -qxF "${tag#v}" <<<"$deployed" && continue
             git checkout -q "$tag"
             pip install -q -r requirements.txt
-            mike deploy --push --title "$tag" "${tag#v}"
+            mike deploy "${tag#v}"
           done
           newest=$(git tag --list 'v*' --sort=-v:refname | head -n 1)
+          for tag in $(git tag --list 'v*'); do
+            if [ "$tag" = "$newest" ]; then state=current; else state=archived; fi
+            mike retitle "${tag#v}" "${tag#v} ($state)"
+          done
           if [ -n "$newest" ]; then
-            mike alias --push --update-aliases "${newest#v}" latest
-            mike set-default --push latest
+            mike alias --update-aliases "${newest#v}" latest
+            mike set-default latest
           fi
           git checkout -q origin/main
           pip install -q -r requirements.txt
-          mike deploy --push --title 'Next update' next
-          [ -n "$newest" ] || mike set-default --push next
+          mike deploy --title 'unreleased (upcoming)' next
+          [ -n "$newest" ] || mike set-default next
+          git push -q origin gh-pages
           rm -rf _site && mkdir _site && git archive gh-pages | tar -x -C _site
           cp site-root/404.html _site/
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0

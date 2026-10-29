@@ -18,6 +18,7 @@ Your account belongs to a <span class="gi-m">🌍&nbsp;[realm](realms.md)</span>
 | <span class="gi-m">🏷️&nbsp;[Roles](roles.md)</span> | top roles, the role panel |
 | <span class="gi-m">![](../assets/icons/emoji/pouch.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits and RUNES](credits-and-runes.md)</span> | deposits, withdrawals, buying credits with Hermes, RUNES prizes |
 | <span class="gi-m">🧱&nbsp;[Super stakers](super-stakers.md)</span> | registering your Runebase super staker, its point every 8 hours, the super staker role |
+| <span class="gi-m">![](../assets/icons/emoji/hodl.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hodlers](hodlers.md)</span> | linking the address that holds your RUNES, the hodler roles by balance |
 | <span class="gi-m">🏗️&nbsp;[Buildings](buildings.md)</span> | every building, its cost per level, what it does, nightly production, collecting, the <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span> |
 | <span class="gi-m">🐾&nbsp;[Pets](pets.md)</span> | tokens, care, day and night pets, every pet's perks, the kennel |
 | <span class="gi-m">![](../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Quests](quests.md)</span> | what counts for each quest, Normal and Progressive quests, every quest's goal and rewards |
@@ -33,3 +34,4 @@ Your account belongs to a <span class="gi-m">🌍&nbsp;[realm](realms.md)</span>
 | <span class="gi-m">👋&nbsp;[Joining and leaving](joining-and-leaving.md)</span> | the welcome, what leaving costs, coming back |
 | <span class="gi-m">🙋&nbsp;[Polls](polls.md)</span> | `/poll`: votes weighed by experience |
 | <span class="gi-m">🔍&nbsp;[Inspect](inspect.md)</span> | looking at other players' Hack & Slash characters |
+| <span class="gi-m">📚&nbsp;[Info and the Hall of Honor](info-menu.md)</span> | the Info menu's pages: loot tables, consumables, the network, Stellar's xRUNES; the Hall of Honor |

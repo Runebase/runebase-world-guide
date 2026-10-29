@@ -8,7 +8,9 @@ nav_emoji: "🏅"
 
 Most games have **leaderboards**, all-time and monthly, whose top players hold a [role](roles.md#top-roles).
 
-`/leaderboard` opens the experience leaderboard, with two menus to pick an all-time or a monthly board.
+`/leaderboard` (or `/start` → **Ranks** → **Leaderboards**) opens the experience leaderboard, with two menus to pick an all-time or a monthly board.
+
+- A board shows **10 players a page**; a longer one has **Next** and **Previous**, a shorter one a **Close** button. The key hunt ladder also has **Previous Month** and, on an earlier month, **Next Month**.
 
 - Boards show the top players in score order; on a tie, the newer Discord account comes first (the key hunt ladder puts whoever got there first). Only players with points are listed, and only players who are in the server.
 - **Monthly boards count the last 30 days:** every point you earn leaves the monthly board about 30 days later. (The key hunt ladder counts the calendar month, and so does the heist ladder on `/heistboard`.) A restart of the bot, even one in the middle of your action, never takes a point off a monthly board early or counts it twice.

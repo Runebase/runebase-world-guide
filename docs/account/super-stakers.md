@@ -14,6 +14,8 @@ Open it from `/start` → **Activities** → **Super Stakers**.
 
 **Super Stakers** lists every registered super staker that is verified (one still waiting for its verification isn't listed): its address, its owner, its delegates, its **score** (its points out of its cycles, as a percentage: 3 points in 4 cycles is **75% (3/4)**) and the blocks it produced. **How to become a Super Staker** and **How to Delegate** walk you through the wallet's setup.
 
+Pick one in **Select a Super Staker** to see it on its own: its address, its note and its delegations, **5 a page** (each delegate with its weight, fee and the block it started at), with **Next** and **Previous**; **Back to Super Stakers Overview** returns to the list.
+
 ## Registering yours
 
 1. **My Super Staker** → **Register Super Staker Address**, and type your super staker's address. An address the Runebase node calls invalid is refused ("You entered an invalid address!"), and nothing is registered.
@@ -21,6 +23,10 @@ Open it from `/start` → **Activities** → **Super Stakers**.
 3. Only a payment **from the super staker's address** verifies it; one from any other address doesn't. Once it's verified the bot tells you by DM, and your super staker is in the list.
 
 The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits), they become credits in your wallet at 6 confirmations.
+
+## Your note, and disabling it
+
+On **My Super Staker**, **Edit Note** opens a box with your super staker's public note; what you save is shown with it in the list. **Disable Super Staker** asks first (**Cancel** keeps it); once you confirm, it leaves the list and you can register an address again.
 
 ## A point every 8 hours
 

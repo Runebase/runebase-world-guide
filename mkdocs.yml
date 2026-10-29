@@ -484,6 +484,7 @@ nav:
   - "Roles": "account/roles.md"
   - "Credits and RUNES": "account/credits-and-runes.md"
   - "Super stakers": "account/super-stakers.md"
+  - "Hodlers": "account/hodlers.md"
   - "Buildings": "account/buildings.md"
   - "Pets": "account/pets.md"
   - "Quests": "account/quests.md"
@@ -499,4 +500,5 @@ nav:
   - "Joining and leaving": "account/joining-and-leaving.md"
   - "Polls": "account/polls.md"
   - "Inspect": "account/inspect.md"
+  - "Info and the Hall of Honor": "account/info-menu.md"
 - "The MMORPG": "mmorpg/index.md"

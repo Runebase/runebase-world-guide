@@ -21,6 +21,10 @@ You get **5 attribute points per level** to spend on the stats screen (never mor
 
 **Reset:** a stats reset gives every point back, for 0.5 <span class="gi-m">![](../../assets/icons/item/grilled-coyote-steak-with-lingonberry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grilled Coyote Steak With Lingonberry Sauce](../../items/consumables/meat-dishes.md#grilled-coyote-steak-with-lingonberry-sauce)</span> per point spent, rounded up.
 
+## Your main and secondary skill
+
+The **Stats** screen has two menus: your **main** and your **secondary** skill, the two attack buttons of a battle (each named after its skill, with its mana cost). Each menu lists your class's usable skills; picking one saves it at once, and each menu leaves out the skill the other one holds. The battle screen has the same two menus.
+
 ## Hitting and missing
 
 Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ (your attack rating + the monster's armor) × your level ÷ (your level + the monster's level), kept between 5% and 95%. A level-1 <span class="gi-m">![](../../assets/icons/class/warrior.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Warrior](classes/warrior.md)</span> (attack rating 91) hits a level-1 Flamecaster (armor 55) 62.3% of the time.

@@ -10,7 +10,7 @@ What happens when you join the server and when you leave it.
 
 ## Joining
 
-A new member of the home server gets the inactive-chatter role and is welcomed in the welcome channel once verified; others can wave at them.
+A new member of the home server gets the inactive-chatter role and is welcomed in the welcome channel once verified; others can wave at them. The welcome post's **Open RuneBase World Menu** opens the main menu for whoever presses it, their own (privately for a player who plays privately); the post stays as it is.
 
 ## Leaving
 

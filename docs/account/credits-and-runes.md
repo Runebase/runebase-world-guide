@@ -65,7 +65,7 @@ Dice, treasure chests, scratch cards and Crown of Chaos pay some prizes in RUNES
 
 - If the tipbot is offline, the dice roll, chest or scratch card says so, only to you, and nothing is spent; also when the bot can't read the realm's RUNES wallet (it lost the tipbot for over a minute). A Crown's reign still ends then, without RUNES.
 - **The realm's RUNES wallet must hold more than 1 RUNES to pay RUNES prizes.** With 1 RUNES or less every game still plays and pays everything else: the dice roll (experience, the prize draw, the cooldown), chests open, scratch cards are dealt and collected, a Crown's reign ends with its pool and experience. The prize tables show no RUNES, and a RUNES prize is shown as **not paid: the realm's RUNES wallet is empty**.
-- If the realm's tipbot session isn't active, no RUNES are tipped: the prize is recorded as not paid.
+- **RUNES are paid only in a server whose tipbot is connected** (today the Runebase server; the other servers are connected after the update). Until then a server plays like one with an empty wallet: the prize tables show no RUNES, a RUNES prize is shown as **not paid: RUNES prizes aren't connected in this server yet**, and everything else is paid.
 - **No single RUNES prize is more than 1% of the realm's wallet.** A prize above that would be a mistake in a prize table: the whole roll or card fails and nothing of it is paid (no experience, no item, no tip), and you can try again.
 - **A tip is never sent twice.** Each prize's tip is on record from the moment you win it. If the bot restarts right after your win, or the tipbot doesn't confirm the tip, the bot doesn't send it again on its own: the realm's admins are told, check the tipbot, and settle it by hand.
 

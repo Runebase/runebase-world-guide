@@ -19,6 +19,7 @@ A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../
 - A roll outside the dice channel answers you privately and posts the result in the dice channel.
 - If the tipbot is offline, the roll says so, only to you, and nothing changes; also when the bot can't read the realm's RUNES wallet (it lost the tipbot for over a minute).
 - **When the realm's RUNES wallet holds 1 RUNES or less, the dice still roll:** you get the experience and the prize draw, and the cooldown starts, but no RUNES. The result shows the RUNES prize as **not paid: the realm's RUNES wallet is empty**, its table shows no RUNES, and the dice menu says rolls pay no RUNES for now.
+- **The same in a server whose RUNES prizes aren't connected yet** (every server but the Runebase server, until after the update): the dice roll and pay everything but RUNES, shown as **not paid: RUNES prizes aren't connected in this server yet**, and the dice menu says so.
 - Two rolls at the same moment: one is paid, the other gets the cooldown, also from two devices (`/roll` and the dice menu).
 - The cooldown survives a restart of the bot, and the dice menu always counts down to the time a roll would be refused until.
 - The **dice leaderboards** count each roll's dice score.

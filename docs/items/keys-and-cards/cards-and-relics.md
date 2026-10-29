@@ -10,7 +10,7 @@ Mystery Cards scratch <span class="gi-m">![](../../assets/icons/emoji/goldcard.w
 
 ## ![Mystery Card](../../assets/icons/item/mystery-card.webp){ .gi .gi-entry width="32" height="32" loading="lazy" } Mystery Card
 
-- **Where you get it:** made by the <span class="gi-m">![](../../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../../account/buildings.md#what-each-building-does)</span>; a prize in 5 prize tables (below).
+- **Where you get it:** made by the <span class="gi-m">![](../../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../../account/buildings.md#what-each-building-does)</span>; for the 6th Bronze, 4th Silver or 2nd Gold Key you find in <span class="gi-m">🗝️&nbsp;[piles](../../games/piles-and-key-hunt.md#piles)</span> within 4 hours; a prize in 5 prize tables (below).
 - **Scratch cards:** scratches one scratch card ([more](../../games/scratch-cards.md)).
 
 ??? info "A prize in 5 prize tables"

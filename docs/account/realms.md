@@ -34,6 +34,6 @@ Nothing moves from one realm to another by itself. Leaving a realm's server cost
 ## Only in the Runebase server
 
 - Treasure keys, scrap piles and building supply piles appear only there (credit piles appear in every realm).
-- <span class="gi-m">![](../assets/icons/emoji/bronzekey.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Treasure chests](../games/treasure-chests.md)</span> and <span class="gi-m">![](../assets/icons/emoji/goldcard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[scratch cards](../games/scratch-cards.md)</span> are only opened and dealt there.
+- <span class="gi-m">![](../assets/icons/emoji/bronzekey.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Treasure chests](../games/treasure-chests.md)</span> and <span class="gi-m">![](../assets/icons/emoji/goldcard.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[scratch cards](../games/scratch-cards.md)</span> are only opened and dealt there: your keys and <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span> belong to each realm like the rest of your pouch, but their prizes include RUNES tips, which the tipbot pays only in the Runebase server for now.
 - <span class="gi-m">✉️&nbsp;[Invite](invites.md)</span> rewards are counted only there.
 - New members are welcomed there (the inactive-chatter role and the welcome channel).

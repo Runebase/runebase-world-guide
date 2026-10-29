@@ -38,6 +38,7 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 - If the Runebase node or the bot's database has a hiccup while your deposit comes in, the bot tries again with the next block: a deposit is never skipped, and still credited only once.
 - One payment to several deposit addresses gives each player the sum sent to their own address.
 - A staking reward paid to a deposit address is not a deposit.
+- The deposit that verifies you as a <span class="gi-m">🧱&nbsp;[super staker](super-stakers.md)</span> goes to this same address and is credited like any other.
 
 ## Buying credits with Hermes
 

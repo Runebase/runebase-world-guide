@@ -14,6 +14,9 @@ Be first to grab the piles that appear in the server's channels, and climb the m
 Piles of credits, treasure keys, scrap and building supplies appear in the server's channels for a short time. To collect one, press its button and answer the **captcha**: the first players to answer correctly take the pile's slots.
 
 - **Credit piles** are shared: each collector gets their share. Answering the captcha wrong, or collecting twice, pays nothing.
+- A wrong answer shows the captcha again, marked incorrect: press **Answer** again for another try.
+- Discord shows you one captcha at a time: a captcha you closed without answering doesn't count, and your next answer goes to the pile you answered, once.
+- A pile still open when the bot restarts stays collectable until its time is up.
 - A pile has a limited number of slots: when more players answer than there are slots, only the first ones are paid, and the others are told.
 - When a credit pile expires, its unclaimed share goes to the **Crown of Chaos** pool.
 - **Nail piles** come every hour: each of their players gets the same number of <span class="gi-m">![](../assets/icons/item/nail.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Nails](../items/materials.md#nail)</span> (3 to 9, set when the pile appears) and 2 experience.

@@ -25,7 +25,7 @@ Every ISO week (Monday 00:00 UTC to Sunday 23:59:59 UTC) has its own Crown of Ch
 | Defends | 1 per 4 |
 | Final Blows | 50 |
 
-A <span class="gi-m">![](../../assets/icons/crown-skill/silence.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silence](skills/offensive/silence.md)</span> counts only when it lands: one that misses or is dodged scores nothing. Points Earned are the points you earn as the Crown; the Crown's skills count when used (Resurgences, Bubbles), per bleed purged or seed defused, and per hit its Mana Drain drained.
+A <span class="gi-m">![](../../assets/icons/crown-skill/silence.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silence](skills/offensive/silence.md)</span> counts only when it lands: one that misses or is dodged scores nothing. Crowns Taken count a Crown won in the draw among the reign's attackers (a Crown drawn among the server's players, a server's first one too, counts none). Points Earned are the points you earn as the Crown; the Crown's skills count when used (Resurgences, Bubbles), per bleed purged or seed defused, and per hit its Mana Drain drained.
 
 - **CoC Weekly Ladder Board** on the Crown of Chaos menu (or **CoC Weekly Ladder** under the channel's posts, answered only to you) shows this week's ladder, ten players a page (**Next**, **Previous**), and earlier weeks (**Previous Week**, **Next Week**).
 - On Monday (UTC), last week's **top 3** get the CoC Winners role; a top-3 player who already has it keeps it ("Role Extended"), and a former winner who isn't in the top 3 loses it. Only a score above 0 counts: after a week nobody scored in, nobody holds the role. If the bot was down on Monday at 00:00, it happens when it starts again.

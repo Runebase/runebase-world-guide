@@ -18,6 +18,7 @@ One player in the realm holds **the Crown**. The Crown earns a point every minut
 ## How a reign works
 
 - A server's very first reign goes to **a random player of the server**: someone with an account (players get one with their first chat message) who is still a member, never a bot. It starts behind a 90-minute seizure bubble, and "A new era begins!" is posted. In a new server where nobody has an account yet, the first Crown is drawn at the first minute's round after someone has one. A restart never starts a new reign while one is running.
+- When a reign ends and nobody who attacked it is still in the server, the next Crown is **drawn among the server's players** the same way, never the Crown that just fell ([the end of a reign](round-and-reign.md#the-end-of-a-reign)).
 - A new Crown starts with its full health and a **seizure bubble** of 30 minutes: nobody can attack until it runs out, or until the new Crown removes it (**Remove Bubble**). <!-- Production's length; the tests run with 1 minute. --> Attacks against a bubble spend nothing.
 - Every minute (**a round**) the Crown gets 1 point, regenerates a little, and bleeds and seeds on it run (<span class="gi-m">📊&nbsp;[the round](round-and-reign.md#the-round-every-minute)</span>).
 - The longer a Crown holds on, the more damage it takes (the **handicap**: <span class="gi-m">📊&nbsp;[the round](round-and-reign.md#the-round-every-minute)</span>).

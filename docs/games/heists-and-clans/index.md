@@ -37,6 +37,7 @@ In a heist you steal **experience** from another player, not credits. Buffs, gea
 - Left in an earlier month, or lost your place to low experience? You can rejoin right away once you have enough experience again, also in a new month.
 - `/rolepanel` (the heist role's Earn or Remove button) does the same: leaving within 2 days of joining, or rejoining before the wait is over, is refused privately with the time you can.
 - Being heisted is no bubble: you stay in the heist, protected only by the 6 hits a day.
+- **A week without an attack and you leave the heist:** 7 days after you join, and 7 days after each of your attacks, you're out of the heist if you haven't attacked since (being heisted doesn't count). It isn't a bubble: you can rejoin at once, and from your rejoin you have a new week. The heist channel names the players who left.
 
 ## Energy and hits
 

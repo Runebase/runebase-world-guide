@@ -34,7 +34,7 @@ When an attack or a round's bleed brings the Crown to 0:
 - Two final blows at the same moment (a round and an attack, two attackers, a double click) end the reign once and pay the pool once. An attack and the minute's round at the same moment both count, one after the other.
 - A restart of the bot in the middle of a round: the round counts entirely or not at all, and the next minute's round counts once.
 - A Crown who is still in the server keeps the reign even if the bot briefly thinks otherwise: only a Crown Discord confirms as gone loses it.
-- If the tipbot is unreachable, the reign still ends and the pool is paid; no RUNES are tipped or promised. Without the realm's tipbot session, the RUNES are recorded as not paid.
+- If the tipbot is unreachable, the reign still ends and the pool is paid; no RUNES are tipped or promised. Without the realm's tipbot session, the RUNES are recorded as not paid. When the realm's RUNES wallet holds 1 RUNES or less, the reign ends the same way, the pool and the experience paid, and the end result says no RUNES were paid because the wallet is empty.
 
 ## A Crown who leaves the server
 

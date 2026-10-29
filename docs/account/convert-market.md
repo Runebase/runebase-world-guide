@@ -1,8 +1,10 @@
 ---
 title: "Convert Market"
+icon: guide/nav
+nav_emoji: "♻️"
 ---
 
-# The convert market
+# ♻️ The convert market
 
 `/convert` swaps scrap and dishes at fixed rates.
 

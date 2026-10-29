@@ -1,14 +1,16 @@
 ---
 title: "Buffs by game"
+icon: guide/nav
+nav_emoji: "💪"
 ---
 
-# Buffs by game
+# 💪 Buffs by game
 
-Every dish and store consumable, grouped by the game it helps. Each name leads to its entry (where you get it), each game to its page.
+Every dish and store consumable, grouped by the game it helps (and the one you eat from your basket). Each name leads to its entry (where you get it), each game to its page.
 
 ## Fishing
 
-On the [Fishing page](../games/fishing.md#buffs).
+On the <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing page](../games/fishing.md#buffs)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -17,7 +19,7 @@ On the [Fishing page](../games/fishing.md#buffs).
 
 ## Hunting
 
-On the [Hunting page](../games/hunting.md#buffs).
+On the <span class="gi-m">🏹&nbsp;[Hunting page](../games/hunting.md#buffs)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -26,7 +28,7 @@ On the [Hunting page](../games/hunting.md#buffs).
 
 ## Expeditions
 
-On the [Expeditions page](../games/expeditions.md#buffs).
+On the <span class="gi-m">🧭&nbsp;[Expeditions page](../games/expeditions.md#buffs)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -34,7 +36,7 @@ On the [Expeditions page](../games/expeditions.md#buffs).
 
 ## Heists
 
-On the [Heists page](../games/heists-and-clans/buffs/index.md).
+On the <span class="gi-m">💪&nbsp;[Heists page](../games/heists-and-clans/buffs/index.md)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -52,7 +54,7 @@ On the [Heists page](../games/heists-and-clans/buffs/index.md).
 
 ## Crown of Chaos
 
-On the [Crown of Chaos page](../games/crown-of-chaos/buffs.md).
+On the <span class="gi-m">💪&nbsp;[Crown of Chaos page](../games/crown-of-chaos/buffs.md)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -63,7 +65,7 @@ On the [Crown of Chaos page](../games/crown-of-chaos/buffs.md).
 
 ## Hack & Slash
 
-On the [Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battles).
+On the <span class="gi-m">🗡️&nbsp;[Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battles)</span>.
 
 | Buff | What it does |
 |---|---|
@@ -74,3 +76,11 @@ On the [Hack & Slash page](../games/hack-and-slash/quick-battles.md#quick-battle
 | ![Pheasant with Blackberry Balsamic Glaze](../assets/icons/item/pheasant-with-blackberry-balsamic-glaze.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Pheasant with Blackberry Balsamic Glaze](consumables/meat-dishes.md#pheasant-with-blackberry-balsamic-glaze) | fills your stamina to its maximum (Restore Stamina now) |
 | ![Elk with Huckleberry Sauce](../assets/icons/item/elk-with-huckleberry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Elk with Huckleberry Sauce](consumables/meat-dishes.md#elk-with-huckleberry-sauce) | double damage on a quick battle, picked before it or on the results screen and spent once |
 | ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Engraving Tool](materials/hack-and-slash-crafting-materials.md#engraving-tool) | pays an inscription: 1 for a Magic one, 3 for a Rare one |
+
+## Your basket
+
+On the <span class="gi-m">🧺&nbsp;[basket page](../account/basket.md)</span>.
+
+| Buff | What it does |
+|---|---|
+| ![Swordfish Kebabs with Lemon and Rosemary](../assets/icons/item/swordfish-kebabs-with-lemon-and-rosemary.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Swordfish Kebabs with Lemon and Rosemary](consumables/fish-dishes.md#swordfish-kebabs-with-lemon-and-rosemary) | eaten from the basket for experience |

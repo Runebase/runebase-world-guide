@@ -44,7 +44,7 @@ In a heist you steal **experience** from another player, not credits. Buffs, gea
 - An attack costs 1 energy (unless you recover it: [one heist](attacks-and-defence/index.md#one-heist)). Every heist on you uses one of your 6 daily hits, also a blocked one.
 - **Mímisbrunnr** (in the heist menu): sacrifice an eye, once a month, to refill your heist energy and your daily hits. It costs nothing else (experience, credits, buffs and your score stay as they are), counts for your clan too, and is told in the heist channel. It's closed in the last 3 days of the month. A second eye the same month, or one from outside the heist, is refused privately; a double click takes one eye.
 
-A heist is refused, and nothing changes, when you're out of energy, when you target yourself, a player in a bubble or who never joined, a player who left the server, a player already hit 6 times today, or a member of your own clan; also when the player bubbles or leaves the server while your heist is starting, and when the heist would pay you more than 15,000 experience at once (with a big backlog of heist quests: see [quests](../../account/quests.md)). If you haven't joined, `/heist` tells you heists aren't enabled for you; on a server not set up for heists (no heist role, or no heist channel for the heists' log), it says so. Every refusal is private, also from the heist menu's attack guide. A double click on the guide's Attack button attacks once: the second click is told the attack was already made.
+A heist is refused, and nothing changes, when you're out of energy, when you target yourself, a player in a bubble or who never joined, a player who left the server, a player already hit 6 times today, or a member of your own clan; also when the player bubbles or leaves the server while your heist is starting, and when the heist would pay you more than 15,000 experience at once (with a big backlog of heist quests: see <span class="gi-m">![](../../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../../account/quests.md)</span>). If you haven't joined, `/heist` tells you heists aren't enabled for you; on a server not set up for heists (no heist role, or no heist channel for the heists' log), it says so. Every refusal is private, also from the heist menu's attack guide. A double click on the guide's Attack button attacks once: the second click is told the attack was already made.
 
 The buttons under every heist log (Heist, the monthly ladders, Legend) work for anyone and answer only the one who clicks.
 
@@ -52,11 +52,11 @@ The buttons under every heist log (Heist, the monthly ladders, Legend) work for 
 
 | Page | What you'll find |
 |---|---|
-| [Attacks and defence](attacks-and-defence/index.md) | one heist step by step, the attack types, blocks, counter-attacks, deflections, the heist's prize |
-| [Buffs](buffs/index.md) | charges, super buffs, earned buffs, a page per buff |
-| [Gear](gear/index.md) | slots, Tactical Shift, a page per item |
-| [Clans](clans.md) | registering, joining, leading a clan |
-| [The ladder](ladder.md) | the heist score, the monthly ladders, roles and RUNES prizes |
+| <span class="gi-m">🗡️&nbsp;[Attacks and defence](attacks-and-defence/index.md)</span> | one heist step by step, the attack types, blocks, counter-attacks, deflections, the heist's prize |
+| <span class="gi-m">💪&nbsp;[Buffs](buffs/index.md)</span> | charges, super buffs, earned buffs, a page per buff |
+| <span class="gi-m">🛡️&nbsp;[Gear](gear/index.md)</span> | slots, Tactical Shift, a page per item |
+| <span class="gi-m">⚡&nbsp;[Clans](clans.md)</span> | registering, joining, leading a clan |
+| <span class="gi-m">🏆&nbsp;[The ladder](ladder.md)</span> | the heist score, the monthly ladders, roles and RUNES prizes |
 
 ## Tips
 

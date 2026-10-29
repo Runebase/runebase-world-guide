@@ -1,8 +1,10 @@
 ---
 title: "Leaderboards"
+icon: guide/nav
+nav_emoji: "🏆"
 ---
 
-# Leaderboards
+# 🏆 Leaderboards
 
 Most games have **leaderboards**, all-time and monthly, whose top players hold a [role](roles.md#top-roles).
 

@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/swift-disarmament.webp"
 
 Defuse waits 900 seconds minus 30 a rank before you can use it again.
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

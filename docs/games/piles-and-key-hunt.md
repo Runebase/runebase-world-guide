@@ -1,13 +1,15 @@
 ---
 title: "Piles and the key hunt"
+icon: guide/nav
+nav_emoji: "🗝️"
 ---
 
-# Piles and the key hunt
+# 🗝️ Piles and the key hunt
 
 **Where to play:** Discord
 { .where-to-play }
 
-Be first to grab the piles that appear in the server's channels, and climb the monthly key hunt with the treasure keys you find. Keys open [treasure chests](treasure-chests.md).
+Be first to grab the piles that appear in the server's channels, and climb the monthly key hunt with the treasure keys you find. Keys open <span class="gi-m">![](../assets/icons/emoji/bronzekey.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[treasure chests](treasure-chests.md)</span>.
 
 ## Piles
 

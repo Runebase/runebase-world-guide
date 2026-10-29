@@ -1,8 +1,10 @@
 ---
 title: "The Jotnar"
+icon: guide/nav
+nav_emoji: "🗿"
 ---
 
-# The Jotnar: a world boss
+# 🗿 The Jotnar: a world boss
 
 **Where to play:** Discord
 { .where-to-play }

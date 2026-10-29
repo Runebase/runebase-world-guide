@@ -1,8 +1,10 @@
 ---
 title: "Classes"
+icon: guide/nav
+nav_emoji: "🎭"
 ---
 
-# Classes
+# 🎭 Classes
 
 **Where to play:** Discord
 { .where-to-play }

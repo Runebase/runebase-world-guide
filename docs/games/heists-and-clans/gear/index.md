@@ -1,8 +1,10 @@
 ---
 title: "Gear"
+icon: guide/nav
+nav_emoji: "🛡️"
 ---
 
-# Heist gear
+# 🛡️ Heist gear
 
 **Where to play:** Discord
 { .where-to-play }

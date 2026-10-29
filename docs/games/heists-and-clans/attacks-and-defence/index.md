@@ -1,8 +1,10 @@
 ---
 title: "Attacks and defence"
+icon: guide/nav
+nav_emoji: "🗡️"
 ---
 
-# Attacks and defence
+# 🗡️ Attacks and defence
 
 **Where to play:** Discord
 { .where-to-play }
@@ -13,11 +15,11 @@ The attacker gains **10** experience and the defender loses **10**, plus the att
 
 | Attack type | Effect |
 |---|---|
-| [+1 Increased Experience Gain](increased-experience-gain.md) | you gain 1 more |
-| [+1 Increased Opponent Experience Loss](increased-opponent-experience-loss.md) | the defender loses 1 more |
-| [+5% Recovery Chance](recovery-chance.md) | 5% more chance to keep your energy |
-| [+3% Gain Retribution Fury](gain-retribution-fury.md) | 3% chance to earn a [Retribution Fury](../buffs/retribution-fury.md) charge |
-| [+4% Gain Assault Fortification](gain-assault-fortification.md) | 4% chance to earn an [Assault Fortification](../buffs/assault-fortification.md) charge |
+| <span class="gi-m">⬆️&nbsp;[+1 Increased Experience Gain](increased-experience-gain.md)</span> | you gain 1 more |
+| <span class="gi-m">⬇️&nbsp;[+1 Increased Opponent Experience Loss](increased-opponent-experience-loss.md)</span> | the defender loses 1 more |
+| <span class="gi-m">⚡&nbsp;[+5% Recovery Chance](recovery-chance.md)</span> | 5% more chance to keep your energy |
+| <span class="gi-m">![](../../../assets/icons/heist-attack/gain-retribution-fury.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[+3% Gain Retribution Fury](gain-retribution-fury.md)</span> | 3% chance to earn a <span class="gi-m">![](../../../assets/icons/heist-buff/retribution-fury.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Retribution Fury](../buffs/retribution-fury.md)</span> charge |
+| <span class="gi-m">![](../../../assets/icons/heist-attack/gain-assault-fortification.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[+4% Gain Assault Fortification](gain-assault-fortification.md)</span> | 4% chance to earn an <span class="gi-m">![](../../../assets/icons/heist-buff/assault-fortification.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assault Fortification](../buffs/assault-fortification.md)</span> charge |
 
 Then the chances roll:
 
@@ -28,11 +30,11 @@ Then the chances roll:
 
 Nobody's experience goes below 0: a defender with 4 experience loses 4, and the attacker still gains the full amount. What a heist takes doesn't depend on levels: a new heister and one at the top rank take the same from each other. An attacker gains at most **15** in one heist and a defender loses at most **14**, and at least **6** (with every protection); a hit both blocked and counter-attacked only costs the attacker 10 and only gives the defender 10.
 
-After each heist the attacker gets a private message ("Heist Energy Left: n/3"), and the heist channel shows everyone what happened: each side's buffs, the experience moved, the scores, energy and hits, and each side's loot and the [quests](../../../account/quests.md) the heist completed for them (every quest in their loot summary; a box of its own for each that fits in the message, however many both sides completed).
+After each heist the attacker gets a private message ("Heist Energy Left: n/3"), and the heist channel shows everyone what happened: each side's buffs, the experience moved, the scores, energy and hits, and each side's loot and the <span class="gi-m">![](../../../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../../../account/quests.md)</span> the heist completed for them (every quest in their loot summary; a box of its own for each that fits in the message, however many both sides completed).
 
 ## Pets, buildings, clans
 
-- **Pets:** your active pet's heist perk counts while it's awake and cared for (every condition its perk screen lists); asleep, it doesn't. An attacking perk works on your own attacks, a defending perk when you're hit. In a counter-attack, an experience perk of the defender (Phoenix Chick, Thunderbird) adds to it, and a block or experience perk of the raider (Ghost Cat, the block pets) protects against it; the others do nothing in it. Every pet's perks: [Pets](../../../account/pets.md).
+- **Pets:** your active pet's heist perk counts while it's awake and cared for (every condition its perk screen lists); asleep, it doesn't. An attacking perk works on your own attacks, a defending perk when you're hit. In a counter-attack, an experience perk of the defender (Phoenix Chick, Thunderbird) adds to it, and a block or experience perk of the raider (Ghost Cat, the block pets) protects against it; the others do nothing in it. Every pet's perks: <span class="gi-m">🐾&nbsp;[Pets](../../../account/pets.md)</span>.
 - **<span class="gi-m">![](../../../assets/icons/building/thieves-den.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Thieves Den](../../../account/buildings.md#what-each-building-does)</span>** (a building): +0.035% chance per level that an attack keeps its energy.
 - **Heist Clan Protection:** a defender who is in a clan loses 1 less experience, and so does a raider in a clan who is counter-attacked.
 
@@ -53,7 +55,7 @@ Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](..
 | ![Chaos Relic](../../../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../../../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 3.5% |
 | ![Engraving Tool](../../../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../../../items/materials/hack-and-slash-crafting-materials.md#engraving-tool) | 3.5% |
 | ![Common Pet Token](../../../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../../../items/pet-items/pet-tokens.md#common-pet-token) | 1% |
-| 1 [Pet Token](../../../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../../../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Credits](../../../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 to 10 credits | 25% |
 | ![Metal Scrap](../../../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../../../items/materials/scrap.md#metal-scrap) | 10% |
 | ![Wood Scrap](../../../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../../../items/materials/scrap.md#wood-scrap) | 10% |

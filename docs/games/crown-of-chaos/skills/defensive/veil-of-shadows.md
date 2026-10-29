@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/veil-of-shadows.webp"
 
 Gives you its % chance to dodge an attack as the Crown (11.5% at rank 20); a dodged attack deals nothing but still costs the attacker the relic.
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

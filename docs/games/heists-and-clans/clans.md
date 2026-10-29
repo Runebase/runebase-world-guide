@@ -1,8 +1,10 @@
 ---
 title: "Clans"
+icon: guide/nav
+nav_emoji: "⚡"
 ---
 
-# Clans
+# ⚡ Clans
 
 **Where to play:** Discord
 { .where-to-play }

@@ -1,8 +1,10 @@
 ---
 title: "Skills"
+icon: guide/nav
+nav_emoji: "💥"
 ---
 
-# Skills
+# 💥 Skills
 
 **Where to play:** Discord
 { .where-to-play }

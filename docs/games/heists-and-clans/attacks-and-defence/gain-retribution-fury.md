@@ -1,5 +1,7 @@
 ---
 title: "Gain Retribution Fury"
+icon: guide/nav
+nav_icon: "assets/icons/heist-attack/gain-retribution-fury.webp"
 ---
 
 # ![Gain Retribution Fury](../../../assets/icons/heist-attack/gain-retribution-fury.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Gain Retribution Fury
@@ -9,7 +11,7 @@ title: "Gain Retribution Fury"
 
 An attack type you pick with `/heist`: **+3% Gain Retribution Fury (100% Counter-Attack Buff)**.
 
-Gives a 3% chance to earn a [Retribution Fury](../buffs/retribution-fury.md) charge; it steals no extra experience.
+Gives a 3% chance to earn a <span class="gi-m">![](../../../assets/icons/heist-buff/retribution-fury.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Retribution Fury](../buffs/retribution-fury.md)</span> charge; it steals no extra experience.
 
 ## Checked in play
 

@@ -31,7 +31,7 @@ nav_icon: "assets/icons/skill/warrior/war-cry.webp"
 
 ## Rank by rank
 
-What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+What its skill screen shows at each rank. The battle uses exactly these numbers (checked at ranks 1 and 20). A skill takes at most 20 points; <span class="gi-m">💥&nbsp;[skill points and resets](../../index.md)</span>.
 
 | Rank | Parry bonus (%) | Rounds | Mana |
 |---|---|---|---|

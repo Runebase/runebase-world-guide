@@ -1,8 +1,10 @@
 ---
 title: "Chess"
+icon: guide/nav
+nav_emoji: "♟️"
 ---
 
-# Chess
+# ♟️ Chess
 
 **Where to play:** Discord
 { .where-to-play }

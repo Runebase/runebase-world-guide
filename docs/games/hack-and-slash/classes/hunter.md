@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/hunter.webp"
 
 > In the game: In the realm where ethereal enchantment intertwines with the natural essence, a masterful hunter emerges, harmonized with the untamed wilderness. With every step, this hunter exudes grace and precision, their connection to nature unyielding. Guided by instinct and wielding unmatched prowess with a bow, they traverse the land, leaving a trail of legends in their wake. Their tales are told in soaring melodies and enthralling tales, etching their name among the pantheon of the realm's greatest heroes. As the ancient runes awaken, this gifted hunter eagerly anticipates the joining of kindred spirits, ready to embark on extraordinary quests hand in hand, weaving a tapestry of epic adventures that will be sung for generations to come.
 
-A new Hunter starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Hunter starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Hunter |
 |---|---|
@@ -26,7 +26,7 @@ A new Hunter starts with these attributes and its full health, mana and stamina 
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 60, 23, 84 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

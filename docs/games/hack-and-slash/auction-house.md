@@ -1,8 +1,10 @@
 ---
 title: "The auction house"
+icon: guide/nav
+nav_emoji: "🔨"
 ---
 
-# The auction house
+# 🔨 The auction house
 
 **Where to play:** Discord
 { .where-to-play }

@@ -1,8 +1,10 @@
 ---
 title: "Hnefatafl"
+icon: guide/nav
+nav_emoji: "⚔️"
 ---
 
-# Hnefatafl
+# ⚔️ Hnefatafl
 
 **Where to play:** Discord
 { .where-to-play }
@@ -80,7 +82,7 @@ A draw comes from playing the same position a third time (see the rules above), 
 
 The boards: `/leaderboard` → **All-Time Hnefatafl Points** or **Monthly Hnefatafl Points**, best first.
 
-Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A restart never counts against you: as in [chess](chess.md), the player to move gets a DM and 15 minutes.
+Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;[chess](chess.md)</span>, the player to move gets a DM and 15 minutes.
 
 ## Tips
 

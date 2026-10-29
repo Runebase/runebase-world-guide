@@ -1,12 +1,14 @@
 ---
 title: "Store"
+icon: guide/nav
+nav_emoji: "🏪"
 ---
 
-# The store
+# 🏪 The store
 
-The store sells you items for credits and buys them back. How credits get in and out of the game is in [Credits and RUNES](credits-and-runes.md).
+The store sells you items for credits and buys them back. How credits get in and out of the game is in <span class="gi-m">![](../assets/icons/emoji/pouch.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits and RUNES](credits-and-runes.md)</span>.
 
-**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the [Crown of Chaos](../games/crown-of-chaos/attacking.md) menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
+**Where:** `/store`. Pick a category and an item, then **Buy** or **Sell** and type how many. Some other menus open the store on an item (the <span class="gi-m">🗡️&nbsp;[Crown of Chaos](../games/crown-of-chaos/attacking.md)</span> menu's **Buy <span class="gi-m">![](../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span>**), and the store's delivery announcements have **Buy …** buttons for what just arrived.
 
 **What the screen shows:** your credits, how many of the item you have, the price to **Buy** one and what **Sell** pays for one (with its percent), the store's own balance and the Crown of Chaos pool.
 
@@ -56,7 +58,7 @@ The store sells you items for credits and buys them back. How credits get in and
 | Spices | ![Sichuan Peppercorns](../assets/icons/item/sichuan-peppercorns.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sichuan Peppercorns](../items/ingredients/spices.md#sichuan-peppercorns) | 5 credits | 3.75 credits (75%) |
 | Spices | ![Dill](../assets/icons/item/dill.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Dill](../items/ingredients/spices.md#dill) | 8 credits | 6 credits (75%) |
 | Spices | ![Rosemary](../assets/icons/item/rosemary.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Rosemary](../items/ingredients/spices.md#rosemary) | 10 credits | 7.5 credits (75%) |
-| Spices | ![Lemon](../assets/icons/item/lemon.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Lemon](../items/ingredients/spices.md#lemon) | 25 credits | 18.75 credits (75%) |
+| Spices | 🍋 [Lemon](../items/ingredients/spices.md#lemon) | 25 credits | 18.75 credits (75%) |
 | Sauces | ![Sawmill Gravy](../assets/icons/item/sawmill-gravy.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Sawmill Gravy](../items/ingredients/sauces.md#sawmill-gravy) | 1 credit | 0.75 credits (75%) |
 | Sauces | ![Mustard Cream Sauce](../assets/icons/item/mustard-cream-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Mustard Cream Sauce](../items/ingredients/sauces.md#mustard-cream-sauce) | 2 credits | 1.5 credits (75%) |
 | Sauces | ![Lingonberry Sauce](../assets/icons/item/lingonberry-sauce.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } [Lingonberry Sauce](../items/ingredients/sauces.md#lingonberry-sauce) | 3 credits | 2.25 credits (75%) |

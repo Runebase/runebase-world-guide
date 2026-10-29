@@ -1,5 +1,7 @@
 ---
 title: "Assault Fortification"
+icon: guide/nav
+nav_icon: "assets/icons/heist-buff/assault-fortification.webp"
 ---
 
 # ![Assault Fortification](../../../assets/icons/heist-buff/assault-fortification.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Assault Fortification
@@ -13,7 +15,7 @@ title: "Assault Fortification"
 
 ## Where you get it
 
-The [Gain Assault Fortification (100% Block Buff) attack](../attacks-and-defence/gain-assault-fortification.md) and the gear <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-rejuvenating-cuirass.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Rejuvenating Cuirass](../gear/einherjars-rejuvenating-cuirass.md)</span>, <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-wrathful-loop.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Wrathful Loop](../gear/einherjars-wrathful-loop.md)</span> give a chance to earn one charge each heist; pets can too.
+The <span class="gi-m">![](../../../assets/icons/heist-attack/gain-assault-fortification.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gain Assault Fortification (100% Block Buff) attack](../attacks-and-defence/gain-assault-fortification.md)</span> and the gear <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-rejuvenating-cuirass.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Rejuvenating Cuirass](../gear/einherjars-rejuvenating-cuirass.md)</span>, <span class="gi-m">![](../../../assets/icons/heist-gear/einherjars-wrathful-loop.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Wrathful Loop](../gear/einherjars-wrathful-loop.md)</span> give a chance to earn one charge each heist; pets can too.
 
 ## Checked in play
 
@@ -22,4 +24,4 @@ The [Gain Assault Fortification (100% Block Buff) attack](../attacks-and-defence
 
 ## How buffs work
 
-Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: [heist buffs](index.md).
+Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: <span class="gi-m">💪&nbsp;[heist buffs](index.md)</span>.

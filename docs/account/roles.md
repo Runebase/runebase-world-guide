@@ -1,10 +1,12 @@
 ---
 title: "Roles"
+icon: guide/nav
+nav_emoji: "🎭"
 ---
 
-# Roles
+# 🎭 Roles
 
-The top players of many [leaderboards](leaderboards.md) hold a role, and `/rolepanel` has roles you can give yourself.
+The top players of many <span class="gi-m">🏆&nbsp;[leaderboards](leaderboards.md)</span> hold a role, and `/rolepanel` has roles you can give yourself.
 
 ## Top roles
 

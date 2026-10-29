@@ -1,8 +1,10 @@
 ---
 title: "Holding the Crown"
+icon: guide/nav
+nav_emoji: "👑"
 ---
 
-# Holding the Crown
+# 👑 Holding the Crown
 
 **Where to play:** Discord
 { .where-to-play }
@@ -36,8 +38,8 @@ In **Defensive Runes**, pick up to 24 runes (the first becomes your current rune
 
 ## Pets
 
-Your active pet's holding perks count while you hold the Crown, it's awake and its stats meet the perks' conditions ([Pets](../../account/pets.md#perks)): extra maximum health (flat or %), more health regenerated every 5th point (or every 4th with the Shadow Hound), a dodge chance, less damage from each hit, a longer wait for each attacker, a stronger [Resurgence](#the-crowns-skills) (the Phoenix Chick: 4.25% a round). The Crown menu shows each with its number, and a new reign starts at your maximum health with your pet's bonus. Asleep, they add nothing; your pet's attacking perks don't help you hold the Crown. Checked in play for every pet.
+Your active pet's holding perks count while you hold the Crown, it's awake and its stats meet the perks' conditions (<span class="gi-m">🐾&nbsp;[Pets](../../account/pets.md#perks)</span>): extra maximum health (flat or %), more health regenerated every 5th point (or every 4th with the Shadow Hound), a dodge chance, less damage from each hit, a longer wait for each attacker, a stronger [Resurgence](#the-crowns-skills) (the Phoenix Chick: 4.25% a round). The Crown menu shows each with its number, and a new reign starts at your maximum health with your pet's bonus. Asleep, they add nothing; your pet's attacking perks don't help you hold the Crown. Checked in play for every pet.
 
 ## Buildings
 
-[Buildings](../../account/buildings.md) help the Crown: **<span class="gi-m">![](../../assets/icons/building/bastion-of-the-chosen.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bastion of the Chosen](../../account/buildings.md#what-each-building-does)</span>** (+15 maximum health per level), **<span class="gi-m">![](../../assets/icons/building/pillar-of-the-undying.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pillar of the Undying](../../account/buildings.md#what-each-building-does)</span>** (every 5th point heals 1 + 3 per level) and **<span class="gi-m">![](../../assets/icons/building/temporal-nexus.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Temporal Nexus](../../account/buildings.md#what-each-building-does)</span>** (+1 second per level on each attacker's cooldown). A new Crown with <span class="gi-m">![](../../assets/icons/crown-skill/throne-of-endurance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Throne of Endurance](skills/defensive/throne-of-endurance.md)</span> starts with 1,000 × (1 + 10% per rank) health.
+<span class="gi-m">🏗️&nbsp;[Buildings](../../account/buildings.md)</span> help the Crown: **<span class="gi-m">![](../../assets/icons/building/bastion-of-the-chosen.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bastion of the Chosen](../../account/buildings.md#what-each-building-does)</span>** (+15 maximum health per level), **<span class="gi-m">![](../../assets/icons/building/pillar-of-the-undying.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pillar of the Undying](../../account/buildings.md#what-each-building-does)</span>** (every 5th point heals 1 + 3 per level) and **<span class="gi-m">![](../../assets/icons/building/temporal-nexus.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Temporal Nexus](../../account/buildings.md#what-each-building-does)</span>** (+1 second per level on each attacker's cooldown). A new Crown with <span class="gi-m">![](../../assets/icons/crown-skill/throne-of-endurance.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Throne of Endurance](skills/defensive/throne-of-endurance.md)</span> starts with 1,000 × (1 + 10% per rank) health.

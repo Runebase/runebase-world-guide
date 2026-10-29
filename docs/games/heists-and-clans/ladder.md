@@ -1,8 +1,10 @@
 ---
 title: "The ladder"
+icon: guide/nav
+nav_emoji: "🏆"
 ---
 
-# Score, ladders and prizes
+# 🏆 Score, ladders and prizes
 
 **Where to play:** Discord
 { .where-to-play }

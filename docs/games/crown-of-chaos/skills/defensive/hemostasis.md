@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/hemostasis.webp"
 
 Takes its rounds off every bleed put on you as the Crown (a bleed of 5 rounds keeps 4 against rank 1); a bleed it leaves with no rounds isn't put on.
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

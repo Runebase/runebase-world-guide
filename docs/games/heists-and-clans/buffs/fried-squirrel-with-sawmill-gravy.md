@@ -15,7 +15,7 @@ nav_icon: "assets/icons/item/fried-squirrel-with-sawmill-gravy.webp"
 
 ## Where you get it
 
-Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <span class="gi-m">![](../../../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../../../items/ingredients/meat.md#squirrel)</span> + 1 <span class="gi-m">![](../../../assets/icons/item/sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sawmill Gravy](../../../items/ingredients/sauces.md#sawmill-gravy)</span>; swapped for at the [convert market](../../../account/convert-market.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/fried-squirrel-with-sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fried Squirrel with Sawmill Gravy](../../../items/consumables/meat-dishes.md#fried-squirrel-with-sawmill-gravy)</span>.
+Cooked at the <span class="gi-m">![](../../../assets/icons/emoji/unstartedcampfire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[cooking table](../../cooking.md#the-fire-and-cooking)</span> from 2 <span class="gi-m">![](../../../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../../../items/ingredients/meat.md#squirrel)</span> + 1 <span class="gi-m">![](../../../assets/icons/item/sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sawmill Gravy](../../../items/ingredients/sauces.md#sawmill-gravy)</span>; swapped for at the <span class="gi-m">♻️&nbsp;[convert market](../../../account/convert-market.md)</span>; a prize of <span class="gi-m">🎰&nbsp;[Loot Reels](../../loot-reels.md)</span>. Everything about the item: <span class="gi-m">![](../../../assets/icons/item/fried-squirrel-with-sawmill-gravy.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fried Squirrel with Sawmill Gravy](../../../items/consumables/meat-dishes.md#fried-squirrel-with-sawmill-gravy)</span>.
 
 ## Checked in play
 
@@ -24,4 +24,4 @@ Cooked at the [cooking table](../../cooking.md#the-fire-and-cooking) from 2 <spa
 
 ## How buffs work
 
-Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: [heist buffs](index.md).
+Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: <span class="gi-m">💪&nbsp;[heist buffs](index.md)</span>.

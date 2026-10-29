@@ -1,8 +1,10 @@
 ---
 title: "The weekly ladder"
+icon: guide/nav
+nav_emoji: "🏆"
 ---
 
-# The weekly ladder
+# 🏆 The weekly ladder
 
 **Where to play:** Discord
 { .where-to-play }

@@ -30,7 +30,7 @@ nav_icon: "assets/icons/skill/paladin/sanctified-divine-ward.webp"
 
 ## Rank by rank
 
-What its skill screen shows at each rank. A skill takes at most 20 points; [skill points and resets](../../index.md).
+What its skill screen shows at each rank. A skill takes at most 20 points; <span class="gi-m">💥&nbsp;[skill points and resets](../../index.md)</span>.
 
 | Rank | Health | Stun chance (%) | Rounds |
 |---|---|---|---|

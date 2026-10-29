@@ -1,10 +1,12 @@
 ---
 title: "Credits and RUNES"
+icon: guide/nav
+nav_icon: "assets/icons/emoji/pouch.webp"
 ---
 
-# Credits and RUNES
+# ![Pouch](../assets/icons/emoji/pouch.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Credits and RUNES
 
-**<span class="gi-m">![](../assets/icons/currency/credits.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits](#getting-credits)</span>** are the bot's money. You earn them in the games, spend them in the store and elsewhere, and you can take them out of the game as Credits tokens on the Runebase blockchain, or bring RUNES in. Some prizes are paid in **<span class="gi-m">![](../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](#runes-prizes)</span>** directly, from the realm's RUNES wallet.
+**<span class="gi-m">![](../assets/icons/emoji/pouch.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Credits](#getting-credits)</span>** are the bot's money. You earn them in the games, spend them in the store and elsewhere, and you can take them out of the game as Credits tokens on the Runebase blockchain, or bring RUNES in. Some prizes are paid in **<span class="gi-m">![](../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](#runes-prizes)</span>** directly, from the realm's RUNES wallet.
 
 **Where:** `/pouch` shows your balance, with **Withdraw** and **Buy Credits**. `/withdraw` withdraws directly.
 
@@ -14,7 +16,7 @@ title: "Credits and RUNES"
 
 - **From the games:** expeditions, piles, chests, chess and Hnefatafl wins, quests, WordWeaver, Loot Reels, dice, heists and more (each game's page has its prize table). A single credit prize above **25,000 credits** is withheld instead of paid, and announced in the payout channel. The Crown of Chaos pool is the one exception: it's paid in full.
 - **Gifts** from other players (`/gift`, see [Gifts](gifts.md)).
-- **The <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>** pays interest on credits you store in it ([Buildings](buildings.md)).
+- **The <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>** pays interest on credits you store in it (<span class="gi-m">🏗️&nbsp;[Buildings](buildings.md)</span>).
 - **Deposits** and **buying credits with Hermes** (below).
 
 ## Typing an amount

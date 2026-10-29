@@ -43,6 +43,17 @@
   margin-right: 0.3rem;
   vertical-align: middle;
 }
+/* A Unicode emoji in the menu, in the icon's place. */
+.md-nav__link .gi-nav-emoji {
+  flex-shrink: 0;
+  width: 1rem;
+  font-size: 0.85rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.md-tabs__link .gi-nav-emoji {
+  margin-right: 0.3rem;
+}
 /* On the dark scheme a faint light edge keeps dark art (a class's figure)
    readable at this size. */
 [data-md-color-scheme="slate"] .md-typeset img.gi-mention,

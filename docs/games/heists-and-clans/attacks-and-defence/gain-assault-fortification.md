@@ -1,5 +1,7 @@
 ---
 title: "Gain Assault Fortification"
+icon: guide/nav
+nav_icon: "assets/icons/heist-attack/gain-assault-fortification.webp"
 ---
 
 # ![Gain Assault Fortification](../../../assets/icons/heist-attack/gain-assault-fortification.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Gain Assault Fortification
@@ -9,7 +11,7 @@ title: "Gain Assault Fortification"
 
 An attack type you pick with `/heist`: **+4% Gain Assault Fortification (100% Block Buff)**.
 
-Gives a 4% chance to earn an [Assault Fortification](../buffs/assault-fortification.md) charge, kept for later (it doesn't block that same heist's counter-attack); it steals no extra experience.
+Gives a 4% chance to earn an <span class="gi-m">![](../../../assets/icons/heist-buff/assault-fortification.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Assault Fortification](../buffs/assault-fortification.md)</span> charge, kept for later (it doesn't block that same heist's counter-attack); it steals no extra experience.
 
 ## Checked in play
 

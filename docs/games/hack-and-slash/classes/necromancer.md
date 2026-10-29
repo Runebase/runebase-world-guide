@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/necromancer.webp"
 
 > In the game: Amidst the realm where ancient runes intertwine, where the ethereal boundary between life and death grows thin, the Necromancers emerge as masters of the macabre. Steeped in the dark arts of necromancy, they wield formidable power, commanding the spirits of the departed and harnessing the forces that linger beyond the mortal veil. As a harbinger of the necromantic arts, you embark upon a perilous journey, delving ever deeper into the mysteries of death's domain. Through forbidden rituals and sacrilegious rites, you unlock the profound ability to summon and command a legion of undead minions. These loyal servants, bound by your indomitable will, become your unyielding guardians, ready to strike fear into the hearts of your enemies. With each intonation of ancient incantations, you draw upon the dark energies that permeate the cosmos, siphoning the life force of those who oppose you. Your very presence instills dread, as you wield curses capable of unraveling the very fabric of existence. Fear and despair become your allies, driving your enemies to the brink of madness.
 
-A new Necromancer starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Necromancer starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Necromancer |
 |---|---|
@@ -26,7 +26,7 @@ A new Necromancer starts with these attributes and its full health, mana and sta
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 30, 50, 79 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

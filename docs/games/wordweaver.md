@@ -1,8 +1,10 @@
 ---
 title: "WordWeaver"
+icon: guide/nav
+nav_emoji: "🔤"
 ---
 
-# WordWeaver
+# 🔤 WordWeaver
 
 **Where to play:** Discord
 { .where-to-play }
@@ -25,7 +27,7 @@ A new word comes **4 hours** after your last one was dealt.
 | ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials/building-supplies.md#rope) | 2% |
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 5% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 1% |
-| 1 [Pet Token](../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Leather Scrap](../items/materials/scrap.md#leather-scrap) | 25% |
 | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Metal Scrap](../items/materials/scrap.md#metal-scrap) | 25% |
 | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 2 [Wood Scrap](../items/materials/scrap.md#wood-scrap) | 25% |

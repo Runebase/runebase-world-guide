@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/wizard.webp"
 
 > In the game: In the mystical realm, where arcane forces intertwine, a formidable wizard stands, their every movement an elegant dance of ancient runes. With boundless knowledge and incandescent power, they shape reality to their will, calling upon the very essence of the runes to fuel their spells. From the flicker of a fireball to the intricate patterns of enchantments, this wizard is a living testament to the potency of runic magic. Whispers of their mastery spread far and wide, as tales of their awe-inspiring feats reverberate through the very fabric of the realm. With each incantation, the wizard draws closer to unlocking the secrets of the runes, their path to unmatched sorcery illuminated by the luminous script. Together, runes and wizard become a symphony of ethereal might, forever leaving an indelible mark upon the tapestry of this enchanting world. As the ancient runes guide their path, the wizard's journey unfolds, unlocking the true depth of their power. They stand as a beacon of arcane brilliance, ready to shape destinies and weave wonders within the realms of Runebase.
 
-A new Wizard starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Wizard starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Wizard |
 |---|---|
@@ -26,7 +26,7 @@ A new Wizard starts with these attributes and its full health, mana and stamina 
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 20, 70, 74 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

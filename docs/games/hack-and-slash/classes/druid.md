@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/druid.webp"
 
 > In the game: The Druid is a master of nature's raw power, seamlessly blending the forces of plant and animal life with potent spellcasting abilities. This versatile class possesses a deep connection with the natural world, granting them the ability to harness elemental energies and transform into ferocious beasts. With a focus on balance and harmony, Druids can seamlessly switch between offensive spellcasting and close-quarter combat, making them formidable adversaries in any situation.
 
-A new Druid starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Druid starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Druid |
 |---|---|
@@ -26,7 +26,7 @@ A new Druid starts with these attributes and its full health, mana and stamina (
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 50, 40, 84 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

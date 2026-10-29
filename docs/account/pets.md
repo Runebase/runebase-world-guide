@@ -1,8 +1,10 @@
 ---
 title: "Pets"
+icon: guide/nav
+nav_emoji: "🐾"
 ---
 
-# Pets
+# 🐾 Pets
 
 Pets come from pet tokens. Your active pet helps you in fishing, hunting, expeditions, heists and Crown of Chaos while it's awake and well cared for, and it earns pet points for the pet leaderboards. It needs food, washing, play and sometimes a cure, and its stats change every minute, also while you're away.
 
@@ -58,7 +60,7 @@ A pet left alone for 30 days stops changing (no stat changes, no points, no perk
 Your active pet earns **pet points every minute**, awake or asleep, from its stats after the minute's change: the better fed (low hunger), happier, cleaner and healthier it is, the more (energy counts a little). A rarer pet earns more for the same stats: ×1.05 Uncommon, ×1.1 Rare, ×1.15 Epic, ×1.2 Legendary, ×1.25 Mythical. A pet in a bad state earns nothing. The pet menu shows it as **Score per Minute**.
 
 - Only the minute earns points: feeding, washing, curing and playing give your pet experience, not points; a pet resting in the <span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span> earns nothing; activities, heists and the Crown give no pet points.
-- The points wait, and go onto the **All-Time Pet Points** and **Monthly Pet Points** [leaderboards](leaderboards.md) every 15 minutes, also when your pet has fallen into a bad state since (before the update, points earned before a pet fell ill could stay waiting and be lost). Changing pets or putting your pet in the kennel puts its waiting points on the boards first, for that pet. Two clicks at once never count them twice, and a restart of the bot keeps them waiting.
+- The points wait, and go onto the **All-Time Pet Points** and **Monthly Pet Points** <span class="gi-m">🏆&nbsp;[leaderboards](leaderboards.md)</span> every 15 minutes, also when your pet has fallen into a bad state since (before the update, points earned before a pet fell ill could stay waiting and be lost). Changing pets or putting your pet in the kennel puts its waiting points on the boards first, for that pet. Two clicks at once never count them twice, and a restart of the bot keeps them waiting.
 - The monthly board counts the last 30 days: each batch of points leaves it (and your pet's monthly score) about 30 days later; the all-time board keeps them. The top 10 of each board hold its [role](roles.md#top-roles).
 
 ## Perks
@@ -67,14 +69,14 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 | Perk | Works while the pet has | Pets |
 |---|---|---|
-| [Hunting](../games/hunting.md#pets) | happiness above 20, energy above 10, sickness below 75 | every pet |
-| [Fishing](../games/fishing.md#pets) | happiness above 20, energy above 10, sickness below 75 | every pet not named below |
-| [Fishing](../games/fishing.md#pets) | happiness above 15, energy above 10, sickness below 75 | Eagle, Snow Leopard, Thunderbird, Dragon, Unicorn, Void Serpent, Celestial Jellyfish |
-| [Expeditions](../games/expeditions.md#pets) | happiness above 15, energy above 10, sickness below 80 | every pet |
+| <span class="gi-m">🏹&nbsp;[Hunting](../games/hunting.md#pets)</span> | happiness above 20, energy above 10, sickness below 75 | every pet |
+| <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](../games/fishing.md#pets)</span> | happiness above 20, energy above 10, sickness below 75 | every pet not named below |
+| <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](../games/fishing.md#pets)</span> | happiness above 15, energy above 10, sickness below 75 | Eagle, Snow Leopard, Thunderbird, Dragon, Unicorn, Void Serpent, Celestial Jellyfish |
+| <span class="gi-m">🧭&nbsp;[Expeditions](../games/expeditions.md#pets)</span> | happiness above 15, energy above 10, sickness below 80 | every pet |
 | [Heist](../games/heists-and-clans/attacks-and-defence/index.md#pets-buildings-clans) | happiness above 20, hunger below 80, sickness at most 65, hygiene above 10, energy at least 5 | every pet |
-| [Crown of Chaos](../games/crown-of-chaos/attacking.md#runes-and-damage) | happiness above 20, hunger below 80, sickness at most 65, hygiene above 10, energy at least 5 | every pet |
+| <span class="gi-m">![](../assets/icons/game/crown-of-chaos.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Crown of Chaos](../games/crown-of-chaos/attacking.md#runes-and-damage)</span> | happiness above 20, hunger below 80, sickness at most 65, hygiene above 10, energy at least 5 | every pet |
 
-| Pet | Rarity | Awake | [Fishing](../games/fishing.md#pets) | [Hunting](../games/hunting.md#pets) | [Expeditions](../games/expeditions.md#pets) | [Heist](../games/heists-and-clans/attacks-and-defence/index.md#pets-buildings-clans) | [Crown of Chaos](../games/crown-of-chaos/attacking.md#runes-and-damage) |
+| Pet | Rarity | Awake | <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](../games/fishing.md#pets)</span> | <span class="gi-m">🏹&nbsp;[Hunting](../games/hunting.md#pets)</span> | <span class="gi-m">🧭&nbsp;[Expeditions](../games/expeditions.md#pets)</span> | [Heist](../games/heists-and-clans/attacks-and-defence/index.md#pets-buildings-clans) | <span class="gi-m">![](../assets/icons/game/crown-of-chaos.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Crown of Chaos](../games/crown-of-chaos/attacking.md#runes-and-damage)</span> |
 |---|---|---|---|---|---|---|---|
 | ![Chicken](../assets/icons/pet/chicken.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Chicken | Common | by day (lights on) | Anchovy +1% | Squirrel +1% | Metal Scrap +0.55% (Deep Excavation) | Deflection Chance +0.6% (defending) | Reduce Attack Cooldown -1s (attacking the Crown) |
 | ![Cat](../assets/icons/pet/cat.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Cat | Common | at night (lights off) | Mackerel +1.1% | Rabbit +0.8% | Leather Scrap +0.6% (Nature Expedition) | Counter-Attack Chance +0.6% (defending) | Increased Dodge Chance +2% (holding the Crown) |
@@ -127,7 +129,7 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 ## The kennel
 
-The **<span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span>** building holds as many pets as its level ([Buildings](buildings.md)). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.
+The **<span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span>** building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;[Buildings](buildings.md)</span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.
 
 ## Tips
 

@@ -1,8 +1,10 @@
 ---
 title: "Runes Pattern"
+icon: guide/nav
+nav_emoji: "🃏"
 ---
 
-# Runes Pattern
+# 🃏 Runes Pattern
 
 **Where to play:** Discord
 { .where-to-play }
@@ -20,7 +22,7 @@ A game for the whole server in the Runes Pattern channel. A word appears in the 
 - **Users Playing** lists who plays (20 a page); players who chose to play anonymously show as "Anonymous Player". A player who hasn't clicked for 15 minutes leaves the list.
 - If something goes wrong with a click, only you are told and nothing is marked or used: click again.
 
-<span class="gi-m">![](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Runes Pattern Cards](../items/keys-and-cards/cards-and-relics.md#runes-pattern-card)</span> cost 50 credits in the [store](../account/store.md); they also drop from many prize tables.
+<span class="gi-m">![](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Runes Pattern Cards](../items/keys-and-cards/cards-and-relics.md#runes-pattern-card)</span> cost 50 credits in the <span class="gi-m">🏪&nbsp;[store](../account/store.md)</span>; they also drop from many prize tables.
 
 | Prize | Chance per win |
 |---|---|

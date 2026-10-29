@@ -1,8 +1,10 @@
 ---
 title: "Attributes and combat"
+icon: guide/nav
+nav_emoji: "💪"
 ---
 
-# Attributes and combat
+# 💪 Attributes and combat
 
 **Where to play:** Discord
 { .where-to-play }

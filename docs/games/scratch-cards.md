@@ -1,8 +1,10 @@
 ---
 title: "Scratch cards"
+icon: guide/nav
+nav_icon: "assets/icons/emoji/goldcard.webp"
 ---
 
-# Scratch cards
+# ![Scratch Card](../assets/icons/emoji/goldcard.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Scratch cards
 
 **Where to play:** Discord
 { .where-to-play }
@@ -22,7 +24,7 @@ title: "Scratch cards"
 - With the tipbot online but unable to send for this server, a RUNES prize is shown as **not paid: Tipbot offline** and the card counts as collected.
 - If something goes wrong while you collect, scratch or get a card, only you are told, nothing is spent or paid, and the card waits for you: collect or scratch again.
 
-<span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span> come from the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>, <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[heists](heists-and-clans/index.md)</span>, [chests](treasure-chests.md), [Loot Reels](loot-reels.md) and other prize tables. The HUG combination also gives 1 experience.
+<span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span> come from the <span class="gi-m">![](../assets/icons/building/party-store.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Party Store](../account/buildings.md#what-each-building-does)</span>, <span class="gi-m">![](../assets/icons/game/heists.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[heists](heists-and-clans/index.md)</span>, <span class="gi-m">![](../assets/icons/emoji/bronzekey.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[chests](treasure-chests.md)</span>, <span class="gi-m">🎰&nbsp;[Loot Reels](loot-reels.md)</span> and other prize tables. The HUG combination also gives 1 experience.
 
 | Three of | Prize | Chance per card |
 |---|---|---|

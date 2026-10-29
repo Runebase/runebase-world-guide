@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/siphons-grasp.webp"
 
 Your Mana Drain lasts 300 seconds plus 15 a rank.
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

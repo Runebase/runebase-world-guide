@@ -1,15 +1,154 @@
 ---
 title: "Pet items"
+icon: guide/nav
+nav_emoji: "🐾"
 ---
 
-# Pet items
+# 🐾 Pet items
 
-[Pet tokens](pet-tokens.md) find pets ([getting a pet](../../account/pets.md#getting-a-pet)); [pet food](pet-food.md), [cures](pet-cures.md) and [wash kits](pet-wash-kits.md) care for them ([caring for your pet](../../account/pets.md#caring-for-your-pet)). Each comes in six rarities, for the pets of that rarity.
+<span class="gi-m">📦&nbsp;[Pet tokens](pet-tokens.md)</span> find pets ([getting a pet](../../account/pets.md#getting-a-pet)); <span class="gi-m">🍖&nbsp;[pet food](pet-food.md)</span>, <span class="gi-m">💊&nbsp;[cures](pet-cures.md)</span> and <span class="gi-m">🛁&nbsp;[wash kits](pet-wash-kits.md)</span> care for them ([caring for your pet](../../account/pets.md#caring-for-your-pet)). Each comes in six rarities, for the pets of that rarity.
 
-| Page | Items |
-|---|---|
-| [Pet tokens](pet-tokens.md) | <span class="gi-m">![](../../assets/icons/item/common-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Common Pet Token](pet-tokens.md#common-pet-token)</span>, <span class="gi-m">![](../../assets/icons/item/uncommon-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Uncommon Pet Token](pet-tokens.md#uncommon-pet-token)</span>, <span class="gi-m">![](../../assets/icons/item/rare-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rare Pet Token](pet-tokens.md#rare-pet-token)</span>, <span class="gi-m">![](../../assets/icons/item/epic-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Epic Pet Token](pet-tokens.md#epic-pet-token)</span>, <span class="gi-m">![](../../assets/icons/item/legendary-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Legendary Pet Token](pet-tokens.md#legendary-pet-token)</span>, <span class="gi-m">![](../../assets/icons/item/mythical-pet-token.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mythical Pet Token](pet-tokens.md#mythical-pet-token)</span> |
-| [Pet food](pet-food.md) | <span class="gi-m">![](../../assets/icons/item/common-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Common Pet Food](pet-food.md#common-pet-food)</span>, <span class="gi-m">![](../../assets/icons/item/uncommon-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Uncommon Pet Food](pet-food.md#uncommon-pet-food)</span>, <span class="gi-m">![](../../assets/icons/item/rare-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rare Pet Food](pet-food.md#rare-pet-food)</span>, <span class="gi-m">![](../../assets/icons/item/epic-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Epic Pet Food](pet-food.md#epic-pet-food)</span>, <span class="gi-m">![](../../assets/icons/item/legendary-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Legendary Pet Food](pet-food.md#legendary-pet-food)</span>, <span class="gi-m">![](../../assets/icons/item/mythical-pet-food.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mythical Pet Food](pet-food.md#mythical-pet-food)</span> |
-| [Pet cures](pet-cures.md) | <span class="gi-m">![](../../assets/icons/item/common-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Common Pet Cure](pet-cures.md#common-pet-cure)</span>, <span class="gi-m">![](../../assets/icons/item/uncommon-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Uncommon Pet Cure](pet-cures.md#uncommon-pet-cure)</span>, <span class="gi-m">![](../../assets/icons/item/rare-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rare Pet Cure](pet-cures.md#rare-pet-cure)</span>, <span class="gi-m">![](../../assets/icons/item/epic-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Epic Pet Cure](pet-cures.md#epic-pet-cure)</span>, <span class="gi-m">![](../../assets/icons/item/legendary-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Legendary Pet Cure](pet-cures.md#legendary-pet-cure)</span>, <span class="gi-m">![](../../assets/icons/item/mythical-pet-cure.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mythical Pet Cure](pet-cures.md#mythical-pet-cure)</span> |
-| [Pet wash kits](pet-wash-kits.md) | <span class="gi-m">![](../../assets/icons/item/common-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Common Pet Wash Kit](pet-wash-kits.md#common-pet-wash-kit)</span>, <span class="gi-m">![](../../assets/icons/item/uncommon-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Uncommon Pet Wash Kit](pet-wash-kits.md#uncommon-pet-wash-kit)</span>, <span class="gi-m">![](../../assets/icons/item/rare-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Rare Pet Wash Kit](pet-wash-kits.md#rare-pet-wash-kit)</span>, <span class="gi-m">![](../../assets/icons/item/epic-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Epic Pet Wash Kit](pet-wash-kits.md#epic-pet-wash-kit)</span>, <span class="gi-m">![](../../assets/icons/item/legendary-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Legendary Pet Wash Kit](pet-wash-kits.md#legendary-pet-wash-kit)</span>, <span class="gi-m">![](../../assets/icons/item/mythical-pet-wash-kit.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mythical Pet Wash Kit](pet-wash-kits.md#mythical-pet-wash-kit)</span> |
+**<span class="gi-m">📦&nbsp;[Pet tokens](pet-tokens.md)</span>**
+
+<div class="guide-gallery" markdown>
+
+<figure markdown="span">
+[![Common Pet Token](../../assets/icons/item/common-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#common-pet-token)
+<figcaption>Common Pet Token</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Uncommon Pet Token](../../assets/icons/item/uncommon-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#uncommon-pet-token)
+<figcaption>Uncommon Pet Token</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Rare Pet Token](../../assets/icons/item/rare-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#rare-pet-token)
+<figcaption>Rare Pet Token</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Epic Pet Token](../../assets/icons/item/epic-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#epic-pet-token)
+<figcaption>Epic Pet Token</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Legendary Pet Token](../../assets/icons/item/legendary-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#legendary-pet-token)
+<figcaption>Legendary Pet Token</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Mythical Pet Token](../../assets/icons/item/mythical-pet-token.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-tokens.md#mythical-pet-token)
+<figcaption>Mythical Pet Token</figcaption>
+</figure>
+
+</div>
+
+**<span class="gi-m">🍖&nbsp;[Pet food](pet-food.md)</span>**
+
+<div class="guide-gallery" markdown>
+
+<figure markdown="span">
+[![Common Pet Food](../../assets/icons/item/common-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#common-pet-food)
+<figcaption>Common Pet Food</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Uncommon Pet Food](../../assets/icons/item/uncommon-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#uncommon-pet-food)
+<figcaption>Uncommon Pet Food</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Rare Pet Food](../../assets/icons/item/rare-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#rare-pet-food)
+<figcaption>Rare Pet Food</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Epic Pet Food](../../assets/icons/item/epic-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#epic-pet-food)
+<figcaption>Epic Pet Food</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Legendary Pet Food](../../assets/icons/item/legendary-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#legendary-pet-food)
+<figcaption>Legendary Pet Food</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Mythical Pet Food](../../assets/icons/item/mythical-pet-food.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-food.md#mythical-pet-food)
+<figcaption>Mythical Pet Food</figcaption>
+</figure>
+
+</div>
+
+**<span class="gi-m">💊&nbsp;[Pet cures](pet-cures.md)</span>**
+
+<div class="guide-gallery" markdown>
+
+<figure markdown="span">
+[![Common Pet Cure](../../assets/icons/item/common-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#common-pet-cure)
+<figcaption>Common Pet Cure</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Uncommon Pet Cure](../../assets/icons/item/uncommon-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#uncommon-pet-cure)
+<figcaption>Uncommon Pet Cure</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Rare Pet Cure](../../assets/icons/item/rare-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#rare-pet-cure)
+<figcaption>Rare Pet Cure</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Epic Pet Cure](../../assets/icons/item/epic-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#epic-pet-cure)
+<figcaption>Epic Pet Cure</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Legendary Pet Cure](../../assets/icons/item/legendary-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#legendary-pet-cure)
+<figcaption>Legendary Pet Cure</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Mythical Pet Cure](../../assets/icons/item/mythical-pet-cure.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-cures.md#mythical-pet-cure)
+<figcaption>Mythical Pet Cure</figcaption>
+</figure>
+
+</div>
+
+**<span class="gi-m">🛁&nbsp;[Pet wash kits](pet-wash-kits.md)</span>**
+
+<div class="guide-gallery" markdown>
+
+<figure markdown="span">
+[![Common Pet Wash Kit](../../assets/icons/item/common-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#common-pet-wash-kit)
+<figcaption>Common Pet Wash Kit</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Uncommon Pet Wash Kit](../../assets/icons/item/uncommon-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#uncommon-pet-wash-kit)
+<figcaption>Uncommon Pet Wash Kit</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Rare Pet Wash Kit](../../assets/icons/item/rare-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#rare-pet-wash-kit)
+<figcaption>Rare Pet Wash Kit</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Epic Pet Wash Kit](../../assets/icons/item/epic-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#epic-pet-wash-kit)
+<figcaption>Epic Pet Wash Kit</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Legendary Pet Wash Kit](../../assets/icons/item/legendary-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#legendary-pet-wash-kit)
+<figcaption>Legendary Pet Wash Kit</figcaption>
+</figure>
+
+<figure markdown="span">
+[![Mythical Pet Wash Kit](../../assets/icons/item/mythical-pet-wash-kit.webp){ .gi .gi-gallery width="96" height="96" loading="lazy" }](pet-wash-kits.md#mythical-pet-wash-kit)
+<figcaption>Mythical Pet Wash Kit</figcaption>
+</figure>
+
+</div>
 

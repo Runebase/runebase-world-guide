@@ -1,8 +1,10 @@
 ---
 title: "Bumps"
+icon: guide/nav
+nav_emoji: "⛰️"
 ---
 
-# Bumps
+# ⛰️ Bumps
 
 Bump the server with Disboard's `/bump` (or Discord Home's). The bumper gets **10 experience**, a roll on the bump prize table and the **bumper role for 2 hours**, announced in the experience channel.
 
@@ -18,7 +20,7 @@ The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](
 | ![Nail](../assets/icons/item/nail.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Nail](../items/materials/building-supplies.md#nail) | 2% |
 | ![Rope](../assets/icons/item/rope.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Rope](../items/materials/building-supplies.md#rope) | 0.4% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 1% |
-| 1 [Pet Token](../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 5% |
 | ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials/hack-and-slash-crafting-materials.md#engraving-tool) | 8% |
 | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials/scrap.md#leather-scrap) | 24.35% |

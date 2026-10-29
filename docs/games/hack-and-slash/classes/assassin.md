@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/assassin.webp"
 
 > In the game: Deep within the realms of ancient lore, whispers of a deadly class known as the Nightblade abound. As a Nightblade, you are the very essence of darkness, seamlessly merging with the shadows of the night. Through relentless training and unwavering dedication, you unlock the true potential of rune-forged weaponry and forbidden enchantments. With each level reached, you master new lethal techniques, including blades infused with insidious poisons, illusions that befuddle even the keenest senses, and an innate ability to seamlessly glide through the inky blackness.
 
-A new Assassin starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Assassin starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Assassin |
 |---|---|
@@ -26,7 +26,7 @@ A new Assassin starts with these attributes and its full health, mana and stamin
 | Stamina per vitality | 1.25 |
 | A new character: health, mana, stamina | 60, 44, 95 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

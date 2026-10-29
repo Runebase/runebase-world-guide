@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/paladin.webp"
 
 > In the game: The path of the Paladin is not for the faint of heart, for it demands unwavering dedication and unyielding resolve. Rooted in unwavering faith, this divine warrior channels the powers of light and righteousness to smite their foes and heal the wounded. Whether leading their allies into battle or vanquishing darkness alone, the Paladin's unwavering conviction inspires all who fight alongside them.
 
-A new Paladin starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Paladin starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Paladin |
 |---|---|
@@ -26,7 +26,7 @@ A new Paladin starts with these attributes and its full health, mana and stamina
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 75, 23, 89 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

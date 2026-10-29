@@ -13,7 +13,7 @@ nav_icon: "assets/icons/class/warrior.webp"
 
 > In the game: In the mystical realms of the ancient north, a warrior emerges, whose tale is shrouded in the mists of time. This valiant soul has faced the arduous trials of battle and honed their skills in the untamed wilds. Born within the walls of a mighty fortress, they formed unbreakable bonds and embarked on a perilous quest to defeat the encroaching darkness. The echoes of their cataclysmic struggle reverberated throughout the land, etching their name into the annals of legend, their deeds heralded in epic sagas and captivating ballads. Now, awakened by the sacred runes, this warrior yearns to unite with kindred spirits, to carve out new tales and sculpt a destiny destined to be cherished for eternity.
 
-A new Warrior starts with these attributes and its full health, mana and stamina (what the class screen shows); [every class](index.md) side by side.
+A new Warrior starts with these attributes and its full health, mana and stamina (what the class screen shows); <span class="gi-m">🎭&nbsp;[every class](index.md)</span> side by side.
 
 |  | Warrior |
 |---|---|
@@ -26,7 +26,7 @@ A new Warrior starts with these attributes and its full health, mana and stamina
 | Stamina per vitality | 1 |
 | A new character: health, mana, stamina | 100, 10, 92 |
 
-How attributes work: [attributes and combat](../attributes-and-combat.md#attributes).
+How attributes work: <span class="gi-m">💪&nbsp;[attributes and combat](../attributes-and-combat.md#attributes)</span>.
 
 ## Skill trees
 

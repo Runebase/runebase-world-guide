@@ -1,8 +1,10 @@
 ---
 title: "Dice"
+icon: guide/nav
+nav_icon: "assets/icons/emoji/diceroll.webp"
 ---
 
-# Dice
+# ![Dice](../assets/icons/emoji/diceroll.webp){ .gi .gi-title width="64" height="64" loading="lazy" } Dice
 
 **Where to play:** Discord
 { .where-to-play }
@@ -44,7 +46,7 @@ Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](ex
 | ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials/hack-and-slash-crafting-materials.md#engraving-tool) | 3.5% |
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 10 [Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 5% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 1% |
-| 1 [Pet Token](../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials/scrap.md#leather-scrap) | 25% |
 | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials/scrap.md#metal-scrap) | 25% |
 | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials/scrap.md#wood-scrap) | 25% |

@@ -15,7 +15,7 @@ nav_icon: "assets/icons/item/einherjars-barrier-draught.webp"
 
 ## Where you get it
 
-Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../loot-reels.md). Everything about the item: <span class="gi-m">![](../../../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Barrier Draught](../../../items/consumables/store-consumables.md#einherjars-barrier-draught)</span>.
+Bought in the <span class="gi-m">🏪&nbsp;[store](../../../account/store.md)</span>; a prize of <span class="gi-m">🎰&nbsp;[Loot Reels](../../loot-reels.md)</span>. Everything about the item: <span class="gi-m">![](../../../assets/icons/item/einherjars-barrier-draught.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Einherjar's Barrier Draught](../../../items/consumables/store-consumables.md#einherjars-barrier-draught)</span>.
 
 ## Checked in play
 
@@ -24,4 +24,4 @@ Bought in the [store](../../../account/store.md); a prize of [Loot Reels](../../
 
 ## How buffs work
 
-Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: [heist buffs](index.md).
+Each one you eat (or earn) is one charge. Every charge you hold that applies to your side is used on every heist you're in, one charge each, whether it changed the outcome or not; no charge goes below 0. More: <span class="gi-m">💪&nbsp;[heist buffs](index.md)</span>.

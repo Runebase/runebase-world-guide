@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/urgent-embind.webp"
 
 Blood Purge waits 1,200 seconds minus 45 a rank before you can use it again.
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

@@ -1,13 +1,15 @@
 ---
 title: "Hunting"
+icon: guide/nav
+nav_emoji: "🏹"
 ---
 
-# Hunting
+# 🏹 Hunting
 
 **Where to play:** Discord
 { .where-to-play }
 
-An idle activity: you spend energy, wait while your trip runs, and come back to a catch. Hunting fills your basket with meat for [cooking](cooking.md). [Fishing](fishing.md) and [expeditions](expeditions.md) work the same way.
+An idle activity: you spend energy, wait while your trip runs, and come back to a catch. Hunting fills your basket with meat for <span class="gi-m">![](../assets/icons/emoji/unstartedcampfire.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[cooking](cooking.md)</span>. <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](fishing.md)</span> and <span class="gi-m">🧭&nbsp;[expeditions](expeditions.md)</span> work the same way.
 
 **Where:** `/hunt` goes on a one-energy trip straight away. `/start` → **Activities** → **Hunt** lets you pick how much energy to spend, and holds the crafting, equipment and buff menus.
 
@@ -35,7 +37,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 A hunt pays **1 experience per energy**.
 
-Trips also move your [quests](../account/quests.md#every-quest): the Hunting quest counts the energy you spend, and the quest for each animal counts what you catch of it (Hunting - Elk counts your <span class="gi-m">![](../assets/icons/item/elk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[elk](../items/ingredients/meat.md#elk)</span>). A quest that reaches its goal completes on its own and pays its reward once.
+Trips also move your <span class="gi-m">![](../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../account/quests.md#every-quest)</span>: the Hunting quest counts the energy you spend, and the quest for each animal counts what you catch of it (Hunting - Elk counts your <span class="gi-m">![](../assets/icons/item/elk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[elk](../items/ingredients/meat.md#elk)</span>). A quest that reaches its goal completes on its own and pays its reward once.
 
 The hunting leaderboards count the seconds of your trips (weed seconds included).
 
@@ -66,11 +68,11 @@ Each rifle has its own enhancement, upgraded from the crafting screen for scrap.
 
 ## Utilities: Skinning Knife
 
-Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span>: in hunting's extra prizes, on the Nature Expedition ([expeditions](expeditions.md)), and in the other prize tables that have <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span> (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need. The other two utilities, the <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> and the <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, raise Wood and <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials/scrap.md#metal-scrap)</span> ([fishing](fishing.md)).
+Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level adds **0.05 percentage points** to the chance of finding <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span>: in hunting's extra prizes, on the Nature Expedition (<span class="gi-m">🧭&nbsp;[expeditions](expeditions.md)</span>), and in the other prize tables that have <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span> (votes, bumps, chat, dice, heists, treasure chests and more). With exactly the price in your wallet you can craft it. **Level n needs rank n** (the screen shows it as "User Level"): below it the craft button is off, and a click on an older one crafts nothing and tells you, privately, the rank you need. The other two utilities, the <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> and the <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, raise Wood and <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials/scrap.md#metal-scrap)</span> (<span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[fishing](fishing.md)</span>).
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
-| ![Skinning Knife](../assets/icons/activity-gear/skinning-knife.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| 🔪 Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
 
 ## Buffs
 
@@ -84,11 +86,11 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 ## Pets
 
-Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its hunting perk adds its points to one animal. A perk for an animal your rifle doesn't hunt does nothing: a <span class="gi-m">![](../assets/icons/item/moose.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Moose](../items/ingredients/meat.md#moose)</span> perk needs the <span class="gi-m">![](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Weatherby Mark V](#rifles)</span>, and without a rifle only a <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients/meat.md#squirrel)</span> perk helps. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
+Your active pet helps while it's **awake** and cared for (see <span class="gi-m">🐾&nbsp;[Pets](../account/pets.md)</span> for every pet, its perks and when they work). Its hunting perk adds its points to one animal. A perk for an animal your rifle doesn't hunt does nothing: a <span class="gi-m">![](../assets/icons/item/moose.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Moose](../items/ingredients/meat.md#moose)</span> perk needs the <span class="gi-m">![](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Weatherby Mark V](#rifles)</span>, and without a rifle only a <span class="gi-m">![](../assets/icons/item/squirrel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Squirrel](../items/ingredients/meat.md#squirrel)</span> perk helps. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
 
 ## Buildings that help
 
-In [Buildings](../account/buildings.md): the **<span class="gi-m">![](../assets/icons/building/hunting-cabin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Cabin](../account/buildings.md#what-each-building-does)</span>** gives +1 hunting energy a day per level.
+In <span class="gi-m">🏗️&nbsp;[Buildings](../account/buildings.md)</span>: the **<span class="gi-m">![](../assets/icons/building/hunting-cabin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Cabin](../account/buildings.md#what-each-building-does)</span>** gives +1 hunting energy a day per level.
 
 Everything adds up once: a rifle enhancement, a pet perk, weed and the <span class="gi-m">![](../assets/icons/building/hunting-cabin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Hunting Cabin](../account/buildings.md#what-each-building-does)</span> on one trip each count exactly once.
 
@@ -100,10 +102,10 @@ Without utilities, pets or buildings. Each second rolls once on this table (at m
 |---|---|
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 6 [Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 0.15% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 0.5% |
-| 1 [Pet Token](../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
-| 1 [Pet Food](../items/pet-items/pet-food.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Pet Cure](../items/pet-items/pet-cures.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Pet Wash Kit](../items/pet-items/pet-wash-kits.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
+| 1 <span class="gi-m">🍖&nbsp;[Pet Food](../items/pet-items/pet-food.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">💊&nbsp;[Pet Cure](../items/pet-items/pet-cures.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">🛁&nbsp;[Pet Wash Kit](../items/pet-items/pet-wash-kits.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Leather Scrap](../assets/icons/item/leather-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Leather Scrap](../items/materials/scrap.md#leather-scrap) | 0.3% |
 | nothing | 88.8% |
 

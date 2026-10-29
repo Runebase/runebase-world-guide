@@ -21,7 +21,7 @@ nav_icon: "assets/icons/crown-skill/grip-of-greed.webp"
 
 Lowers the chance that a hit on you drops a tax pile from the pool (5% without it, 0.2% at rank 20).
 
-The Crown's own skills and runes: [holding the Crown](../../holding-the-crown.md); the minute round: [the round and the reign](../../round-and-reign.md).
+The Crown's own skills and runes: <span class="gi-m">👑&nbsp;[holding the Crown](../../holding-the-crown.md)</span>; the minute round: <span class="gi-m">📊&nbsp;[the round and the reign](../../round-and-reign.md)</span>.
 
 ## Checked in play
 

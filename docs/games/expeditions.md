@@ -1,13 +1,15 @@
 ---
 title: "Expeditions"
+icon: guide/nav
+nav_emoji: "🧭"
 ---
 
-# Expeditions
+# 🧭 Expeditions
 
 **Where to play:** Discord
 { .where-to-play }
 
-An idle activity: you spend energy, wait while your expedition runs, and come back to what it found. Expeditions bring back scrap, crafting materials and credits. [Fishing](fishing.md) and [hunting](hunting.md) work the same way.
+An idle activity: you spend energy, wait while your expedition runs, and come back to what it found. Expeditions bring back scrap, crafting materials and credits. <span class="gi-m">![](../assets/icons/emoji/fishin.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Fishing](fishing.md)</span> and <span class="gi-m">🏹&nbsp;[hunting](hunting.md)</span> work the same way.
 
 **Where:** `/start` → **Activities** → **Expeditions** lets you pick how much energy to spend, and holds the **Expedition Buffs** menu.
 
@@ -35,7 +37,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 An expedition pays **3 experience per energy**.
 
-Expeditions also move your [quests](../account/quests.md#every-quest): the expedition quests count the seconds of your expeditions. A quest that reaches its goal completes on its own and pays its reward once.
+Expeditions also move your <span class="gi-m">![](../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../account/quests.md#every-quest)</span>: the expedition quests count the seconds of your expeditions. A quest that reaches its goal completes on its own and pays its reward once.
 
 The expedition board counts expedition seconds.
 
@@ -59,9 +61,9 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 | Utility | Raises | Each level | Level 1 | Level 2 | Level 3 | Level 5 | Level 10 | Level 25 | Level 50 |
 |---|---|---|---|---|---|---|---|---|---|
-| ![Wood Axe](../assets/icons/activity-gear/wood-axe.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
-| ![Skinning Knife](../assets/icons/activity-gear/skinning-knife.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
-| ![Mining Pick](../assets/icons/activity-gear/mining-pick.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| 🪓 Wood Axe | Wood Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| 🔪 Skinning Knife | Leather Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
+| ⛏️ Mining Pick | Metal Scrap | +0.05 points | 350 credits | 612 credits | 875 credits | 1,400 credits | 2,712 credits | 6,650 credits | 13,212 credits |
 
 ## Buffs
 
@@ -74,11 +76,11 @@ Crafted for credits in `/start` → **Inventory** → **Utilities**. Every level
 
 ## Pets
 
-Your active pet helps while it's **awake** and cared for (see [Pets](../account/pets.md) for every pet, its perks and when they work). Its expedition perk adds its points to one expedition's scrap. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
+Your active pet helps while it's **awake** and cared for (see <span class="gi-m">🐾&nbsp;[Pets](../account/pets.md)</span> for every pet, its perks and when they work). Its expedition perk adds its points to one expedition's scrap. Asleep, or below the perk's conditions, the pet adds nothing. The pet counts if it's active and awake when the trip ends: a pet changed during the trip gives its perks, one put to sleep gives none.
 
 ## Buildings that help
 
-All in [Buildings](../account/buildings.md):
+All in <span class="gi-m">🏗️&nbsp;[Buildings](../account/buildings.md)</span>:
 
 - **<span class="gi-m">![](../assets/icons/building/expedition-command-center.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Expedition Command Center](../account/buildings.md#what-each-building-does)</span>**: +1 expedition energy a day per level.
 - **[Lumber Yard, Iron Mine, Tannery](../account/buildings.md#resource-buildings)**: +1 second per energy on their expedition, per level.
@@ -104,10 +106,10 @@ Without utilities, pets or buildings. Each second rolls once on this table, whic
 | ![Engraving Tool](../assets/icons/item/engraving-tool.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Engraving Tool](../items/materials/hack-and-slash-crafting-materials.md#engraving-tool) | 0.8% |
 | ![Chaos Relic](../assets/icons/item/chaos-relic.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 3 [Chaos Relic](../items/keys-and-cards/cards-and-relics.md#chaos-relic) | 1% |
 | ![Common Pet Token](../assets/icons/item/common-pet-token.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Common Pet Token](../items/pet-items/pet-tokens.md#common-pet-token) | 0.5% |
-| 1 [Pet Token](../items/pet-items/pet-tokens.md) (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
-| 1 [Pet Food](../items/pet-items/pet-food.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Pet Cure](../items/pet-items/pet-cures.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
-| 1 [Pet Wash Kit](../items/pet-items/pet-wash-kits.md) (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">📦&nbsp;[Pet Token](../items/pet-items/pet-tokens.md)</span> (Uncommon, Rare, Epic, Legendary, Mythical) | 0.25% each |
+| 1 <span class="gi-m">🍖&nbsp;[Pet Food](../items/pet-items/pet-food.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">💊&nbsp;[Pet Cure](../items/pet-items/pet-cures.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
+| 1 <span class="gi-m">🛁&nbsp;[Pet Wash Kit](../items/pet-items/pet-wash-kits.md)</span> (Common, Uncommon, Rare, Epic, Legendary, Mythical) | 0.5% each |
 | ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 0.5 to 5 credits | 15% |
 | nothing | 71.31% |
 

@@ -32,7 +32,7 @@ nav_icon: "assets/icons/skill/necromancer/revive.webp"
 
 ## Rank by rank
 
-What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; [skill points and resets](../../index.md).
+What its skill screen shows at each rank. Its mana, rounds and number of minions are what the battle uses (checked at ranks 1 and 20). A skill takes at most 20 points; <span class="gi-m">💥&nbsp;[skill points and resets](../../index.md)</span>.
 
 | Rank | Damage bonus (%) | Raised at most | Rounds | Mana |
 |---|---|---|---|---|

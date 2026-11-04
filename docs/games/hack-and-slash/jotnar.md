@@ -38,7 +38,8 @@ A giant appears in the Hack & Slash channel once every 3 hours. Press **Attack G
 ## The end
 
 - **Brought down:** its message shows the top fighters with their damage and share, and a reward summary lists what each fighter got. Every fighter's loot grows with their share (more kinds of loot from 1%, 2%, 3% and 5% of the damage), the top three get bonus loot, and each giant type has loot of its own.
-- **Dropped items:** a button each; the first to press it gets the item, and the button then shows who did. You need a Hack & Slash character to pick one up.
+- **Dropped items:** a button each; the first to press it gets the item, and the button then shows who did. You need a Hack & Slash character to pick one up, and an item is picked up only from its own post.
+- **Each server fights its own giants:** a giant's button pressed in another server is refused there, and nothing is spent.
 - **Escaped:** its message says how much of its health the server took and that partial rewards went out, or, below 5%, that it paid nothing.
 - **Nothing is lost:** a giant brought down just before a restart of the bot pays its fighters as soon as the bot is back, once.
 - **Leaving the server** before the giant is paid means no share: the fighters still in the server split the pool between them.

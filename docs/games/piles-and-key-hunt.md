@@ -13,7 +13,7 @@ Be first to grab the piles that appear in the server's channels, and climb the m
 
 ## Piles
 
-Piles of credits, treasure keys, scrap and building supplies appear in the server's channels for a short time, in every <span class="gi-m">🌍&nbsp;[realm](../account/realms.md)</span>: each server gets every kind of pile on the same schedule, in channels its verified members can see. What you collect goes to your account in that server (its pouch, its quests and boards, its key hunt and its 4-hour key windows). To collect one, press its button and answer the **captcha**: the first players to answer correctly take the pile's slots.
+Piles of credits, treasure keys, scrap and building supplies appear in the server's channels for a short time, in every <span class="gi-m">🌍&nbsp;[realm](../account/realms.md)</span>: each server gets every kind of pile on the same schedule, in channels its verified members can see. What you collect goes to your account in that server (its pouch, its quests and boards, its key hunt and its 4-hour key windows). To collect one, press its button and answer the **captcha**: the first players to answer correctly take the pile's slots. A pile is collected only in the server it appeared in: its button pressed anywhere else is refused privately, and nothing is collected.
 
 - **Credit piles** are shared: each collector gets their share. Answering the captcha wrong, or collecting twice, pays nothing.
 - A wrong answer shows the captcha again, marked incorrect: press **Answer** again for another try.

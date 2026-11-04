@@ -16,6 +16,8 @@ nav_emoji: "📚"
 - **Treasure Hunting:** how keys spawn and what the treasure hunter role gives (<span class="gi-m">🗝️&nbsp;[Piles and the key hunt](../games/piles-and-key-hunt.md)</span>), with your own role's time left.
 - **Talkative:** how <span class="gi-m">🗣️&nbsp;[chat points](chat-points.md)</span> work, with your points this round, this month and all time.
 - **Memeologist:** how <span class="gi-m">🎨&nbsp;[meme points](memes.md)</span> work, with your cooldown and your points.
+
+A server that hasn't set up one of these roles or channels yet shows its name in words (the treasure hunter role, the treasure chest channel, the talkative and memeologist roles and their top 10 roles) instead of a mention.
 - **Stellar (xRUNES):** **xRUNES LP** lists the xRUNES liquidity pools on Stellar; **xRUNES Daily Trade Contest** ranks the day's xRUNES buyers, 10 a page: **Previous Day** goes back a day at a time, **Next Day** comes back up to today.
 
 ## The Hall of Honor

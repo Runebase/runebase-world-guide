@@ -19,13 +19,14 @@ nav_icon: "assets/icons/crown-skill/black-hood.webp"
 
 ## What it does
 
-On a damaging hit it steals its share of the pool for you alone; it steals exactly its share, the rounding remainder stays in the pool. A Black Hood final blow takes the thief's share out before the old Crown is paid the rest.
+On a damaging hit it steals its share of the pool for you alone, at most 25,000 credits (the most any one prize pays); it steals exactly its share, the rest (the rounding remainder too) stays in the pool. A Black Hood final blow takes the thief's share out before the old Crown is paid the rest.
 
 Every attack costs one <span class="gi-m">![](../../../../assets/icons/item/chaos-relic.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Chaos Relic](../../../../items/keys-and-cards/cards-and-relics.md#chaos-relic)</span> and faces the Crown's rune ([runes and damage](../../attacking.md#runes-and-damage)).
 
 ## Checked in play
 
 - On a damaging hit rank 1 takes 0.0035% of the pool and rank 20 0.07%, for you alone, for 5 and 24 mana. A miss or an empty pool steals nothing (the mana is spent). On a final blow your share leaves the pool first and the old Crown is paid the rest.
+- A steal is paid at most 25,000 credits: with 0.07% of a 40,000,000-credit pool (28,000) the thief got exactly 25,000 and the pool dropped by exactly that, the rest staying in it; nothing was held back.
 - A dodged attack steals nothing.
 
 ## Rank by rank

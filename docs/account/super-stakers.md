@@ -12,7 +12,7 @@ Open it from `/start` → **Activities** → **Super Stakers**.
 
 ## The list
 
-**Super Stakers** lists every registered super staker that is verified (one still waiting for its verification isn't listed): its address, its owner, its delegates, its **score** (its points out of its cycles, as a percentage: 3 points in 4 cycles is **75% (3/4)**) and the blocks it produced. **How to become a Super Staker** and **How to Delegate** walk you through the wallet's setup.
+**Super Stakers** lists every registered super staker that is verified (one still waiting for its verification isn't listed): its address, its owner, its delegates, its **score** (its points out of its cycles, as a percentage: 3 points in 4 cycles is **75% (3/4)**; a staker with no cycle yet shows **0%**) and the blocks it produced. **How to become a Super Staker** and **How to Delegate** walk you through the wallet's setup.
 
 Pick one in **Select a Super Staker** to see it on its own: its address, its note and its delegations, **5 a page** (each delegate with its weight, fee and the block it started at), with **Next** and **Previous**; **Back to Super Stakers Overview** returns to the list.
 

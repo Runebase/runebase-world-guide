@@ -13,7 +13,7 @@ nav_icon: "assets/icons/game/heists.webp"
 
 In a heist you steal **experience** from another player, not credits. Buffs, gear, pets, a building and a clan change the odds. Every heist counts on a monthly ladder; its best players win a role, and the ladder can pay <span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span> prizes.
 
-**Where:** `/heist` (pick the player and the attack type), or `/start` → **Activities** → **Heist** for the heist menu (joining, buffs, gear, clans, the attack guide). `/heistboard` shows the ladders, `/browseclans` lists the clans.
+**Where:** `/heist` (pick the player and one of its attack types: any other is refused, privately, and nothing is spent), or `/start` → **Activities** → **Heist** for the heist menu (joining, buffs, gear, clans, the attack guide). `/heistboard` shows the ladders, `/browseclans` lists the clans.
 
 ## Joining and leaving
 

@@ -34,7 +34,7 @@ Their base cooldowns and durations are on the [overview](index.md#how-a-reign-wo
 
 ## Defensive runes
 
-In **Defensive Runes**, pick up to 24 runes (the first becomes your current rune), move them up or down, and set the current one. Each line shows the rune's value in the running reign. While you hold the Crown, each attack faces your current rune and then moves it to the next in your list. A change you make while an attack is under way waits for that attack and is kept. Each attack report shows the Crown's defense streak (the attacks it has survived this reign), and your best streak is kept.
+In **Defensive Runes**, pick up to 24 runes, each once (the first becomes your current rune; anything the menu doesn't offer is refused on it and your runes stay as they were), move them up or down, and set the current one. Each line shows the rune's value in the running reign. While you hold the Crown, each attack faces your current rune and then moves it to the next in your list. A change you make while an attack is under way waits for that attack and is kept. Each attack report shows the Crown's defense streak (the attacks it has survived this reign), and your best streak is kept.
 
 ## Pets
 

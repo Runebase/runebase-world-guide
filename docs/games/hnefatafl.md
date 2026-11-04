@@ -55,7 +55,7 @@ A win pays credits and maybe scrap, by difficulty (table below); every way of wi
 
 A server without a Hnefatafl channel can't take challenges: your lobby says so and nothing is sent (an admin sets the channel with `/config`, **Hnefatafl Channel**).
 
-You can't challenge yourself or a bot, and you can have one open challenge or game with the same player at a time. Anything refused changes nothing and says why: on your lobby or your board when the button is on your own screen (a late Accept, a second click, a move from an old screen or typed wrong), privately under the challenge's post in the channel or on a button that isn't yours.
+You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time. Anything refused changes nothing and says why: on your lobby or your board when the button is on your own screen (a late Accept, a second click, a move from an old screen or typed wrong), privately under the challenge's post in the channel or on a button that isn't yours.
 
 ### How a game ends
 

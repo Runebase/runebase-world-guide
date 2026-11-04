@@ -9,7 +9,7 @@ nav_emoji: "⚔️"
 **Where to play:** Discord
 { .where-to-play }
 
-`/hackslash` → **Quick Battle**: pick the zone (Shadowed Caverns, Twilight Forest, Frozen Tundra), the monster level and the difficulty, then **Start QuickBattle**.
+`/hackslash` → **Quick Battle**: pick the zone (Shadowed Caverns, Twilight Forest, Frozen Tundra), the monster level and the difficulty, then **Start QuickBattle**. Only what the menus offer is fought: any other zone, level or difficulty is refused on the screen, and nothing (stamina or a buff dish) is spent.
 
 - **Monster level:** 1 to 100, 25 levels a page; the menu opens on your own level. Levels more than 5 below yours say **(No Experience)**: those monsters pay no experience.
 - **Difficulty:** ×1 to ×6.75, in steps of 0.25. It multiplies the monsters' health, armor, damage and attack rating, adds the multiplier minus 1 (rounded) to their block, and makes items a little likelier (below).

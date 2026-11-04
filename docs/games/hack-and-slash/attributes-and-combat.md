@@ -11,7 +11,7 @@ nav_emoji: "📈"
 
 ## Attributes
 
-You get **5 attribute points per level** to spend on the stats screen (never more than you've earned).
+You get **5 attribute points per level** to spend on the stats screen (never more than you've earned), [typed as a plain whole number](../../account/credits-and-runes.md#typing-an-amount): `0x10`, `1e3`, words or decimals are refused on the stats screen and nothing is spent.
 
 - **Strength:** its whole value as % extra physical (and throw) damage.
 - **Dexterity:** +5 attack rating a point, multiplied by your level's multiplier ([below](#hitting-and-missing)); dexterity from your gear and its inscriptions counts the same as the points you spend.

@@ -10,6 +10,8 @@ nav_icon: "assets/icons/emoji/pouch.webp"
 
 **Where:** `/pouch` shows your balance, with **Withdraw** and **Buy Credits**. `/withdraw` withdraws directly.
 
+**How amounts are shown:** credits and RUNES count down to 0.00000001, and every screen shows them as plain numbers with at most 8 decimals (7 for xRUNES), however small: a deposit of 0.0000005 credits says "0.0000005 Credits", never "5e-7". The tests check every amount on every screen they show for this, and that none is off by a power of ten.
+
 `/pouch` shows the pouch's level, your credits, and the <span class="gi-m">![](../assets/icons/item/bronze-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Bronze](../items/keys-and-cards/treasure-keys.md#bronze-key)</span>, <span class="gi-m">![](../assets/icons/item/silver-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Silver](../items/keys-and-cards/treasure-keys.md#silver-key)</span> and <span class="gi-m">![](../assets/icons/item/gold-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gold Keys](../items/keys-and-cards/treasure-keys.md#gold-key)</span>, <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span> and <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood](../items/materials/scrap.md#wood-scrap)</span>, <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather](../items/materials/scrap.md#leather-scrap)</span> and <span class="gi-m">![](../assets/icons/item/metal-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Metal Scrap](../items/materials/scrap.md#metal-scrap)</span> it holds, each next to the room it has: per pouch level 40 Bronze, 20 Silver and 10 Gold Keys, 50 Mystery Cards and 100 of each scrap (level 2 holds twice that). Its buttons: **Upgrade Pouch**, **Buy Credits**, **Withdraw**, **Withdrawal History** and **Credits Change History**.
 
 **Upgrading the pouch:** **Upgrade Pouch** shows the next level's room next to the current one, and its cost: 50 <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span> times the pouch's level (50 for level 2, 100 for level 3, 150 for level 4, …), with how much of it you hold. Its own **Upgrade Pouch** button is off until you hold the cost, and the upgrade takes exactly that; **Back to Pouch** returns. The pouch is also in `/start` → **Inventory** → **Pouch**.
@@ -28,7 +30,7 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 - **A plain number:** `5`, `2.5`, `0.00000001`. Spaces around it don't matter.
 - **8 decimals at most, rounded down:** `1.000000009` is 1 credit, never more than you typed.
 - **Anything else is refused, and nothing moves** (on the screen you typed it from; a withdrawal's answer only you see): `0x10`, `1e3`, `+5`, `1,5` (use a point), `1 000`, `Infinity`.
-- Store quantities are whole numbers written the same way (`5`, not `5e0`).
+- **Whole amounts** (a store quantity, dishes to cook or eat, buff charges, attribute and skill points) are whole numbers written the same way: `5`, not `5e0`, `0x5` or `five` (refused, nothing spent).
 
 ## Deposits
 
@@ -44,7 +46,7 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 
 ## Buying credits with Hermes
 
-**Pouch → Buy Credits → Buy Credits With Hermes**, type the amount, **Accept Purchase**. Hermes charges your RUNES and the bot credits **exactly the amount you asked for (1 RUNES = 1 credit)**, once. Fractions are fine (2.5 credits); an amount that isn't [a plain number](#typing-an-amount) is refused, only you see it, and Hermes isn't asked.
+**Pouch → Buy Credits → Buy Credits With Hermes**, type the amount, **Accept Purchase**. Hermes charges your RUNES and the bot credits **exactly the amount you asked for (1 RUNES = 1 credit)**, once. Fractions are fine (2.5 credits); an amount that isn't [a plain number](#typing-an-amount), or isn't above 0, is refused (on the purchase screen) and Hermes isn't asked.
 
 - If Hermes refuses, nothing is credited and you see why, in plain words.
 - The bot only credits an answer from Hermes that is about your purchase, for exactly that amount. If Hermes' answer gets lost, the screen says Hermes may have charged you and doesn't offer the purchase again (so you can't pay twice); the purchase isn't credited automatically, it's logged for the staff to sort out, so ask them. The same when Hermes' answer doesn't say what it charged, or your purchase was changed or settled by the staff while Hermes was answering: never credited twice.

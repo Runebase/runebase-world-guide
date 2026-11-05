@@ -895,6 +895,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-excellers-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Excellers role
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-role-panel" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1558,6 +1569,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-excellers-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Excellers role
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-role-panel" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1639,9 +1661,12 @@
 <p>Many boards give a role to their <strong>top 10</strong> players (the experience board also to the top 20 and top 30). When you pass someone, the role moves to you; when you drop out, it goes to the next player.</p>
 <ul>
 <li>A board with fewer than 10 players who scored gives its role only to those who scored.</li>
-<li>After a restart, the roles match <code>/leaderboard</code> again.</li>
+<li>After a restart, the roles match <code>/leaderboard</code> again. So they do within a minute when a server is switched on or its admins set a top role with <code>/config</code>, without a restart.</li>
+<li>On a tie at the last place the newer Discord account gets the role (the <span class="gi-m">🏅&nbsp;<a href="../leaderboards/">leaderboards'</a></span> order).</li>
 <li>Leaving the server takes you off the boards at once, and your top roles go to the next players. Points you'd lose while away don't put you back; coming back does.</li>
 </ul>
+<h2 id="the-excellers-role">The Excellers role<a class="headerlink" href="#the-excellers-role" title="Permanent link">&para;</a></h2>
+<p>Where the server has an <strong>Excellers</strong> role, it goes to every player whose 30-day experience (the Monthly Accelerator <span class="gi-m">🏅&nbsp;<a href="../leaderboards/">leaderboard</a></span>) is <strong>above the server's requirement</strong>: 65% of the average 30-day experience of the players above 350, rounded. For example, with two players above 350, at 360 and 700, the requirement is 345: 346 or 350 holds the role, 345 doesn't. The requirement is worked out again every day at 06:45 UTC (and announced in the server's chat channel), and the role follows your experience with every gain or loss, and at every restart.</p>
 <h2 id="the-role-panel">The role panel<a class="headerlink" href="#the-role-panel" title="Permanent link">&para;</a></h2>
 <p><code>/rolepanel</code> shows the roles you can give yourself, one at a time (pick one in <strong>Select Role</strong>). Press <strong>Earn</strong> to take it or <strong>Remove</strong> to give it back. Some roles need a minimum amount of experience: below it, the panel shows the role with the button off. Only the player who opened the panel can use its buttons.</p>
 <p><strong>Earn</strong> only gives the role and <strong>Remove</strong> only takes it, whatever another screen did: from a panel opened before your other panel's click, Earn says "You already have the … role: nothing changed." (and Remove "You don't have the … role"), and a double click acts once. The heist's role works the same from the heist menu (<a href="../../games/heists-and-clans/#joining-and-leaving">joining and leaving</a>).</p>

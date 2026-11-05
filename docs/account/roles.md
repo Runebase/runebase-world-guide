@@ -16,6 +16,7 @@ Many boards give a role to their **top 10** players (the experience board also t
 - After a restart, the roles match `/leaderboard` again. So they do within a minute when a server is switched on or its admins set a top role with `/config`, without a restart.
 - On a tie at the last place the newer Discord account gets the role (the <span class="gi-m">🏅&nbsp;[leaderboards'](leaderboards.md)</span> order).
 - Leaving the server takes you off the boards at once, and your top roles go to the next players. Points you'd lose while away don't put you back; coming back does.
+- A player banned from the bot is off every board too, with no top role, paid ladder prize or winners role; lifting the ban puts them back with their scores.
 
 ## The Excellers role
 

@@ -12,7 +12,7 @@ Most games have **leaderboards**, all-time and monthly, whose top players hold a
 
 - A board shows **10 players a page**; a longer one has **Next** and **Previous**, a shorter one a **Close** button. The key hunt ladder also has **Previous Month** and, on an earlier month, **Next Month**.
 
-- Boards show the top players in score order; on a tie, the newer Discord account comes first, every account alike (an older account's shorter id never jumps ahead; the key hunt ladder puts whoever got there first). Only players with points are listed, and only players who are in the server.
+- Boards show the top players in score order; on a tie, the newer Discord account comes first, every account alike (an older account's shorter id never jumps ahead; the key hunt ladder puts whoever got there first). Only players with points are listed, and only players who are in the server and not banned from the bot: a ban takes a player off every board and its [top roles](roles.md#top-roles) at once (the next player moves up), and lifting it puts them back.
 - **Monthly boards count the last 30 days:** every point you earn leaves the monthly board about 30 days later. (The key hunt ladder counts the calendar month, and so does the heist ladder on `/heistboard`.) A restart of the bot, even one in the middle of your action, never takes a point off a monthly board early or counts it twice, and a point whose 30 days end while the bot starts up or is down comes off once, like any other. The same in every server, with or without an experience channel.
 - The **Monthly Accelerator** board counts your experience gains of the last 30 days, minus what you lost (so it can go below 0, and comes back as the losses leave the 30 days).
 

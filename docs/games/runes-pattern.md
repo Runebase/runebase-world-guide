@@ -13,7 +13,11 @@ A game for the whole server in the Runes Pattern channel. A word appears in the 
 
 - A word that isn't on your card is a penalty: it costs you one marking.
 - The word that completes **the day's current challenge** (a pattern on the card) wins the game: the winner uses **one <span class="gi-m">![](../assets/icons/item/runes-pattern-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Runes Pattern Card](../items/keys-and-cards/cards-and-relics.md#runes-pattern-card)</span>** and is paid once (experience and a prize roll), and a new game starts. When two players click the winning word at the same moment, there is one winner.
-- A win pays **50 experience**; the **day's 3rd challenge pays 150** and counts the day toward the weekly challenge.
+- A win pays **50 experience** and one roll of the prize table below. The day has **5 challenges**:
+    - the **day's 3rd challenge pays 150** experience, gives the **Pattern Riddler** role for 2 days, and counts the day toward the week's challenge;
+    - the 3rd challenge on **the 5th day of the week** you complete pays **250** instead (not 150) and gives the **Pattern Junky** role for a week;
+    - the win that completes **the day's last challenge** (the 5th) rolls the prize table **3 times**, each roll on its own (three prizes at most); every other win rolls it once;
+    - wins after the day's last challenge pay the base again (50 and one roll).
 - The challenges follow the UTC day.
 - Words disappear from the channel when their time is up. No word comes twice until all 75 have come; then the channel says the word pool starts over.
 - **Show My Runes Pattern Card** (under every word) or **Activities → Runes Pattern** shows your own card, only to you: your words, what you've marked, today's challenges and the week's. Your card is dealt the first time you look at it or click a word.

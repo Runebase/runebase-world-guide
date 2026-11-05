@@ -29,7 +29,7 @@ A <span class="gi-m">![](../../assets/icons/crown-skill/silence.webp){ .gi .gi-m
 
 - **CoC Weekly Ladder Board** on the Crown of Chaos menu (or **CoC Weekly Ladder** under the channel's posts, answered only to you) shows this week's ladder, ten players a page (**Next**, **Previous**), and earlier weeks (**Previous Week**, **Next Week**).
 - On Monday (UTC), last week's **top 3** get the CoC Winners role; a top-3 player who already has it keeps it ("Role Extended"), and a former winner who isn't in the top 3 loses it. Only a score above 0 counts: after a week nobody scored in, nobody holds the role. If the bot was down on Monday at 00:00, it happens when it starts again.
-- A tie goes to whoever reached the score first; players who left the server are left out.
+- A tie goes to whoever reached the score first; players who left the server or are banned from the bot are left out.
 - When the staff turn the weekly payouts on (on the Runebase server), last week's positive scores share **1% of the realm's <span class="gi-m">![](../../assets/icons/currency/runes.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[RUNES](../../account/credits-and-runes.md#runes-prizes)</span> wallet** by rank, once:
 
 | Rank | Shares of the pool, each |

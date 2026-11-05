@@ -22,7 +22,7 @@ Pick one in **Select a Super Staker** to see it on its own: its address, its not
 2. The screen then asks you to **verify** it: send **any amount of RUNES from that address** to the deposit address it shows (your own deposit address, the same as **Pouch → Buy Credits**).
 3. Only a payment **from the super staker's address** verifies it; one from any other address doesn't. Once it's verified the bot tells you by DM, and your super staker is in the list.
 
-The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits), they become credits in your wallet at 6 confirmations.
+The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits), they become credits in your wallet at 20 confirmations.
 
 ## Your note, and disabling it
 

@@ -37,7 +37,9 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 **Pouch → Buy Credits** shows your deposit address (it's made for you the first time; if the Runebase node is down, the menu says so and the address comes once it's back).
 
 - **RUNES or Credits tokens sent to your deposit address become credits 1:1.**
-- The bot sees the payment (you get a DM), then credits your wallet at **6 confirmations** (another DM).
+- The bot sees the payment (you get a DM), then credits your wallet at **20 confirmations** of the block it's in, about 11 minutes (another DM). **Recent Deposits** (under Buy Credits) shows a deposit still on its way with its confirmations so far, e.g. "⌛ 12/20 confirmations". RUNES and Credits tokens take the same 20.
+- If the blockchain reorganizes before that and your payment lands in another block, it counts from that block: still credited once, at its 20th confirmation.
+- **After it's credited**, the bot keeps checking for about 18 hours (2,000 blocks; the network refuses any reorganization deeper than that) that your deposit's block is still in the chain. If your payment is simply mined again in another block, nothing changes. If it's no longer in the chain at all (for example a double spend), the server's admins are told and decide what happens; the bot never takes credits back on its own.
 - Each deposit is credited exactly once, however often the bot hears about it. A deposit made while the bot was offline is found and credited when it's back.
 - If the Runebase node or the bot's database has a hiccup while your deposit comes in, the bot tries again with the next block: a deposit is never skipped, and still credited only once.
 - One payment to several deposit addresses gives each player the sum sent to their own address.
@@ -79,4 +81,4 @@ Dice, treasure chests, scratch cards and Crown of Chaos pay some prizes in RUNES
 ## Tips
 
 - Double-check the withdrawal address: it must start with R.
-- Deposits take 6 confirmations; you get a DM when the bot first sees yours.
+- Deposits take 20 confirmations (about 11 minutes); you get a DM when the bot first sees yours.

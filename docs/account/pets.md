@@ -59,6 +59,14 @@ A pet left alone for 30 days stops changing (no stat changes, no points, no perk
 
 Your active pet earns **pet points every minute**, awake or asleep, from its stats after the minute's change: the better fed (low hunger), happier, cleaner and healthier it is, the more (energy counts a little). A rarer pet earns more for the same stats: ×1.05 Uncommon, ×1.1 Rare, ×1.15 Epic, ×1.2 Legendary, ×1.25 Mythical. A pet in a bad state earns nothing. The pet menu shows it as **Score per Minute**.
 
+| Your pet's stats | Common | Uncommon | Rare | Epic | Legendary | Mythical |
+|---|---|---|---|---|---|---|
+| Well kept (hunger 20, energy 70, happiness 80, hygiene 75, sickness 5) | 30 | 31 | 33 | 34 | 36 | 37 |
+| Perfect (hunger 0, energy, happiness and hygiene 100, sickness 0) | 38 | 40 | 42 | 44 | 46 | **48**, the most a pet earns |
+| Everything at its worst | 0 | 0 | 0 | 0 | 0 | 0 |
+
+The score: 25% of (100 − hunger), 35% of happiness, 20% of hygiene and 5% of energy, minus 15% of sickness, × 0.45, × the rarity, rounded (a half up).
+
 - Only the minute earns points: feeding, washing, curing and playing give your pet experience, not points; a pet resting in the <span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span> earns nothing; activities, heists and the Crown give no pet points.
 - The points wait, and go onto the **All-Time Pet Points** and **Monthly Pet Points** <span class="gi-m">🏅&nbsp;[leaderboards](leaderboards.md)</span> every 15 minutes, also when your pet has fallen into a bad state since (before the update, points earned before a pet fell ill could stay waiting and be lost). Changing pets or putting your pet in the kennel puts its waiting points on the boards first, for that pet. Two clicks at once never count them twice, and a restart of the bot keeps them waiting.
 - The monthly board counts the last 30 days: each batch of points leaves it (and your pet's monthly score) about 30 days later; the all-time board keeps them. The top 10 of each board hold its [role](roles.md#top-roles).

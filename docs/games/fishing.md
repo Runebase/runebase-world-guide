@@ -35,7 +35,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 ## Experience, quests and leaderboards
 
-A fishing trip pays **1 experience per energy**.
+A fishing trip pays **1 experience per energy**: a 10-energy trip pays 10.
 
 Trips also move your <span class="gi-m">![](../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../account/quests.md#every-quest)</span>: the Fishing quest counts the energy you spend, and the quest for each fish counts what you catch of it (Fishing - Cod counts your <span class="gi-m">![](../assets/icons/item/cod.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[cod](../items/ingredients/fish.md#cod)</span>). A quest that reaches its goal completes on its own and pays its reward once.
 

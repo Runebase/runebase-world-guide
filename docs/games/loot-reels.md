@@ -13,7 +13,7 @@ Free spins every day: the reels pay experience and whatever they land on. Loot R
 
 **Where:** `/start` → **Activities** → **Loot Reels**.
 
-**15 free spins a day** (the count starts again at 00:00 UTC). Every spin pays **2 experience** plus whatever the reels land on: credits, items, or nothing ("No Win"). A spin pays exactly what it shows, once. When the day's spins are used up, double clicks and old Spin buttons pay nothing more. Each spin counts on the Loot Reels leaderboards.
+**15 free spins a day** (the count starts again at 00:00 UTC: with all 15 used, a spin at 00:00:01 UTC pays its 2 experience again). Every spin pays **2 experience** plus whatever the reels land on: credits, items, or nothing ("No Win"). A spin pays exactly what it shows, once. When the day's spins are used up, double clicks and old Spin buttons pay nothing more. Each spin counts on the Loot Reels leaderboards.
 
 | Prizes | Chance per spin | Each prize |
 |---|---|---|

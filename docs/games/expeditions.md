@@ -35,7 +35,7 @@ A trip pays exactly once. Clicking twice, or using two devices, starts one trip 
 
 ## Experience, quests and leaderboards
 
-An expedition pays **3 experience per energy**.
+An expedition pays **3 experience per energy**: all 5 energy of a day pay 15.
 
 Expeditions also move your <span class="gi-m">![](../assets/icons/emoji/quest.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[quests](../account/quests.md#every-quest)</span>: the expedition quests count the seconds of your expeditions. A quest that reaches its goal completes on its own and pays its reward once.
 

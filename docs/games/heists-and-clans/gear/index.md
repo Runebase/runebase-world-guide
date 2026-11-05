@@ -9,7 +9,7 @@ nav_emoji: "🛡️"
 **Where to play:** Discord
 { .where-to-play }
 
-Heist gear is crafted with scrap from the heist gear menu (it costs exactly the scrap listed). You wear one item per slot: shield, weapon, helm, armor and ring. Equipping another item in a slot takes the first one off.
+Heist gear is crafted with scrap from the heist gear menu (it costs exactly the scrap listed: with that much it's crafted, with one scrap short of any of the three nothing is crafted or taken). You wear one item per slot: shield, weapon, helm, armor and ring. Equipping another item in a slot takes the first one off.
 
 - **Without Tactical Shift** (the default), your **neutral** set counts both when you attack and when you defend.
 - **With Tactical Shift** (**Enable Tactical Shift** in the heist menu), your **offensive** set counts when you attack and your **defensive** set when you defend; the neutral set rests.

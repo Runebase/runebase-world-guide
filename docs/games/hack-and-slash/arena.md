@@ -20,6 +20,7 @@ nav_emoji: "🥊"
 - You can have at most 5 open duels, and a player who has 5 can't be challenged, even by several players at the same moment.
 - **One duel at a time with the same player:** while a challenge or a duel between you two is open, a new challenge either way is refused and you're shown the open one (a double click on **Challenge** sends one challenge). If they've challenged you, you're told to join or decline theirs.
 - Someone else pressing **Join Duel** on your challenge only watches, privately: your duel and the message stay as they are.
+- **A duel belongs to the server it was made in.** If you play in two servers, you have a character in each, and a duel of one server can't be joined, declined, cancelled, played or given up from the other: the bot says it found no such duel there (privately under a challenge's message).
 
 ## A duel
 

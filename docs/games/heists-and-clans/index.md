@@ -36,6 +36,8 @@ In a heist you steal **experience** from another player, not credits. Buffs, gea
 - Joining stays open in the month's last 3 days; only leaving is closed then.
 - Left in an earlier month, or lost your place to low experience? You can rejoin right away once you have enough experience again, also in a new month.
 - `/rolepanel` (the heist role's Earn or Remove button) does the same: leaving within 2 days of joining, or rejoining before the wait is over, is refused with the time you can: privately under the public role panel, on the heist menu from its join and leave screens.
+- **Confirm join** and **Confirm leave** act once: pressed twice, or from a screen opened before the other, the second says you're already in the heist games (or already left them), and a leave counts one bubble.
+- A join or leave the bot was stopped in the middle of (a restart) is finished when it starts again: you're in the heist, or out of it, as your join or leave was recorded.
 - Being heisted is no bubble: you stay in the heist, protected only by the 6 hits a day.
 - **A week without an attack and you leave the heist:** 7 days after you join, and 7 days after each of your attacks, you're out of the heist if you haven't attacked since (being heisted doesn't count). It isn't a bubble: you can rejoin at once, and from your rejoin you have a new week. The heist channel names the players who left.
 

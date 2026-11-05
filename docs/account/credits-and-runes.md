@@ -52,6 +52,7 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 
 - If Hermes refuses, nothing is credited and you see why, in plain words.
 - The bot only credits an answer from Hermes that is about your purchase, for exactly that amount. If Hermes' answer gets lost, the screen says Hermes may have charged you and doesn't offer the purchase again (so you can't pay twice); the purchase isn't credited automatically, it's logged for the staff to sort out, so ask them. The same when Hermes' answer doesn't say what it charged, or your purchase was changed or settled by the staff while Hermes was answering: never credited twice.
+- **Each server's purchase is that server's own:** credits you buy in a server go to your account in that server only (Hermes is asked for that server), and the bot credits nothing when Hermes' answer names another server. A purchase left without an answer is reported to that server's admins.
 - **If the bot restarts in the middle of your purchase** (after Hermes charged you, before your credits were added), the purchase isn't lost: when the bot starts again it reports it to the server's admins, who check it with Hermes and add your credits by hand if Hermes charged you. The same for a purchase whose answer from Hermes got lost. It's never credited twice, and never offered again.
 
 ## Withdrawals

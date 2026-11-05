@@ -18,11 +18,13 @@ The **Hodlers** page lists the server's hodler roles, each with the RUNES balanc
 2. Send **any amount of RUNES** to it **from the address you want to link**. The payment is what proves the address is yours; it isn't credited to your wallet (that's your `/pouch` deposit address, a different one).
 3. The address is linked: the page shows it, the bot tells you by DM, and you get the role its balance reaches.
 
+The bot hears of your payment twice, when it's sent and when it's in a block: if it missed the first (a restart), the second links your address, and an address is never linked twice by one payment. Not linked a few minutes after the payment's first confirmation? Send another small payment.
+
 ## In more than one server
 
 Each server has its own hodler roles, with its own balances; a server without any says "This server has no hodler roles yet." You can link **the same address in every server you play in**: each server shows its own hodler deposit address, and a payment to it links your address in that server only, so a wallet stays out of a server until you pay that server's address. One payment can pay several of your hodler deposit addresses at once and links each of them. Once linked, every server gives you its own role for the same balance.
 
-An address belongs to one Discord account: if another player pays from an address you linked, they're refused, and their DM names the address.
+An address belongs to one Discord account: if another player pays from an address you linked, they're refused, and their DM names the address. Two players paying from the same address at the same moment: one links it, the other is refused.
 
 ## Unlinking
 

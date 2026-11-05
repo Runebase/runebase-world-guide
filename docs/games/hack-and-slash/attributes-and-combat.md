@@ -19,7 +19,7 @@ You get **5 attribute points per level** to spend on the stats screen (never mor
 - **Energy:** mana (× your class's mana per energy).
 - Each level lowers your fire, cold, lightning, poison and magic resistance by 1.
 
-**Reset:** a stats reset gives every point back, for 0.5 <span class="gi-m">![](../../assets/icons/item/grilled-coyote-steak-with-lingonberry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grilled Coyote Steak With Lingonberry Sauce](../../items/consumables/meat-dishes.md#grilled-coyote-steak-with-lingonberry-sauce)</span> per point spent, rounded up.
+**Reset:** a stats reset gives every point back, for 0.5 <span class="gi-m">![](../../assets/icons/item/grilled-coyote-steak-with-lingonberry-sauce.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Grilled Coyote Steak With Lingonberry Sauce](../../items/consumables/meat-dishes.md#grilled-coyote-steak-with-lingonberry-sauce)</span> per point spent, rounded up. Points spent and resets paid just as the bot restarts happen once or not at all.
 
 ## Your main and secondary skill
 

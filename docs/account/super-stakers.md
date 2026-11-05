@@ -28,7 +28,9 @@ The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits
 
 On **My Super Staker**, **Edit Note** opens a box with your super staker's public note; what you save is shown with it in the list. **Disable Super Staker** asks first (**Cancel** keeps it); once you confirm, it leaves the list and you can register an address again.
 
-When nothing could be saved, **My Super Staker** says why, under the screen as it is: you already have a super staker (registered from another screen), your super staker was disabled since the screen was drawn (so there's no note to edit), or the bot couldn't save it (try again later).
+When nothing could be saved, **My Super Staker** says why, under the screen as it is: you already have a super staker (registered from another screen, also at the same moment), your super staker was disabled since the screen was drawn (so there's no note to edit, or nothing left to disable: **Confirm** pressed twice says so), or the bot couldn't save it (try again later). A note saved from two screens at once keeps the one saved last.
+
+A registration the bot was stopped in the middle of (a restart) is there or it isn't, never half: **My Super Staker** shows which.
 
 ## A point every 8 hours
 

@@ -47,6 +47,16 @@ A button acts on what it was posted for: a pile, a <span class="gi-m">🗿&nbsp;
 
 The bot's operator can switch a server off. There, the bot answers everything with a private "The bot is switched off in this server" and does nothing: buttons on older messages (piles, the store, the <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>, Withdraw), menus and commands alike, and chatting counts nothing. Your account there stays as it is, and it's yours again, as it was, when the server is switched on.
 
+## A server that hasn't set everything up
+
+Each server's admins choose its channels and roles with `/config`. One that hasn't set them all plays as usual; only what that channel or role is for is left out:
+
+- **No experience channel:** every reward is paid and every timed role comes and goes as anywhere; only the posts that would announce them are left out. A pile you collect shows what you got on your own screen, where you answered its captcha.
+- **No bumper or voter role:** <span class="gi-m">⛰️&nbsp;[bumps](bumps.md)</span> and <span class="gi-m">🗳️&nbsp;[votes](votes.md)</span> pay as anywhere, without the role.
+- **No Crown role:** the <span class="gi-m">![](../assets/icons/game/crown-of-chaos.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Crown of Chaos](../games/crown-of-chaos/round-and-reign.md#the-end-of-a-reign)</span> reigns end and start as usual, without the role.
+
+A role an admin deleted in Discord counts as not set.
+
 ## Partner roles
 
 A member of both the Runebase server and a partner server gets the partner's role in the Runebase server, and the Runebase server's role in the partner server where one is set up, each announced in that server's experience channel. Leaving the partner server takes them back.

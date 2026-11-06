@@ -9,7 +9,7 @@ nav_emoji: "🎨"
 A meme posted in a meme channel pays **8 experience** and a roll on the meme prize table, once per cooldown.
 
 - Deleting one of your memes while your latest meme is under **4 hours** old takes **10 experience** back. Deleting a meme within **a week** of posting takes its point off the monthly meme board.
-- Your **25th meme in the last 30 days** makes you a memeologist (a role).
+- Your **25th meme in the last 30 days** makes you a memeologist (a role), also in a server without an experience channel (unannounced there).
 
 The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](../games/expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows; they come last, so a utility never takes anything from the other prizes). Every row of this table is played in the tests and pays exactly what it shows.
 

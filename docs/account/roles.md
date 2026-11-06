@@ -27,3 +27,5 @@ Where the server has an **Excellers** role, it goes to every player whose 30-day
 `/rolepanel` shows the roles you can give yourself, one at a time (pick one in **Select Role**). Press **Earn** to take it or **Remove** to give it back. Some roles need a minimum amount of experience: below it, the panel shows the role with the button off. Only the player who opened the panel can use its buttons.
 
 **Earn** only gives the role and **Remove** only takes it, whatever another screen did: from a panel opened before your other panel's click, Earn says "You already have the … role: nothing changed." (and Remove "You don't have the … role"), and a double click acts once. The heist's role works the same from the heist menu ([joining and leaving](../games/heists-and-clans/index.md#joining-and-leaving)).
+
+A role deleted in Discord isn't on the panel; on a panel opened before it went, its button says the role no longer exists on the server, and nothing changes. On every server the panel opens on its first role.

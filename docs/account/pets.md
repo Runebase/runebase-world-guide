@@ -131,7 +131,7 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 ## Changing pets, favorites, nicknames
 
-- **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned. The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".
+- **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned. A restart of the bot right after a change keeps it: the new pet is the one that changes every minute and earns points (before the update, a restart at that moment could leave it never changing or earning). The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".
 - **Favorites:** 5 slots for quick switching from a menu. A sixth is refused.
 - **Nickname:** 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed.
 

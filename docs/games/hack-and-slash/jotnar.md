@@ -41,7 +41,7 @@ A giant appears in the Hack & Slash channel once every 3 hours. Press **Attack G
 - **Dropped items:** a button each; the first to press it gets the item, and the button then shows who did. You need a Hack & Slash character to pick one up, and an item is picked up only from its own post.
 - **Each server fights its own giants:** a giant's button pressed in another server is refused there, and nothing is spent.
 - **Escaped:** its message says how much of its health the server took and that partial rewards went out, or, below 5%, that it paid nothing.
-- **Nothing is lost:** a giant brought down just before a restart of the bot pays its fighters as soon as the bot is back, once.
+- **Nothing is lost:** a giant brought down just before a restart of the bot pays its fighters as soon as the bot is back, once; and if its dropped items' post didn't go out (a restart right after the payout, or Discord refusing the post), the bot posts them when it's back, with a button each, once.
 - **Leaving the server** before the giant is paid means no share: the fighters still in the server split the pool between them.
 
 *Checked in play: fighting from both entrances, the giant's attacks at their odds, its minions and the Target menu, the hit chance at your own level, falling and healing, every refusal, someone else's buttons, double clicks on **Accept**, twelve fighters attacking at the same moment (no damage lost or counted twice, each paid once), the payouts against the reward rules (a fighter who left: nothing), the dropped items, the leaderboard, the end messages, and a restart before the payout.*

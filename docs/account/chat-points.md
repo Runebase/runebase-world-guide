@@ -9,7 +9,7 @@ nav_emoji: "🗣️"
 You earn experience and prizes just by talking in the server.
 
 - A message counts as a **chat point** when it has **5 or more words of at least 4 characters** that weren't in your last counted message. Short or repeated messages earn nothing. The same message sent twice at once counts once.
-- Your **6th chat point within 12 hours** pays **12 experience** and a roll on the chat prize table, once, announced in the experience channel with your name. Later messages in those 12 hours only count chat points. When the 12 hours are over, a new round starts and pays again at its 6th point.
+- Your **6th chat point within 12 hours** pays **12 experience** and a roll on the chat prize table, once, announced in the experience channel with your name. Later messages in those 12 hours only count chat points. When the 12 hours are over, a new round starts and pays again at its 6th point (always: before the update, a round that ended just as a message counted could stay open for good, and that player never earned the 12 experience again).
 - **40 chat points in the last 30 days** make you an active chatter (a role); it goes again when old points drop out of the 30 days. A restart of the bot, even one in the middle of your message, never takes a chat point off early or counts it twice.
 - Chat points count on the chatter <span class="gi-m">🏅&nbsp;[leaderboards](leaderboards.md)</span>.
 

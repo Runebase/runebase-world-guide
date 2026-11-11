@@ -12,6 +12,6 @@ nav_emoji: "🙋"
 - **The poll ends when its time is up:** a vote that comes as it ends isn't counted ("This poll has ended: your vote wasn't counted."), and a poll's button after the end (on a screen that still shows it, or copied anywhere else, another server included) says "This poll has ended: it takes no more votes."
 - Only the poll's own answer buttons count: anything else is refused ("That answer isn't on this poll: pick one of its buttons.").
 - A poll from before the update that was only for one role (the old bot could make those) still is after it: without the role you're told "Sorry, this poll is only for user with role …", and your vote doesn't count.
-- If something goes wrong while your vote is counted, you're told it wasn't counted and can vote again. If it goes wrong as the poll ends, its buttons go and the bot posts the result at its next start.
+- If something goes wrong while your vote is counted, you're told it wasn't counted and can vote again. If it goes wrong as the poll ends, its buttons go and the bot ends the poll again over the next few minutes, posting its result once (if it keeps going wrong, at the bot's next start).
 
 Every answer to your click is private: only you see it.

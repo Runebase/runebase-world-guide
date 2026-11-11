@@ -57,7 +57,7 @@ The **Monthly TreasureKey Hunt Ladder** (`/leaderboard`, monthly boards) ranks t
 | 11 to 25 | 1.5 |
 | 26 to 50 | 0.75 |
 
-A tie goes to whoever found their keys first, and players who left the server or are banned from the bot are left out (of the ladder, its prizes and the winners role). Each server's winners are announced in that server's own experience channel.
+A tie goes to whoever found their keys first, and players who left the server or are banned from the bot are left out (of the ladder, its prizes and the winners role). Each server's winners are announced in that server's own experience channel. On the 1st, last month's winners get the Key Hunt Winner role: a winner who already has it keeps it and is told it's **extended**, and a former winner who didn't win again loses it.
 
 ## Tips
 

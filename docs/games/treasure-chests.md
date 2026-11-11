@@ -22,6 +22,7 @@ A quick game of luck: open treasure chests with keys.
 - A key button answers at once, even when the bot is busy: in the chest channel you see the bot thinking, then the chest; a refusal replaces that with a note only you see.
 - If something goes wrong while opening the chest, your key isn't spent and you're told: only you under a chest in the channel, on your menu from **Activities → Treasure**.
 - Every row of the table below is played in the tests: each pays exactly what it shows, where it shows (credits in your wallet, RUNES as a tip, keys and cards in your pouch, the rest in your basket or experience), on your screen and in the chest channel.
+- A <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> adds 0.05 points a level to both rows of its scrap below (a Skinning Knife at level 40: 2.25% and 2.1% <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span>), on every key; the loot table a key's button shows has your chances.
 - Better keys pay the same prizes at the same chances, the same amount or more (the key screen says so: **prizes 1.5x**, **2x**):
 
 | Chance per roll | Bronze Key | Silver Key | Gold Key |

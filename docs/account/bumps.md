@@ -8,6 +8,7 @@ nav_emoji: "⛰️"
 
 Bump the server with Disboard's `/bump` (or Discord Home's). The bumper gets **10 experience**, a roll on the bump prize table and the **bumper role for 2 hours**, announced in the experience channel.
 
+- Your bumper role follows your 2 hours: if the bot was down when you bumped, or giving you the role failed, its role check (at the bot's start and at set times every day) gives it to you for what's left of them and says how long; once they're over, the check takes it back.
 - A server can be bumped **once every 2 hours on each bump service** (Disboard, Discord Home): a `/bump` answered in that window pays nobody, and the bot says the server was already bumped.
 - Two members' bumps answered at the same moment pay only one of them.
 - The bumper role is taken back when its 2 hours are over (also across a bot restart).

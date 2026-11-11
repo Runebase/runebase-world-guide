@@ -23,6 +23,7 @@ A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../
 - Two rolls at the same moment: one is paid, the other gets the cooldown, also from two devices (`/roll` and the dice menu).
 - The cooldown survives a restart of the bot, and the dice menu always counts down to the time a roll would be refused until.
 - The **dice leaderboards** count each roll's dice score.
+- If something goes wrong while rolling (a database problem), you're told **Something went wrong while rolling dice.**, on your dice menu or privately under a roll, and nothing is paid or spent: roll again. If Discord loses the bot's answer to a roll, the roll still counts and is paid once.
 
 | Sum of the two dice | Chance | Experience | RUNES prize (% of the realm's RUNES wallet) | Dice score |
 |---|---|---|---|---|
@@ -38,7 +39,7 @@ A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../
 | 11 | 5.56% | 14 | 0.00048% | 5 |
 | 12 | 2.78% | 27 | 0.00096% | 6 |
 
-Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows.
+Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises the scrap rows, 0.05 points a level (a Skinning Knife at level 40: <span class="gi-m">![](../assets/icons/item/leather-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Leather Scrap](../items/materials/scrap.md#leather-scrap)</span> 27%). The rows add up to 98.5%, so together your utilities can add 1.5 points before the last row, <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../items/materials/scrap.md#wood-scrap)</span>, reaches 100%; past that, raising one scrap takes from Wood Scrap. `/loottables` shows the chances for you, utilities included.
 
 | Prize | Chance per roll |
 |---|---|

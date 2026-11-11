@@ -37,7 +37,7 @@ What you earn in one realm leaves your account in the other as it was: nothing m
 - **Its own welcome:** a realm whose admins set a welcome channel welcomes its newly verified members there, by the server's own name.
 - **Its own admins:** a server's admins (Discord's Administrator permission) set its roles and channels with `/config`; that's all an admin of a server can do with the bot. Spawning piles and the maintenance and test commands belong to the bot's own operator.
 
-A server that adds the bot or is switched on as a realm plays at once: its commands appear, and chatting and joining count from then on.
+A server that adds the bot or is switched on as a realm plays at once: its commands appear, and chatting and joining count from then on. If you used the bot in that server before it was a realm, your account there is made at your first message or command once it's switched on, as for anyone new.
 
 ## What's in one server stays there
 

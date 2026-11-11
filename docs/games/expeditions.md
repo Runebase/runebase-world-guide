@@ -21,7 +21,7 @@ An idle activity: you spend energy, wait while your expedition runs, and come ba
    - Each scrap found is its own prize, as in fishing and hunting: when your pouch is full, the scrap that still fits is paid and the rest isn't. The result lists what was paid and, apart, what your pouch had no room for (**Unable to loot Pouch full**); **Today's loot** on the menu counts only what was paid (with the trips' experience and quest rewards).
 4. At the end you get what it found, your experience and your quest progress, and the trip counts on the leaderboards.
 
-A trip pays exactly once. Clicking twice, or using two devices, starts one trip and spends the energy once. If the bot restarts during your trip, the trip is finished when the bot is back, and paid once.
+A trip pays exactly once. Clicking twice, or using two devices, starts one trip and spends the energy once. If the bot restarts during your trip, the trip is finished when the bot is back, and paid once. If something goes wrong just as your trip finishes (the bot can't save it), the menu says so: the trip isn't lost, and the bot finishes and pays it at its next start.
 
 ## Energy
 

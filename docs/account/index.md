@@ -8,7 +8,7 @@ nav_emoji: "🎖️"
 
 What belongs to you across all the games, wherever you play them: your rank, your credits, your buildings and pets, your quests, and what you earn by taking part in the server.
 
-Your account belongs to a <span class="gi-m">🌍&nbsp;[realm](realms.md)</span>, the Discord server you play in: joining it, or your first chat message there, creates your account there (wallet, pouch, quests and daily energy), and every server you play in has its own. A very old account that never got some of these (from before the pouch existed) gets them at its first message, command or click after the update, and plays from there.
+Your account belongs to a <span class="gi-m">🌍&nbsp;[realm](realms.md)</span>, the Discord server you play in: joining it, or your first chat message there, creates your account there (wallet, pouch, quests and daily energy, and 10 <span class="gi-m">![](../assets/icons/item/anchovy-with-anchovy-powder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Anchovy with Anchovy Powder](../items/consumables/fish-dishes.md#anchovy-with-anchovy-powder)</span> to start with, once: a new account only), and every server you play in has its own. A very old account that never got some of these (from before the pouch existed) gets them at its first message, command or click after the update, without the starting Anchovies, and plays from there.
 
 | Page | What you'll find |
 |---|---|

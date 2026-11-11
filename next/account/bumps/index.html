@@ -1614,6 +1614,7 @@
 <h1 id="bumps">⛰️ Bumps<a class="headerlink" href="#bumps" title="Permanent link">&para;</a></h1>
 <p>Bump the server with Disboard's <code>/bump</code> (or Discord Home's). The bumper gets <strong>10 experience</strong>, a roll on the bump prize table and the <strong>bumper role for 2 hours</strong>, announced in the experience channel.</p>
 <ul>
+<li>Your bumper role follows your 2 hours: if the bot was down when you bumped, or giving you the role failed, its role check (at the bot's start and at set times every day) gives it to you for what's left of them and says how long; once they're over, the check takes it back.</li>
 <li>A server can be bumped <strong>once every 2 hours on each bump service</strong> (Disboard, Discord Home): a <code>/bump</code> answered in that window pays nobody, and the bot says the server was already bumped.</li>
 <li>Two members' bumps answered at the same moment pay only one of them.</li>
 <li>The bumper role is taken back when its 2 hours are over (also across a bot restart).</li>

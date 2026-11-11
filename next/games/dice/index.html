@@ -1544,6 +1544,7 @@
 <li>Two rolls at the same moment: one is paid, the other gets the cooldown, also from two devices (<code>/roll</code> and the dice menu).</li>
 <li>The cooldown survives a restart of the bot, and the dice menu always counts down to the time a roll would be refused until.</li>
 <li>The <strong>dice leaderboards</strong> count each roll's dice score.</li>
+<li>If something goes wrong while rolling (a database problem), you're told <strong>Something went wrong while rolling dice.</strong>, on your dice menu or privately under a roll, and nothing is paid or spent: roll again. If Discord loses the bot's answer to a roll, the roll still counts and is paid once.</li>
 </ul>
 <table>
 <thead>
@@ -1635,7 +1636,7 @@
 </tr>
 </tbody>
 </table>
-<p>Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Wood Axe</a></span>, <span class="gi-m">🔪&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Skinning Knife</a></span> or <span class="gi-m">⛏️&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Mining Pick</a></span> raises the scrap rows.</p>
+<p>Prize tables are without utilities: a <span class="gi-m">🪓&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Wood Axe</a></span>, <span class="gi-m">🔪&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Skinning Knife</a></span> or <span class="gi-m">⛏️&nbsp;<a href="../expeditions/#utilities-wood-axe-skinning-knife-mining-pick">Mining Pick</a></span> raises the scrap rows, 0.05 points a level (a Skinning Knife at level 40: <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/leather-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#leather-scrap">Leather Scrap</a></span> 27%). The rows add up to 98.5%, so together your utilities can add 1.5 points before the last row, <span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/item/wood-scrap.webp" width="20" />&nbsp;<a href="../../items/materials/scrap/#wood-scrap">Wood Scrap</a></span>, reaches 100%; past that, raising one scrap takes from Wood Scrap. <code>/loottables</code> shows the chances for you, utilities included.</p>
 <table>
 <thead>
 <tr>

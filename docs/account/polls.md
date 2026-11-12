@@ -13,5 +13,6 @@ nav_emoji: "🙋"
 - Only the poll's own answer buttons count: anything else is refused ("That answer isn't on this poll: pick one of its buttons.").
 - A poll from before the update that was only for one role (the old bot could make those) still is after it: without the role you're told "Sorry, this poll is only for user with role …", and your vote doesn't count.
 - If something goes wrong while your vote is counted, you're told it wasn't counted and can vote again. If it goes wrong as the poll ends, its buttons go and the bot ends the poll again over the next few minutes, posting its result once (if it keeps going wrong, at the bot's next start).
+- A poll whose message is deleted (by the server's staff) is ended without a result post: when its time is up, or at the bot's next start if that comes first. The votes it got are kept on record.
 
 Every answer to your click is private: only you see it.

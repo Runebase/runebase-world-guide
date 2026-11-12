@@ -14,5 +14,6 @@ nav_emoji: "🙋"
 - A poll from before the update that was only for one role (the old bot could make those) still is after it: without the role you're told "Sorry, this poll is only for user with role …", and your vote doesn't count.
 - If something goes wrong while your vote is counted, you're told it wasn't counted and can vote again. If it goes wrong as the poll ends, its buttons go and the bot ends the poll again over the next few minutes, posting its result once (if it keeps going wrong, at the bot's next start).
 - A poll whose message or channel is deleted (by the server's staff), or whose server the bot leaves, ends at once without a result post (at the bot's next start, if the bot was down then). The votes it got are kept on record.
+- A server can have its polls pinned: each poll is pinned while it runs and unpinned when it ends. A poll the staff delete after its final tally still has its result posted.
 
 Every answer to your click is private: only you see it.

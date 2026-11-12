@@ -53,6 +53,8 @@ A win pays credits and maybe scrap, by difficulty (table below); every way of wi
 
 **Hnefatafl** → **Multiplayer** (the lobby): pick your side (random, the King's side or the attackers) and the member to challenge. Your challenge is posted in the server's Hnefatafl channel, mentioning them (no DM), with who plays which side and **Accept** and **Decline**, which only they can use; they also find it in their lobby (**Refresh**) with **Accept** and **Decline**; your lobby lists it with **Cancel**. When they accept or decline, you cancel, or the challenge expires, the post and your lobby say so at once, and the post's buttons go. **Accept** on the post shows them their board privately, and the game is on. Every challenge in your lobby has its buttons, the ones sent to you first. A challenge nobody answers expires after **30 minutes** (a restart gives a waiting challenge a fresh 30 minutes).
 
+If the challenge's post is deleted (by the server's staff) as it's answered, the answer counts all the same: an accepted game starts and you both get your boards.
+
 A server without a Hnefatafl channel can't take challenges: your lobby says so and nothing is sent (an admin sets the channel with `/config`, **Hnefatafl Channel**).
 
 You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time. Anything refused changes nothing and says why: on your lobby or your board when the button is on your own screen (a late Accept, a second click, a move from an old screen or typed wrong), privately under the challenge's post in the channel or on a button that isn't yours.

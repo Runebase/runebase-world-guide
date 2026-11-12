@@ -64,6 +64,8 @@ Credits always come; each scrap rolls on its own.
 
 **Challenge User** posts the challenge in the chess channel, mentioning you both, with **Accept** and **Decline**: only the challenged player can answer. Your screen says it's sent and has **Cancel Challenge** until they answer, and the way back (**Activities Menu**, **Chess Menu**): you can wait elsewhere, and when they accept, that screen shows the game. A challenge nobody answers expires after **5 minutes** (the channel and your screen say so). The challenged player can also accept it from **View Active Games**.
 
+If the challenge's post is deleted (by the server's staff) as it's accepted, the game starts all the same: both of you get your boards.
+
 You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Only the game's two players can play it: a button for a game you aren't in is refused on your own screen, and never costs either player the game. Anything refused changes nothing and says why: on your own screen (your menu or your board) for a second click, a move out of turn or a Cancel after the game started; privately under the challenge's message or on a button that isn't yours.
 
 ### Playing

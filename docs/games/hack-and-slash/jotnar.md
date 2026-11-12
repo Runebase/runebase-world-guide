@@ -33,6 +33,7 @@ A giant appears in the Hack & Slash channel once every 3 hours. Press **Attack G
 - **Falling in battle** costs only that attack's stamina: heal, and your damage is still yours. You can't attack while fallen.
 - **Heal** spends one <span class="gi-m">![](../../assets/icons/item/anchovy-with-anchovy-powder.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Anchovy with Anchovy Powder](../../items/consumables/fish-dishes.md#anchovy-with-anchovy-powder)</span> for full health and mana; **Stamina** spends one <span class="gi-m">![](../../assets/icons/item/pheasant-with-blackberry-balsamic-glaze.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pheasant with Blackberry Balsamic Glaze](../../items/consumables/meat-dishes.md#pheasant-with-blackberry-balsamic-glaze)</span> for full stamina. Both ask first (**Accept** or **Back**), and spend nothing when there's nothing to restore, so a double click never costs two. Without one, **Accept** is off and the screen shows where to get one.
 - **Animation** turns the battle picture off and on (the same switch as quick battles); **Cancel** closes your battle.
+- **If the giant's message is deleted** (by the server's staff), fight on from your own battle screen: your damage counts, and its end pays every fighter as usual.
 - **The giant's message** shows its health, the last hit and how many are fighting; **Leaderboard** shows you every fighter's damage and share (the top 10 by name); a fighter who has left the server shows without a share.
 
 ## The end

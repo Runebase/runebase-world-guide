@@ -16,6 +16,8 @@ nav_emoji: "🥊"
 - You can pick another player as often as you like before pressing **Challenge**. You can't challenge yourself, a bot, someone who isn't in the server, or a player without a Hack & Slash class: the picker tells you why, on itself. Every refusal (a full duel list too) shows on your Arena screen: a duel you already have open with that player shows that duel, saying so.
 - **A challenge waits 5 minutes** for the opponent (your screen says when it cancels; opening the challenge again doesn't move that time). Then it's cancelled, and **Join Duel** says the duel is gone.
 - **Decline:** the challenged player can turn a challenge down from its message: the message says so, and the challenger's screen too. Only the challenged player can decline (anyone else is told so, privately); once they've joined, the button is gone.
+- **Your duel screen** is the message you last played from: opened again from your Arena menu, the duel moves there and the older screen goes.
+- **A challenge's or a duel's message deleted** (by the server's staff): the duel goes on from your own screens, and a Cancel or the end works as usual.
 - **Cancel Duel** calls off your challenge while nobody has joined. Once your opponent has joined, the duel is on: a Cancel that comes after the join changes nothing, and you're told so.
 - You can have at most 5 open duels, and a player who has 5 can't be challenged, even by several players at the same moment.
 - **One duel at a time with the same player:** while a challenge or a duel between you two is open, a new challenge either way is refused and you're shown the open one (a double click on **Challenge** sends one challenge). If they've challenged you, you're told to join or decline theirs.

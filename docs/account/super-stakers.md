@@ -20,7 +20,7 @@ Pick one in **Select a Super Staker** to see it on its own: its address, its not
 
 1. **My Super Staker** → **Register Super Staker Address**, and type your super staker's address. An address the Runebase node calls invalid is refused ("You entered an invalid address!"), and nothing is registered.
 2. The screen then asks you to **verify** it: send **any amount of RUNES from that address** to the deposit address it shows (your own deposit address, the same as **Pouch → Buy Credits**).
-3. Only a payment **from the super staker's address** verifies it; one from any other address doesn't. Once it's verified the bot tells you by DM, and your super staker is in the list.
+3. Only a payment **from the super staker's address** verifies it; one from any other address doesn't. Once it's verified the bot tells you by DM, and your super staker is in the list. If another player had that address verified, theirs is switched off then: the payment shows you hold the address. Registering someone else's address without paying from it changes nothing for them.
 
 The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits), they become credits in your wallet at 20 confirmations.
 

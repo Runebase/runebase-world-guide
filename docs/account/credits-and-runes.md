@@ -39,10 +39,10 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 - **RUNES or Credits tokens sent to your deposit address become credits 1:1.**
 - The bot sees the payment (you get a DM), then credits your wallet at **20 confirmations** of the block it's in, about 11 minutes (another DM). **Recent Deposits** (under Buy Credits) shows a deposit still on its way with its confirmations so far, e.g. "⌛ 12/20 confirmations". RUNES and Credits tokens take the same 20.
 - If the blockchain reorganizes before that and your payment lands in another block, it counts from that block: still credited once, at its 20th confirmation.
-- **After it's credited**, the bot keeps checking for about 18 hours (2,000 blocks; the network refuses any reorganization deeper than that) that your deposit's block is still in the chain. If your payment is simply mined again in another block, nothing changes. If it's no longer in the chain at all (for example a double spend), the server's admins are told and decide what happens; the bot never takes credits back on its own.
+- **After it's credited**, the bot keeps checking for about 18 hours (2,000 blocks; the network refuses any reorganization deeper than that) that your deposit's block is still in the chain. If your payment is simply mined again in another block, or waits to be mined again (back among the network's unconfirmed transactions), nothing changes: the bot keeps checking. If it's no longer in the chain at all (for example a double spend, or it never gets mined again), the server's admins are told and decide what happens; the bot never takes credits back on its own.
 - Each deposit is credited exactly once, however often the bot hears about it. A deposit made while the bot was offline is found and credited when it's back.
-- If the Runebase node or the bot's database has a hiccup while your deposit comes in, the bot tries again with the next block: a deposit is never skipped, and still credited only once.
-- One payment to several deposit addresses gives each player the sum sent to their own address.
+- If the Runebase node or the bot's database has a hiccup while your deposit comes in, the bot tries again with the next block: a deposit is never skipped, and still credited only once. A block the bot can't read for a while doesn't hold up the deposits it already saw: they're still credited at their 20th confirmation.
+- One payment to several deposit addresses gives each player the sum sent to their own address. One payment that sends your address both RUNES and Credits tokens is two deposits: both are credited (before the update the tokens were missed).
 - A staking reward paid to a deposit address is not a deposit.
 - The deposit that verifies you as a <span class="gi-m">🧱&nbsp;[super staker](super-stakers.md)</span> goes to this same address and is credited like any other.
 
@@ -60,8 +60,8 @@ Wherever you type an amount of credits (a gift, an <span class="gi-m">![](../ass
 
 `/withdraw` (address and amount), or **Pouch → Withdraw**. Only you see the result.
 
-- **The address must be a Runebase address starting with R**, and not your own deposit address.
-- **At least 1 credit**, at most your balance, [typed as a plain number](#typing-an-amount) (`2.000000009` withdraws 2). **No fee:** exactly the amount you withdraw is sent.
+- **The address must be a Runebase address starting with R**, and not one of the bot's own: not your own deposit address, nor another player's, nor the bot's wallet or a hodler deposit address. A withdrawal there is refused in words, and nothing is taken (it would never reach a wallet of yours).
+- **At least 10 credits** (it was 1 before the update: a transfer now costs the bot's wallet about 1.4-2.2 RUNES in network fees), at most your balance, [typed as a plain number](#typing-an-amount) (`12.000000009` withdraws 12). Less is refused ("Minimum withdrawal is 10 credits"), and nothing is taken. **No fee:** exactly the amount you withdraw is sent. A withdrawal you queued before the update goes out as it was accepted.
 - Your credits leave your wallet at once and the withdrawal is **queued**. The bot then sends it as Credits tokens and you get a DM ("Your withdrawal has been accepted", with the transaction), and another when it's **confirmed** at 6 confirmations, once the bot has checked on the chain that its transaction really transferred your Credits tokens to your address. Your pouch history shows each withdrawal with its transaction.
 - **If the transfer failed on the chain** (its transaction was mined without moving the tokens), it isn't confirmed: your history shows it **failed**, you get no "confirmed" DM, and the credits are still owed to you. The staff are told at once; after checking the chain they send it again (once) or refund it (once, with a DM).
 - **If its transaction can never be mined** (the network took another transaction spending the same coins instead, a "double spend"), it stays **confirming** in your history until the staff settle it: once that other transaction is 20 blocks deep (about 11 minutes), and the chain shows nothing paid you (no transfer of your amount to your address since you asked), they send it again (once) or refund it (once, with a DM). If a copy of your transfer was mined instead, it did pay you, and nothing is sent or refunded.
@@ -85,5 +85,5 @@ Dice, treasure chests, scratch cards and Crown of Chaos pay some prizes in RUNES
 
 ## Tips
 
-- Double-check the withdrawal address: it must start with R.
+- Double-check the withdrawal address: it must start with R, and be a wallet of your own (not a deposit address). Withdraw at least 10 credits.
 - Deposits take 20 confirmations (about 11 minutes); you get a DM when the bot first sees yours.

@@ -92,7 +92,7 @@ Only your own moves count: when your move and the turn timer's random move land 
 
 ### Your games and your history
 
-**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It shows at most 25 (Discord's limit for a list): the games in progress first, then the challenges sent to you, then the ones you sent, newest first; with more, the screen says how many you have.
+**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It shows at most 25 (Discord's limit for a list): the games in progress first, then the challenges sent to you, then the ones you sent, newest first; with more, the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
 
 **Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move. **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
 

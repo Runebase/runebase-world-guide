@@ -12,7 +12,7 @@ Pets come from pet tokens. Your active pet helps you in fishing, hunting, expedi
 
 ## Getting a pet
 
-Consume a pet token from the pet menu. Each **Consume** spends exactly one token and gives at most one pet: the token has a chance to find a pet of its rarity, picked from that rarity's pets. If it finds a pet you already have, the token is used up and you get nothing. Your first pet becomes your active pet. Without a token, nothing happens.
+Consume a pet token from the pet menu. Each **Consume** spends exactly one token and gives at most one pet: the token has a chance to find a pet of its rarity, picked from that rarity's pets. If it finds a pet you already have, the token is used up and you get nothing: the token menu says "Duplicate Pet Found" with that pet's picture. Your first pet becomes your active pet. Without a token, nothing happens.
 
 | Token | In the store | Chance to find a pet | Pets of this rarity |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Each action moves the pet's stats (hunger, energy, happiness, hygiene, sickness)
 
 ## Awake and asleep
 
-Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.
+Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. The switch does what it says: **Turn lights on** pressed again (a double click, or a pet menu open on another device) says the lights are already on and changes nothing, instead of turning them off again. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.
 
 ## Every minute
 
@@ -133,11 +133,12 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 
 - **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned. A restart of the bot right after a change keeps it: the new pet is the one that changes every minute and earns points (before the update, a restart at that moment could leave it never changing or earning). The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".
 - **Favorites:** 5 slots for quick switching from a menu. A sixth is refused.
-- **Nickname:** 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed.
+- **Nickname:** 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed. The same nickname sent from two devices at once is simply saved.
+- **From an older pet menu:** once your active pet went into the kennel (from another screen), the old menu's Play, light switch and Change Nickname say you have no active pet, and nothing changes.
 
 ## The kennel
 
-The **<span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span>** building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;[Buildings](buildings.md)</span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.
+The **<span class="gi-m">![](../assets/icons/building/pet-kennel.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Pet Kennel](buildings.md#what-each-building-does)</span>** building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;[Buildings](buildings.md)</span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens (the kennel's button says whether it turns the DM on or off; pressed again, it says it already is).
 
 ## Tips
 

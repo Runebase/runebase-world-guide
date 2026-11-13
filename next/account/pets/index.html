@@ -1791,7 +1791,7 @@
 <p>Pets come from pet tokens. Your active pet helps you in fishing, hunting, expeditions, heists and Crown of Chaos while it's awake and well cared for, and it earns pet points for the pet leaderboards. It needs food, washing, play and sometimes a cure, and its stats change every minute, also while you're away.</p>
 <p><strong>Where:</strong> <code>/start</code> → <strong>Activities</strong> → <strong>Pet</strong>.</p>
 <h2 id="getting-a-pet">Getting a pet<a class="headerlink" href="#getting-a-pet" title="Permanent link">&para;</a></h2>
-<p>Consume a pet token from the pet menu. Each <strong>Consume</strong> spends exactly one token and gives at most one pet: the token has a chance to find a pet of its rarity, picked from that rarity's pets. If it finds a pet you already have, the token is used up and you get nothing. Your first pet becomes your active pet. Without a token, nothing happens.</p>
+<p>Consume a pet token from the pet menu. Each <strong>Consume</strong> spends exactly one token and gives at most one pet: the token has a chance to find a pet of its rarity, picked from that rarity's pets. If it finds a pet you already have, the token is used up and you get nothing: the token menu says "Duplicate Pet Found" with that pet's picture. Your first pet becomes your active pet. Without a token, nothing happens.</p>
 <table>
 <thead>
 <tr>
@@ -1923,7 +1923,7 @@
 </tbody>
 </table>
 <h2 id="awake-and-asleep">Awake and asleep<a class="headerlink" href="#awake-and-asleep" title="Permanent link">&para;</a></h2>
-<p>Each pet is a <strong>day</strong> pet or a <strong>night</strong> pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.</p>
+<p>Each pet is a <strong>day</strong> pet or a <strong>night</strong> pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. The switch does what it says: <strong>Turn lights on</strong> pressed again (a double click, or a pet menu open on another device) says the lights are already on and changes nothing, instead of turning them off again. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.</p>
 <h2 id="every-minute">Every minute<a class="headerlink" href="#every-minute" title="Permanent link">&para;</a></h2>
 <p>While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100.</p>
 <p>A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it or use the light switch, and it carries on from the stats it had.</p>
@@ -2460,10 +2460,11 @@
 <ul>
 <li><strong>Change Pet</strong> makes another of your pets the active one. The old pet keeps its stats and the points it earned. A restart of the bot right after a change keeps it: the new pet is the one that changes every minute and earns points (before the update, a restart at that moment could leave it never changing or earning). The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".</li>
 <li><strong>Favorites:</strong> 5 slots for quick switching from a menu. A sixth is refused.</li>
-<li><strong>Nickname:</strong> 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed.</li>
+<li><strong>Nickname:</strong> 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed. The same nickname sent from two devices at once is simply saved.</li>
+<li><strong>From an older pet menu:</strong> once your active pet went into the kennel (from another screen), the old menu's Play, light switch and Change Nickname say you have no active pet, and nothing changes.</li>
 </ul>
 <h2 id="the-kennel">The kennel<a class="headerlink" href="#the-kennel" title="Permanent link">&para;</a></h2>
-<p>The <strong><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Pet Kennel</a></span></strong> building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;<a href="../buildings/">Buildings</a></span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens.</p>
+<p>The <strong><span class="gi-m"><img alt="" class="gi gi-mention" height="20" loading="lazy" src="../../assets/icons/building/pet-kennel.webp" width="20" />&nbsp;<a href="../buildings/#what-each-building-does">Pet Kennel</a></span></strong> building holds as many pets as its level (<span class="gi-m">🏗️&nbsp;<a href="../buildings/">Buildings</a></span>). Only a pet in good condition can go in (the menu tells you what to improve first). In the kennel a pet rests and regains energy every minute; at full energy it leaves the kennel, and you can ask for a DM when that happens (the kennel's button says whether it turns the DM on or off; pressed again, it says it already is).</p>
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Check whether your pet is a day or a night pet: its perks only work while it's awake.</li>

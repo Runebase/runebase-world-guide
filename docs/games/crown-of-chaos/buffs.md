@@ -9,7 +9,7 @@ nav_emoji: "🧪"
 **Where to play:** Discord
 { .where-to-play }
 
-Eat them in **Crown Buffs**; each one you eat is a charge (at most 500 held). **One charge is used on every attack, whether it hits, misses or is dodged**; none when the attack bounces off a bubble or waits for a cooldown. The Crown Buffs screen shows the charges you hold. Typing 0, a word or more dishes than you hold is refused on that screen (quoting what you typed), and nothing is eaten.
+Eat them in **Crown Buffs**; each one you eat is a charge (at most 500 held). **One charge is used on every attack, whether it hits, misses or is dodged**; none when the attack bounces off a bubble or waits for a cooldown. An attack counts only the charges you hold at that moment: a charge your previous attack used is never counted again, however fast you attack. The Crown Buffs screen shows the charges you hold. Typing 0, a word or more dishes than you hold is refused on that screen (quoting what you typed), and nothing is eaten.
 
 | Buff | Effect, per charge | Cooked from |
 |---|---|---|

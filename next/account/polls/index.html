@@ -1549,6 +1549,7 @@
 <li><strong>The poll ends when its time is up:</strong> a vote that comes as it ends isn't counted ("This poll has ended: your vote wasn't counted."), and a poll's button after the end (on a screen that still shows it, or copied anywhere else, another server included) says "This poll has ended: it takes no more votes."</li>
 <li>Only the poll's own answer buttons count: anything else is refused ("That answer isn't on this poll: pick one of its buttons.").</li>
 <li>A poll from before the update that was only for one role (the old bot could make those) still is after it: without the role you're told "Sorry, this poll is only for user with role …", and your vote doesn't count.</li>
+<li>If Discord refuses the poll's post as you make it, you're told, only you, that the poll couldn't be posted and was closed: make it again.</li>
 <li>If something goes wrong while your vote is counted, you're told it wasn't counted and can vote again. If it goes wrong as the poll ends, its buttons go and the bot ends the poll again over the next few minutes, posting its result once (if it keeps going wrong, at the bot's next start).</li>
 <li>A poll whose message or channel is deleted (by the server's staff), or whose server the bot leaves, ends at once without a result post (at the bot's next start, if the bot was down then). The votes it got are kept on record.</li>
 <li>A server can have its polls pinned: each poll is pinned while it runs and unpinned when it ends. A poll the staff delete after its final tally still has its result posted.</li>

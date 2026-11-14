@@ -54,6 +54,7 @@ Each server's admins choose its channels and roles with `/config`. One that hasn
 - **No experience channel:** every reward is paid and every timed role comes and goes as anywhere; only the posts that would announce them are left out. A pile you collect shows what you got on your own screen, where you answered its captcha.
 - **No bumper or voter role:** <span class="gi-m">⛰️&nbsp;[bumps](bumps.md)</span> and <span class="gi-m">🗳️&nbsp;[votes](votes.md)</span> pay as anywhere, without the role.
 - **No active or inactive chatter role:** <span class="gi-m">🗣️&nbsp;[chat points](chat-points.md)</span> and their prizes count as anywhere; 40 in 30 days gives no role.
+- **No dice channel:** the <span class="gi-m">![](../assets/icons/emoji/diceroll.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[dice](../games/dice.md)</span> roll and pay as anywhere (`/roll`, the dice menu, the Roll Dice button), and your result is shown only to you.
 - **No store delivery channel** (the replenish announcement channel): the <span class="gi-m">🏪&nbsp;[store](store.md)</span>'s deliveries of scrap and crafting materials arrive as anywhere, without their post and its Buy buttons.
 - **No Crown role:** the <span class="gi-m">![](../assets/icons/game/crown-of-chaos.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Crown of Chaos](../games/crown-of-chaos/round-and-reign.md#the-end-of-a-reign)</span> reigns end and start as usual, without the role. A server that never had one has no Crown game.
 

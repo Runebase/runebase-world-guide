@@ -8,7 +8,7 @@ nav_emoji: "🧱"
 
 A super staker is a Runebase wallet that stakes for others: holders delegate their RUNES to it, and it produces blocks with their weight. Register yours with the bot and the server can see how reliably it produces blocks: every 8 hours it earns a point if it did, and a reliable one with delegations holds the super staker role.
 
-Open it from `/start` → **Activities** → **Super Stakers**.
+Open it from `/start` → **Activities** → **Super Stakers**, or with the **Super Stakers** button under the server's Runebase network info post (that one opens the list only for you).
 
 ## The list
 

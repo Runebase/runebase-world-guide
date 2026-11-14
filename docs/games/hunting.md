@@ -53,7 +53,7 @@ You craft them in the **Hunt** menu (**Craft Hunting Rifle**) for scrap from you
 | ![Weatherby Mark V](../assets/icons/activity-gear/weatherby-mark-v.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } Weatherby Mark V | 50 / 200 / 60 | <span class="gi-m">![](../assets/icons/item/elk.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Elk](../items/ingredients/meat.md#elk)</span> 5%, <span class="gi-m">![](../assets/icons/item/moose.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Moose](../items/ingredients/meat.md#moose)</span> 5%, <span class="gi-m">![](../assets/icons/item/wild-boar.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wild Boar](../items/ingredients/meat.md#wild-boar)</span> 5% |
 
 - Equip a rifle in the Hunt menu. **The one equipped when the trip ends decides the catch**, so a swap during a trip counts.
-- With more than one rifle you can turn on **rotative** hunting: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates.
+- With more than one rifle you can turn on **rotative** hunting: each second of the trip rolls on the next one in turn. With only one, the switch isn't offered and a trip never rotates. The switch does what it says: pressed twice (a double click), or from an older menu or another device, it stays as its first press left it and the menu says it's already on (or off).
 - Crafting costs exactly the scrap shown. With a scrap short, or a rifle you already own, the Craft button is off.
 
 ### Enhancements

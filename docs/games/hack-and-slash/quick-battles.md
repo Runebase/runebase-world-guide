@@ -62,6 +62,7 @@ nav_emoji: "⚔️"
 - **Winning and falling in the same round** (your <span class="gi-m">![](../../assets/icons/skill/paladin/sacrifice.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Sacrifice](skills/paladin/battle-skills/sacrifice.md)</span> landing the last blow, a monster dying of your poison as it kills you): the battle is won and paid, and its results say you fell. Heal first (`/hackslash` → **Heal**), then come back to the results to loot its items or start another battle: pressed while you're down, they show the death screen.
 - **If something goes wrong** while the battle is paid or an item looted (a database problem), the screen says so with **Try Again**: it pays the battle (once) or loots the item.
 - If the bot restarts right after your winning blow, before the results show, the battle is paid when the bot is back (its experience and loot, once). Its dropped items stay with the battle, as if you'd left the results without looting them.
+- **Items you didn't loot** (the results left with **Next QuickBattle** or **Back to Town**, or a battle paid after a restart): the Quick Battle screen offers **Loot from QuickBattle #…** while your last won battle still has items. It shows that battle's results again, where **Loot** works (once per item; while you're down it shows the death screen). Only your last won battle: once you win another, the older one's items are no longer offered.
 
 | Prize | Chance per won battle |
 |---|---|

@@ -20,6 +20,8 @@ Guess a hidden word of 5 to 8 letters. WordWeaver has its own leaderboards (all-
 
 A new word comes **4 hours** after your last one was dealt.
 
+The prize table is without utilities: a <span class="gi-m">🪓&nbsp;[Wood Axe](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span>, <span class="gi-m">🔪&nbsp;[Skinning Knife](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> or <span class="gi-m">⛏️&nbsp;[Mining Pick](expeditions.md#utilities-wood-axe-skinning-knife-mining-pick)</span> raises its scrap's row, 0.05 points a level (a Wood Axe at level 20: <span class="gi-m">![](../assets/icons/item/wood-scrap.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Wood Scrap](../items/materials/scrap.md#wood-scrap)</span> 26%). The rows add up to 95.5%, so together your utilities can add 4.5 points before the last row, Wood Scrap, reaches 100%; past that, raising one scrap takes from Wood Scrap.
+
 | Prize | Chance per solved word |
 |---|---|
 | ![Credits](../assets/icons/currency/credits.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 15 to 25 credits | 8% |

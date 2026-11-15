@@ -29,7 +29,7 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 ## Against the bot (Singleplayer)
 
-**Hnefatafl** → **Singleplayer**: pick a difficulty and your side (the King's side, the attackers, or random), then start. The attackers move first, so as the King's side you find the bot's opening move already played. Type your moves into **Make Move** as `from-to` (`f8-f9`); the bot answers each one. A move that breaks the rules is refused privately and the board stays.
+**Hnefatafl** → **Singleplayer**: pick a difficulty and your side (the King's side, the attackers, or random), then start. The attackers move first, so as the King's side you find the bot's opening move already played. Type your moves into **Make Move** as `from-to` (`f8-f9`); the bot answers each one. A move that breaks the rules is refused on your board, which stays as it was.
 
 | Difficulty | The bot thinks |
 |---|---|
@@ -39,7 +39,7 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 **Forfeit** asks first (**Cancel** keeps playing); **Yes, forfeit** ends that game as a loss, once (clicked again, its screen says the game is already over, and it never ends a newer game). A new game can start right away: unlike chess, there's no wait between games.
 
-A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
+A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. A win counts for the day it was decided in, also at midnight (a win at 00:00:00 UTC is the new day's first). Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
 
 | Difficulty | Credits (always) | Also, each on its own chance |
 |---|---|---|
@@ -78,13 +78,14 @@ Multiplayer games score **ranked points** on the Hnefatafl leaderboards: **25 fo
 - a game only scores when both sides made at least 10 moves (a game resigned in its first moves scores nothing);
 - the same two players score at most **3** ranked games a day (another opponent still scores);
 - a player scores at most **5** ranked games a day, whoever the opponents are;
+- a game these limits stopped from scoring doesn't count toward them: the 3 and the 5 are games that scored (after your 3 ranked games with one player and a 4th that didn't score, you still have 2 more with others);
 - you can't challenge yourself.
 
 A draw comes from playing the same position a third time (see the rules above), and scores 12 each, once.
 
 The boards: `/leaderboard` → **All-Time Hnefatafl Points** or **Monthly Hnefatafl Points**, best first.
 
-Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;[chess](chess.md)</span>, the player to move gets a DM and 15 minutes.
+Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A move or a resignation that goes wrong (the screen says so) changes nothing: the game goes on, and its 15-minute clock with it. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;[chess](chess.md)</span>, the player to move gets a DM and 15 minutes.
 
 ## Tips
 

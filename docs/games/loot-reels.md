@@ -13,7 +13,7 @@ Free spins every day: the reels pay experience and whatever they land on. Loot R
 
 **Where:** `/start` → **Activities** → **Loot Reels**.
 
-**15 free spins a day** (the count starts again at 00:00 UTC: with all 15 used, a spin at 00:00:01 UTC pays its 2 experience again). Every spin pays **2 experience** plus whatever the reels land on: credits, items, or nothing ("No Win"). A spin pays exactly what it shows, once. When the day's spins are used up, double clicks and old Spin buttons pay nothing more. Each spin counts on the Loot Reels leaderboards.
+**15 free spins a day** (the count starts again at 00:00 UTC: with all 15 used, a spin at 00:00:01 UTC pays its 2 experience again). Every spin pays **2 experience** plus whatever the reels land on: credits, items, or nothing ("No Win"). A spin pays exactly what it shows, once. Keys, <span class="gi-m">![](../assets/icons/item/mystery-card.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Mystery Cards](../items/keys-and-cards/cards-and-relics.md#mystery-card)</span> and scrap need room in your pouch: when the reels land on more than it has room for (4 <span class="gi-m">![](../assets/icons/item/gold-key.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Gold Keys](../items/keys-and-cards/treasure-keys.md#gold-key)</span> with room for 2), the spin says so ("…but there was no room in your pouch: not received.") and you get none of that prize; the 2 experience and the quest still count. When the day's spins are used up, double clicks and old Spin buttons pay nothing more. Each spin counts on the Loot Reels leaderboards.
 
 | Prizes | Chance per spin | Each prize |
 |---|---|---|

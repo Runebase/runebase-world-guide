@@ -53,7 +53,7 @@ Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights
 
 While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100.
 
-A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it or use the light switch, and it carries on from the stats it had.
+A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it, feed, wash or cure it, use the light switch, choose it again with **Change Pet** or put it in the kennel, and it carries on from the stats it had. Only opening the pet menu isn't enough.
 
 ## Pet points
 
@@ -134,7 +134,7 @@ Every pet has perks for the activities. **A perk works only while the pet is awa
 - **Change Pet** makes another of your pets the active one. The old pet keeps its stats and the points it earned. A restart of the bot right after a change keeps it: the new pet is the one that changes every minute and earns points (before the update, a restart at that moment could leave it never changing or earning). The Pet Perks screen there shows each perk as it works: an extra damage range as "+1-2".
 - **Favorites:** 5 slots for quick switching from a menu. A sixth is refused.
 - **Nickname:** 2 to 50 characters; spaces at the ends are trimmed, and mentions and formatting are removed. The same nickname sent from two devices at once is simply saved.
-- **From an older pet menu:** once your active pet went into the kennel (from another screen), the old menu's Play, light switch and Change Nickname say you have no active pet, and nothing changes.
+- **From an older pet menu:** once your active pet went into the kennel (from another screen), the old menu's Play, light switch and Change Nickname say you have no active pet, and nothing changes. Once another pet became your active pet (Change Pet on another screen), the old menu's Feed, Wash, Cure, Play, light switch and Change Nickname say which pet that menu was for and which is active now, and do nothing: no item is spent (before the update they cared for the new pet with its own rarity's items).
 
 ## The kennel
 

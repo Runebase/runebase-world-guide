@@ -45,7 +45,7 @@ A button acts on what it was posted for: a pile, a <span class="gi-m">🗿&nbsp;
 
 ## A server where the bot is switched off
 
-The bot's operator can switch a server off. There, the bot answers everything with a private "The bot is switched off in this server" and does nothing: buttons on older messages (piles, the store, the <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>, Withdraw), menus and commands alike, and chatting counts nothing. No new pile appears there, also one that was about to. Your account there stays as it is, and it's yours again, as it was, when the server is switched on.
+The bot's operator can switch a server off. There, the bot answers everything with a private "The bot is switched off in this server" and does nothing: buttons on older messages (piles, the store, the <span class="gi-m">![](../assets/icons/building/iron-bank.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Iron Bank](buildings.md#the-iron-bank)</span>, Withdraw), menus and commands alike, and chatting counts nothing; a vote for that server (Discadia) pays nothing either. No new pile appears there, also one that was about to. Your account there stays as it is, and it's yours again, as it was, when the server is switched on.
 
 ## A server that hasn't set everything up
 

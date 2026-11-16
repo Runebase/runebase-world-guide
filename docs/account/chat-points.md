@@ -10,7 +10,7 @@ You earn experience and prizes just by talking in the server.
 
 - A message counts as a **chat point** when it has **5 or more words of at least 4 characters** that weren't in your last counted message. Short or repeated messages earn nothing. The same message sent twice at once counts once.
 - Your **6th chat point within 12 hours** pays **12 experience** and a roll on the chat prize table, once, announced in the experience channel with your name. Later messages in those 12 hours only count chat points. When the 12 hours are over, a new round starts and pays again at its 6th point (always: before the update, a round that ended just as a message counted could stay open for good, and that player never earned the 12 experience again).
-- **40 chat points in the last 30 days** make you an active chatter (a role); it goes again when old points drop out of the 30 days. A restart of the bot, even one in the middle of your message, never takes a chat point off early or counts it twice.
+- **40 chat points in the last 30 days** make you an active chatter (a role); it goes again when old points drop out of the 30 days, also when they drop out while the bot is offline (the role goes at its next start). A restart of the bot, even one in the middle of your message, never takes a chat point off early or counts it twice.
 - Chat points count on the chatter <span class="gi-m">🏅&nbsp;[leaderboards](leaderboards.md)</span>.
 - In a server without an experience channel, chat points and their prizes count all the same, unannounced.
 - In a server without the active and inactive chatter roles, chat points and their prizes count all the same; 40 in 30 days just gives no role there (before the update such a server counted no chat points at all).
@@ -32,7 +32,7 @@ The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](
 
 ## Spam control
 
-From your **5th message within a minute** you get a warning; at the **8th** you're timed out for a day. Admins are exempt.
+From your **5th message within a minute** you get a warning; at the **8th** you're timed out for a day. Only the messages of the last minute count: a conversation at an ordinary pace, a message every 55 seconds say, is never warned (before the update your fifth message in a row was, when each came within a minute of the one before). Admins are exempt.
 
 ## Tips
 

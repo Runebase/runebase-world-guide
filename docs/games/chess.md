@@ -66,7 +66,7 @@ Credits always come; each scrap rolls on its own.
 
 If the challenge's post is deleted (by the server's staff) as it's accepted, the game starts all the same: both of you get your boards.
 
-You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Only the game's two players can play it: a button for a game you aren't in is refused on your own screen, and never costs either player the game. Anything refused changes nothing and says why: on your own screen (your menu or your board) for a second click, a move out of turn or a Cancel after the game started; privately under the challenge's message or on a button that isn't yours.
+You can't challenge yourself, a bot or someone who isn't in the server, and you can have one open challenge or game with the same player at a time (with other players, as many as you like). Only the game's two players can play it: a button for a game you aren't in is refused on your own screen, and never costs either player the game. A game belongs to the server it was started in: its buttons used in another server (a player of both servers, a copied button) say the game isn't found there and change nothing. Anything refused changes nothing and says why: on your own screen (your menu or your board) for a second click, a move out of turn or a Cancel after the game started; privately under the challenge's message or on a button that isn't yours.
 
 ### Playing
 

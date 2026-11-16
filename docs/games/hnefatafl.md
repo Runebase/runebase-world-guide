@@ -39,6 +39,8 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 **Forfeit** asks first (**Cancel** keeps playing); **Yes, forfeit** ends that game as a loss, once (clicked again, its screen says the game is already over, and it never ends a newer game). A new game can start right away: unlike chess, there's no wait between games.
 
+While a game is unfinished, its board offers no new game: only **Make Move**, **Forfeit** and the way back to the menu. A **Start Game** pressed on an older screen (another device, or a screen you kept) does start a new one, and the unfinished game is left as it was: it isn't ended or forfeited, it pays nothing, and you can't get back to it (your board and **Make Move** play the newest game). Finish or forfeit a game before you start another.
+
 A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. A win counts for the day it was decided in, also at midnight (a win at 00:00:00 UTC is the new day's first). Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
 
 | Difficulty | Credits (always) | Also, each on its own chance |
@@ -85,7 +87,7 @@ A draw comes from playing the same position a third time (see the rules above), 
 
 The boards: `/leaderboard` → **All-Time Hnefatafl Points** or **Monthly Hnefatafl Points**, best first.
 
-Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A move or a resignation that goes wrong (the screen says so) changes nothing: the game goes on, and its 15-minute clock with it. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;[chess](chess.md)</span>, the player to move gets a DM and 15 minutes.
+Only the side to move may move, each player from their own screen; a move sent from a second **Make Move** after yours is refused (it isn't your turn), and so is a move sent after the game ended. A move and a resignation at the same moment end the game once and score once. An abandoned game times out once, within the same limits. A move or a resignation that goes wrong (the screen says so) changes nothing: the game goes on, and its 15-minute clock with it. A restart never counts against you: as in <span class="gi-m">♟️&nbsp;[chess](chess.md)</span>, the player to move gets a DM and 15 minutes. Neither does a time when Hnefatafl is switched off on Discord (every Hnefatafl button then only says it isn't available, so nobody can move): a 15 minutes that runs out then doesn't end the game, it waits another 15 minutes, again and again while it's off; once it's back on, the next 15 minutes to run out ends the game as usual. A game belongs to the server it was started in: its buttons used in another server (a player of both servers, a copied button) say the game isn't found there and change nothing, and a private game's board opens only for its two players.
 
 ## Tips
 

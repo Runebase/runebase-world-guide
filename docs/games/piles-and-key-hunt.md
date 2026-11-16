@@ -24,6 +24,9 @@ Piles of credits, treasure keys, scrap and building supplies appear in the serve
 - A pile still open when the bot restarts stays collectable until its time is up.
 - A pile has a limited number of slots: when more players answer than there are slots, only the first ones are paid, and the others are told.
 - **An answer in a pile's last moment** that the bot gets to only after the pile's time is up is told "You're out of time!": nothing is collected, and it doesn't count as one of your three tries.
+- **An answer that reaches no captcha:** if you open the answer box in a pile's last seconds and send it after the pile's end, or the bot restarts while the box is open, only you are told "This captcha is closed. If the pile is still there, press its button for a new one." Nothing is checked or collected.
+- **A pile's button after the pile ended** (its post still up) says the pile has expired; nothing is collected.
+- **Banned from the bot:** an answer to a captcha you opened before the ban collects nothing; your captcha says "You can't collect this …: your account is banned from the bot." (it doesn't count as one of your three tries).
 - Your captcha works for as long as its pile is open (a credit or supply pile stays 25 minutes), however long ago you pressed the pile's button.
 - **Two devices:** if you answer on one device a captcha you replaced by pressing the pile's button on another, that answer counts once, and answering the newer captcha then tells you you've already collected the pile.
 - **A full pouch:** a key or scrap pile answered right while that part of your pouch is full tells you so on the captcha; nothing is collected, the slot stays for the others, and the answer doesn't count as one of your tries. Make room (or upgrade your pouch) and press the pile's button again while it's open.

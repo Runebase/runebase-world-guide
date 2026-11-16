@@ -39,7 +39,7 @@ Two sides on an **11 × 11** board (the Copenhagen rules):
 
 **Forfeit** asks first (**Cancel** keeps playing); **Yes, forfeit** ends that game as a loss, once (clicked again, its screen says the game is already over, and it never ends a newer game). A new game can start right away: unlike chess, there's no wait between games.
 
-While a game is unfinished, its board offers no new game: only **Make Move**, **Forfeit** and the way back to the menu. A **Start Game** pressed on an older screen (another device, or a screen you kept) does start a new one, and the unfinished game is left as it was: it isn't ended or forfeited, it pays nothing, and you can't get back to it (your board and **Make Move** play the newest game). Finish or forfeit a game before you start another.
+While a game is unfinished, its board offers no new game: only **Make Move**, **Forfeit** and the way back to the menu. A **Start Game** pressed on an older screen (another device, or a screen you kept), twice at once, or from the web app starts nothing: the screen says to finish or forfeit that game first and shows its board.
 
 A win pays credits and maybe scrap, by difficulty (table below); every way of winning counts (the King's escape, a capture, an encirclement, an exit fort, no legal move left). A loss and a forfeit pay nothing. **Only the first 5 wins of a UTC day pay**; the 6th says so and pays nothing. A win counts for the day it was decided in, also at midnight (a win at 00:00:00 UTC is the new day's first). Hnefatafl gives no experience: its Win quests pay their other rewards. A draw (a position played a third time) pays nothing, counts for no Win quest, and isn't one of your 5 paid wins.
 

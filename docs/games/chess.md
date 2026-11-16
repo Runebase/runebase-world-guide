@@ -39,7 +39,7 @@ The bot sees the whole game, every move played so far, not only the board as it 
 
 - A loss pays nothing, and neither does a draw or a forfeit. A game is drawn by a stalemate, insufficient material, the fifty-move rule, or **the same position a third time** (by your move or the bot's), and the screen says which.
 - **Only the first 5 wins of a UTC day pay.** The next day pays again. A win counts for the day it was decided in: a win at 23:59:59 UTC is that day's, and the next day still has its 5.
-- A new game can start **3 hours** after your last one started.
+- A new game can start **3 hours** after your last one started, and only once that game is over: a start pressed on an older screen, twice at once or from the web app while it isn't starts nothing, and the screen says to finish or forfeit it first and shows its board.
 - Wins also complete the [Chess - Win quests](../account/quests.md#every-quest), which pay their own experience and rewards.
 - A win pays once, even when the winning move is clicked twice.
 

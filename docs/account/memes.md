@@ -6,7 +6,7 @@ nav_emoji: "🎨"
 
 # 🎨 Memes
 
-A meme posted in a meme channel pays **8 experience** and a roll on the meme prize table, once per cooldown.
+A meme posted in a meme channel pays **8 experience** and a roll on the meme prize table, once per cooldown. A player banned from the bot gets nothing for a meme.
 
 - Deleting one of your memes while your latest meme is under **4 hours** old takes **10 experience** back. Deleting a meme within **a week** of posting takes its point off the monthly meme board.
 - Your **25th meme in the last 30 days** makes you a memeologist (a role), also in a server without an experience channel (unannounced there).

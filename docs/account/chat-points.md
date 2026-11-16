@@ -30,6 +30,8 @@ The prize table is without utilities (a <span class="gi-m">🪓&nbsp;[Wood Axe](
 | ![Metal Scrap](../assets/icons/item/metal-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Metal Scrap](../items/materials/scrap.md#metal-scrap) | 20% |
 | ![Wood Scrap](../assets/icons/item/wood-scrap.webp){ .gi .gi-inline width="24" height="24" loading="lazy" } 1 [Wood Scrap](../items/materials/scrap.md#wood-scrap) | 20% |
 
+A player banned from the bot earns no chat points (and so no prize or role from them) while banned.
+
 ## Spam control
 
 From your **5th message within a minute** you get a warning; at the **8th** you're timed out for a day. Only the messages of the last minute count: a conversation at an ordinary pace, a message every 55 seconds say, is never warned (before the update your fifth message in a row was, when each came within a minute of the one before). Admins are exempt.

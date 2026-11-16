@@ -55,6 +55,8 @@ While you're away, your active pet's stats move every minute by its awake or asl
 
 A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it, feed, wash or cure it, use the light switch, choose it again with **Change Pet** or put it in the kennel, and it carries on from the stats it had. Only opening the pet menu isn't enough.
 
+In a server where the bot is switched off, your pets there are paused: no stat changes, no points, no rest in the kennel (and no kennel DM). When the server is switched on again they carry on exactly where they were, and the pause doesn't count toward their 30 days. A player banned from the bot: their pet's stats still change, but it earns no pet points while they're banned.
+
 ## Pet points
 
 Your active pet earns **pet points every minute**, awake or asleep, from its stats after the minute's change: the better fed (low hunger), happier, cleaner and healthier it is, the more (energy counts a little). A rarer pet earns more for the same stats: ×1.05 Uncommon, ×1.1 Rare, ×1.15 Epic, ×1.2 Legendary, ×1.25 Mythical. A pet in a bad state earns nothing. The pet menu shows it as **Score per Minute**.

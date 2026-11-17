@@ -9,10 +9,10 @@ nav_emoji: "⛰️"
 Bump the server with Disboard's `/bump` (or Discord Home's). The bumper gets **10 experience**, a roll on the bump prize table and the **bumper role for 2 hours**, announced in the experience channel.
 
 - Your bumper role follows your 2 hours: if the bot was down when you bumped, or giving you the role failed, its role check (at the bot's start and at set times every day) gives it to you for what's left of them and says how long; once they're over, the check takes it back.
-- A server can be bumped **once every 2 hours on each bump service** (Disboard, Discord Home): a `/bump` answered in that window pays nobody, and the bot says the server was already bumped.
+- A server can be bumped **once every 2 hours on each bump service** (Disboard, Discord Home): a `/bump` answered in that window pays nobody, and the bot says the server was already bumped. Disboard's own "Please wait another N minutes" never pays, also in the last seconds of its 2 hours.
 - A player banned from the bot gets nothing for a bump (no experience, prize or role); their bump still starts the server's 2 hours.
 - Two members' bumps answered at the same moment pay only one of them.
-- The bumper role is taken back when its 2 hours are over (also across a bot restart).
+- The bumper role is taken back when its 2 hours are over (also across a bot restart). In a server that gives one role for both bump services, it stays while either of your bumps' 2 hours runs, and goes with the last.
 - In a server that hasn't set an experience channel, a bump pays all the same (the experience, the prize, the role); only the announcement is left out, and the role is still taken back when its time is over.
 - In a server that hasn't set the bumper role (or whose role was deleted), a bump pays all the same (the experience, the prize, the boards) and is announced; only the role is left out.
 

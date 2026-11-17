@@ -53,7 +53,7 @@ Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights
 
 While you're away, your active pet's stats move every minute by its awake or asleep table. Stats always stay between 0 and 100.
 
-A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it, feed, wash or cure it, use the light switch, choose it again with **Change Pet** or put it in the kennel, and it carries on from the stats it had. Only opening the pet menu isn't enough.
+A pet left alone for 30 days stops changing (no stat changes, no points, no perks). Play with it, feed, wash or cure it, use the light switch, choose it again with **Change Pet** or put it in the kennel, and it carries on from the stats it had when it stopped (a neglected pet comes back as neglected as it was, not as at its last care). Only opening the pet menu isn't enough.
 
 In a server where the bot is switched off, your pets there are paused: no stat changes, no points, no rest in the kennel (and no kennel DM). When the server is switched on again they carry on exactly where they were, and the pause doesn't count toward their 30 days. A player banned from the bot: their pet's stats still change, but it earns no pet points while they're banned.
 

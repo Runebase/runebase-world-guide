@@ -21,7 +21,7 @@ Many boards give a role to their **top 10** players (the experience board also t
 
 ## The Excellers role
 
-Where the server has an **Excellers** role, it goes to every player whose 30-day experience (the Monthly Accelerator <span class="gi-m">🏅&nbsp;[leaderboard](leaderboards.md)</span>) is **above the server's requirement**: 65% of the average 30-day experience of the players above 350, rounded. For example, with two players above 350, at 360 and 700, the requirement is 345: 346 or 350 holds the role, 345 doesn't. The requirement is worked out again every day at 06:45 UTC (and announced in the server's chat channel; a restart works it out too and announces it only when it changed), and the role follows your experience with every gain or loss, and at every restart.
+Where the server has an **Excellers** role, it goes to every player whose 30-day experience (the Monthly Accelerator <span class="gi-m">🏅&nbsp;[leaderboard](leaderboards.md)</span>) is **above the server's requirement**: 65% of the average 30-day experience of the players above 350, rounded. For example, with two players above 350, at 360 and 700, the requirement is 345: 346 or 350 holds the role, 345 doesn't. The requirement is worked out again every day at 06:45 UTC (and announced in the server's chat channel; a restart works it out too and announces it only when it changed), and the role follows your experience with every gain or loss, and at every restart. Banned players don't hold it (it's taken at the next daily check), and their experience isn't in the average.
 
 ## The role panel
 

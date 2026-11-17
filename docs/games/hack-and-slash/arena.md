@@ -26,7 +26,7 @@ nav_emoji: "🥊"
 
 ## A duel
 
-- The first move is a coin toss. On your turn your screen shows your two attacks (your main and secondary skill, which you can change from the menus below them, at the mana their buttons show), **Heal** and a **Select Target** menu; on your opponent's turn it shows whose turn it is.
+- The first move is a coin toss. On your turn your screen shows your two attacks (your main and secondary skill, which you can change from the menus below them, at the mana their buttons show or less: see [your main and secondary skill](attributes-and-combat.md#your-main-and-secondary-skill)), **Heal** and a **Select Target** menu; on your opponent's turn it shows whose turn it is.
 - **One click, one move:** each move button belongs to the turn it was drawn for. A second click of a double click, or a button from an earlier turn, plays nothing and you're told so, privately.
 - A skill picked on a duel screen drawn before you reset your skills changes nothing: the duel screen comes back with your skills as they are now and says why.
 - **Heal** (3 a duel): your whole move, back to full health and mana; it costs nothing else. The rest of the move goes on as usual: your minions still attack, and effects on both of you count down. You can't heal while stunned or frozen (the button is off). A double click heals once.

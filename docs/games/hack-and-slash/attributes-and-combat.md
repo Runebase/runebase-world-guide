@@ -23,7 +23,9 @@ You get **5 attribute points per level** to spend on the stats screen (never mor
 
 ## Your main and secondary skill
 
-The **Stats** screen has two menus: your **main** and your **secondary** skill, the two attack buttons of a battle (each named after its skill, with its mana cost). Each menu lists your class's usable skills; picking one saves it at once, and each menu leaves out the skill the other one holds. The battle screen has the same two menus.
+The **Stats** screen has two menus: your **main** and your **secondary** skill, the two attack buttons of a battle (each named after its skill, with its mana cost). Each menu lists your class's usable skills (passive skills work without being picked, so they aren't listed); picking one saves it at once, and each menu leaves out the skill the other one holds. The battle screen, an Arena duel and the Jotnar's battle have the same two menus. A menu on an older screen (or another device) that offers the skill your other slot now holds says so and changes nothing: the two slots always hold two different skills, so an aura counts once.
+
+The mana a button and a menu show is the skill's cost before your **mana bonus** (gear, <span class="gi-m">![](../../assets/icons/skill/wizard/telekinesis.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Telekinesis](skills/wizard/lightning-spells/telekinesis.md)</span>, <span class="gi-m">![](../../assets/icons/skill/paladin/salvation.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Salvation](skills/paladin/sanctified-protector/salvation.md)</span>, the <span class="gi-m">![](../../assets/icons/building/arcane-library.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Arcane Library](../../account/buildings.md#what-each-building-does)</span>): the skill takes that cost ÷ (1 + mana bonus), rounded up, so you pay what the button shows or less.
 
 ## Hitting and missing
 

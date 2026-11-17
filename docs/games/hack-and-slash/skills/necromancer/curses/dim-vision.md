@@ -28,6 +28,7 @@ nav_icon: "assets/icons/skill/necromancer/dim-vision.webp"
 ## Checked in play
 
 - Every monster's magic resistance drops by its % for its rounds: 15% for 10 rounds at rank 1 (your magic hits deal 15% more), 110% for 105 at rank 20. A new curse replaces the old one.
+- You can put a point in it from level 2 (your first skill point), as its row 1 says; until this release it needed level 6.
 
 ## Rank by rank
 

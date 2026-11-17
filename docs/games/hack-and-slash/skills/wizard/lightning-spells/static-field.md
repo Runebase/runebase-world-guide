@@ -29,6 +29,7 @@ nav_icon: "assets/icons/skill/wizard/static-field.webp"
 ## Checked in play
 
 - Nothing happens until its 3 rounds are over; in the 4th round after you cast it, every monster takes its lightning damage (1-30 at rank 1, 1-315 at rank 20) and has its stun chance (50%, 88%) to skip its attack that round.
+- You can put a point in it from level 2 (your first skill point), as its row 1 says; until this release it needed level 6.
 
 ## Rank by rank
 

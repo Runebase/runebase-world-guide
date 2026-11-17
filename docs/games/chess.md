@@ -15,7 +15,7 @@ Chess against the bot or against another player. Chess has its own leaderboards 
 
 ## Against the bot (Singleplayer)
 
-**Chess** → **Singleplayer**: pick your side (white, black or random) and a difficulty, then start the game and play against the bot. Pick your move from the menus or type it (SAN Input); the bot answers each move. A move typed wrong is refused on your board (with the moves you can play) and the bot doesn't move.
+**Chess** → **Singleplayer**: pick your side (white, black or random) and a difficulty, then start the game and play against the bot. Pick your move from the menus or type it (SAN Input); the bot answers each move. A move typed wrong is refused on your board (with the moves you can play) and the bot doesn't move. When your king is in check the board says so and offers only the moves that answer it; a piece with more than 25 moves lists the rest in a second menu.
 
 The bot is the Stockfish chess engine, at the strength of the difficulty:
 
@@ -84,9 +84,11 @@ While a game runs, both players' screens have **Resign** (on your turn and on yo
 
 - **3 minutes a move:** when your time is up, the bot plays a random legal move for you, and both screens say so.
 - **12 minutes away** (no click of yours for 12 minutes) and you forfeit: your opponent wins, and both screens say so.
-- **Blitz:** your clock runs only during your turns. When it runs out you lose on time.
+- **Blitz:** your clock runs only during your turns. When it runs out you lose on time. A random move the 3-minute timer plays for you takes its time off your clock too, and your clock starts again from what's left at your next turn.
 
 Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a timer that fires as the game ends doesn't change the result.
+
+If the server's chess channel is changed or removed during your game, the game goes on: your screens, the moves and the timers work as usual; only the public board in the channel stops following it. (A new challenge needs a chess channel.)
 
 **If the bot restarts during your game,** a restart never counts against you: the player to move gets a DM and **15 minutes** before any timer counts again (a blitz clock is paused through them). A challenge waiting at a restart expires once it's 5 minutes old.
 
@@ -94,7 +96,7 @@ Only your own moves count: when your move and the turn timer's random move land 
 
 **View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It shows at most 25 (Discord's limit for a list): the games in progress first, then the challenges sent to you, then the ones you sent, newest first; with more, the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
 
-**Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move. **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
+**Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move, newest first; its menu shows only your single-player or only your multiplayer games (picking one starts at its newest game). **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
 
 ## Tips
 

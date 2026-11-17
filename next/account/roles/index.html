@@ -1663,6 +1663,7 @@
 <li>A board with fewer than 10 players who scored gives its role only to those who scored.</li>
 <li>After a restart, the roles match <code>/leaderboard</code> again. So they do within a minute when a server is switched on or its admins set a top role with <code>/config</code>, without a restart.</li>
 <li>On a tie at the last place the newer Discord account gets the role (the <span class="gi-m">🏅&nbsp;<a href="../leaderboards/">leaderboards'</a></span> order).</li>
+<li>Each role change is announced in the server's chat channel once, and only when Discord made it: two players passing the #10 at the same moment each get the role and are named once; a role the bot isn't allowed to give (the server placed it above the bot's own role) isn't announced, and is given at the board's next change once the server lets the bot.</li>
 <li>Leaving the server takes you off the boards at once, and your top roles go to the next players. Points you'd lose while away don't put you back; coming back does.</li>
 <li>A player banned from the bot is off every board too, with no top role, paid ladder prize or winners role; lifting the ban puts them back with their scores. While banned they earn nothing from <span class="gi-m">🗣️&nbsp;<a href="../chat-points/">chat points</a></span>, <span class="gi-m">⛰️&nbsp;<a href="../bumps/">bumps</a></span>, <span class="gi-m">🗳️&nbsp;<a href="../votes/">votes</a></span>, <span class="gi-m">🎨&nbsp;<a href="../memes/">memes</a></span>, <span class="gi-m">✉️&nbsp;<a href="../invites/">invites</a></span> or their <span class="gi-m">🐾&nbsp;<a href="../pets/">pet</a></span>, and get none of the roles those give.</li>
 </ul>
@@ -1671,7 +1672,7 @@
 <h2 id="the-role-panel">The role panel<a class="headerlink" href="#the-role-panel" title="Permanent link">&para;</a></h2>
 <p><code>/rolepanel</code> shows the roles you can give yourself, one at a time (pick one in <strong>Select Role</strong>). Press <strong>Earn</strong> to take it or <strong>Remove</strong> to give it back. Some roles need a minimum amount of experience: below it, the panel shows the role with the button off. Only the player who opened the panel can use its buttons.</p>
 <p><strong>Earn</strong> only gives the role and <strong>Remove</strong> only takes it, whatever another screen did: from a panel opened before your other panel's click, Earn says "You already have the … role: nothing changed." (and Remove "You don't have the … role"), and a double click acts once. The heist's role works the same from the heist menu (<a href="../../games/heists-and-clans/#joining-and-leaving">joining and leaving</a>).</p>
-<p>A role deleted in Discord isn't on the panel; on a panel opened before it went, its button says the role no longer exists on the server, and nothing changes. On every server the panel opens on its first role.</p>
+<p>A role deleted in Discord isn't on the panel; on a panel opened before it went, its button says the role no longer exists on the server, and nothing changes. On every server the panel opens on its first role; a server with no role on its panel says so ("… Does not have any Panel Roles").</p>
 
 
 

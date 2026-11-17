@@ -15,6 +15,7 @@ Many boards give a role to their **top 10** players (the experience board also t
 - A board with fewer than 10 players who scored gives its role only to those who scored.
 - After a restart, the roles match `/leaderboard` again. So they do within a minute when a server is switched on or its admins set a top role with `/config`, without a restart.
 - On a tie at the last place the newer Discord account gets the role (the <span class="gi-m">🏅&nbsp;[leaderboards'](leaderboards.md)</span> order).
+- Each role change is announced in the server's chat channel once, and only when Discord made it: two players passing the #10 at the same moment each get the role and are named once; a role the bot isn't allowed to give (the server placed it above the bot's own role) isn't announced, and is given at the board's next change once the server lets the bot.
 - Leaving the server takes you off the boards at once, and your top roles go to the next players. Points you'd lose while away don't put you back; coming back does.
 - A player banned from the bot is off every board too, with no top role, paid ladder prize or winners role; lifting the ban puts them back with their scores. While banned they earn nothing from <span class="gi-m">🗣️&nbsp;[chat points](chat-points.md)</span>, <span class="gi-m">⛰️&nbsp;[bumps](bumps.md)</span>, <span class="gi-m">🗳️&nbsp;[votes](votes.md)</span>, <span class="gi-m">🎨&nbsp;[memes](memes.md)</span>, <span class="gi-m">✉️&nbsp;[invites](invites.md)</span> or their <span class="gi-m">🐾&nbsp;[pet](pets.md)</span>, and get none of the roles those give.
 
@@ -28,4 +29,4 @@ Where the server has an **Excellers** role, it goes to every player whose 30-day
 
 **Earn** only gives the role and **Remove** only takes it, whatever another screen did: from a panel opened before your other panel's click, Earn says "You already have the … role: nothing changed." (and Remove "You don't have the … role"), and a double click acts once. The heist's role works the same from the heist menu ([joining and leaving](../games/heists-and-clans/index.md#joining-and-leaving)).
 
-A role deleted in Discord isn't on the panel; on a panel opened before it went, its button says the role no longer exists on the server, and nothing changes. On every server the panel opens on its first role.
+A role deleted in Discord isn't on the panel; on a panel opened before it went, its button says the role no longer exists on the server, and nothing changes. On every server the panel opens on its first role; a server with no role on its panel says so ("… Does not have any Panel Roles").

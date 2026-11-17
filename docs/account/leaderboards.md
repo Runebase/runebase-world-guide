@@ -8,7 +8,7 @@ nav_emoji: "🏅"
 
 Most games have **leaderboards**, all-time and monthly, whose top players hold a [role](roles.md#top-roles).
 
-`/leaderboard` (or `/start` → **Ranks** → **Leaderboards**) opens the experience leaderboard, with two menus to pick an all-time or a monthly board.
+`/leaderboard` (or `/start` → **Ranks** → **Leaderboards**) opens the experience leaderboard, with two menus to pick an all-time or a monthly board. A menu with more boards than fit in one (Discord shows at most 25) has **More boards** and **Earlier boards** at its ends: they turn the menu's page and keep the board you're looking at.
 
 - A board shows **10 players a page**; a longer one has **Next** and **Previous**, a shorter one a **Close** button. The key hunt ladder also has **Previous Month** and, on an earlier month, **Next Month**. When the board got shorter since you opened it (players left it, their 30-day points ran out), **Next** shows its last page, with a note saying so.
 - Each player is drawn with their Discord picture. When Discord takes more than 3 seconds to send one, the board doesn't wait: that player gets the default picture (the same on `/heistboard` and the Crown of Chaos weekly ladder).

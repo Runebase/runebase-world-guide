@@ -22,11 +22,12 @@ nav_emoji: "🥊"
 - You can have at most 5 open duels, and a player who has 5 can't be challenged, even by several players at the same moment.
 - **One duel at a time with the same player:** while a challenge or a duel between you two is open, a new challenge either way is refused and you're shown the open one (a double click on **Challenge** sends one challenge). If they've challenged you, you're told to join or decline theirs.
 - Someone else pressing **Join Duel** on your challenge only watches, privately: your duel and the message stay as they are.
+- **Your class stays while a duel is open:** picking another class (**Select Class**) is refused while your character has a duel running or a challenge waiting, and the class screen names the duel and what to do: finish it, cancel your challenge (or let it run out), or join or decline theirs.
 - **A duel belongs to the server it was made in.** If you play in two servers, you have a character in each, and a duel of one server can't be joined, declined, cancelled, played or given up from the other: the bot says it found no such duel there (privately under a challenge's message).
 
 ## A duel
 
-- The first move is a coin toss. On your turn your screen shows your two attacks (your main and secondary skill, which you can change from the menus below them, at the mana their buttons show or less: see [your main and secondary skill](attributes-and-combat.md#your-main-and-secondary-skill)), **Heal** and a **Select Target** menu; on your opponent's turn it shows whose turn it is.
+- The first move is a coin toss. On your turn your screen shows your two attacks (your main and secondary skill, which you can change from the menus below them, at the mana their buttons show, the [mana bonus](attributes-and-combat.md#your-main-and-secondary-skill) counted), **Heal** and a **Select Target** menu; on your opponent's turn it shows whose turn it is.
 - **One click, one move:** each move button belongs to the turn it was drawn for. A second click of a double click, or a button from an earlier turn, plays nothing and you're told so, privately.
 - A skill picked on a duel screen drawn before you reset your skills changes nothing: the duel screen comes back with your skills as they are now and says why.
 - **Heal** (3 a duel): your whole move, back to full health and mana; it costs nothing else. The rest of the move goes on as usual: your minions still attack, and effects on both of you count down. You can't heal while stunned or frozen (the button is off). A double click heals once.

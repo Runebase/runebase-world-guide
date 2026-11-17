@@ -24,6 +24,10 @@ nav_icon: "assets/icons/skill/wizard/telekinesis.webp"
 - It's always on: nothing to select, no mana.
 - What it adds to your character is what its screen shows (checked at ranks 1 and 20).
 
+## Checked in play
+
+- Its mana bonus lowers what every skill takes, and the skill buttons and menus show what is taken: with Telekinesis rank 20 (+80%), Fire Bolt rank 9 (10 mana) shows and takes 6, on the Jotnar's buttons too.
+
 ## Rank by rank
 
 What its skill screen shows at each rank. A skill takes at most 20 points; <span class="gi-m">💥&nbsp;[skill points and resets](../../index.md)</span>.

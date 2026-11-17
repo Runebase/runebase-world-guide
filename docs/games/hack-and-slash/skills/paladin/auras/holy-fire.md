@@ -26,7 +26,7 @@ nav_icon: "assets/icons/skill/paladin/holy-fire.webp"
 ## Checked in play
 
 - Rank 1 selected: every monster burns 6 at the end of the round.
-- Picked in one slot, it can't be picked in the other too (a menu on an older screen that still offers it says so): it burns each monster once a round.
+- Picked in one slot, it can't be picked in the other too (a menu on an older screen that still offers it says so): it burns each monster once a round; held in both slots already (an older pick), it still burns once.
 
 ## Rank by rank
 

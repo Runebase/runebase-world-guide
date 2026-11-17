@@ -26,6 +26,7 @@ nav_icon: "assets/icons/skill/paladin/might.webp"
 ## Checked in play
 
 - Rank 1 selected: +20% physical damage, in the menus and in battle, and as hard on the fifth Arena move as on the first.
+- Held in both skill slots (an older pick), it counts once: +20%, in quick battles and the Arena.
 
 ## Rank by rank
 

@@ -13,7 +13,7 @@ nav_emoji: "📚"
 - **Network Info:** the Runebase network as the bot's node sees it: the block height, the block reward, the network's difficulty and weight, the coins in circulation and the estimated yearly staking return, with links to the website and the explorer, and the <span class="gi-m">🧱&nbsp;[super stakers](super-stakers.md)</span>.
 - **Loot Tables:** the prize table of each activity, with each prize's real chance for you (your utilities can push the last prizes out). Chess has one table per difficulty (Easy, Medium, Hard); a long table, like Loot Reels', comes in pages of 35 with **Next** and **Previous**.
 - **Consumables:** one page per consumable, picked in its menu: what it does, and how many you hold.
-- **Treasure Hunting:** how keys spawn and what the treasure hunter role gives (<span class="gi-m">🗝️&nbsp;[Piles and the key hunt](../games/piles-and-key-hunt.md)</span>), with your own role's time left.
+- **Treasure Hunting:** how keys spawn and what the treasure hunter role gives (<span class="gi-m">🗝️&nbsp;[Piles and the key hunt](../games/piles-and-key-hunt.md)</span>), with your own role's time left (each key you find adds 4 hours, up to 7 days).
 - **Talkative:** how <span class="gi-m">🗣️&nbsp;[chat points](chat-points.md)</span> work, with your points this round, this month and all time.
 - **Memeologist:** how <span class="gi-m">🎨&nbsp;[meme points](memes.md)</span> work, with your cooldown and your points.
 

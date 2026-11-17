@@ -70,7 +70,7 @@ You can't challenge yourself, a bot or someone who isn't in the server, and you 
 
 ### Playing
 
-Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move**, or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused on your board, which says why and stays as it was. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
+Sides are drawn at random; white moves first. On your turn your screen has your moves: pick a piece and a move and press **Execute Move** (a piece with more than 25 moves, a queen in an open position, lists the rest in a second menu, **Select a move (more moves)**), or type the move into **SAN Input** (`e4`, `Nf3`, `O-O`, `exd6`, `e8=Q`). Castling, en passant and promotion (to any piece) work both ways. A move that breaks the rules, or comes when it isn't your turn, is refused on your board, which says why and stays as it was. Your move shows on your opponent's screen with their moves, and a public game's board in the chess channel follows the game.
 
 Discord lets the bot update your screen through your last click for 15 minutes, and a blitz game can run much longer. After that, a screen in the channel (the menu you challenged from) is still updated; a private one (the board **Accept** showed you) can't be: open **View Active Games** to see the board and your moves.
 

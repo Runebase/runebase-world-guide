@@ -83,7 +83,7 @@ While a game runs, both players' screens have **Resign** (on your turn and on yo
 ### The timers
 
 - **3 minutes a move:** when your time is up, the bot plays a random legal move for you, and both screens say so.
-- **12 minutes away** (no click of yours for 12 minutes) and you forfeit: your opponent wins, and both screens say so.
+- **12 minutes away** (no click of yours for 12 minutes) and you forfeit: your opponent wins, and both screens say so. Any click on your board starts your 12 minutes again, even one that lands the very moment they run out.
 - **Blitz:** your clock runs only during your turns. When it runs out you lose on time. A random move the 3-minute timer plays for you takes its time off your clock too, and your clock starts again from what's left at your next turn.
 
 Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a timer that fires as the game ends doesn't change the result.
@@ -94,7 +94,7 @@ If the server's chess channel is changed or removed during your game, the game g
 
 ### Your games and your history
 
-**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It shows at most 25 (Discord's limit for a list): the games in progress first, then the challenges sent to you, then the ones you sent, newest first; with more, the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
+**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It lists every one: the games in progress first, then the challenges sent to you, then the ones you sent, newest first; past 25 (Discord's limit for a list) the menu turns pages (**More games**, **Earlier games**), and the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
 
 **Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move, newest first; its menu shows only your single-player or only your multiplayer games (picking one starts at its newest game). **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
 

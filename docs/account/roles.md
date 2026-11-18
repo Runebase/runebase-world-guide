@@ -23,6 +23,10 @@ Many boards give a role to their **top 10** players (the experience board also t
 
 Where the server has an **Excellers** role, it goes to every player whose 30-day experience (the Monthly Accelerator <span class="gi-m">🏅&nbsp;[leaderboard](leaderboards.md)</span>) is **above the server's requirement**: 65% of the average 30-day experience of the players above 350, rounded. For example, with two players above 350, at 360 and 700, the requirement is 345: 346 or 350 holds the role, 345 doesn't. The requirement is worked out again every day at 06:45 UTC (and announced in the server's chat channel; a restart works it out too and announces it only when it changed), and the role follows your experience with every gain or loss, and at every restart. Banned players don't hold it (it's taken at the next daily check), and their experience isn't in the average.
 
+## The OG roles
+
+Where the server has them, the **One Year**, **Two Years** and **Three Years OG** roles go to every member who has been in the server that long (from the day they joined it). The bot hands them out every day at 04:25 UTC and at every restart, and announces each one in the server's experience channel (on a server without one, the role comes without an announcement).
+
 ## The role panel
 
 `/rolepanel` shows the roles you can give yourself, one at a time (pick one in **Select Role**; a server with more than 25 roles shows them a page at a time, **More roles** and **Earlier roles** opening the next page on its first role). Press **Earn** to take it or **Remove** to give it back. Some roles need a minimum amount of experience: below it, the panel shows the role with the button off. Only the player who opened the panel can use its buttons.

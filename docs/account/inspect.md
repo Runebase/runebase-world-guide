@@ -6,7 +6,7 @@ nav_emoji: "🔍"
 
 # 🔍 Inspect
 
-`/start` → **Activities** → **Inspect** lets you look at other players' Hack & Slash characters, if they allow it. Nothing is open by default: turn on Hack & Slash Inspection under **Inspect** → **Inspect Settings** to let others see your characters, their stats, skills and equipment. The equipment view lists every slot (Helm, Amulet, Main Hand, Off Hand, Armor, Gloves, both rings, Belt, Boots…) with the item worn there or "Empty Slot", under a picture of the character's gear.
+`/start` → **Activities** → **Inspect** lets you look at other players' Hack & Slash characters, if they allow it. Its **User List** names every member who allows an inspection, 25 a page (**Next** and **Previous**; "Page 1/2" says where you are), always in the same order. Nothing is open by default: turn on Hack & Slash Inspection under **Inspect** → **Inspect Settings** to let others see your characters, their stats, skills and equipment. The equipment view lists every slot (Helm, Amulet, Main Hand, Off Hand, Armor, Gloves, both rings, Belt, Boots…) with the item worn there or "Empty Slot", under a picture of the character's gear.
 
 ## What others can see
 

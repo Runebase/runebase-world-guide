@@ -88,7 +88,7 @@ While a game runs, both players' screens have **Resign** (on your turn and on yo
 
 Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a timer that fires as the game ends doesn't change the result.
 
-If the server's chess channel is changed or removed during your game, the game goes on: your screens, the moves and the timers work as usual; only the public board in the channel stops following it. (A new challenge needs a chess channel.)
+If the server's chess channel is changed or removed during your game, the game goes on: your screens, the moves and the timers work as usual, and a public game's board keeps following the game in the channel it was posted in (a new channel set meanwhile gets nothing). (A new challenge needs a chess channel.)
 
 **If the bot restarts during your game,** a restart never counts against you: the player to move gets a DM and **15 minutes** before any timer counts again (a blitz clock is paused through them). A challenge waiting at a restart expires once it's 5 minutes old.
 

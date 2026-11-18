@@ -34,7 +34,7 @@ Physical attacks can miss. Your **hit chance** is 200% × your attack rating ÷ 
 - **Your attack rating grows with your level:** your class's 50 plus 5 per dexterity point (spent or from gear), times your level's multiplier; attack rating from gear is added on top.
 - Skills and buffs with attack rating % raise it (<span class="gi-m">![](../../assets/icons/skill/warrior/strategic-shout.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Strategic Shout](skills/warrior/warcries/strategic-shout.md)</span>'s +40% takes that 62.3% to 69.8%).
 - **Monsters block** your physical attacks as often as their screen shows (a Zombie 10%).
-- **Your health bonus** (from gear, Battle Orders, the Oak Sage, Sanctuary …) lowers every damage you take in a battle by that much: a hit, a monster's aura and a poison, bleed or burn tick alike (with +50% health, 30 damage takes 20). The battle log shows the damage before it.
+- **Your health bonus** (from gear, Battle Orders, the Oak Sage, Sanctuary …) lowers every damage you take in a battle by that much: a hit, a monster's aura and a poison, bleed or burn tick alike (with +50% health, 30 damage takes 20). Your minions' life bonus does the same for them, their poison and burn ticks included. The battle log shows the damage before it.
 - **Spells never miss:** only physical attacks roll to hit. Magic, Fire, Cold, Lightning and Poison attacks always land, yours and the monsters'.
 - A single-target attack can only miss its own target. Monsters miss you too.
 

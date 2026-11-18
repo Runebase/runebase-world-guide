@@ -18,7 +18,7 @@ nav_emoji: "📚"
 - **Memeologist:** how <span class="gi-m">🎨&nbsp;[meme points](memes.md)</span> work, with your cooldown and your points.
 
 A server that hasn't set up one of these roles or channels yet shows its name in words (the treasure hunter role, the treasure chest channel, the talkative and memeologist roles and their top 10 roles) instead of a mention.
-- **Stellar (xRUNES):** **xRUNES LP** lists the xRUNES liquidity pools on Stellar; **xRUNES Daily Trade Contest** ranks the day's xRUNES buyers, 10 a page: **Previous Day** goes back a day at a time, **Next Day** comes back up to today.
+- **Stellar (xRUNES):** **xRUNES LP** lists the xRUNES liquidity pools on Stellar; **xRUNES Daily Trade Contest** ranks the day's xRUNES buyers, 10 a page: **Previous Day** goes back a day at a time, **Next Day** comes back up to today. A buy of xRUNES in one of the pools counts once for the contest (a sale of xRUNES doesn't count), and each pool trade is posted once in the Stellar market channel, up to a minute after it happens.
 
 ## The Hall of Honor
 

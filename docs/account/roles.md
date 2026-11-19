@@ -25,7 +25,7 @@ Where the server has an **Excellers** role, it goes to every player whose 30-day
 
 ## The OG roles
 
-Where the server has them, the **One Year**, **Two Years** and **Three Years OG** roles go to every member who has been in the server that long (from the day they joined it). The bot hands them out every day at 04:25 UTC and at every restart, and announces each one in the server's experience channel (on a server without one, the role comes without an announcement).
+Where the server has them, the **One Year**, **Two Years** and **Three Years OG** roles go to every member who has been in the server that long (from the day they joined it). The bot hands them out every day at 04:25 UTC and at every restart, and announces them in the server's experience channel, up to 10 in a post that mentions only the members it names (on a server without one, the role comes without an announcement).
 
 ## The role panel
 

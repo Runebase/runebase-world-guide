@@ -82,7 +82,7 @@ While a game runs, both players' screens have **Resign** (on your turn and on yo
 
 ### The timers
 
-- **3 minutes a move:** when your time is up, the bot plays a random legal move for you, and both screens say so.
+- **3 minutes a move:** when your time is up, the bot plays a random legal move for you, and both screens say so ("Timed out! Random move made: …"), and so does a public game's board in the chess channel.
 - **12 minutes away** (no click of yours for 12 minutes) and you forfeit: your opponent wins, and both screens say so. Any click on your board starts your 12 minutes again, even one that lands the very moment they run out.
 - **Blitz:** your clock runs only during your turns. When it runs out you lose on time. A random move the 3-minute timer plays for you takes its time off your clock too, and your clock starts again from what's left at your next turn.
 

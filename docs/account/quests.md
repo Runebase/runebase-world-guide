@@ -57,7 +57,7 @@ Each quest's own text says what counts (the tables below). In short:
 | <span class="gi-m">👑&nbsp;[hold the Crown](../games/crown-of-chaos/holding-the-crown.md)</span> | Points Earned: each point the Crown earns in a round |
 | <span class="gi-m">🗡️&nbsp;[heist](../games/heists-and-clans/attacks-and-defence/index.md)</span> | Experience Stolen (what you gained), Experience Lost (what the heist took: its full amount, even when you had less), Block, Recover (the attacker's energy kept: a defender never gets energy back from a counter-attack, so only your own attacks count), Counter-Attack |
 
-What is refused counts nothing: a trip or a cook that doesn't start, a roll on cooldown or with the tipbot offline, the 16th spin of the day, a wrong guess, a lost game, a 6th chess or Hnefatafl win of the day, a vote within its 12 hours, a bump while the server is still bumped, a factory collect over the day's limit, a missed attack on the Crown. Credit piles and treasure chests count toward no quest.
+What is refused counts nothing: a trip or a cook that doesn't start, a roll on cooldown or with Hermes offline, the 16th spin of the day, a wrong guess, a lost game, a 6th chess or Hnefatafl win of the day, a vote within its 12 hours, a bump while the server is still bumped, a factory collect over the day's limit, a missed attack on the Crown. Credit piles and treasure chests count toward no quest.
 
 ## Every quest
 

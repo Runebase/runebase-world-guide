@@ -27,6 +27,8 @@ The bot is the Stockfish chess engine, at the strength of the difficulty:
 
 The bot sees the whole game, every move played so far, not only the board as it stands: like a player at the table, it knows when a position has come up before.
 
+If the engine doesn't answer in time (its thinking time and 5 seconds more), it plays the best move it had found when it had looked far enough ahead; otherwise your move isn't made either, your board says "Something went wrong: your move wasn't made. Try again in a moment.", and the game is as it was.
+
 **Forfeit** asks first (**Cancel** keeps playing); a forfeited game is a loss.
 
 - **Only a win pays:** experience, credits and maybe scrap (table below), and chess points on the leaderboards:
@@ -88,13 +90,13 @@ While a game runs, both players' screens have **Resign** (on your turn and on yo
 
 Only your own moves count: when your move and the turn timer's random move land at the same moment, your move is played; a timer that fires as the game ends doesn't change the result.
 
-If the server's chess channel is changed or removed during your game, the game goes on: your screens, the moves and the timers work as usual, and a public game's board keeps following the game in the channel it was posted in (a new channel set meanwhile gets nothing). (A new challenge needs a chess channel.)
+If the server's chess channel is changed or removed during your game, the game goes on: your screens, the moves and the timers work as usual, and a public game's board keeps following the game in the channel it was posted in (a new channel set meanwhile gets nothing); a challenge you cancel after the change is marked canceled where it was posted. (A new challenge needs a chess channel.) If a moderator deletes the challenge or the board, nothing else changes: you can still cancel the challenge, it still expires, and the game goes on, on your screens.
 
 **If the bot restarts during your game,** a restart never counts against you: the player to move gets a DM and **15 minutes** before any timer counts again (a blitz clock is paused through them). A challenge waiting at a restart expires once it's 5 minutes old.
 
 ### Your games and your history
 
-**View Active Games** lists your challenges and games: pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It lists every one: the games in progress first, then the challenges sent to you, then the ones you sent, newest first; past 25 (Discord's limit for a list) the menu turns pages (**More games**, **Earlier games**), and the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
+**View Active Games** lists your challenges and games (with none, the multiplayer menu says so): pick one to see your board again (your moves on your turn), to wait on (or cancel) a challenge you sent, or to accept one sent to you. It lists every one: the games in progress first, then the challenges sent to you, then the ones you sent, newest first; past 25 (Discord's limit for a list) the menu turns pages (**More games**, **Earlier games**), and the screen says how many you have. A challenge cancelled (or declined, or expired) after the list was drawn says so on that screen, with the way back, when you pick it.
 
 **Chess History** (in the Chess menu) shows every game you played, single player and multiplayer, as white or black, move by move, newest first; its menu shows only your single-player or only your multiplayer games (picking one starts at its newest game). **Export FEN** gives you, privately, the position on the board at the move shown (finished games only).
 

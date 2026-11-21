@@ -21,7 +21,7 @@ A giant appears in the Hack & Slash channel once every 3 hours. Press **Attack G
 ## When it comes and goes
 
 - **Each 3-hour window** (from midnight UTC: 00:00, 03:00, …, 21:00) brings one giant at a random moment, announced with the Jotnar role in the Hack & Slash channel, and with a **Join the Battle!** link in the server's announcements. A window's giant always comes within its own window, even when the bot restarts in its last seconds, so a window never starts with two giants arriving at once. Turn the role on or off in `/hackslash` → **Jotnar** → **Enable Notifications** / **Disable Notifications**.
-- **Two giants can be up at once** when one comes late in its window and the next early in the next one: the Jotnar menu lists them all, and you can fight either. A giant the server's admins bring themselves comes in addition: the window's own still comes at its moment, beside it if it still stands.
+- **Two giants can be up at once** when one comes late in its window and the next early in the next one: the Jotnar menu lists them all, and you can fight either. A giant the server's admins bring themselves is an extra: it never takes the window's place, not even after the bot restarts, so the window's own still comes at its moment, beside it if it still stands.
 - If the giants can't be read just then (a database problem), the Jotnar menu and the Hack & Slash menu say so, rather than that no giant is up: try again in a moment.
 - **A restart of the bot changes nothing:** a giant still standing keeps the time it had left, and one whose time ran out meanwhile escapes (and pays) as soon as the bot is back.
 

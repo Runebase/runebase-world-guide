@@ -18,7 +18,7 @@ The **Hodlers** page lists the server's hodler roles, each with the RUNES balanc
 2. Send **any amount of RUNES** to it **from the address you want to link**. The payment is what proves the address is yours; it isn't credited to your wallet (that's your `/pouch` deposit address, a different one).
 3. The address is linked: the page shows it, the bot tells you by DM, and you get the role its balance reaches.
 
-The bot hears of your payment twice, when it's sent and when it's in a block: if it missed the first (a restart), the second links your address, and an address is never linked twice by one payment. Not linked a few minutes after the payment's first confirmation? Send another small payment.
+The bot hears of your payment twice, when it's sent and when it's in a block: if it missed the first (a restart), the second links your address, and an address is never linked twice by one payment. A payment the bot missed both times (it was down then, an upgrade say) links nothing. Not linked a few minutes after the payment's first confirmation? Send another small payment.
 
 ## In more than one server
 

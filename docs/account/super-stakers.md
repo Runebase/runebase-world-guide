@@ -24,6 +24,8 @@ Pick one in **Select a Super Staker** to see it on its own: its address, its not
 
 The RUNES you sent aren't lost: like any [deposit](credits-and-runes.md#deposits), they become credits in your wallet at 20 confirmations.
 
+The bot hears of your payment twice, when it's sent and when it's in a block: if it missed the first (a restart), the second verifies your super staker. A payment the bot missed both times (it was down then, an upgrade say) is still credited, but verifies nothing: still asked to verify a few minutes after the payment's first confirmation? Send another payment from the super staker's address.
+
 ## Your note, and disabling it
 
 On **My Super Staker**, **Edit Note** opens a box with your super staker's public note; what you save is shown with it in the list. **Disable Super Staker** asks first (**Cancel** keeps it); once you confirm, it leaves the list and you can register an address again.

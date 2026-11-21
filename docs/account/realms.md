@@ -63,7 +63,7 @@ A role an admin deleted in Discord counts as not set.
 
 ## Partner roles
 
-A member of both the Runebase server and a partner server gets the partner's role in the Runebase server, and the Runebase server's role in the partner server where one is set up, each announced in that server's experience channel (with the two servers' icons side by side; an icon Discord takes more than 3 seconds to send is drawn as a default picture, so the announcement never waits for it). Leaving the partner server takes them back.
+A member of both the Runebase server and a partner server gets the partner's role in the Runebase server, and the Runebase server's role in the partner server where one is set up, each announced in that server's experience channel (with the two servers' icons side by side; an icon Discord takes more than 3 seconds to send is drawn as a default picture, so the announcement never waits for it). Leaving the partner server takes them back. A partner role Discord won't let the bot give (the role ranks above the bot's own role in that server) is named in the same announcement, under **Bot was unable to assign the following roles** (the announcement is titled **Partner Role Not Assigned** when no role was given): the server's admins can fix it.
 
 ## Only in the Runebase server
 

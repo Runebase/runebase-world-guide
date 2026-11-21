@@ -16,6 +16,7 @@ A game for the whole server in the Runes Pattern channel. A word appears in the 
 - A win pays **50 experience** and one roll of the prize table below. The day has **5 challenges**:
     - the **day's 3rd challenge pays 150** experience, gives the **Pattern Riddler** role for 2 days, and counts the day toward the week's challenge;
     - the 3rd challenge on **the 5th day of the week** you complete pays **250** instead (not 150) and gives the **Pattern Junky** role for a week;
+    - both roles come in a server without an experience channel too, unannounced; when their time is over they go, and the server's experience channel says so if it has one by then;
     - the win that completes **the day's last challenge** (the 5th) rolls the prize table **3 times**, each roll on its own (three prizes at most); every other win rolls it once;
     - wins after the day's last challenge pay the base again (50 and one roll).
 - The challenges follow the UTC day.

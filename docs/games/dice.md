@@ -24,7 +24,8 @@ A quick game of luck: roll two dice for experience, a <span class="gi-m">![](../
 - Two rolls at the same moment: one is paid, the other gets the cooldown, also from two devices (`/roll` and the dice menu).
 - The cooldown survives a restart of the bot, and the dice menu always counts down to the time a roll would be refused until.
 - The **dice leaderboards** count each roll's dice score.
-- If something goes wrong while rolling (a database problem), you're told **Something went wrong while rolling dice.**, on your dice menu or privately under a roll, and nothing is paid or spent: roll again. If Discord loses the bot's answer to a roll, the roll still counts and is paid once.
+- If something goes wrong while rolling (a database problem), you're told **Something went wrong while rolling dice.**, on your dice menu or privately under a roll, and nothing is paid or spent: no cooldown starts and no rank change is announced, so you can roll again at once. If Discord loses the bot's answer to a roll, the roll still counts and is paid once.
+- In the rarest case, the database saves your roll but its answer to the bot is lost on the way: you're told it went wrong, yet the roll counts (its experience, prize and cooldown are yours). What the bot does after a roll waits instead: the result isn't posted, a rank you reached is given with your next experience (without a "Level Up!" post), and the RUNES prize isn't tipped: the server's admins are told at the bot's next restart and tip it by hand.
 
 | Sum of the two dice | Chance | Experience | RUNES prize (% of the realm's RUNES wallet) | Dice score |
 |---|---|---|---|---|

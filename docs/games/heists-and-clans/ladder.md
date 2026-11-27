@@ -11,7 +11,7 @@ nav_emoji: "🏆"
 
 Your heist score is: **5 per energy used + 1.25 × experience gained (rounded) − experience lost + 3 per hit taken.** The energy counts even when it was recovered; a blocked hit counts nothing. The ladder counts each heist's full amounts: a defender with less experience than the heist takes still has the full loss on the ladder. The score is worked out from your month's totals, so one heist can add a point less than the one before: three raids of 11 score 19, 19 and 18 (56 in all).
 
-On a tie, the player whose ladder entry changed least recently ranks first; any heist on you changes it, also a blocked one.
+On a tie, the player whose ladder entry changed least recently ranks first; any heist on you changes it, also a blocked one. The clans' ladder breaks a tie the same way: the clan whose month changed least recently ranks first (and takes the higher clan prize).
 
 - `/heistboard` (or `/start` → **Ranks** → **Heist Board**) shows this month's clan ladder first, then the all-time clans, this month's players and the all-time players, 10 to a page: **Next** and **Previous** go through every page, each row once, and the monthly ladders have **Previous Month** and **Next Month**. If the board can't be read just then, it says so ("Something went wrong: the board couldn't be read") with the board picker to try again, rather than showing an empty board.
 - **Monthly winners:** last month's **top 5** heisters get the heist winners role, and only they keep it. A player whose month ended at zero or below gets no role.

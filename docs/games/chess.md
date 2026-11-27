@@ -27,7 +27,7 @@ The bot is the Stockfish chess engine, at the strength of the difficulty:
 
 The bot sees the whole game, every move played so far, not only the board as it stands: like a player at the table, it knows when a position has come up before.
 
-If the engine doesn't answer in time (its thinking time and 5 seconds more), it plays the best move it had found when it had looked far enough ahead; otherwise your move isn't made either, your board says "Something went wrong: your move wasn't made. Try again in a moment.", and the game is as it was.
+If the engine doesn't answer in time (its thinking time and 5 seconds more), it plays the best move it had found when it had looked far enough ahead; otherwise your move isn't made either, your board says "Something went wrong: your move wasn't made. Try again in a moment.", and the game is as it was. The same if the bot's database has a problem as your winning move is paid: the move isn't made, nothing is paid, and your board says so; play it again.
 
 **Forfeit** asks first (**Cancel** keeps playing); a forfeited game is a loss.
 

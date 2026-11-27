@@ -12,6 +12,8 @@ What happens when you join the server and when you leave it.
 
 A new member of the home server gets the inactive-chatter role and is welcomed in the welcome channel once verified; others can wave at them. The welcome post's **Open RuneBase World Menu** opens the main menu for whoever presses it, their own (privately for a player who plays privately); the post stays as it is.
 
+Your account in a server is opened with your first message there (or your first command or click). If the bot's database has a problem at that moment, your next message opens it, with the starting Anchovies, once.
+
 ## Leaving
 
 **Leaving the server costs 250 experience** (never below 0: with less, you lose what you have) in that server only (your accounts in other <span class="gi-m">🌍&nbsp;[realms](realms.md)</span> are untouched), announced in the server's experience channel with what you really lost (250, or all of it when you had less: 100 from 100; nothing is announced when you had none; a server without the channel takes the experience all the same, unannounced), and takes you off every <span class="gi-m">🏅&nbsp;[leaderboard](leaderboards.md)</span> and its <span class="gi-m">🏷️&nbsp;[roles](roles.md#top-roles)</span> right away. A member who never used the bot in that server has nothing to lose. Coming back puts you back in the server's lists: your <span class="gi-m">🥇&nbsp;[rank](ranks.md)</span> role, your scores on the boards and the top roles you rank for. Joining or leaving while the bot is starting (after a restart) counts all the same, once it has started.

@@ -45,6 +45,8 @@ Each action moves the pet's stats (hunger, energy, happiness, hygiene, sickness)
 | Legendary | 3 credits | 30 credits | 9 credits |
 | Mythical | 3.5 credits | 35 credits | 10 credits |
 
+If the bot's database has a problem while you care for your pet or put it in the [kennel](#the-kennel), nothing is used or changed and the screen says so: try again.
+
 ## Awake and asleep
 
 Each pet is a **day** pet or a **night** pet. A day pet is awake with the lights on, a night pet with the lights off; the light switch in the pet menu changes it. The switch does what it says: **Turn lights on** pressed again (a double click, or a pet menu open on another device) says the lights are already on and changes nothing, instead of turning them off again. An asleep pet can't be played with or fed (nothing is spent), and its perks don't work.

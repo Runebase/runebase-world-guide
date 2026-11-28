@@ -29,6 +29,8 @@ The bot sees the whole game, every move played so far, not only the board as it 
 
 If the engine doesn't answer in time (its thinking time and 5 seconds more), it plays the best move it had found when it had looked far enough ahead; otherwise your move isn't made either, your board says "Something went wrong: your move wasn't made. Try again in a moment.", and the game is as it was. The same if the bot's database has a problem as your winning move is paid: the move isn't made, nothing is paid, and your board says so; play it again.
 
+A move clicked twice at once, or from two devices, is played once with the bot's answer; the other click shows "The board changed: here it is now. That move wasn't played." with the board as it is now. While the bot thinks (up to 25 seconds on hard), other players' games go on and anyone can start a new one.
+
 **Forfeit** asks first (**Cancel** keeps playing); a forfeited game is a loss.
 
 - **Only a win pays:** experience, credits and maybe scrap (table below), and chess points on the leaderboards:

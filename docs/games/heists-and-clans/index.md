@@ -55,6 +55,8 @@ A heist is refused, and nothing changes, when you're out of energy, when you tar
 
 A member who holds the heist role but has never played on the server (a server admin gave them the role) can be heisted with `/heist` on the first try: the bot opens their account first, with the starting Anchovies every new player gets. Having no experience yet, they lose the heist role right after, like anyone heisted below its minimum. The attack guide's victim picker doesn't offer them an Attack button.
 
+Many heists at the same moment (a busy start of the month, when everyone's first heist of the month opens their ladder row) can make a heist wait a few seconds longer while the bot sorts them out; each one happens once, its energy, hit and experience counted once.
+
 The buttons under every heist log (Heist, the monthly ladders, Legend) work for anyone and answer only the one who clicks.
 
 ## In this section

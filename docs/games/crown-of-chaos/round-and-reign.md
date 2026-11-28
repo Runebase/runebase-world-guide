@@ -34,6 +34,8 @@ When an attack or a round's bleed brings the Crown to 0:
 - Two final blows at the same moment (a round and an attack, two attackers, a double click) end the reign once and pay the pool once. An attack and the minute's round at the same moment both count, one after the other.
 - A restart of the bot in the middle of a round: the round counts entirely or not at all, and the next minute's round counts once.
 - A Crown who is still in the server keeps the reign even if the bot briefly thinks otherwise: only a Crown Discord confirms as gone loses it.
+- **Still in the server** means the same for the draw, the final blow's share, the top three and <span class="gi-m">![](../../assets/icons/crown-skill/robin-hood.webp){ .gi .gi-mention width="20" height="20" loading="lazy" }&nbsp;[Robin Hood](skills/offensive/robin-hood.md)</span>'s steal: a player Discord still shows as a member counts, even when the bot briefly thinks they left; one who left (the bot saw them go and Discord no longer has them) doesn't.
+- A reign fought down before its first point (its Crown took the seizure bubble down and fell before the first minute's round) has no RUNES to share: the end result says "None: the reign earned no points"; the pool and the experience (0) are paid as usual.
 - If the tipbot is unreachable, the reign still ends and the pool is paid; no RUNES are tipped or promised. When the realm's RUNES wallet holds 1 RUNES or less, or its RUNES prizes aren't connected yet (every server but the Runebase server, until after the update), the reign ends the same way, the pool and the experience paid, and the end result says why no RUNES were paid.
 
 ## A Crown who leaves the server
